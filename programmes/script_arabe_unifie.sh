@@ -41,7 +41,7 @@ if [ ! -f "$TABLEAU" ]; then
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تحليل كلمة "الروح" - Analyse du mot "Âme"</title>
+    <title>تحليل كلمة "روح" - Analyse du mot "Âme"</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
     <style>
         body { direction: rtl; font-family: Arial, sans-serif; }
@@ -57,9 +57,9 @@ if [ ! -f "$TABLEAU" ]; then
     <section class="hero is-info">
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title">تحليل كلمة "الروح"</h1>
+                <h1 class="title">تحليل كلمة "نفس/روح"</h1>
                 <h2 class="subtitle">Analyse du mot "Âme" en arabe</h2>
-                <p>الرسمان: روح (1-30) و نفس (31-60)</p>
+                <p>الرسمان: روح (1-30) و نفس (31-61)</p>
             </div>
         </div>
     </section>
@@ -67,24 +67,24 @@ if [ ! -f "$TABLEAU" ]; then
     <section class="section">
         <div class="container">
             <div class="notification is-info is-light">
-                <strong>ملاحظة:</strong> هذا الجدول يحتوي على تحليل الرسمين (روح و نفس) - 60 رابطاً
+                <strong>ملاحظة:</strong> هذا الجدول يحتوي على تحليل الرسمين (روح و نفس) -61 رابطاً
             </div>
             
             <div class="table-container">
                 <table class="table is-striped is-fullwidth is-bordered">
                     <thead>
                         <tr>
-                            <th>رقم</th>
-                            <th>الرسم</th>
-                            <th>الرابط</th>
-                            <th>HTTP</th>
-                            <th>الترميز</th>
-                            <th>التكرارات</th>
-                            <th>عدد الكلمات</th>
-                            <th>HTML</th>
-                            <th>النص</th>
+                            <th>Numéro</th>
+                            <th>Graphie</th>
+                            <th>URL</th>
+                            <th>Code HTTP</th>
+                            <th>Encodage</th>
+                            <th>Occurrences</th>
+                            <th>Nombre de mots</th>
+                            <th>Aspiration</th>
+                            <th>Dump textuel</th>
                             <th>Tokens</th>
-                            <th>المتلازمات</th>
+                            <th>Concordance</th>
                         </tr>
                     </thead>
                     <tbody>
