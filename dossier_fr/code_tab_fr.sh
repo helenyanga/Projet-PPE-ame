@@ -3,8 +3,8 @@
 #Déplacement manuellement :
 echo "N.B. :"
 echo "Quand le programme sera terminé : écrivez le chemin pour déplacer le fichier crée en sortie dans le dossier que vous souhaitez, avec la commande suivante : mv nomdufichier /chemin/"
-echo "Ou déplacer avec la commande suivante :"
-echo "avant de lancer le programme : vous pouvez également éxécuter votre fichier.sh suivi de votre premier argument qui est le chemin vers le fichier que vous souhaitez. A cela, vous ajoutez un deuxième argument à la suite qui va indiquer le chemin où vous souhaitez déplacer votre fichier de sortie généré. Cela devra prendre la forme suivante : ./nomdufichier.sh /chemin/fichier chemin/fichierdesortie (si cette option a été choisie, réexécuter le script en ajoutant le second argument)"
+echo "Ou déplacer avec la commande suivante : mv"
+echo "Avant de lancer le programme : vous pouvez également éxécuter votre fichier.sh suivi de votre premier argument qui est le chemin vers le fichier que vous souhaitez. A cela, vous ajoutez un deuxième argument à la suite qui va indiquer le chemin où vous souhaitez déplacer votre fichier de sortie généré. Cela devra prendre la forme suivante : ./nomdufichier.sh /chemin/fichier chemin/fichierdesortie (si cette option a été choisie, réexécuter le script en ajoutant le second argument)"
 echo "Exemple : ./miniprojet.sh /chemin_absolu_ou_relatif/fichier ../tableaux/fichier_data.tsv"
 echo "On peut aussi transformer un fichier en un autre fichier avec cette commande suivante : fichier_sortie > fichier_tsv"
 echo "(Fin du N.B.)"
@@ -19,13 +19,14 @@ if [ $# -eq 0 ]
 then
     echo "Ce programme n'a pas d'argument."
     echo "Vous devez fournir un argument, dans la Konsole, en lui donnant le chemin absolu où se trouve le fichier que vous voulez utiliser."
-    echo "Pour ce faire, utiliser la commande suivante : ./nomdufichier argument"
+    echo "Pour ce faire, utiliser la commande suivante : ./nomdufichier.sh argument"
     echo "Si besoin, utiliser la commande 'pwd' pour avoir le chemin en entier ou le chemin relatif suivant par exemple : ../chemin/"
     exit 1
 fi
 
 
 #Condition qui vérifie si le fichier donné existe bien, s'il n'existe pas, il affichera erreur.
+echo "Traitement du fichier..."
 if [ ! -f $1 ]
 then
     echo "Erreur : le fichier "$1" n'existe pas. Recommencer."
@@ -33,8 +34,9 @@ then
 fi
 
 echo "Le fichier existe, c'est "$1""
+echo -e "...fin du traitement du fichier.\n"
 
-
+echo "Traitement des URLs... "
 #Condition qui vérifie si l'url est valide ou non.
 OK=0
 NOK=0
@@ -51,10 +53,11 @@ do
     fi
 done < $fichier_urls
 echo "$OK URLs et $NOK lignes douteuses."
+echo -e "...fin du traitement des URLs.\n"
 
 fichier_sortie=$2
 fichier_html=$3
-echo "On doit avoir comme résultat :"
+echo -e "\nOn doit avoir comme résultat :"
 echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots > envoyer_dans_le fichier_en_sortie : "$2""
 echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots > envoyer_dans_le_fichier_en_sortie" > "$fichier_sortie"
 
