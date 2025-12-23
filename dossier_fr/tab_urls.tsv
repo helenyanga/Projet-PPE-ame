@@ -5,7 +5,7 @@ Numéro_de_la_ligne	Lien	HTTP 	Encodage_Charset	Nombre_de_mots
 4	https://dicophilo.fr/definition/ame/	200	UTF-8	984
 5	https://www.dictionnaire-academie.fr/article/A9A1428	200	UTF-8	4208
 6	https://www.cnrtl.fr/definition/academie8/%C3%A2me	200	UTF-8	982
-7	https://www.jepense.org/difference-entre-ame-et-esprit/	200	UTF-8	3618
+7	https://www.jepense.org/difference-entre-ame-et-esprit/	200	UTF-8	3647
 8	https://www.sciencesetavenir.fr/sante/cerveau-et-psy/corps-ame-esprit-de-quoi-sommes-nous-faits_130254	403	rien	107
 9	https://www.rcf.fr/articles/vie-spirituelle/ou-se-trouve-lame-dans-notre-corps	202	UTF-8	35
 10	https://usito.usherbrooke.ca/d%C3%A9finitions/%C3%A2me	200	utf-8	1687
@@ -29,7 +29,7 @@ Numéro_de_la_ligne	Lien	HTTP 	Encodage_Charset	Nombre_de_mots
 28	https://stm.cairn.info/de-la-finalite-organique--9782373613766-page-7?lang=fr	403	utf-8	55
 29	https://www.reddit.com/r/worldbuilding/comments/1950hgp/how_do_souls_work_in_your_world/?tl=fr	403	rien	120
 30	https://www.numedia.fr/est-ce-que-ame-existe-reellement-603502025.html	200	UTF-8	2274
-31	https://eveilspirituel.net/textes-de-claudette-vidal.asp?i=46	200	rien	1369
+31	https://eveilspirituel.net/textes-de-claudette-vidal.asp?i=46	200	rien	1375
 32	https://www.inexplore.com/articles/Serions-nous-dotes-d-un-esprit-quantique	200	utf-8	377
 33	https://www.ffhandball.fr/actualite/equipe-de-france/edff-ihf-mondial-2025-les-bleues-et-leur-supplement-ame-au-revelateur-allemand/	200	UTF-8	1449
 34	https://www.lucistrust.org/fr/online_books/the_soul_and_its_mechanism/chapter_iv_the_nature_the_soul_and_its_location	403	UTF-8	108
@@ -52,7 +52,7 @@ Numéro_de_la_ligne	Lien	HTTP 	Encodage_Charset	Nombre_de_mots
 51	https://shs.cairn.info/revue-des-sciences-philosophiques-et-theologiques-2004-2-page-271?lang=fr	403	utf-8	55
 52	https://fr.wikipedia.org/wiki/La_Ligne_verte_(film)	200	UTF-8	7869
 53	https://www.gotquestions.org/Francais/gagner-le-monde-perdre-l-ame.html	200	rien	805
-54	https://cletis-bien-etre.fr/chemin-des-ames/	200	UTF-8	2619
+54	https://cletis-bien-etre.fr/chemin-des-ames/	200	UTF-8	2611
 55	https://ichtusmagazine.fr/2023/07/25/17-personnes-17-definitions-de-lame/	200	UTF-8	3946
 56	https://www.musee-orsay.fr/fr/articles/le-poeme-de-lame-de-louis-janmot-texte-integral-275212	200	UTF-8	21329
 57	https://www.medecinesciences.org/en/articles/medsci/full_html/2020/10/msc200145/msc200145.html	200	utf-8	7885
