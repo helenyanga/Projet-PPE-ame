@@ -59,7 +59,7 @@ fichier_sortie=$2
 fichier_html=$3
 echo -e "\nOn doit avoir comme résultat :"
 echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots > envoyer_dans_le fichier_en_sortie : "$2""
-echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots" > "$fichier_sortie" #On envoie ces titres pour le tableau dans le fichier de sortie.
+echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots > envoyer_dans_le_fichier_en_sortie" > "$fichier_sortie"
 
 N=1
 #On veut lire ligne par ligne le contenu du fichier.
@@ -76,7 +76,7 @@ do
 	fi
 
     nb_mots=$(cat ./.fichier_data.tmp | lynx -dump -nolist -stdin $line | wc -w)
-
+    nb_occurences(cat ./.fichier_data.tmp | lynx -dump -nolist -stdin $line | grep -i -o "âme" | wc -l)
     echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}" >> $fichier_sortie #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
     N=$( expr $N + 1 )
 done < $fichier_urls

@@ -1,11 +1,11 @@
-Numéro_de_la_ligne	Lien	HTTP 	Encodage_Charset	Nombre_de_mots > envoyer_dans_le_fichier_en_sortie
+Numéro_de_la_ligne	Lien	HTTP 	Encodage_Charset	Nombre_de_mots
 1	https://omci.inha.fr/s/ocmi/item/2	200	UTF-8	982
 2	https://www.geneve.ch/themes/culture/bibliotheques/interroge/reponses/quest-ce-que-ame-apres-la-bible-et-que-devient-apres-la-mort	200	UTF-8	2185
 3	https://jecherchedieu.ch/question/quest-ce-que-l-ame-comment-la-definir-existe-t-elle-avant-notre-naissance-que-peut-elle-nous-apporter/	200	UTF-8	2011
 4	https://dicophilo.fr/definition/ame/	200	UTF-8	984
 5	https://www.dictionnaire-academie.fr/article/A9A1428	200	UTF-8	4208
 6	https://www.cnrtl.fr/definition/academie8/%C3%A2me	200	UTF-8	982
-7	https://www.jepense.org/difference-entre-ame-et-esprit/	200	UTF-8	3615
+7	https://www.jepense.org/difference-entre-ame-et-esprit/	200	UTF-8	3618
 8	https://www.sciencesetavenir.fr/sante/cerveau-et-psy/corps-ame-esprit-de-quoi-sommes-nous-faits_130254	403	rien	107
 9	https://www.rcf.fr/articles/vie-spirituelle/ou-se-trouve-lame-dans-notre-corps	202	UTF-8	35
 10	https://usito.usherbrooke.ca/d%C3%A9finitions/%C3%A2me	200	utf-8	1687
@@ -14,7 +14,7 @@ Numéro_de_la_ligne	Lien	HTTP 	Encodage_Charset	Nombre_de_mots > envoyer_dans_le
 13	https://figaronautisme.meteoconsult.fr/actus-nautisme-escales/2025-12-16/32469-cat-island-traditions-paysages-sauvages-et-ame-originelle-des-bahamas	403	rien	46
 14	https://shs.cairn.info/ma-dose-quotidienne-de-philo--9782200627317-page-519?lang=fr	403	utf-8	55
 15	https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame	307	rien	2618
-16	https://www.diverto.tv/actualites/cinema/interview-diverto-voir-son-ame-dans-un-autre-corps-c-est-bouleversant-rencontre-avec-le-casting-de-avatar-3	200	UTF-8	2253
+16	https://www.diverto.tv/actualites/cinema/interview-diverto-voir-son-ame-dans-un-autre-corps-c-est-bouleversant-rencontre-avec-le-casting-de-avatar-3	200	UTF-8	2251
 17	https://fsspx.news/fr/news/les-quatre-temps-dhiver-pour-arriver-la-creche-lame-legere-56101	403	UTF-8	169
 18	https://lincorrect.org/clovis-goux-la-country-ou-lame-americaine/	200	UTF-8	725
 19	https://www.gala.fr/culture/television/toi-l-ame-soeur-que-j-attendais-frederique-l-amour-est-dans-le-pre-declare-sa-flamme-a-pierre-apres-le-renouvellement-de-leurs-voeux-20251216	200	UTF-8	3481
@@ -29,7 +29,7 @@ Numéro_de_la_ligne	Lien	HTTP 	Encodage_Charset	Nombre_de_mots > envoyer_dans_le
 28	https://stm.cairn.info/de-la-finalite-organique--9782373613766-page-7?lang=fr	403	utf-8	55
 29	https://www.reddit.com/r/worldbuilding/comments/1950hgp/how_do_souls_work_in_your_world/?tl=fr	403	rien	120
 30	https://www.numedia.fr/est-ce-que-ame-existe-reellement-603502025.html	200	UTF-8	2274
-31	https://eveilspirituel.net/textes-de-claudette-vidal.asp?i=46	200	rien	1365
+31	https://eveilspirituel.net/textes-de-claudette-vidal.asp?i=46	200	rien	1369
 32	https://www.inexplore.com/articles/Serions-nous-dotes-d-un-esprit-quantique	200	utf-8	377
 33	https://www.ffhandball.fr/actualite/equipe-de-france/edff-ihf-mondial-2025-les-bleues-et-leur-supplement-ame-au-revelateur-allemand/	200	UTF-8	1449
 34	https://www.lucistrust.org/fr/online_books/the_soul_and_its_mechanism/chapter_iv_the_nature_the_soul_and_its_location	403	UTF-8	108
@@ -53,7 +53,7 @@ Numéro_de_la_ligne	Lien	HTTP 	Encodage_Charset	Nombre_de_mots > envoyer_dans_le
 52	https://fr.wikipedia.org/wiki/La_Ligne_verte_(film)	200	UTF-8	7869
 53	https://www.gotquestions.org/Francais/gagner-le-monde-perdre-l-ame.html	200	rien	805
 54	https://cletis-bien-etre.fr/chemin-des-ames/	200	UTF-8	2619
-55	https://ichtusmagazine.fr/2023/07/25/17-personnes-17-definitions-de-lame/	200	UTF-8	3934
+55	https://ichtusmagazine.fr/2023/07/25/17-personnes-17-definitions-de-lame/	200	UTF-8	3946
 56	https://www.musee-orsay.fr/fr/articles/le-poeme-de-lame-de-louis-janmot-texte-integral-275212	200	UTF-8	21329
 57	https://www.medecinesciences.org/en/articles/medsci/full_html/2020/10/msc200145/msc200145.html	200	utf-8	7885
 58	https://www.noetique.eu/billets/spiritualiser-cest-voir-les-ames	200	utf-8	1409
