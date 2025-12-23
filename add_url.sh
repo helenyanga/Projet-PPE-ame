@@ -8,7 +8,9 @@ add_url()
     answered=false 
     while [ "$answered" == false ]
     do 
-        echo "Ajouter cette url à \n1. ru1.txt \n2. ru2.txt"
+        echo "Ajouter cette url à"
+        echo "1. ru1.txt"
+        echo "2. ru2.txt"
         read path_qst
         if [[ "$path_qst" == "1" ]]
         then
@@ -29,5 +31,7 @@ add_url()
     else
         echo "Url déjà ajoutée"
     fi
+    lines=$(wc -l < $path)
+    echo "$lines urls dans $path"
 }
 add_url $1
