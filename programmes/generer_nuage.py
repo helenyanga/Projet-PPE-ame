@@ -2,12 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
-Génère un nuage de mots depuis corpus-arabe.txt
+Génère un nuage de mots depuis corpus-arabe.txt - VERSION PROPRE
 """
 
-import sys
+import re
 from wordcloud import WordCloud
-import matplotlib.pyplot as plt
 import arabic_reshaper
 from bidi.algorithm import get_display
 
@@ -15,95 +14,122 @@ print("=" * 50)
 print("Génération du nuage de mots arabe")
 print("=" * 50)
 
-# Lire le fichier texte
+# Lire le fichier
 print("\n1. Lecture du corpus...")
-with open('nuages/corpus-arabe.txt', 'r', encoding='utf-8', errors= 'ignore') as f:
+with open('nuages/corpus-arabe.txt', 'r', encoding='utf-8', errors='ignore') as f:
     texte = f.read()
 
 print(f"   ✓ {len(texte)} caractères chargés")
-print(f"   ✓ {len(texte.split())} mots environ")
 
-# Mots vides à exclure (MAIS PAS روح et نفس !)
-mots_vides = [
+# SUPER NETTOYAGE
+print("\n2. Nettoyage du texte...")
+
+# Supprimer tout ce qui est HTML/web
+texte = re.sub(r'<[^>]+>', '', texte)  # Balises HTML
+texte = re.sub(r'https?://[^\s]+', '', texte)  # URLs
+texte = re.sub(r'www\.[^\s]+', '', texte)  # www.
+texte = re.sub(r'\b[A-Z]{2,}\b', '', texte)  # Mots en MAJUSCULES (BUTTON, IFRAME, etc.)
+texte = re.sub(r'\bhtml\b|\bHTM\b|\bcom\b|\borg\b|\bnet\b', '', texte, flags=re.IGNORECASE)
+texte = re.sub(r'\d+', '', texte)  # Nombres
+texte = re.sub(r'[^\u0600-\u06FF\s]', ' ', texte)  # Garder SEULEMENT l'arabe et espaces
+
+print(f"   ✓ Texte nettoyé: {len(texte)} caractères")
+
+# Liste EXHAUSTIVE de mots vides arabes
+mots_vides = {
     # Articles et prépositions
     'في', 'من', 'إلى', 'على', 'عن', 'مع', 'عند', 'أمام', 'خلف', 'فوق', 'تحت',
     'بين', 'ضد', 'حول', 'دون', 'سوى', 'خلا', 'عدا', 'حاشا', 'منذ', 'بعد', 'قبل',
+    'تحت', 'فوق', 'أسفل', 'أعلى', 'وراء', 'خارج', 'داخل', 'لدى', 'إزاء',
     
     # Conjonctions
     'و', 'أو', 'لكن', 'بل', 'حتى', 'إذ', 'إذا', 'لو', 'لولا', 'كأن', 'ف', 'ثم',
+    'إن', 'أن', 'لأن', 'كي', 'لكي', 'حين', 'عندما', 'بينما', 'إذ', 'إذا',
     
     # Pronoms
-    'أن', 'ما', 'لا', 'هذا', 'هذه', 'ذلك', 'تلك', 'هؤلاء', 'أولئك',
-    'هو', 'هي', 'هم', 'هن', 'أنا', 'نحن', 'أنت', 'أنتم', 'أنتن', 'هما',
+    'ما', 'لا', 'هذا', 'هذه', 'ذلك', 'تلك', 'هؤلاء', 'أولئك', 'هذان', 'هاتان',
+    'هو', 'هي', 'هم', 'هن', 'أنا', 'نحن', 'أنت', 'أنتم', 'أنتن', 'هما', 'أنتما',
+    'ي', 'ك', 'ه', 'نا', 'كم', 'هم', 'هن',
     
-    # Articles définis avec prépositions
-    'ال', 'بال', 'لل', 'وال', 'فال', 'كال',
+    # Articles
+    'ال', 'بال', 'لل', 'وال', 'فال', 'كال', 'الى', 'اللي', 'اللى',
     
     # Mots relatifs
     'الذي', 'التي', 'اللذان', 'اللتان', 'الذين', 'اللاتي', 'اللواتي', 'اللذين',
+    'من', 'ما', 'مهما', 'أي', 'أية', 'متى', 'أين', 'أينما', 'حيث', 'حيثما',
     
-    # Adverbes et particules
-    'قد', 'لم', 'لن', 'لما', 'كان', 'يكون', 'كل', 'بعض', 'كثير', 'قليل',
-    'جدا', 'أيضا', 'كذلك', 'هكذا', 'هنا', 'هناك', 'أين', 'كيف', 'متى', 'لماذا',
-    'الآن', 'اليوم', 'أمس', 'غدا', 'دائما', 'أبدا', 'ربما', 'نعم', 'لا',
+    # Particules et adverbes
+    'قد', 'لم', 'لن', 'لما', 'ل', 'لل', 'ليس', 'ليست', 'لم', 'لن', 'إن', 'إنما',
+    'كل', 'بعض', 'كثير', 'قليل', 'عدة', 'عديد', 'جدا', 'أيضا', 'كذلك', 'هكذا',
+    'هنا', 'هناك', 'هنالك', 'ثم', 'ثمة', 'الآن', 'حينئذ', 'عندئذ',
+    'جدا', 'كثيرا', 'قليلا', 'أحيانا', 'دائما', 'أبدا', 'غالبا', 'ربما', 'لعل',
+    'نعم', 'كلا', 'بلى', 'أجل', 'حقا', 'فعلا', 'طبعا', 'بالطبع',
     
     # Verbes auxiliaires très courants
-    'كان', 'يكون', 'أصبح', 'أضحى', 'ظل', 'بات', 'صار', 'ليس', 'مازال', 'كانت',
-    'يكن', 'تكون', 'أكون', 'نكون', 'يصبح', 'تصبح',
+    'كان', 'كانت', 'كانوا', 'يكون', 'تكون', 'أكون', 'نكون', 'يكن', 'تكن',
+    'أصبح', 'تصبح', 'يصبح', 'أضحى', 'ظل', 'بات', 'صار', 'مازال', 'ما زال',
+    'ليس', 'ليست', 'ليسوا', 'أصبح', 'أمسى', 'بات', 'ظل', 'صار',
     
-    # Pronoms attachés et préfixes/suffixes
-    'له', 'لها', 'لهم', 'لهن', 'به', 'بها', 'بهم', 'بهن', 'لي', 'لك', 'لنا', 'لكم',
-    'منه', 'منها', 'منهم', 'منهن', 'مني', 'منك', 'منا', 'منكم',
-    'فيه', 'فيها', 'فيهم', 'فيهن', 'في', 'فيك', 'فينا', 'فيكم',
-    'عليه', 'عليها', 'عليهم', 'عليهن', 'علي', 'عليك', 'علينا', 'عليكم',
-    'إليه', 'إليها', 'إليهم', 'إليهن', 'إلي', 'إليك', 'إلينا', 'إليكم',
-    'أنه', 'أنها', 'أنهم', 'أنهن', 'أني', 'أنك', 'أننا', 'أنكم',
+    # Verbes très génériques
+    'يعد', 'تعد', 'يعتبر', 'تعتبر', 'يمكن', 'تمكن', 'يجب', 'تجب', 
+    'يقول', 'تقول', 'قال', 'قالت', 'ذكر', 'ذكرت', 'أشار', 'أشارت',
+    'أكد', 'أكدت', 'أوضح', 'أوضحت', 'بين', 'بينت', 'يرى', 'ترى', 'رأى',
+    'يجد', 'تجد', 'وجد', 'وجدت', 'يعرف', 'تعرف', 'عرف', 'عرفت',
     
-    # Mots anglais/latins courants
-    'and', 'the', 'of', 'to', 'in', 'a', 'is', 'for', 'on', 'with', 'by', 'at', 'from',
-    'that', 'this', 'as', 'it', 'or', 'are', 'be', 'was', 'an', 'we', 'you', 'all',
-    'can', 'has', 'had', 'but', 'not', 'they', 'have', 'been', 'one', 'their',
+    # Pronoms attachés
+    'له', 'لها', 'لهم', 'لهن', 'لهما', 'به', 'بها', 'بهم', 'بهن', 'بهما',
+    'لي', 'لك', 'لنا', 'لكم', 'بي', 'بك', 'بنا', 'بكم',
+    'منه', 'منها', 'منهم', 'منهن', 'منهما', 'مني', 'منك', 'منا', 'منكم',
+    'فيه', 'فيها', 'فيهم', 'فيهن', 'فيهما', 'في', 'فيك', 'فينا', 'فيكم',
+    'عليه', 'عليها', 'عليهم', 'عليهن', 'عليهما', 'علي', 'عليك', 'علينا', 'عليكم',
+    'إليه', 'إليها', 'إليهم', 'إليهن', 'إليهما', 'إلي', 'إليك', 'إلينا', 'إليكم',
+    'أنه', 'أنها', 'أنهم', 'أنهن', 'أنهما', 'أني', 'أنك', 'أننا', 'أنكم',
+    'ها', 'هي', 'هو', 'هما', 'هم', 'هن',
     
-    # Mots de navigation web (présents dans tes pages)
-    'home', 'menu', 'search', 'login', 'page', 'next', 'previous', 'click', 'here',
-    'read', 'more', 'back', 'top', 'share', 'print', 'email', 'loading',
+    # Mots génériques
+    'شيء', 'أشياء', 'شئ', 'أمر', 'أمور', 'جزء', 'أجزاء', 'نوع', 'أنواع',
+    'طريقة', 'طرق', 'كيفية', 'حالة', 'حالات', 'وضع', 'أوضاع',
     
-    # Chiffres et dates en arabe
+    # Mots de liaison
+    'أما', 'إما', 'بينما', 'رغم', 'مع', 'رغم', 'بالرغم', 'على الرغم',
+    'إذن', 'لذلك', 'لذا', 'إذا', 'حيث', 'بحيث', 'إذ', 'منذ',
+    
+    # Chiffres en lettres
     'واحد', 'اثنان', 'ثلاثة', 'أربعة', 'خمسة', 'ستة', 'سبعة', 'ثمانية', 'تسعة', 'عشرة',
+    'عشرون', 'ثلاثون', 'أربعون', 'خمسون', 'مئة', 'ألف', 'مليون',
     
-    # Mots très génériques
-    'يعد', 'تعد', 'يعتبر', 'تعتبر', 'يمكن', 'تمكن', 'يجب', 'تجب', 'يقول', 'تقول',
-    'قال', 'قالت', 'ذكر', 'ذكرت', 'أشار', 'أشارت', 'أكد', 'أكدت'
-]
+    # Mots courts non significatifs
+    'ان', 'لن', 'كن', 'لي', 'لك', 'هل', 'بل', 'عل', 'قل', 'فل',
+}
 
 # Remodeler pour l'arabe
-print("\n2. Préparation du texte arabe (RTL)...")
+print("\n3. Préparation du texte arabe (RTL)...")
 texte_reshape = arabic_reshaper.reshape(texte)
 texte_bidi = get_display(texte_reshape)
 
-# Créer le nuage
-print("\n3. Génération du nuage de mots...")
+# Créer le nuage avec paramètres optimisés
+print("\n4. Génération du nuage de mots...")
 wordcloud = WordCloud(
-    width=1920,
-    height=1080,
+    width=2400,
+    height=1350,
     background_color='white',
-    stopwords=set(mots_vides),
-    max_words=100,  # Moins de mots = plus gros
+    stopwords=mots_vides,
+    max_words=80,  # Encore moins de mots
     colormap='viridis',
     font_path='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',
-    relative_scaling=0.8,  # Plus élevé = différence de taille plus grande
-    min_font_size=15  # Taille minimum plus grande
+    relative_scaling=1.0,  # Maximum ! Les mots fréquents seront ÉNORMES
+    min_font_size=20,
+    prefer_horizontal=0.7,
+    collocations=False  # Éviter les répétitions
 ).generate(texte_bidi)
+
 # Sauvegarder
-# Sauvegarder directement
-print("\n4. Sauvegarde de l'image...")
+print("\n5. Sauvegarde...")
 image = wordcloud.to_image()
 image.save('nuages/nuage-arabe.png')
 
 print("\n" + "=" * 50)
 print("✓ TERMINÉ !")
 print("=" * 50)
-print("\nFichiers créés:")
-print("  - nuages/corpus-arabe.txt (le texte)")
-print("  - nuages/nuage-arabe.png (l'image)")
+print("\nFichier créé: nuages/nuage-arabe.png")
 print()
