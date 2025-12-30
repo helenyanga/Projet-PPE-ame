@@ -1,27 +1,10 @@
 #!/bin/bash
-
-
-
-
-get_filename()
-{
-    path=$1
-    echo "$path" | rev | cut -d"/" -f1 | rev | cut -d "." -f1
-}
-
+source ../utils.sh 
 make_txt()
 {
     url=$1
     output_path=$2
     lynx --dump $url > $output_path
-}
-
-folder_exist()
-{
-    folder=$1
-    if [ ! -d "$folder" ]; then 
-        mkdir "$folder"
-    fi
 }
 
 get_urls()
