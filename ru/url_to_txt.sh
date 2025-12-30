@@ -15,7 +15,7 @@ get_urls()
     # Spinner characters
     spinner="/-\|"
     spin_index=0
-    count_urls=$(wc -l < "$urls_path")
+    count_urls="$(folder_length "$urls_path")"
 
     count=1
     base_name="$(get_filename "$urls_path")"
@@ -39,6 +39,6 @@ get_urls()
         "$urls_path" "$output_folder" "$base_name"
 }
 
-get_urls $1 "txt/"
+get_urls $1 "txt/original"
 
 # Possible paths : "urls/ru1.txt" ; "urls/ru2.txt"

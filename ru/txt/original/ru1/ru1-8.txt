@@ -23,7 +23,7 @@
 Душа Эрмитажа. День рождения академика Михаила Пиотровского
 
    09.12.2025 10:30
-   478
+   481
    [13]Добавить в закладки
    [14]М.Б. Пиотровский на вручении Демидовских премий
 
@@ -141,50 +141,48 @@
 
 Популярное
 
-   [72]Браминский слепун, одна из самых маленьких змей в мире, обладает
-   некоторыми необычными особенностями. Она является единственным
-   известным видом змей с тремя наборами хромосом вместо двух. Фото:
-   Matthew Fujita / UTA
-   03.04.2025 19:30
-   117168
-   [73]Как крошечная змея может изменить наш взгляд на генетику
-   [74]Фото Владимира Трифутина
-   25.12.2025 15:30
-   905
-   [75]Конференция «Физика ультрахолодных атомов» прошла в Новосибирске
+   [72]Академик А.И. Рудской. Фото Ольга Мерзлякова «Научная Россия»
+   12.12.2025 16:30
+   3275
+   [73]«МК», Веденеева Наталья: Санкт-Петербургское отделение РАН берет
+   «под крыло» ученых северо-запада России
+   [74]Вейпы, электронные сигареты, кальян, табак: никотин в любой форме
+   токсичен для сердца и сосудов. Фото: ru.123rf.com
+   26.12.2025 19:30
+   703
+   [75]Вейпы, электронные сигареты, кальян, табак: никотин в любой форме
+   токсичен для сердца и сосудов
 
 Лекции
 
    Кликните, чтобы начать просмотр видео
-   24.05.2023 13:00
-   37045
-   [76]На субмиллиметровых волнах. О применении терагерцевого излучения:
-   лекция Вячеслава Муравьева
+   28.04.2021 13:00
+   22244
+   [76]Приручение серой крысы. Опыт ученых СО РАН
 
-   Ожидается, что следующая технологическая революция будет тесно связана
-   с разработками в области терагерцевых технологий. Каковы современные
-   области применения терагерцевого излучения? В чем его преимущество?
+   О доместикации серой крысы рассказывает младший научный
+   сотрудник лаборатории эволюционной генетики ИЦиГ РАН Римма Кожемякина
    [77]Смотреть все
    [78]логотип «Большая Азия»
 
 Архив
 
-   [79]Сергей Капица: жизнь как приключение
-   14.02.2025
-   [80]«Сергей Петрович Капица был голосом науки для миллионов людей».
-   Академик К.В. Анохин о программе «Очевидное — невероятное»
-   24.02.2023
-   [81]Леопольд Лобковский: «Сергей Капица — человек самого высокого
-   уровня, с которым было просто общаться»
-   24.02.2023
-   [82]Георгий Малинецкий: «Сергей Капица — часть истории великой
+   [79]Георгий Малинецкий: «Сергей Капица — часть истории великой
    советской науки»
    24.02.2023
-   [83]«Подобно комете на усыпанном звездами небе». Академик А.Л. Асеев о
-   программе «Очевидное — невероятное»
-   24.02.2023
-   [84]Вспоминaя Сергея Петровича Капицу
+   [80]Вспоминaя Сергея Петровича Капицу
    14.02.2023
+   [81]Татьяна Черниговская: «Нам всем повезло, что мы знали Сергея
+   Петровича Капицу как просветителя»
+   24.02.2023
+   [82]Ректор РосНОУ Владимир Зернов: «Очевидное — невероятное» — это
+   квинтэссенция человеческого интеллекта
+   24.02.2023
+   [83]«Это был замечательный опыт». Член-корреспондент РАН Дмитрий
+   Горбунов об участии в программе «Очевидное — невероятное»
+   24.02.2023
+   [84]Сергей Капица: жизнь как приключение
+   14.02.2025
    [85]Смотреть все
 
 Электронное периодическое издание «Научная Россия».
@@ -340,19 +338,19 @@ References
   69. https://scientificrussia.ru/articles/rubric/psychology
   70. https://scientificrussia.ru/articles/utverzden-sostav-izbrannyh-professorov-ran
   71. https://scientificrussia.ru/articles/rubric/nauka-i-obshchestvo
-  72. https://scientificrussia.ru/articles/kak-krosecnaa-zmea-mozet-izmenit-nas-vzglad-na-genetiku
-  73. https://scientificrussia.ru/articles/kak-krosecnaa-zmea-mozet-izmenit-nas-vzglad-na-genetiku
-  74. https://scientificrussia.ru/articles/konferencia-fizika-ultraholodnyh-atomov-prosla-v-novosibirske
-  75. https://scientificrussia.ru/articles/konferencia-fizika-ultraholodnyh-atomov-prosla-v-novosibirske
-  76. https://scientificrussia.ru/articles/na-submillimetrovyh-volnah-o-primenenii-teragercevogo-izlucenia-lekcia-vaceslava-muraveva
+  72. https://scientificrussia.ru/articles/mk-vedeneeva-natala-sankt-peterburgskoe-otdelenie-ran-beret-pod-krylo-ucenyh-severo-zapada-rossii
+  73. https://scientificrussia.ru/articles/mk-vedeneeva-natala-sankt-peterburgskoe-otdelenie-ran-beret-pod-krylo-ucenyh-severo-zapada-rossii
+  74. https://scientificrussia.ru/articles/vejpy-elektronnye-sigarety-kalan-tabak-nikotin-v-luboj-forme-toksicen-dla-serdca-i-krovenosnyh-sosudov
+  75. https://scientificrussia.ru/articles/vejpy-elektronnye-sigarety-kalan-tabak-nikotin-v-luboj-forme-toksicen-dla-serdca-i-krovenosnyh-sosudov
+  76. https://scientificrussia.ru/articles/priruchenie-seroj-krysy-opyt-uchenyh-so-ran
   77. https://scientificrussia.ru/lectures
   78. https://bigasia.ru/specprojects_type/chines_panoram/
-  79. https://scientificrussia.ru/articles/97-let-so-dna-rozdenia-sergea-petrovica-kapicy
-  80. https://scientificrussia.ru/articles/sergej-petrovic-kapica-byl-golosom-nauki-dla-millionov-ludej-akademik-kv-anohin-o-programme-ocevidnoe-neveroatnoe
-  81. https://scientificrussia.ru/articles/leopold-lobkovskij-sergej-kapica-celovek-samogo-vysokogo-urovna-s-kotorym-bylo-prosto-obsatsa
-  82. https://scientificrussia.ru/articles/georgij-malineckij-sergej-kapica-cast-istorii-velikoj-sovetskoj-nauki
-  83. https://scientificrussia.ru/articles/podobno-komete-na-usypannom-zvezdami-nebe-akademik-al-aseev-o-programme-ocevidnoe-neveroatnoe
-  84. https://scientificrussia.ru/articles/vspominaya-sergeya-petrovicha-kapitsu
+  79. https://scientificrussia.ru/articles/georgij-malineckij-sergej-kapica-cast-istorii-velikoj-sovetskoj-nauki
+  80. https://scientificrussia.ru/articles/vspominaya-sergeya-petrovicha-kapitsu
+  81. https://scientificrussia.ru/articles/tatana-cernigovskaa-nam-vsem-povezlo-cto-my-znali-sergea-petrovica-kapicu-kak-prosvetitela
+  82. https://scientificrussia.ru/articles/rektor-rosnou-vladimir-zernov-ocevidnoe-neveroatnoe-eto-kvintessencia-celoveceskogo-intellekta
+  83. https://scientificrussia.ru/articles/kommentarij-clena-korrespondenta-ran-ds-gorbunova-o-programme-ocevidnoe-neveroatnoe
+  84. https://scientificrussia.ru/articles/97-let-so-dna-rozdenia-sergea-petrovica-kapicy
   85. https://scientificrussia.ru/archive
   86. https://scientificrussia.ru/agreement
   87. https://scientificrussia.ru/

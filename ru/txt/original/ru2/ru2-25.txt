@@ -1,6 +1,6 @@
    [1]Scroll Up [2]Scroll Down
 
-   [sun-weather.png]  -14 °C ММВБ  $77.45   €91.48
+   [sun-weather.png]  -13 °C ММВБ  $77.45   €91.48
 
                                 [3][Logo.png]
 
@@ -58,7 +58,7 @@
 ​«Забытая мечта»: в Театре кукол представили премьеру в духе итальянского
 кино
 
-   15:39 22 декабря 2025 22 декабря 2025 22 декабря 2025
+   15:39 22 декабря 2025 22 декабря 2025 30 декабря 2025
    [gc_x180.png]
 
    В Екатеринбургском театре кукол состоялась премьера спектакля «Забытая
@@ -103,8 +103,7 @@
 
    © Интернет-журнал «Global City» Антон Федулов
 
-   Присоединяйтесь к нашему каналу в [18]Telegram, и читайте больше
-   хороших новостей!
+   Подписывайтесь [18]на наш VK, и читайте больше хороших новостей!
 
    [19]Версия для печати
 
@@ -269,7 +268,7 @@ References
   15. https://globalcity.info/
   16. https://globalcity.info/photoreports
   17. https://globalcity.info/all/events
-  18. https://t.me/+OQI5eWFqSYBkNmVi
+  18. https://vk.com/globalcity_ekb
   19. https://globalcity.info/photo/22-12-2025/69822
   20. https://globalcity.info/object/9
   21. https://globalcity.info/object/531

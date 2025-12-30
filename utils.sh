@@ -10,6 +10,12 @@ folder_exist()
 {
     folder=$1
     if [ ! -d "$folder" ]; then 
-        mkdir "$folder"
+        mkdir -p "$folder"
     fi
+}
+
+folder_length()
+{
+    path=$1
+    wc -l < "$path" | xargs # xargs transforms the output as an argument for another function
 }

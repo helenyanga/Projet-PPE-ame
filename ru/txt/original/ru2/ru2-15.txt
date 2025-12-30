@@ -173,7 +173,7 @@
           + [165]Информация для иностранных граждан
      * [166]Документы
 
-   [hotter.png] [167]Внимание! СИЛЬНЫЙ СНЕГ!!!
+   [hotter.png] [167]Внимание!
    [hotter.png] [168]Как поступить на военную службу по контракту?
 
      * [169]Главная
@@ -275,32 +275,32 @@
    [181]8  [182]9  [183]10 [184]11 [185]12 13 14
    [186]15 [187]16 [188]17 [189]18 [190]19 20 21
    [191]22 [192]23 [193]24 [194]25 [195]26 27 28
-   [196]29 30      31
-   [197]зa вcю нeдeлю
-   [198]зa вecь мecяц
+   [196]29 [197]30 31
+   [198]зa вcю нeдeлю
+   [199]зa вecь мecяц
      __________________________________________________________________
 
-     * [199]■ Новости администрации
-     * [200]■ Новости культуры
-     * [201]■ Новости предприятий
-     * [202]■ Новости спорта
-     * [203]■ Новости образования
-     * [204]■ Новости здравоохранения
-     * [205]■ О безопасности
-     * [206]■ Новости страны и региона
-     * [207]■ Гражданские инициативы
+     * [200]■ Новости администрации
+     * [201]■ Новости культуры
+     * [202]■ Новости предприятий
+     * [203]■ Новости спорта
+     * [204]■ Новости образования
+     * [205]■ Новости здравоохранения
+     * [206]■ О безопасности
+     * [207]■ Новости страны и региона
+     * [208]■ Гражданские инициативы
      __________________________________________________________________
 
-   [208]Открытое правительство (опрос_ОМС) [209]Предупредительный список
-   Банка России [210]Роспотребнадзор [211]Национальный центр Россия
-   [212]Имущество для бизнеса
+   [209]Открытое правительство (опрос_ОМС) [210]Предупредительный список
+   Банка России [211]Роспотребнадзор [212]Национальный центр Россия
+   [213]Имущество для бизнеса
 
-     * [213]на главную
-     * [214]отправить письмо
-     * [215]поиск
-     * [216]карта сайта
-     * [217]законодательная карта
-     * [218]RSS
+     * [214]на главную
+     * [215]отправить письмо
+     * [216]поиск
+     * [217]карта сайта
+     * [218]законодательная карта
+     * [219]RSS
 
    Copyright © 2004-2025 год «Официальный портал Каменска-Уральского». Все
    права защищены.
@@ -308,7 +308,7 @@
    webportal@kamensk-uralskiy.ru.
    При использовании материалов прямая гиперссылка обязательна. Оставаясь
    на Официальном портале Каменска-Уральского, Вы соглашаетесь с
-   [219]политикой сайта, а так же с использованием Интернет-сервисов
+   [220]политикой сайта, а так же с использованием Интернет-сервисов
    «Яндекс.Метрика» и файлов Cookies для статистики и анализа просмотров
    посетителей сайта.
 
@@ -323,8 +323,8 @@
 Уважаемый житель Каменск-Уральского!
 
    Оставаясь на Официальном портале Каменска-Уральского, Вы соглашаетесь с
-   [220]политикой сайта, а так же с использованием Интернет-сервиса
-   «Яндекс.Метрика» ([221]подробнее) и файлов Cookies для статистики и
+   [221]политикой сайта, а так же с использованием Интернет-сервиса
+   «Яндекс.Метрика» ([222]подробнее) и файлов Cookies для статистики и
    анализа просмотров посетителей сайта.
    (BUTTON) ПРИНИМАЮ
 
@@ -497,7 +497,7 @@ References
  164. https://kamensk-uralskiy.ru/obshhestvo/gorodskoj_grazhdanskij_forum.html
  165. https://kamensk-uralskiy.ru/obshhestvo/informacija_dlja_inostrannih_grazhdan.html
  166. https://kamensk-uralskiy.ru/dokumenti.html
- 167. https://kamensk-uralskiy.ru/objavlenija_edds/2147-vnimanie-silnyy-sneg.html
+ 167. https://kamensk-uralskiy.ru/objavlenija_edds/2149-vnimanie.html
  168. https://kamensk-uralskiy.ru/objavlenija_edds/1920-kak-postupit-na-voennuyu-sluzhbu-po-kontraktu.html
  169. https://kamensk-uralskiy.ru/
  170. https://kamensk-uralskiy.ru/news.html
@@ -527,36 +527,37 @@ References
  194. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-25.html
  195. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-26.html
  196. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-29.html
- 197. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-18/week.html
- 198. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12/month.html
- 199. https://kamensk-uralskiy.ru/news/novosti_administracii.html
- 200. https://kamensk-uralskiy.ru/news/novosti_kulturi.html
- 201. https://kamensk-uralskiy.ru/news/novosti_predprijatij.html
- 202. https://kamensk-uralskiy.ru/news/novosti_sporta.html
- 203. https://kamensk-uralskiy.ru/news/novosti_obrazovanija.html
- 204. https://kamensk-uralskiy.ru/news/novosti_zdravoohranenija.html
- 205. https://kamensk-uralskiy.ru/news/o_bezopasnosti.html
- 206. https://kamensk-uralskiy.ru/news/novosti_strani_i_regiona.html
- 207. https://kamensk-uralskiy.ru/news/grazhdanskie_iniciativi.html
- 208. https://kamensk-uralskiy.ru/redirect/fyyths/4b8550e213ff3448
- 209. https://kamensk-uralskiy.ru/redirect/fyyths/6e146b110eaa8188
- 210. https://kamensk-uralskiy.ru/redirect/fyyths/9e23b46d74872314
- 211. https://kamensk-uralskiy.ru/redirect/fyyths/75d8ed5cd32827cf
- 212. https://kamensk-uralskiy.ru/redirect/fyyths/e474e5c058bab480
- 213. https://kamensk-uralskiy.ru/index.html
- 214. https://kamensk-uralskiy.ru/electronic_reception.html
- 215. https://kamensk-uralskiy.ru/search.html
- 216. https://kamensk-uralskiy.ru/sitemap.html
- 217. https://kamensk-uralskiy.ru/zakonodatelnaja_karta.html
- 218. https://kamensk-uralskiy.ru/rss.xml
- 219. https://kamensk-uralskiy.ru/download/76499
+ 197. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-30.html
+ 198. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-18/week.html
+ 199. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12/month.html
+ 200. https://kamensk-uralskiy.ru/news/novosti_administracii.html
+ 201. https://kamensk-uralskiy.ru/news/novosti_kulturi.html
+ 202. https://kamensk-uralskiy.ru/news/novosti_predprijatij.html
+ 203. https://kamensk-uralskiy.ru/news/novosti_sporta.html
+ 204. https://kamensk-uralskiy.ru/news/novosti_obrazovanija.html
+ 205. https://kamensk-uralskiy.ru/news/novosti_zdravoohranenija.html
+ 206. https://kamensk-uralskiy.ru/news/o_bezopasnosti.html
+ 207. https://kamensk-uralskiy.ru/news/novosti_strani_i_regiona.html
+ 208. https://kamensk-uralskiy.ru/news/grazhdanskie_iniciativi.html
+ 209. https://kamensk-uralskiy.ru/redirect/fyyths/4b8550e213ff3448
+ 210. https://kamensk-uralskiy.ru/redirect/fyyths/6e146b110eaa8188
+ 211. https://kamensk-uralskiy.ru/redirect/fyyths/9e23b46d74872314
+ 212. https://kamensk-uralskiy.ru/redirect/fyyths/75d8ed5cd32827cf
+ 213. https://kamensk-uralskiy.ru/redirect/fyyths/e474e5c058bab480
+ 214. https://kamensk-uralskiy.ru/index.html
+ 215. https://kamensk-uralskiy.ru/electronic_reception.html
+ 216. https://kamensk-uralskiy.ru/search.html
+ 217. https://kamensk-uralskiy.ru/sitemap.html
+ 218. https://kamensk-uralskiy.ru/zakonodatelnaja_karta.html
+ 219. https://kamensk-uralskiy.ru/rss.xml
  220. https://kamensk-uralskiy.ru/download/76499
- 221. https://kamensk-uralskiy.ru/download/79633
+ 221. https://kamensk-uralskiy.ru/download/76499
+ 222. https://kamensk-uralskiy.ru/download/79633
 
    Hidden links:
- 223. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
  224. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
  225. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
  226. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
  227. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
  228. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
+ 229. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html

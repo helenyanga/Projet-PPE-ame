@@ -10,9 +10,9 @@
    [1]
    ТАСС Медиа> 65 млн фото и видео
    [2]
-   Военная операция на Украине
-   [3]
    Новый год и Рождество
+   [3]
+   Елка желаний
    (BUTTON) Сюжеты
    [4]ТАСС Медиа
    [5]Пресс-центр
@@ -110,8 +110,8 @@ References
 
    Visible links:
    1. https://tassphoto.com/ru
-   2. https://tass.ru/voennaya-operaciya-na-ukraine
-   3. https://tass.ru/novyy-god-i-rozhdestvo
+   2. https://tass.ru/novyy-god-i-rozhdestvo
+   3. https://tass.ru/elka-zhelaniy
    4. https://www.tassphoto.com/ru
    5. https://tass.ru/press
    6. https://tass.ru/feed

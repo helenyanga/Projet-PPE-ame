@@ -31,7 +31,7 @@
 
    [30]Logo Logo
    [31]Logo Logo
-   Понедельник, 29 декабря, 2025
+   Вторник, 30 декабря, 2025
    [32]Vk
    [33]Telegram
    [34]Одноклассники[35]Одноклассники
@@ -139,37 +139,38 @@
 
    [89]Общество
 
-[90]Жителей Мордовии предупреждают о гололедице на дорогах
+[90]В Лямбире заработал новый цифровой рентгеновский аппарат
 
-   [91]Общество
+   [91]Культура
 
-[92]Аэропорт Саранска будет носить имя героя
+[92]В Саранске награждены победители городского смотра-конкурса школьных
+музеев боевой и трудовой славы
 
-   [93]Общество
+   [93]Происшествия
 
-[94]МРОТ, прожиточный минимум, пенсии: на сколько вырастут выплаты с нового
-года
+[94]В Мордовии водитель пострадал в опрокинувшемся самосвале
 
-   [95]Новости ПФО
+   [95]Общество
 
-[96]В Марий Эл заблудились рыбаки
+[96]Что сделать, чтобы антуриум радовал крупными цветами и долгим цветением
 
-   [97]Общество
+   [97]Происшествия
 
-[98]Юлия Оглоблина: «Всегда помню главное наставление – не отрываться от
-земли»!
+[98]В Саранске за взятку будут судить бывшего сотрудника ДПС
 
-   [99]Происшествия
+   [99]Экономика
 
-[100]В Мордовии в сельском доме соседи нашли тело односельчанина
+[100]Стало известно, за сколько можно докупить пенсионные баллы в 2026 году
 
-   [101]Общество
+   [101]Нацпроекты
 
-[102]Как избежать травматизма во время зимних игр на улице
+[102]Региональный проект «Кадры в АПК» направлен на повышение квалификации
+сотрудников агропромышленного комплекса Мордовии
 
-   [103]Это мошенники
+   [103]Нацпроекты
 
-[104]Житель Саранска продал машину и перевел выручку мошенникам
+[104]Модельная библиотека «Книжный сад» вышла в финал конкурса «Золотая полка
+– 2025»
 
    [105]Загрузить больше
 
@@ -278,21 +279,21 @@ References
   87. https://www.rshb.ru/natural/debetcards/unionpay-action/?erid=2Vtzqw1xFaD
   88. https://vegadent.com/?erid=2VtzqwGkijd
   89. https://izvmor.ru/category/novosti/obshchestvo/
-  90. https://izvmor.ru/novosti/obshchestvo/zhitelej-mordovii-preduprezhdayut-o-gololedicze-na-dorogah/
-  91. https://izvmor.ru/category/novosti/obshchestvo/
-  92. https://izvmor.ru/novosti/obshchestvo/aeroport-saranska-budet-nosit-imya-geroya/
-  93. https://izvmor.ru/category/novosti/obshchestvo/
-  94. https://izvmor.ru/novosti/obshchestvo/mrot-prozhitochnyj-minimum-pensii-na-skolko-vyrastut-vyplaty-s-novogo-goda/
-  95. https://izvmor.ru/category/novosti/novosti-pfo/
-  96. https://izvmor.ru/novosti/novosti-pfo/v-marij-el-zabludilis-rybaki/
-  97. https://izvmor.ru/category/novosti/obshchestvo/
-  98. https://izvmor.ru/novosti/obshchestvo/yuliya-ogloblina-vsegda-pomnyu-glavnoe-nastavlenie-ne-otryvatsya-ot-zemli/
-  99. https://izvmor.ru/category/novosti/proisshestviya/
- 100. https://izvmor.ru/novosti/proisshestviya/v-mordovii-v-selskom-dome-sosedi-nashli-telo-odnoselchanina/
- 101. https://izvmor.ru/category/novosti/obshchestvo/
- 102. https://izvmor.ru/novosti/obshchestvo/kak-izbezhat-travmatizma-vo-vremya-zimnih-igr-na-ulicze/
- 103. https://izvmor.ru/category/novosti/eto-moshenniki/
- 104. https://izvmor.ru/novosti/eto-moshenniki/zhitel-saranska-prodal-mashinu-i-perevel-vyruchku-moshennikam/
+  90. https://izvmor.ru/novosti/obshchestvo/v-lyambire-zarabotal-novyj-czifrovoj-rentgenovskij-apparat/
+  91. https://izvmor.ru/category/novosti/kultura/
+  92. https://izvmor.ru/novosti/kultura/v-saranske-nagrazhdeny-pobediteli-gorodskogo-smotra-konkursa-shkolnyh-muzeev-boevoj-i-trudovoj-slavy-2/
+  93. https://izvmor.ru/category/novosti/proisshestviya/
+  94. https://izvmor.ru/novosti/proisshestviya/v-mordovii-voditel-postradal-v-oprokinuvshemsya-samosvale/
+  95. https://izvmor.ru/category/novosti/obshchestvo/
+  96. https://izvmor.ru/novosti/obshchestvo/chto-sdelat-chtoby-anturium-radoval-krupnymi-czvetami-i-dolgim-czveteniem/
+  97. https://izvmor.ru/category/novosti/proisshestviya/
+  98. https://izvmor.ru/novosti/proisshestviya/v-saranske-za-vzyatku-budut-sudit-byvshego-sotrudnika-dps/
+  99. https://izvmor.ru/category/novosti/ekonomika/
+ 100. https://izvmor.ru/novosti/ekonomika/stalo-izvestno-za-skolko-mozhno-dokupit-pensionnye-bally-v-2026-godu/
+ 101. https://izvmor.ru/category/novosti/natsproekty/
+ 102. https://izvmor.ru/novosti/natsproekty/regionalnyj-proekt-kadry-v-apk-napravlen-na-povyshenie-kvalifikaczii-sotrudnikov-agropromyshlennogo-kompleksa-mordovii/
+ 103. https://izvmor.ru/category/novosti/natsproekty/
+ 104. https://izvmor.ru/novosti/natsproekty/modelnaya-biblioteka-knizhnyj-sad-vyshla-v-final-konkursa-zolotaya-polka-2025/
  105. https://izvmor.ru/novosti/obshchestvo/v-saranske-nagradili-pobeditelej-konkursa-aleksandr-nevskij-slava-duh-i-imya-rossii/
  106. https://vk.com/izvmor
  107. https://t.me/izvmor
@@ -307,12 +308,12 @@ References
  115. https://telegram.me/share/url?url=https%3A%2F%2Fizvmor.ru%2Fnovosti%2Fobshchestvo%2Fv-saranske-nagradili-pobeditelej-konkursa-aleksandr-nevskij-slava-duh-i-imya-rossii%2F&text=%D0%92%20%D0%A1%D0%B0%D1%80%D0%B0%D0%BD%D1%81%D0%BA%D0%B5%20%D0%BD%D0%B0%D0%B3%D1%80%D0%B0%D0%B4%D0%B8%D0%BB%D0%B8%20%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D0%B0%20%C2%AB%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%E2%80%93%20%D1%81%D0%BB%D0%B0%D0%B2%D0%B0%2C%20%D0%B4%D1%83%D1%85%20%D0%B8%20%D0%B8%D0%BC%D1%8F%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%C2%BB
  116. https://api.whatsapp.com/send?text=%D0%92%20%D0%A1%D0%B0%D1%80%D0%B0%D0%BD%D1%81%D0%BA%D0%B5%20%D0%BD%D0%B0%D0%B3%D1%80%D0%B0%D0%B4%D0%B8%D0%BB%D0%B8%20%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D0%B0%20%C2%AB%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%E2%80%93%20%D1%81%D0%BB%D0%B0%D0%B2%D0%B0%2C%20%D0%B4%D1%83%D1%85%20%D0%B8%20%D0%B8%D0%BC%D1%8F%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%C2%BB%20https%3A%2F%2Fizvmor.ru%2Fnovosti%2Fobshchestvo%2Fv-saranske-nagradili-pobeditelej-konkursa-aleksandr-nevskij-slava-duh-i-imya-rossii%2F
  117. viber://forward/?text=%D0%92%20%D0%A1%D0%B0%D1%80%D0%B0%D0%BD%D1%81%D0%BA%D0%B5%20%D0%BD%D0%B0%D0%B3%D1%80%D0%B0%D0%B4%D0%B8%D0%BB%D0%B8%20%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D0%B0%20%C2%AB%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%E2%80%93%20%D1%81%D0%BB%D0%B0%D0%B2%D0%B0%2C%20%D0%B4%D1%83%D1%85%20%D0%B8%20%D0%B8%D0%BC%D1%8F%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%C2%BB%20https%3A%2F%2Fizvmor.ru%2Fnovosti%2Fobshchestvo%2Fv-saranske-nagradili-pobeditelej-konkursa-aleksandr-nevskij-slava-duh-i-imya-rossii%2F
- 118. https://izvmor.ru/novosti/obshchestvo/zhitelej-mordovii-preduprezhdayut-o-gololedicze-na-dorogah/
- 119. https://izvmor.ru/novosti/obshchestvo/aeroport-saranska-budet-nosit-imya-geroya/
- 120. https://izvmor.ru/novosti/obshchestvo/mrot-prozhitochnyj-minimum-pensii-na-skolko-vyrastut-vyplaty-s-novogo-goda/
- 121. https://izvmor.ru/novosti/novosti-pfo/v-marij-el-zabludilis-rybaki/
- 122. https://izvmor.ru/novosti/obshchestvo/yuliya-ogloblina-vsegda-pomnyu-glavnoe-nastavlenie-ne-otryvatsya-ot-zemli/
- 123. https://izvmor.ru/novosti/proisshestviya/v-mordovii-v-selskom-dome-sosedi-nashli-telo-odnoselchanina/
- 124. https://izvmor.ru/novosti/obshchestvo/kak-izbezhat-travmatizma-vo-vremya-zimnih-igr-na-ulicze/
- 125. https://izvmor.ru/novosti/eto-moshenniki/zhitel-saranska-prodal-mashinu-i-perevel-vyruchku-moshennikam/
+ 118. https://izvmor.ru/novosti/obshchestvo/v-lyambire-zarabotal-novyj-czifrovoj-rentgenovskij-apparat/
+ 119. https://izvmor.ru/novosti/kultura/v-saranske-nagrazhdeny-pobediteli-gorodskogo-smotra-konkursa-shkolnyh-muzeev-boevoj-i-trudovoj-slavy-2/
+ 120. https://izvmor.ru/novosti/proisshestviya/v-mordovii-voditel-postradal-v-oprokinuvshemsya-samosvale/
+ 121. https://izvmor.ru/novosti/obshchestvo/chto-sdelat-chtoby-anturium-radoval-krupnymi-czvetami-i-dolgim-czveteniem/
+ 122. https://izvmor.ru/novosti/proisshestviya/v-saranske-za-vzyatku-budut-sudit-byvshego-sotrudnika-dps/
+ 123. https://izvmor.ru/novosti/ekonomika/stalo-izvestno-za-skolko-mozhno-dokupit-pensionnye-bally-v-2026-godu/
+ 124. https://izvmor.ru/novosti/natsproekty/regionalnyj-proekt-kadry-v-apk-napravlen-na-povyshenie-kvalifikaczii-sotrudnikov-agropromyshlennogo-kompleksa-mordovii/
+ 125. https://izvmor.ru/novosti/natsproekty/modelnaya-biblioteka-knizhnyj-sad-vyshla-v-final-konkursa-zolotaya-polka-2025/
  126. https://www.liveinternet.ru/click
