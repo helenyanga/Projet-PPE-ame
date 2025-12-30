@@ -58,8 +58,8 @@ echo -e "...fin du traitement des URLs.\n"
 fichier_sortie=$2
 fichier_html=$3
 echo -e "\nOn doit avoir comme résultat :"
-echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots\tNombre_d'_occurences\tAspirations > envoyer_dans_le_fichier_en_sortie : "$2""
-echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots\tNombre_d'_occurences\tAspirations" > "$fichier_sortie"
+echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots\tNombre_d'_occurences\tAspirations > envoyer_dans_le_fichier_en_sortie : "$2"" #Instruction générée en sortie de la Konsole comme information pour l'utilisateur.
+echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots\tNombre_d'_occurences\tAspirations" > "$fichier_sortie" #Ce qui doit apparaître dans le fichier de sortie que l'utilisateur nommera (exemple : nomdufichier.txt).
 
 echo "<html>
     <head>
