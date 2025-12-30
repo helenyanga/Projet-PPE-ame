@@ -58,10 +58,29 @@ echo -e "...fin du traitement des URLs.\n"
 fichier_sortie=$2
 fichier_html=$3
 echo -e "\nOn doit avoir comme résultat :"
-echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots\tNombre_d'_occurences > envoyer_dans_le_fichier_en_sortie : "$2""
-echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots\tNombre_d'_occurences" > "$fichier_sortie"
+echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots\tNombre_d'_occurences\tAspirations > envoyer_dans_le_fichier_en_sortie : "$2""
+echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots\tNombre_d'_occurences\tAspirations" > "$fichier_sortie"
 
-N=1
+echo "<html>
+    <head>
+        <meta charset=\"UTF-8\"/>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Numéro_de_la_ligne</th>
+                <th>URLS</th>
+                <th>HTTP</th>
+                <th>Encodage</th>
+                <th>Nombre_de_mots</th>
+                <th>Occurences</th>
+                <th>Dumps</th>
+                <th>Aspirations</th>
+                <th>Contexte</th>
+                <th>Concordance</th>
+            </tr>" >> "$fichier_html"
+
+N=1 #N pour numéro de la ligne
 #On veut lire ligne par ligne le contenu du fichier.
 while read -r line
 do
@@ -69,6 +88,7 @@ do
     fichier_data=$(curl -s -i -L -w "%{http_code}\n%{content_type}" -o ./.fichier_data.tmp $line) #Pour le fichier_data_tmp, on peut écrire la même commande en remplaçant fichier_data.tsb par fichier_data.tsv ; de même pour nb_mots.
     http_code=$(echo "$fichier_data" | head -1)
     content_type=$(echo "$fichier_data" | tail -1 | grep -Po "charset=\S+" | cut -d"=" -f2)
+    #aspirations=$(curl -o "../aspirations/français/fr-${N}.html" $line)
 
     if [ -z "${content_type}" ] #Cette condition permet de vérifier si l'url contient ou non un encodage. S'il n'en contient pas, il affichera "rien".
 	then
@@ -76,8 +96,20 @@ do
 	fi
 
     nb_mots=$(cat ./.fichier_data.tmp | lynx -dump -nolist -stdin $line | wc -w)
-    nb_occurences=$(cat ./.fichier_data.tmp | lynx -dump -nolist -stdin $line | grep -i -o "âme" | wc -l)
+    nb_occurences=$(egrep -i -o "\b(Â|â)me(s)?\b" .dumps-text/français-$N.txt | wc -l)
 
-    echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}\t${nb_occurences}" >> $fichier_sortie #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
+    echo -e " <tr>
+                  <td>1</td>
+                   <a href="https://omci.inha.fr/s/ocmi/item/2">
+                    https://omci.inha.fr/s/ocmi/item/2
+                   </a>
+                  </td>
+              </tr>" >> "$fichier_html"
+
+    echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}\t${nb_occurences}\t${aspirations}" >> $fichier_sortie #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
     N=$( expr $N + 1 )
+
+echo "   </table>
+    </body>
+</html>"
 done < $fichier_urls
