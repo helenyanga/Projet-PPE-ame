@@ -1,0 +1,479 @@
+
+   Логотип
+   [1]Меню
+
+     * Новый год
+     * Французский шансон и аргентинское танго. Музыкальное оливье
+     * Концерт-сказка «Маленький принц»
+     * Новогодние фантазии для рояля и вибрафона
+     * Сказка с оркестром «Маленькая Баба Яга»
+     * Песенка из детства
+     * Щелкунчик
+
+   [2]Правила посещения Белого Зала
+   [3]Клуб друзей белого зала
+
+Афиша
+
+   [4]все концерты
+   [5]Календарь
+     * 30
+       дек
+       вт
+       13:00
+       [6]Мультконцерт «Щелкунчик и Снеговик»
+       [7]Мультконцерт «Щелкунчик и Снеговик»
+       Самая новогодняя сказка на все времена «Щелкунчик» и гениальная
+       музыка Чайковского! Праздничный мультконцерт позволит каждому
+       соприкоснуться с чудом.
+       440-1300
+       disabled
+       18:00
+       [8]Новогодний концерт «В вихре вальса с Иоганном Штраусом»
+       [9]Новогодний концерт «В вихре вальса с Иоганном Штраусом»
+       Праздник в изысканных интерьерах Белого зала с величественной
+       музыкой Иоганна Штрауса.
+       1500-3000
+       [10]Купить билет
+     * 31
+       дек
+       ср
+       13:00
+       [11]Мультконцерт «Щелкунчик и Снеговик»
+       [12]Мультконцерт «Щелкунчик и Снеговик»
+       Самая новогодняя сказка на все времена «Щелкунчик» и гениальная
+       музыка Чайковского! Праздничный мультконцерт позволит каждому
+       соприкоснуться с чудом.
+       440-1300
+       [13]Купить билет
+       18:00
+       [14]Новогодний концерт «В вихре вальса с Иоганном Штраусом»
+       [15]Новогодний концерт «В вихре вальса с Иоганном Штраусом»
+       Праздник в изысканных интерьерах Белого зала с величественной
+       музыкой Иоганна Штрауса.
+       2000-4000
+       [16]Купить билет
+     * 02
+       янв
+       пт
+       12:00
+       [17]Новогоднее представление «Похищение королевской ёлки»
+       [18]Новогоднее представление «Похищение королевской ёлки»
+       Приготовьтесь к волшебству! Отправляемся в увлекательные
+       приключения Снегурочки в поисках Ёлки.
+       950-2750
+       [19]Купить билет
+
+Новости
+
+   [20]все новости
+   [21]Студенты Политеха музыкой славили первого директора университета
+   [22]Культура
+   23 декабря 2025
+   [23]Студенты Политеха музыкой славили первого директора университета
+
+   В день 170-летия со дня рождения первого директора университета князя
+   Андрея Григорьевича Гагарина студенты Политеха — участники Молодежного
+   хора «Полигимния» и Камерного хора дали большой праздничный концерт.
+   Именно князь Гагарин заложил основы всестороннего образования
+   политехников и отдал музыке важную в этом роль.
+   [24]Экзамены на концертной сцене Белого зала сданы на отлично
+   [25]Концерт
+   16 декабря 2025
+   [26]Экзамены на концертной сцене Белого зала сданы на отлично
+
+   Концерты Камерного хора и Эстрадно-симфонического оркестра СПбПУ стали
+   не только экзаменами по итогам целого семестра репетиций, но и
+   доказали, что Политех — это пространство, в котором студенты имеют
+   большие возможности для творчества и роста.
+   [27]На сцену Белого зала Политеха вернулся балет
+   [28]Концерт
+   11 декабря 2025
+   [29]На сцену Белого зала Политеха вернулся балет
+
+   Белый зал преобразился к выступлению артистов балета — Академия
+   Русского балета имени А.Я. Вагановой начала сотрудничество с главной
+   культурной институцией Санкт-Петербургского политехнического
+   университета Петра Великого.
+   [30]Наш Пушкин: в Белом зале завершился фестиваль «Пушкинские дни
+   в Политехническом»
+   [31]Концерт
+   10 ноября 2025
+   [32]Наш Пушкин: в Белом зале завершился фестиваль «Пушкинские дни
+   в Политехническом»
+
+   12 концертов вошли в программу фестиваля русской музыки поэзии, который
+   ежегодно проводится в СПбПУ в честь открытия 19 октября 1811 года
+   Царскосельского лицея, подарившего нам Пушкина.
+   [33]Политехники удостоены национальной премии «За верность науке»
+   [34]Достижения
+   06 ноября 2025
+   [35]Политехники удостоены национальной премии «За верность науке»
+
+   В Москве в Театре на Малой Бронной чествовали финалистов XI
+   Всероссийской премии [36]«За верность науке». Диплом третьей степени в
+   специальной номинации имени Даниила Гранина получил медиапроект
+   Санкт-Петербургского политехнического университета Петра Великого
+   «Инженеры города Петра Великого».
+   [37]Актриса Лиза Арзамасова поделилась любовью к поэзии на встрече
+   в Политехе
+   [38]Концерт
+   21 октября 2025
+   [39]Актриса Лиза Арзамасова поделилась любовью к поэзии на встрече
+   в Политехе
+
+   Знаковое культурное событие осени — фестиваль «Пушкинские дни в
+   Политехническом» — ежегодно собирает известных артистов поклонников
+   русской культуры на серию концертов и встреч, посвященных живому
+   звучанию русской поэзии и музыки. В разные годы Белый зал встречал
+   Василия Ланового, Александра Филиппенко, Аллу Демидову, Вениамина
+   Смехова, Дмитрия Дюжева, Антона Шагина… Сегодня этот фестиваль украсила
+   одна из самых выразительных актрис своего поколения Лиза Арзамасова.
+   [40]Белый зал открыл XX концертный сезон
+   [41]Концерт
+   15 сентября 2025
+   [42]Белый зал открыл XX концертный сезон
+
+   Музыкальным праздником — «Штраус-гала» 11 сентября начался новый
+   концертный сезон в Белом зале — 20-й в его новейшей истории.
+   [43]Уроки истории в Политехе проводят артисты драматических театров
+   и оркестр
+   [44]Культура
+   12 сентября 2025
+   [45]Уроки истории в Политехе проводят артисты драматических театров
+   и оркестр
+
+   8 сентября, в День памяти жертв Блокады Ленинграда, в Политехе началась
+   серия показов литературно-музыкальной композиции «Россия, не бойся, мы
+   с тобой» для студентов 1 курса.
+   [46]Оркестр Политеха победил в «Студенческой весне» и дал сольный
+   концерт при полном аншлаге
+   [47]Культура
+   29 апреля 2025
+   [48]Оркестр Политеха победил в «Студенческой весне» и дал сольный
+   концерт при полном аншлаге
+
+   Слава об оркестре будущих инженеров гремит! Только в апреле он стал
+   лауреатом 1 степени в двух конкурсах, покорил абитуриентов и их
+   родителей на Дне открытых дверей Политеха и выступил с большим
+   концертом в Белом зале.
+   [49]В Белом зале показали «Инженеров Победы»
+   [50]Культура
+   24 апреля 2025
+   [51]В Белом зале показали «Инженеров Победы»
+
+   Три дня подряд, с 22 по 24 апреля, в Белом зале шла постановка,
+   посвященная памяти политехников — участников Великой Отечественной
+   войны. Зрителями и участниками события, объединившего историческую
+   правду и силу искусства, стали студенты СПбПУ всех направлений
+   подготовки.
+   [52]«Благовест» объединил поющие университеты страны
+   [53]Концерт
+   08 апреля 2025
+   [54]«Благовест» объединил поющие университеты страны
+
+   4-6 апреля состоялся IX Открытый конкурс хоровых коллективов вузов и
+   ссузов России «Благовест». В Политех прибыли около 400 студентов из
+   МИФИ, МГТУ имени Баумана, МГИМО, Донского технического университета,
+   Российского университета медицины, университетов Новгорода, Ельца,
+   Москвы и петербургских вузов – Горного университета, ЛЭТИ и ПГУПСА.
+   [55]Белый зал встретил Ленинградский День Победы
+   [56]Концерт
+   24 января 2025
+   [57]Белый зал встретил Ленинградский День Победы
+
+   Только Шостакович может звучать в Ленинградский День Победы. Никакая
+   другая музыка не способна так точно передать трагедию и победу
+   Ленинграда.
+   [58]Свети, звезда по имени ВьЮС
+   [59]Концерт
+   26 декабря 2024
+   [60]Свети, звезда по имени ВьЮС
+
+   25 декабря в Белом зале университета состоялся вечер памяти ученого,
+   ректора ЛПИ-СПбПУ, первого президента СПбПУ, академика РАН Юрия
+   Сергеевича Васильева.
+   [61]Пушкин в сердце Политеха
+   [62]Концерт
+   08 ноября 2024
+   [63]Пушкин в сердце Политеха
+
+   Весь октябрь в СПбПУ славили Пушкина. В 17 раз в Политехе проводится
+   фестиваль русской музыки и поэзии «Пушкинские дни в Политехническом». В
+   этом году он объединил рекордное количество событий — 13.
+   [64]Культурным быть — великим быть!
+   [65]Культура
+   07 ноября 2024
+   [66]Культурным быть — великим быть!
+
+   Будущих инженеров учат слушать музыку. Для Санкт-Петербургского
+   политехнического университета Петра Великого это дело обыденное уже 18
+   лет. Столько в Политехе реализуется уникальная для вузов России
+   образовательная практика «Творческие семестры».
+   [67]Теперь в Политехе перемены — музыкальные
+   [68]Культура
+   17 октября 2024
+   [69]Теперь в Политехе перемены — музыкальные
+
+   Где, если не в Политехе в перерывах между парами звучит
+   эстрадно-симфонический оркестр! 15 октября стартовал проект
+   «Музыкальная перемена», в котором творческие коллективы СПбПУ по
+   очереди будут превращать парадную лестницу главного здания в концертный
+   зал.
+   [70]Праздник музыки Вивальди в Белом зале
+   [71]Концерт
+   12 октября 2024
+   [72]Праздник музыки Вивальди в Белом зале
+
+   11 октября концертную программу шедевров Вивальди, объединившую
+   легендарные «Времена года» и редко исполняемые вокальные сочинения,
+   представили камерный оркестр «Creato Symphony» и приглашенные солисты
+   Мариинского театра Станислав Аверьянов и Пелагея Куренная.
+   [73]Урок истории усвоен: студенты аплодировали стоя
+   [74]Культура
+   30 сентября 2024
+   [75]Урок истории усвоен: студенты аплодировали стоя
+
+   27 сентября состоялся заключительный показ литературно-музыкальной
+   композиции «Россия, не бойся, мы с тобой!» в рамках курса «Творческие
+   семестры в Политехническом». Третий год подряд Политех с помощью музыки
+   и слова ведет разговор со студентами о трагических событиях на Донбассе
+   сквозь призму блокадного Ленинграда.
+   [76]Моцарт открыл новый концертный сезон в Белом зале
+   [77]Концерт
+   16 сентября 2024
+   [78]Моцарт открыл новый концертный сезон в Белом зале
+
+   Вместе с учебным годом в Политехе начинается музыкальный сезон. 12
+   сентября симфонический оркестр «Классика» известил о начале 19-го
+   концертного сезона в лучшем университетском парадном зале
+   Санкт-Петербурга.
+   [79]Белый зал принял участие в культурной программе ПМЭФ
+   [80]Концерт
+   10 июня 2024
+   [81]Белый зал принял участие в культурной программе ПМЭФ
+
+   8 июня под патронажем помощника Президента России Андрея Фурсенко
+   прошел концерт мальчиков Хорового училища им. Глинки.
+
+Партнеры
+
+   [82]Кидсревю
+   [83]Яндекс
+   [84]Телеканал "Санкт-Петербург"
+   [85]втб
+   [86]Северная Звезда
+   [87]Петербург ру
+   [88]Университет детей
+   [89]культураРФ
+   [90]фонд шуховская башня
+   [91]спутник
+   [92]Культура Петербурга
+   [93]мир
+   [94]Петербургские родители
+   [95]артвестник
+   [96]град петров
+
+   Подпишитесь на рассылку репертуара
+   [X]
+   ____________________
+   [97]Подписаться
+   [X] Устанавливая галочку внутри данного чекбокса, Вы даете [98]согласие
+   на обработку своих персональных данных *
+
+   [99]Перейти на сайт СПбПУ [100]Перейти на Главную
+   [101]Контакты [102]О зале [103]Афиша [104]Проекты
+   [105]Медиа[106]Новости[107]Трансляция[108]Фотогалерея[109]Видеогалерея
+   Контакты
+     * [110]+7 (812) 552-76-45
+     * [111]СПб., ул. Политехническая, д. 29, Главное здание
+       (150 метров от станции метро «Политехническая»)
+
+   Соц.сети
+
+   _______________
+     * [112]О зале
+          + [113]Меню
+          + [114]История
+          + [115]Клуб друзей Белого зала
+          + [116]Наши меценаты
+          + [117]Предложения сотрудничества
+          + [118]Зрителям
+     * [119]Афиша
+     * [120]Медиа
+          + [121]Меню
+          + [122]Новости
+          + [123]Трансляция
+          + [124]Фото
+          + [125]Видео
+     * [126]Проекты
+          + [127]Меню
+          + [128]Фестиваль русской музыки и поэзии «Пушкинские дни
+            в Политехническом»
+          + [129]«Пасхальный фестиваль в Политехническом»
+          + [130]«Мастерская детских талантов»
+          + [131]Творческие семестры в Политехническом
+          + [132]Хоровой конкурс университетов России «Благовест»
+          + [133]«Органные вечера в Политехническом»
+     * [134]О нас
+          + [135]Меню
+          + [136]Зрители
+          + [137]Артисты
+          + [138]СМИ
+     * [139]Контакты
+
+   Top.Mail.Ru
+
+References
+
+   Visible links:
+   1. https://whitehall.spbstu.ru/#primary-nav
+   2. https://whitehall.spbstu.ru/about/zritelyam/
+   3. https://whitehall.spbstu.ru/about/hall-friends/
+   4. https://whitehall.spbstu.ru/events/
+   5. https://whitehall.spbstu.ru/
+   6. https://whitehall.spbstu.ru/events/multkontsert-shchelkunchik-i-snegovik30/
+   7. https://whitehall.spbstu.ru/events/multkontsert-shchelkunchik-i-snegovik30/
+   8. https://whitehall.spbstu.ru/events/novogodniy-kontsert-v-vikhre-valsa-s-iogannom-shtrausom-30122025/
+   9. https://whitehall.spbstu.ru/events/novogodniy-kontsert-v-vikhre-valsa-s-iogannom-shtrausom-30122025/
+  10. https://whitehall.spbstu.ru/
+  11. https://whitehall.spbstu.ru/events/multkontsert-shchelkunchik-i-snegovik31/
+  12. https://whitehall.spbstu.ru/events/multkontsert-shchelkunchik-i-snegovik31/
+  13. https://whitehall.spbstu.ru/
+  14. https://whitehall.spbstu.ru/events/novogodniy-kontsert-v-vikhre-valsa-s-iogannom-shtrausom-301220252086/
+  15. https://whitehall.spbstu.ru/events/novogodniy-kontsert-v-vikhre-valsa-s-iogannom-shtrausom-301220252086/
+  16. https://whitehall.spbstu.ru/
+  17. https://whitehall.spbstu.ru/events/novogodnee-predstavlenie-pokhishchenie-korolevskoy-yelki/
+  18. https://whitehall.spbstu.ru/events/novogodnee-predstavlenie-pokhishchenie-korolevskoy-yelki/
+  19. https://whitehall.spbstu.ru/
+  20. https://whitehall.spbstu.ru/media/news/
+  21. https://whitehall.spbstu.ru/media/news/culture/studenty-politekha-muzykoy-slavili-pervogo-direktora-universiteta-/
+  22. https://whitehall.spbstu.ru/media/news/culture/
+  23. https://whitehall.spbstu.ru/media/news/culture/studenty-politekha-muzykoy-slavili-pervogo-direktora-universiteta-/
+  24. https://whitehall.spbstu.ru/media/news/concert/ekzameny-na-kontsertnoy-stsene-belogo-zala-sdany-na-otlichno/
+  25. https://whitehall.spbstu.ru/media/news/concert/
+  26. https://whitehall.spbstu.ru/media/news/concert/ekzameny-na-kontsertnoy-stsene-belogo-zala-sdany-na-otlichno/
+  27. https://whitehall.spbstu.ru/media/news/concert/na-stsenu-belogo-zala-politekha-vernulsya-balet/
+  28. https://whitehall.spbstu.ru/media/news/concert/
+  29. https://whitehall.spbstu.ru/media/news/concert/na-stsenu-belogo-zala-politekha-vernulsya-balet/
+  30. https://whitehall.spbstu.ru/media/news/concert/nash-pushkin-v-belom-zale-zavershilsya-festival-pushkinskie-dni-v-politekhnicheskom/
+  31. https://whitehall.spbstu.ru/media/news/concert/
+  32. https://whitehall.spbstu.ru/media/news/concert/nash-pushkin-v-belom-zale-zavershilsya-festival-pushkinskie-dni-v-politekhnicheskom/
+  33. https://whitehall.spbstu.ru/media/news/dostizheniya/politekhniki-udostoeny-natsionalnoy-premii-za-vernost-nauke/
+  34. https://whitehall.spbstu.ru/media/news/dostizheniya/
+  35. https://whitehall.spbstu.ru/media/news/dostizheniya/politekhniki-udostoeny-natsionalnoy-premii-za-vernost-nauke/
+  36. https://zavernostnauke.ru/
+  37. https://whitehall.spbstu.ru/media/news/concert/aktrisa-liza-arzamasova-podelilas-lyubovyu-k-poezii-na-vstreche-v-politekhe/
+  38. https://whitehall.spbstu.ru/media/news/concert/
+  39. https://whitehall.spbstu.ru/media/news/concert/aktrisa-liza-arzamasova-podelilas-lyubovyu-k-poezii-na-vstreche-v-politekhe/
+  40. https://whitehall.spbstu.ru/media/news/concert/belyy-zal-otkryl-xx-kontsertnyy-sezon/
+  41. https://whitehall.spbstu.ru/media/news/concert/
+  42. https://whitehall.spbstu.ru/media/news/concert/belyy-zal-otkryl-xx-kontsertnyy-sezon/
+  43. https://whitehall.spbstu.ru/media/news/culture/uroki-istorii-v-politekhe-provodyat-artisty-dramaticheskikh-teatrov-i-orkestr/
+  44. https://whitehall.spbstu.ru/media/news/culture/
+  45. https://whitehall.spbstu.ru/media/news/culture/uroki-istorii-v-politekhe-provodyat-artisty-dramaticheskikh-teatrov-i-orkestr/
+  46. https://whitehall.spbstu.ru/media/news/culture/orkestr-politekha-pobedil-v-studencheskoy-vesne-i-dal-solnyy-kontsert-pri-polnom-anshlage/
+  47. https://whitehall.spbstu.ru/media/news/culture/
+  48. https://whitehall.spbstu.ru/media/news/culture/orkestr-politekha-pobedil-v-studencheskoy-vesne-i-dal-solnyy-kontsert-pri-polnom-anshlage/
+  49. https://whitehall.spbstu.ru/media/news/culture/v-belom-zale-pokazali-inzhenerov-pobedy/
+  50. https://whitehall.spbstu.ru/media/news/culture/
+  51. https://whitehall.spbstu.ru/media/news/culture/v-belom-zale-pokazali-inzhenerov-pobedy/
+  52. https://whitehall.spbstu.ru/media/news/concert/blagovest-obedinil-poyushchie-universitety-strany/
+  53. https://whitehall.spbstu.ru/media/news/concert/
+  54. https://whitehall.spbstu.ru/media/news/concert/blagovest-obedinil-poyushchie-universitety-strany/
+  55. https://whitehall.spbstu.ru/media/news/concert/belyy-zal-vstretil-leningradskiy-den-pobedy/
+  56. https://whitehall.spbstu.ru/media/news/concert/
+  57. https://whitehall.spbstu.ru/media/news/concert/belyy-zal-vstretil-leningradskiy-den-pobedy/
+  58. https://whitehall.spbstu.ru/media/news/concert/sveti-zvezda-po-imeni-vyus/
+  59. https://whitehall.spbstu.ru/media/news/concert/
+  60. https://whitehall.spbstu.ru/media/news/concert/sveti-zvezda-po-imeni-vyus/
+  61. https://whitehall.spbstu.ru/media/news/concert/pushkin-v-serdtse-politekha/
+  62. https://whitehall.spbstu.ru/media/news/concert/
+  63. https://whitehall.spbstu.ru/media/news/concert/pushkin-v-serdtse-politekha/
+  64. https://whitehall.spbstu.ru/media/news/culture/kulturnym-byt-velikim-byt/
+  65. https://whitehall.spbstu.ru/media/news/culture/
+  66. https://whitehall.spbstu.ru/media/news/culture/kulturnym-byt-velikim-byt/
+  67. https://whitehall.spbstu.ru/media/news/culture/teper-v-politekhe-peremeny-muzykalnye/
+  68. https://whitehall.spbstu.ru/media/news/culture/
+  69. https://whitehall.spbstu.ru/media/news/culture/teper-v-politekhe-peremeny-muzykalnye/
+  70. https://whitehall.spbstu.ru/media/news/concert/prazdnik-muzyki-vivaldi-v-belom-zale/
+  71. https://whitehall.spbstu.ru/media/news/concert/
+  72. https://whitehall.spbstu.ru/media/news/concert/prazdnik-muzyki-vivaldi-v-belom-zale/
+  73. https://whitehall.spbstu.ru/media/news/culture/urok-istorii-usvoen-studenty-aplodirovali-stoya/
+  74. https://whitehall.spbstu.ru/media/news/culture/
+  75. https://whitehall.spbstu.ru/media/news/culture/urok-istorii-usvoen-studenty-aplodirovali-stoya/
+  76. https://whitehall.spbstu.ru/media/news/concert/motsart-otkryl-novyy-kontsertnyy-sezon-v-belom-zale/
+  77. https://whitehall.spbstu.ru/media/news/concert/
+  78. https://whitehall.spbstu.ru/media/news/concert/motsart-otkryl-novyy-kontsertnyy-sezon-v-belom-zale/
+  79. https://whitehall.spbstu.ru/media/news/concert/belyy-zal-prinyal-uchastie-v-kulturnoy-programme-pmef/
+  80. https://whitehall.spbstu.ru/media/news/concert/
+  81. https://whitehall.spbstu.ru/media/news/concert/belyy-zal-prinyal-uchastie-v-kulturnoy-programme-pmef/
+  82. https://www.kidsreview.ru/
+  83. https://afisha.yandex.ru/saint-petersburg
+  84. https://www.topspb.tv/
+  85. https://www.szrcvtb.ru/
+  86. https://nstar-spb.ru/
+  87. https://www.peterburg.ru/
+  88. https://udetey.ru/
+  89. http://2015.culture.ru/
+  90. http://www.shukhov.ru/
+  91. https://sputnik-hotel.ru/
+  92. https://spbcult.ru/
+  93. http://xn--80apbncz.xn--p1ai/
+  94. https://petrod.ru/
+  95. http://artvestnikspb.ru/
+  96. http://www.grad-petrov.ru/
+  97. https://whitehall.spbstu.ru/
+  98. https://www.spbstu.ru/upload/personal_data.pdf
+  99. https://www.spbstu.ru/
+ 100. https://whitehall.spbstu.ru/
+ 101. https://whitehall.spbstu.ru/contacts/
+ 102. https://whitehall.spbstu.ru/about/history/
+ 103. https://whitehall.spbstu.ru/events/
+ 104. https://whitehall.spbstu.ru/projects/
+ 105. https://whitehall.spbstu.ru/media/
+ 106. https://whitehall.spbstu.ru/media/news/
+ 107. https://whitehall.spbstu.ru/media/live/
+ 108. https://whitehall.spbstu.ru/media/photos/
+ 109. https://whitehall.spbstu.ru/media/videos/
+ 110. tel:+78125527645
+ 111. https://www.google.ru/maps/place/Белый+Зал+СПбГПУ/@60.0073068,30.3728917,17.5z/data=!4m7!1m4!3m3!1s0x4696339f15ef4b73:0x288884b6fbb96aab!2z0JHQtdC70YvQuSDQl9Cw0Lsg0KHQn9Cx0JPQn9Cj!3b1!3m1!1s0x4696339f15ef4b73:0x288884b6fbb96aab?hl=ru
+ 112. https://whitehall.spbstu.ru/about/
+ 113. https://whitehall.spbstu.ru/
+ 114. https://whitehall.spbstu.ru/about/history/
+ 115. https://whitehall.spbstu.ru/about/hall-friends/
+ 116. https://whitehall.spbstu.ru/about/patrons/
+ 117. https://whitehall.spbstu.ru/about/communication/
+ 118. https://whitehall.spbstu.ru/about/zritelyam/
+ 119. https://whitehall.spbstu.ru/events/
+ 120. https://whitehall.spbstu.ru/media/
+ 121. https://whitehall.spbstu.ru/
+ 122. https://whitehall.spbstu.ru/media/news/
+ 123. https://whitehall.spbstu.ru/media/live/
+ 124. https://whitehall.spbstu.ru/media/photos/
+ 125. https://whitehall.spbstu.ru/media/videos/
+ 126. https://whitehall.spbstu.ru/projects/
+ 127. https://whitehall.spbstu.ru/
+ 128. https://whitehall.spbstu.ru/projects/festival-pushkinskie-dni-v-politekhnicheskom/
+ 129. https://whitehall.spbstu.ru/projects/paskhalnyy-festival-v-politekhnicheskom/
+ 130. https://whitehall.spbstu.ru/projects/detskie-kontserty-muzykalnye-chudesa/
+ 131. https://whitehall.spbstu.ru/projects/tvorcheskie-semestry-v-politekhnicheskom/
+ 132. https://whitehall.spbstu.ru/projects/khorovoy-konkurs-tekhnicheskikh-universitetov-rossii-blagovest/
+ 133. https://whitehall.spbstu.ru/projects/organnye-vechera-v-politekhnicheskom/
+ 134. https://whitehall.spbstu.ru/feedback/
+ 135. https://whitehall.spbstu.ru/
+ 136. https://whitehall.spbstu.ru/feedback/viewers/
+ 137. https://whitehall.spbstu.ru/feedback/artists/
+ 138. https://whitehall.spbstu.ru/feedback/smi/
+ 139. https://whitehall.spbstu.ru/contacts/
+
+   Hidden links:
+ 141. https://whitehall.spbstu.ru/
+ 142. https://whitehall.spbstu.ru/events/muzykalnoe-olive/
+ 143. https://whitehall.spbstu.ru/events/kontsert-skazka-malenkiy-prints115494038777/
+ 144. https://whitehall.spbstu.ru/events/novogodnie-fantazii-dlya-royalya-i-vibrafona/
+ 145. https://whitehall.spbstu.ru/events/skazka-s-orkestrom-malenkaya-baba-yaga4320/
+ 146. https://whitehall.spbstu.ru/events/pesenka-iz-detstva/
+ 147. https://whitehall.spbstu.ru/events/shchelkunchik-muzykalnaya-skazka-s-pesochnoy-animatsiey-8012026/
+ 148. https://vk.com/whitehall_spbstu
+ 149. https://www.youtube.com/channel/UCP-JNSqPEW-sugAL0yhGycg

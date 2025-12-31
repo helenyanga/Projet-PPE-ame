@@ -1,0 +1,563 @@
+    #[1]RSS лента
+
+   [2]
+
+официальный портал
+
+КАМЕНСК-УРАЛЬСКИЙ
+
+   город трудовой доблести
+   [3]прошлая версия сайта [4]карта сайта [5]для слабовидящих [6]RSS
+   [7]печать
+   ____________________ Найти
+   [8]vk[9]tg
+
+   (BUTTON) Toggle navigation [10][logo.png] Каменск-Уральский
+     * [11]Новости
+          + [12]Новости администрации
+          + [13]Новости спорта
+          + [14]Новости культуры
+          + [15]Новости предприятий
+          + [16]Новости образования
+          + [17]Новости здравоохранения
+          + [18]О безопасности
+          + [19]Гражданские инициативы
+     * [20]О городе
+          + [21]Устав городского округа
+          + [22]Вчера
+          + [23]Сегодня
+          + [24]Завтра
+     * [25]Органы Власти
+          + [26]Глава Каменск-Уральского городского округа
+          + [27]Дума Каменск-Уральского городского округа
+          + [28]Администрация городского округа
+          + [29]Комитет по архитектуре и градостроительству
+          + [30]Комитет по управлению имуществом
+          + [31]Управление образования
+          + [32]Управление по физической культуре и спорту
+          + [33]Управление культуры
+          + [34]Контрольно-счетный орган
+          + [35]Территориальная избирательная комиссия
+     * [36]Экономика
+          + [37]Социально-экономическое развитие
+          + [38]Бюджет
+          + [39]Промышленные предприятия
+          + [40]Малый и средний бизнес. Развитие туризма
+          + [41]Потребительский рынок, услуги
+          + [42]Рынок труда
+          + [43]Охрана труда
+          + [44]Национальные проекты
+          + [45]Документы стратегического планирования
+          + [46]Государственные и Муниципальные услуги
+          + [47]Инвестиционная политика
+          + [48]Оценка эффективности деятельности ОМС
+          + [49]Отчеты главы городского округа о результативности
+            деятельности
+          + [50]Оценка регулирующего воздействия
+          + [51]Муниципальный контроль
+          + [52]Ценообразование в жилищно-коммунальной сфере
+          + [53]Налоговая политика
+          + [54]Налоговые расходы
+          + [55]Всероссийская перепись населения
+          + [56]Оплата труда в муниципальных организациях
+          + [57]Всероссийская сельскохозяйственная перепись - 2016
+          + [58]Развитие конкуренции
+          + [59]Противодействие нелегальной занятости
+     * [60]Городская среда
+          + [61]ЖКХ
+          + [62]Транспорт
+          + [63]Связь
+          + [64]Экология
+          + [65]Градостроительство
+          + [66]Землепользование
+          + [67]Формирование комфортной городской среды
+          + [68]БТИ
+     * [69]Общество
+          + [70]Своих не бросаем
+          + [71]Каменск-Уральский ― город трудовой доблести
+          + [72]Гражданская оборона
+          + [73]Публичные слушания
+          + [74]Безопасность
+          + [75]Образование
+          + [76]Здравоохранение
+          + [77]Обеспечение жильем
+          + [78]Социальные вопросы
+          + [79]Спортивная жизнь
+          + [80]Работа с молодежью
+          + [81]Гражданские инициативы
+          + [82]Культура
+          + [83]Противодействие коррупции
+          + [84]Кандидаты в присяжные заседатели
+          + [85]День города
+          + [86]Городской гражданский форум
+          + [87]Информация для иностранных граждан
+     * [88]Документы
+
+     * [89]Новости
+          + [90]Новости администрации
+          + [91]Новости спорта
+          + [92]Новости культуры
+          + [93]Новости предприятий
+          + [94]Новости образования
+          + [95]Новости здравоохранения
+          + [96]О безопасности
+          + [97]Гражданские инициативы
+     * [98]О городе
+          + [99]Устав городского округа
+          + [100]Вчера
+          + [101]Сегодня
+          + [102]Завтра
+     * [103]Органы Власти
+          + [104]Глава Каменск-Уральского городского округа
+          + [105]Дума Каменск-Уральского городского округа
+          + [106]Администрация городского округа
+          + [107]Комитет по архитектуре и градостроительству
+          + [108]Комитет по управлению имуществом
+          + [109]Управление образования
+          + [110]Управление по физической культуре и спорту
+          + [111]Управление культуры
+          + [112]Контрольно-счетный орган
+          + [113]Территориальная избирательная комиссия
+     * [114]Экономика
+          + [115]Социально-экономическое развитие
+          + [116]Бюджет
+          + [117]Промышленные предприятия
+          + [118]Малый и средний бизнес. Развитие туризма
+          + [119]Потребительский рынок, услуги
+          + [120]Рынок труда
+          + [121]Охрана труда
+          + [122]Национальные проекты
+          + [123]Документы стратегического планирования
+          + [124]Государственные и Муниципальные услуги
+          + [125]Инвестиционная политика
+          + [126]Оценка эффективности деятельности ОМС
+          + [127]Отчеты главы городского округа о результативности
+            деятельности
+          + [128]Оценка регулирующего воздействия
+          + [129]Муниципальный контроль
+          + [130]Ценообразование в жилищно-коммунальной сфере
+          + [131]Налоговая политика
+          + [132]Налоговые расходы
+          + [133]Всероссийская перепись населения
+          + [134]Оплата труда в муниципальных организациях
+          + [135]Всероссийская сельскохозяйственная перепись - 2016
+          + [136]Развитие конкуренции
+          + [137]Противодействие нелегальной занятости
+     * [138]Городская среда
+          + [139]ЖКХ
+          + [140]Транспорт
+          + [141]Связь
+          + [142]Экология
+          + [143]Градостроительство
+          + [144]Землепользование
+          + [145]Формирование комфортной городской среды
+          + [146]БТИ
+     * [147]Общество
+          + [148]Своих не бросаем
+          + [149]Каменск-Уральский ― город трудовой доблести
+          + [150]Гражданская оборона
+          + [151]Публичные слушания
+          + [152]Безопасность
+          + [153]Образование
+          + [154]Здравоохранение
+          + [155]Обеспечение жильем
+          + [156]Социальные вопросы
+          + [157]Спортивная жизнь
+          + [158]Работа с молодежью
+          + [159]Гражданские инициативы
+          + [160]Культура
+          + [161]Противодействие коррупции
+          + [162]Кандидаты в присяжные заседатели
+          + [163]День города
+          + [164]Городской гражданский форум
+          + [165]Информация для иностранных граждан
+     * [166]Документы
+
+   [hotter.png] [167]Внимание!
+   [hotter.png] [168]Как поступить на военную службу по контракту?
+
+     * [169]Главная
+     * ⇢
+     * [170]Новости
+     * ⇢
+     * [171]Новости администрации
+     * ⇢
+     * [172]«Здесь русский дух, здесь Русью пахнет»
+
+   18.12.2025 в 11:15
+
+«Здесь русский дух, здесь Русью пахнет»
+
+   [65cf9bfd9fcd8dbe2e01ffeb568f840282eb9aa90c9291daa62e896730ced0b1f.jpg]
+   ‹
+     * slider
+     * slider
+     * slider
+     * slider
+     * slider
+     * slider
+     * slider
+     * slider
+     * slider
+
+   ›
+
+   В Каменске-Уральском состоялся традиционный русский бал для
+   старшеклассников.
+
+   Девизом новогоднего бала в этом году стала фраза из поэмы А.С. Пушкина
+   «Руслан и Людмила». 40 пар старшеклассников, многие из которых были
+   наряжены в русские народные костюмы, вышли на паркет Театра драмы.
+   Ведущими парами традиционно стали представители Каменск-Уральского
+   кадетского корпуса.
+
+   Присутствие кадетов и военных, особенно офицеров, на русских балах было
+   не просто традицией, а неотъемлемой частью их атмосферы и этикета,
+   особенно в Российской империи. Поэтому одними из почетных гостей
+   нынешнего бала стали представители 17-й гвардейской бригады армейской
+   авиации, это стало особенно символично в Год защитника Отечества.
+
+   — Завершается Год защитника Отечества. Мы знаем, что в России защитники
+   были и будут всегда. Благодаря им мы сегодня можем наслаждаться мирным
+   небом и участвовать в этом замечательном волшебном празднике. Дорогие
+   старшеклассники, сегодня здесь вы почувствуете всю красоту России,
+   узнаете все традиции российских балов, и пусть они у вас останутся
+   навсегда в сердце, — поприветствовала участников бала заместитель
+   председателя Думы Каменска-Уральского Алла Казимирская.
+
+   — Уважаемые учителя, дорогие старшеклассники, спасибо за приглашение на
+   этот замечательный вечер. Рады видеть вас красивыми и нарядными. От
+   личного состава 17 гвардейской бригады армейской авиации позвольте
+   поздравить вас с наступающим Новым годом, пожелать вам всего самого
+   наилучшего, успешного окончания школы, найти достойное место во
+   взрослой жизни, освоить профессию, которая вам будет по душе, —
+   поздравил всех присутствующих заместитель начальника штаба  17-й
+   гвардейской бригады армейской авиации Игорь Сычев.
+
+   И вот зал замирает в ожидании: кавалеры, склонившись, приглашают дам на
+   паркет для фигурного вальса – истинного воплощения грации и
+   изысканности. А после этой воздушной прелюдии гостей закружили строгий
+   менуэт и веселая, заливистая полька.
+
+   Помимо исполнения классических танцев состоялся мастер-класс от
+   хореографа, одного из руководителей Заслуженного коллектива народного
+   творчества хореографического ансамбля «Юность» Ивана Черникова. В
+   помощь своему руководителю пришли парни из заслуженного коллектива.
+
+   Так сложилось, что на русских балах помимо танцев были дополнительные
+   развлечения. Особой популярностью пользовалась игра «Ручеек».  Русская
+   народная игра со сменой партнеров полюбилась и каменским
+   старшеклассникам.
+
+   Завершили бал старшеклассников торжественно – вручением подарков и
+   фотографированием у ёлки. Отметим, впервые новогодний бал
+   старшеклассников прошел в Каменске-Уральском в 2011 году и сразу стал
+   славной традицией. Устроитель и идейный вдохновитель бала – директор
+   школы № 38 Светлана Миколенко.
+   Пресс-служба администрации города.
+   Администрация города
+
+   Администрация города
+
+   ‹
+   ›
+   []
+   ►
+   ‹
+   /
+   ›
+   ×
+   [173]оригинальное фото
+
+   [174]‹  [175]Декабрь 2025
+   ПН      ВТ      СР      ЧТ      ПТ      СБ ВС
+   [176]1  [177]2  [178]3  [179]4  [180]5  6  7
+   [181]8  [182]9  [183]10 [184]11 [185]12 13 14
+   [186]15 [187]16 [188]17 [189]18 [190]19 20 21
+   [191]22 [192]23 [193]24 [194]25 [195]26 27 28
+   [196]29 [197]30 31
+   [198]зa вcю нeдeлю
+   [199]зa вecь мecяц
+     __________________________________________________________________
+
+     * [200]■ Новости администрации
+     * [201]■ Новости культуры
+     * [202]■ Новости предприятий
+     * [203]■ Новости спорта
+     * [204]■ Новости образования
+     * [205]■ Новости здравоохранения
+     * [206]■ О безопасности
+     * [207]■ Новости страны и региона
+     * [208]■ Гражданские инициативы
+     __________________________________________________________________
+
+   [209]Открытое правительство (опрос_ОМС) [210]Предупредительный список
+   Банка России [211]Роспотребнадзор [212]Национальный центр Россия
+   [213]Имущество для бизнеса
+
+     * [214]на главную
+     * [215]отправить письмо
+     * [216]поиск
+     * [217]карта сайта
+     * [218]законодательная карта
+     * [219]RSS
+
+   Copyright © 2004-2025 год «Официальный портал Каменска-Уральского». Все
+   права защищены.
+   Обо всех замеченных ошибках просьба сообщать на
+   webportal@kamensk-uralskiy.ru.
+   При использовании материалов прямая гиперссылка обязательна. Оставаясь
+   на Официальном портале Каменска-Уральского, Вы соглашаетесь с
+   [220]политикой сайта, а так же с использованием Интернет-сервисов
+   «Яндекс.Метрика» и файлов Cookies для статистики и анализа просмотров
+   посетителей сайта.
+
+   (BUTTON) ×
+
+Форма для отправки электронного письма
+
+   (BUTTON) Отправить письмо (BUTTON) Закрыть
+
+   (BUTTON) ×
+
+Уважаемый житель Каменск-Уральского!
+
+   Оставаясь на Официальном портале Каменска-Уральского, Вы соглашаетесь с
+   [221]политикой сайта, а так же с использованием Интернет-сервиса
+   «Яндекс.Метрика» ([222]подробнее) и файлов Cookies для статистики и
+   анализа просмотров посетителей сайта.
+   (BUTTON) ПРИНИМАЮ
+
+References
+
+   Visible links:
+   1. https://kamensk-uralskiy.ru/rss.xml
+   2. https://kamensk-uralskiy.ru/
+   3. http://old.kamensk-uralskiy.ru/
+   4. https://kamensk-uralskiy.ru/sitemap.html
+   5. https://kamensk-uralskiy.ru/?version=special
+   6. https://kamensk-uralskiy.ru/rss.xml
+   7. javaScript:window.print();
+   8. https://vk.com/ku_pressa
+   9. https://t.me/ku_pressa
+  10. https://kamensk-uralskiy.ru/
+  11. https://kamensk-uralskiy.ru/news.html
+  12. https://kamensk-uralskiy.ru/news/novosti_administracii.html
+  13. https://kamensk-uralskiy.ru/news/novosti_sporta.html
+  14. https://kamensk-uralskiy.ru/news/novosti_kulturi.html
+  15. https://kamensk-uralskiy.ru/news/novosti_predprijatij.html
+  16. https://kamensk-uralskiy.ru/news/novosti_obrazovanija.html
+  17. https://kamensk-uralskiy.ru/news/novosti_zdravoohranenija.html
+  18. https://kamensk-uralskiy.ru/news/o_bezopasnosti.html
+  19. https://kamensk-uralskiy.ru/news/grazhdanskie_iniciativi.html
+  20. https://kamensk-uralskiy.ru/o_gorode.html
+  21. https://kamensk-uralskiy.ru/o_gorode/ustav_goroda.html
+  22. https://kamensk-uralskiy.ru/o_gorode/vchera.html
+  23. https://kamensk-uralskiy.ru/o_gorode/segodnja.html
+  24. https://kamensk-uralskiy.ru/o_gorode/zavtra.html
+  25. https://kamensk-uralskiy.ru/organi_vlasti.html
+  26. https://kamensk-uralskiy.ru/organi_vlasti/glava_goroda.html
+  27. https://kamensk-uralskiy.ru/organi_vlasti/gorodskaja_duma.html
+  28. https://kamensk-uralskiy.ru/organi_vlasti/administracija_goroda.html
+  29. https://kamensk-uralskiy.ru/organi_vlasti/komitet_po_arhitekture_i_gradostroitelstvu.html
+  30. https://kamensk-uralskiy.ru/organi_vlasti/komitet_po_upravleniju_imushhestvom.html
+  31. https://kamensk-uralskiy.ru/organi_vlasti/upravlenie_obrazovanija.html
+  32. https://kamensk-uralskiy.ru/organi_vlasti/upravlenie_po_fizicheskoj_kulture_i_sportu.html
+  33. https://kamensk-uralskiy.ru/organi_vlasti/upravlenie_kulturi.html
+  34. https://kamensk-uralskiy.ru/organi_vlasti/kontrolno_schetnij_organ.html
+  35. https://kamensk-uralskiy.ru/organi_vlasti/territorialnaja_izbiratelnaja_komissija.html
+  36. https://kamensk-uralskiy.ru/jekonomika.html
+  37. https://kamensk-uralskiy.ru/jekonomika/socialnojekonomicheskoe_razvitie.html
+  38. https://kamensk-uralskiy.ru/jekonomika/bjudzhet.html
+  39. https://kamensk-uralskiy.ru/jekonomika/gradoobrazujushhie_predprijatija.html
+  40. https://kamensk-uralskiy.ru/jekonomika/malij_i_srednij_biznes.html
+  41. https://kamensk-uralskiy.ru/jekonomika/potrebitelskij_rinok_uslugi.html
+  42. https://kamensk-uralskiy.ru/jekonomika/rinok_truda.html
+  43. https://kamensk-uralskiy.ru/jekonomika/ohrana_truda.html
+  44. https://kamensk-uralskiy.ru/jekonomika/realizacija_ukazov_prezidenta_rossii_ot_7_maja_2012g.html
+  45. https://kamensk-uralskiy.ru/jekonomika/dokumenti_strategicheskogo_planirovanija.html
+  46. https://kamensk-uralskiy.ru/jekonomika/municipalnie_uslugi.html
+  47. https://kamensk-uralskiy.ru/jekonomika/investicionnaja_politika.html
+  48. https://kamensk-uralskiy.ru/jekonomika/ocenka_jeffektivnosti_dejatelnosti_oms.html
+  49. https://kamensk-uralskiy.ru/jekonomika/otcheti_glavi_goroda_o_rezultativnosti_dejatelnosti.html
+  50. https://kamensk-uralskiy.ru/jekonomika/ocenka_regulirujushhego_vozdejstvija.html
+  51. https://kamensk-uralskiy.ru/jekonomika/municipalnij_kontrol.html
+  52. https://kamensk-uralskiy.ru/jekonomika/cenoobrazovanie_v_zhilishhnokommunalnoj_sfere.html
+  53. https://kamensk-uralskiy.ru/jekonomika/nalogovaja_politika.html
+  54. https://kamensk-uralskiy.ru/jekonomika/nalogovie_rashodi.html
+  55. https://kamensk-uralskiy.ru/jekonomika/vserossijskaja_perepis_naselenija.html
+  56. https://kamensk-uralskiy.ru/jekonomika/oplata_truda_v_municipalnih_organizacijah.html
+  57. https://kamensk-uralskiy.ru/jekonomika/vserossijskaja_selskohozjajstvennaja_perepis__2016.html
+  58. https://kamensk-uralskiy.ru/jekonomika/razvitie_konkurencii.html
+  59. https://kamensk-uralskiy.ru/jekonomika/legalizacija_zarabotnoj_plati.html
+  60. https://kamensk-uralskiy.ru/gorodskaja_sreda.html
+  61. https://kamensk-uralskiy.ru/gorodskaja_sreda/zhkh.html
+  62. https://kamensk-uralskiy.ru/gorodskaja_sreda/transport.html
+  63. https://kamensk-uralskiy.ru/gorodskaja_sreda/svjaz.html
+  64. https://kamensk-uralskiy.ru/gorodskaja_sreda/jekologija.html
+  65. https://kamensk-uralskiy.ru/gorodskaja_sreda/gradostroitelstvo.html
+  66. https://kamensk-uralskiy.ru/gorodskaja_sreda/zemlepolzovanie.html
+  67. https://kamensk-uralskiy.ru/gorodskaja_sreda/formirovanie_komfortnoj_gorodskoj_sredi.html
+  68. https://kamensk-uralskiy.ru/gorodskaja_sreda/bti.html
+  69. https://kamensk-uralskiy.ru/obshhestvo.html
+  70. https://kamensk-uralskiy.ru/obshhestvo/svoih_ne_brosaem.html
+  71. https://kamensk-uralskiy.ru/obshhestvo/2020_god____god_pamjati_i_slavi.html
+  72. https://kamensk-uralskiy.ru/obshhestvo/grazhdanskaja_oborona.html
+  73. https://kamensk-uralskiy.ru/obshhestvo/publichnie_slushanija.html
+  74. https://kamensk-uralskiy.ru/obshhestvo/bezopasnost.html
+  75. https://kamensk-uralskiy.ru/obshhestvo/obrazovanie.html
+  76. https://kamensk-uralskiy.ru/obshhestvo/zdravoohranenie.html
+  77. https://kamensk-uralskiy.ru/obshhestvo/obespechenie_zhilem.html
+  78. https://kamensk-uralskiy.ru/obshhestvo/socialnie_voprosi.html
+  79. https://kamensk-uralskiy.ru/obshhestvo/sportivnaja_zhizn.html
+  80. https://kamensk-uralskiy.ru/obshhestvo/rabota_s_molodezhju.html
+  81. https://kamensk-uralskiy.ru/obshhestvo/grazhdanskie_iniciativi.html
+  82. https://kamensk-uralskiy.ru/obshhestvo/kultura.html
+  83. https://kamensk-uralskiy.ru/obshhestvo/protivodejstvie_korrupcii.html
+  84. https://kamensk-uralskiy.ru/obshhestvo/kandidati_v_prisjazhnie_zasedateli.html
+  85. https://kamensk-uralskiy.ru/obshhestvo/den_goroda.html
+  86. https://kamensk-uralskiy.ru/obshhestvo/gorodskoj_grazhdanskij_forum.html
+  87. https://kamensk-uralskiy.ru/obshhestvo/informacija_dlja_inostrannih_grazhdan.html
+  88. https://kamensk-uralskiy.ru/dokumenti.html
+  89. https://kamensk-uralskiy.ru/news.html
+  90. https://kamensk-uralskiy.ru/news/novosti_administracii.html
+  91. https://kamensk-uralskiy.ru/news/novosti_sporta.html
+  92. https://kamensk-uralskiy.ru/news/novosti_kulturi.html
+  93. https://kamensk-uralskiy.ru/news/novosti_predprijatij.html
+  94. https://kamensk-uralskiy.ru/news/novosti_obrazovanija.html
+  95. https://kamensk-uralskiy.ru/news/novosti_zdravoohranenija.html
+  96. https://kamensk-uralskiy.ru/news/o_bezopasnosti.html
+  97. https://kamensk-uralskiy.ru/news/grazhdanskie_iniciativi.html
+  98. https://kamensk-uralskiy.ru/o_gorode.html
+  99. https://kamensk-uralskiy.ru/o_gorode/ustav_goroda.html
+ 100. https://kamensk-uralskiy.ru/o_gorode/vchera.html
+ 101. https://kamensk-uralskiy.ru/o_gorode/segodnja.html
+ 102. https://kamensk-uralskiy.ru/o_gorode/zavtra.html
+ 103. https://kamensk-uralskiy.ru/organi_vlasti.html
+ 104. https://kamensk-uralskiy.ru/organi_vlasti/glava_goroda.html
+ 105. https://kamensk-uralskiy.ru/organi_vlasti/gorodskaja_duma.html
+ 106. https://kamensk-uralskiy.ru/organi_vlasti/administracija_goroda.html
+ 107. https://kamensk-uralskiy.ru/organi_vlasti/komitet_po_arhitekture_i_gradostroitelstvu.html
+ 108. https://kamensk-uralskiy.ru/organi_vlasti/komitet_po_upravleniju_imushhestvom.html
+ 109. https://kamensk-uralskiy.ru/organi_vlasti/upravlenie_obrazovanija.html
+ 110. https://kamensk-uralskiy.ru/organi_vlasti/upravlenie_po_fizicheskoj_kulture_i_sportu.html
+ 111. https://kamensk-uralskiy.ru/organi_vlasti/upravlenie_kulturi.html
+ 112. https://kamensk-uralskiy.ru/organi_vlasti/kontrolno_schetnij_organ.html
+ 113. https://kamensk-uralskiy.ru/organi_vlasti/territorialnaja_izbiratelnaja_komissija.html
+ 114. https://kamensk-uralskiy.ru/jekonomika.html
+ 115. https://kamensk-uralskiy.ru/jekonomika/socialnojekonomicheskoe_razvitie.html
+ 116. https://kamensk-uralskiy.ru/jekonomika/bjudzhet.html
+ 117. https://kamensk-uralskiy.ru/jekonomika/gradoobrazujushhie_predprijatija.html
+ 118. https://kamensk-uralskiy.ru/jekonomika/malij_i_srednij_biznes.html
+ 119. https://kamensk-uralskiy.ru/jekonomika/potrebitelskij_rinok_uslugi.html
+ 120. https://kamensk-uralskiy.ru/jekonomika/rinok_truda.html
+ 121. https://kamensk-uralskiy.ru/jekonomika/ohrana_truda.html
+ 122. https://kamensk-uralskiy.ru/jekonomika/realizacija_ukazov_prezidenta_rossii_ot_7_maja_2012g.html
+ 123. https://kamensk-uralskiy.ru/jekonomika/dokumenti_strategicheskogo_planirovanija.html
+ 124. https://kamensk-uralskiy.ru/jekonomika/municipalnie_uslugi.html
+ 125. https://kamensk-uralskiy.ru/jekonomika/investicionnaja_politika.html
+ 126. https://kamensk-uralskiy.ru/jekonomika/ocenka_jeffektivnosti_dejatelnosti_oms.html
+ 127. https://kamensk-uralskiy.ru/jekonomika/otcheti_glavi_goroda_o_rezultativnosti_dejatelnosti.html
+ 128. https://kamensk-uralskiy.ru/jekonomika/ocenka_regulirujushhego_vozdejstvija.html
+ 129. https://kamensk-uralskiy.ru/jekonomika/municipalnij_kontrol.html
+ 130. https://kamensk-uralskiy.ru/jekonomika/cenoobrazovanie_v_zhilishhnokommunalnoj_sfere.html
+ 131. https://kamensk-uralskiy.ru/jekonomika/nalogovaja_politika.html
+ 132. https://kamensk-uralskiy.ru/jekonomika/nalogovie_rashodi.html
+ 133. https://kamensk-uralskiy.ru/jekonomika/vserossijskaja_perepis_naselenija.html
+ 134. https://kamensk-uralskiy.ru/jekonomika/oplata_truda_v_municipalnih_organizacijah.html
+ 135. https://kamensk-uralskiy.ru/jekonomika/vserossijskaja_selskohozjajstvennaja_perepis__2016.html
+ 136. https://kamensk-uralskiy.ru/jekonomika/razvitie_konkurencii.html
+ 137. https://kamensk-uralskiy.ru/jekonomika/legalizacija_zarabotnoj_plati.html
+ 138. https://kamensk-uralskiy.ru/gorodskaja_sreda.html
+ 139. https://kamensk-uralskiy.ru/gorodskaja_sreda/zhkh.html
+ 140. https://kamensk-uralskiy.ru/gorodskaja_sreda/transport.html
+ 141. https://kamensk-uralskiy.ru/gorodskaja_sreda/svjaz.html
+ 142. https://kamensk-uralskiy.ru/gorodskaja_sreda/jekologija.html
+ 143. https://kamensk-uralskiy.ru/gorodskaja_sreda/gradostroitelstvo.html
+ 144. https://kamensk-uralskiy.ru/gorodskaja_sreda/zemlepolzovanie.html
+ 145. https://kamensk-uralskiy.ru/gorodskaja_sreda/formirovanie_komfortnoj_gorodskoj_sredi.html
+ 146. https://kamensk-uralskiy.ru/gorodskaja_sreda/bti.html
+ 147. https://kamensk-uralskiy.ru/obshhestvo.html
+ 148. https://kamensk-uralskiy.ru/obshhestvo/svoih_ne_brosaem.html
+ 149. https://kamensk-uralskiy.ru/obshhestvo/2020_god____god_pamjati_i_slavi.html
+ 150. https://kamensk-uralskiy.ru/obshhestvo/grazhdanskaja_oborona.html
+ 151. https://kamensk-uralskiy.ru/obshhestvo/publichnie_slushanija.html
+ 152. https://kamensk-uralskiy.ru/obshhestvo/bezopasnost.html
+ 153. https://kamensk-uralskiy.ru/obshhestvo/obrazovanie.html
+ 154. https://kamensk-uralskiy.ru/obshhestvo/zdravoohranenie.html
+ 155. https://kamensk-uralskiy.ru/obshhestvo/obespechenie_zhilem.html
+ 156. https://kamensk-uralskiy.ru/obshhestvo/socialnie_voprosi.html
+ 157. https://kamensk-uralskiy.ru/obshhestvo/sportivnaja_zhizn.html
+ 158. https://kamensk-uralskiy.ru/obshhestvo/rabota_s_molodezhju.html
+ 159. https://kamensk-uralskiy.ru/obshhestvo/grazhdanskie_iniciativi.html
+ 160. https://kamensk-uralskiy.ru/obshhestvo/kultura.html
+ 161. https://kamensk-uralskiy.ru/obshhestvo/protivodejstvie_korrupcii.html
+ 162. https://kamensk-uralskiy.ru/obshhestvo/kandidati_v_prisjazhnie_zasedateli.html
+ 163. https://kamensk-uralskiy.ru/obshhestvo/den_goroda.html
+ 164. https://kamensk-uralskiy.ru/obshhestvo/gorodskoj_grazhdanskij_forum.html
+ 165. https://kamensk-uralskiy.ru/obshhestvo/informacija_dlja_inostrannih_grazhdan.html
+ 166. https://kamensk-uralskiy.ru/dokumenti.html
+ 167. https://kamensk-uralskiy.ru/objavlenija_edds/2149-vnimanie.html
+ 168. https://kamensk-uralskiy.ru/objavlenija_edds/1920-kak-postupit-na-voennuyu-sluzhbu-po-kontraktu.html
+ 169. https://kamensk-uralskiy.ru/
+ 170. https://kamensk-uralskiy.ru/news.html
+ 171. https://kamensk-uralskiy.ru/news/novosti_administracii.html
+ 172. https://kamensk-uralskiy.ru/https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
+ 173. javascript:void(0);
+ 174. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-11.html
+ 175. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12.html
+ 176. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-01.html
+ 177. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-02.html
+ 178. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-03.html
+ 179. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-04.html
+ 180. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-05.html
+ 181. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-08.html
+ 182. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-09.html
+ 183. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-10.html
+ 184. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-11.html
+ 185. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-12.html
+ 186. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-15.html
+ 187. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-16.html
+ 188. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-17.html
+ 189. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-18.html
+ 190. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-19.html
+ 191. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-22.html
+ 192. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-23.html
+ 193. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-24.html
+ 194. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-25.html
+ 195. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-26.html
+ 196. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-29.html
+ 197. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-30.html
+ 198. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12-18/week.html
+ 199. https://kamensk-uralskiy.ru/news/novosti_administracii/date-2025-12/month.html
+ 200. https://kamensk-uralskiy.ru/news/novosti_administracii.html
+ 201. https://kamensk-uralskiy.ru/news/novosti_kulturi.html
+ 202. https://kamensk-uralskiy.ru/news/novosti_predprijatij.html
+ 203. https://kamensk-uralskiy.ru/news/novosti_sporta.html
+ 204. https://kamensk-uralskiy.ru/news/novosti_obrazovanija.html
+ 205. https://kamensk-uralskiy.ru/news/novosti_zdravoohranenija.html
+ 206. https://kamensk-uralskiy.ru/news/o_bezopasnosti.html
+ 207. https://kamensk-uralskiy.ru/news/novosti_strani_i_regiona.html
+ 208. https://kamensk-uralskiy.ru/news/grazhdanskie_iniciativi.html
+ 209. https://kamensk-uralskiy.ru/redirect/fyyths/4b8550e213ff3448
+ 210. https://kamensk-uralskiy.ru/redirect/fyyths/6e146b110eaa8188
+ 211. https://kamensk-uralskiy.ru/redirect/fyyths/9e23b46d74872314
+ 212. https://kamensk-uralskiy.ru/redirect/fyyths/75d8ed5cd32827cf
+ 213. https://kamensk-uralskiy.ru/redirect/fyyths/e474e5c058bab480
+ 214. https://kamensk-uralskiy.ru/index.html
+ 215. https://kamensk-uralskiy.ru/electronic_reception.html
+ 216. https://kamensk-uralskiy.ru/search.html
+ 217. https://kamensk-uralskiy.ru/sitemap.html
+ 218. https://kamensk-uralskiy.ru/zakonodatelnaja_karta.html
+ 219. https://kamensk-uralskiy.ru/rss.xml
+ 220. https://kamensk-uralskiy.ru/download/76499
+ 221. https://kamensk-uralskiy.ru/download/76499
+ 222. https://kamensk-uralskiy.ru/download/79633
+
+   Hidden links:
+ 224. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
+ 225. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
+ 226. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
+ 227. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
+ 228. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
+ 229. https://kamensk-uralskiy.ru/news/novosti_administracii/28481-zdes-russkiy-duh-zdes-rusyu-pahnet.html
