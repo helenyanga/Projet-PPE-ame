@@ -17,16 +17,17 @@ write_file_arrays()
     local count=0
     local current_export_file="$export_folder/$filename-$count.txt"
 
-    grep -nPi -A1 -B1 --color "$pattern" "$input_file" | while IFS= read -r line; do
-        if [[ "$line" == "--" ]]; then
-            count=$((count+1))
-            current_export_file="$export_folder/$filename-$count.txt"
-            touch "$current_export_file"
-        else
-            echo "$line" >> "$current_export_file"
-        fi
+    grep -Pi -A1 -B1 --color "$pattern" "$input_file" | while IFS= read -r line; do
+    if [[ "$line" == "--" ]]; then
+        count=$((count+1))
+        current_export_file="$export_folder/$filename-$count.txt"
+        touch "$current_export_file"
+    else
+        for word in $line; do
+            echo "$word" >> "$current_export_file"
+        done
+    fi
     done
-
 }
 
 process_files_with_spinner() 
@@ -58,7 +59,7 @@ process_files_with_spinner()
     for file in $source_folder; do
         local filename
         filename="$(get_filename "$file")"
-        write_file_arrays "$file" "$export_folder_base"
+        write_file_arrays "$file" "$export_folder_base/$filename"
 
         # Update spinner
         local spin_char="${spinner:spin_index:1}"
