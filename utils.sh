@@ -6,7 +6,15 @@ get_filename()
     echo "$path" | rev | cut -d"/" -f1 | rev | cut -d "." -f1
 }
 
-folder_exist()
+get_folder_name()
+{
+    path=$1
+    path="$(dirname "$path")"
+    name=${path##*/}
+    echo $name
+}
+
+path_exists()
 {
     folder=$1
     if [ ! -d "$folder" ]; then 

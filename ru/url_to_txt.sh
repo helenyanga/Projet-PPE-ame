@@ -19,7 +19,7 @@ get_urls()
 
     count=1
     base_name="$(get_filename "$urls_path")"
-    folder_exist "$output_folder/$base_name"
+    path_exists "$output_folder/$base_name"
     while read -r url
     do 
         make_txt "$url" "$output_folder/$base_name/$base_name-$count.txt"
