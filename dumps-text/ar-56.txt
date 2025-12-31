@@ -1,7 +1,5 @@
    IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-T9H5KXLT
 
-   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-KG6MDLT2
-
    (BUTTON) Open Menu
    ____________________ بحث
    ...

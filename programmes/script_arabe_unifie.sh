@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Script pour analyser le mot "âme" en arabe - VERSION CORRIGÉE
 # Un seul tableau pour les deux graphies : روح et نفس
 
@@ -77,6 +76,7 @@ if [ ! -f "$TABLEAU" ]; then
                             <th>Numéro</th>
                             <th>Graphie</th>
                             <th>URL</th>
+                            <th>robots.txt</th>
                             <th>Code HTTP</th>
                             <th>Encodage</th>
                             <th>Occurrences</th>
@@ -109,7 +109,7 @@ do
     # 1. Télécharger
     echo "1. Téléchargement..."
     HTTP_CODE=$(curl -L -s -o "$FICHIER_HTML" -w "%{http_code}" "$URL" --max-time 30)
-    
+    ROBOTS_STATUS=$(bash programmes/verifier_robots.sh "$URL" 2>/dev/null || echo "INCONNU")
     if [ "$HTTP_CODE" = "200" ]; then
         echo "✓ Téléchargement réussi"
         
@@ -220,6 +220,7 @@ CONCORD_EOF
                         <td><strong>$NUMERO_LIGNE</strong></td>
                         <td><span class="tag is-info">$MOT_RECHERCHE</span></td>
                         <td><a href="$URL" target="_blank" style="font-size: 11px;">رابط</a></td>
+echo "                  <td><span class=\"tag is-light\">$ROBOTS_STATUS</span></td>" >> "$TABLEAU"
                         <td><span class="tag is-$([ "$HTTP_CODE" = "200" ] && echo "success" || echo "danger")">$HTTP_CODE</span></td>
                         <td style="font-size: 11px;">$ENCODAGE</td>
                         <td class="$OCC_CLASS"><strong>$OCCURRENCES</strong></td>
@@ -246,3 +247,4 @@ echo "========================================="
 echo "✓ Traitement terminé pour $GRAPHIE"
 echo "   Voir: tableaux/ar.html"
 echo "========================================="
+

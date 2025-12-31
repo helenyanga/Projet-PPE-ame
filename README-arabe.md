@@ -40,3 +40,12 @@ Ces mots relèvent de plusieurs champs :
 - Intellectuel et scientifique : علم، البحث
 - Éthique : أخلاق
 Ce nuage de mots met en évidence que le concept d’âme est principalement associé aux dimensions religieuse, humaine, textuelle et intellectuelle dans les textes analysés.
+
+## Cooccurrences (PALS)
+Les cooccurrences principales ont été identifiées manuellement à partir du nuage de mots :
+- الإنسان (humain)
+- الحياة (vie)
+- الدين (religion)
+- تفسير (interprétation)
+
+[Voir nuage de mots : nuages/nuage-arabe.png]
