@@ -74,5 +74,12 @@ process_files_with_spinner()
     printf "\rAll files from %s have been processed\n" "$source_folder_path"
 }
 
+dialog()
+{
+    echo "Quel fichier est à convertir ?"
+    
+    local file_to_convert 
+}
+
 process_files_with_spinner "txt/original/ru2" "txt/processed"
 #process_files_with_spinner "txt/original/ru1" "txt/processed"
