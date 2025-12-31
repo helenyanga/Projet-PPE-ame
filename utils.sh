@@ -14,8 +14,10 @@ folder_exist()
     fi
 }
 
-folder_length()
-{
-    path=$1
-    wc -l < "$path" | xargs # xargs transforms the output as an argument for another function
+folder_length() {
+    dir="$1"
+    # Check if directory exists
+    [[ -d "$dir" ]] || { echo 0; return; }
+    # Count only regular files in directory (not subdirectories)
+    find "$dir" -maxdepth 1 -type f | wc -l | xargs
 }
