@@ -29,7 +29,7 @@ fi
 
 
 #Condition qui vérifie si le fichier donné existe bien, s'il n'existe pas, il affichera erreur.
-echo "Traitement du fichier..."
+echo "Traitement du fichier '$1' en cours..."
 if [ ! -f $1 ]
 then
     echo "Erreur : le fichier "$1" n'existe pas. Recommencer."
@@ -41,7 +41,7 @@ echo -e "...fin du traitement du fichier.\n"
 
 
 #Condition qui vérifie si l'url est valide ou non.
-echo "Traitement des URLs..."
+echo "Traitement des URLs en cours..."
 OK=0
 NOK=0
 while read -r line;
@@ -59,10 +59,11 @@ done < $fichier_urls
 echo "$OK URLs et $NOK lignes douteuses."
 echo -e "...fin du traitement des URLs.\n"
 
-fichier_sortie="../tableaux/tableau_fr.html"
+fichier_tmp=$2
+fichier_html=$3
 echo -e "\nOn doit avoir comme résultat :"
-echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots\tNombre_d'_occurences\tAspirations > envoyer_dans_le_fichier_en_sortie : "$fichier_sortie"" #Instruction générée en sortie de la Konsole comme information pour l'utilisateur.
-echo -e "Numéro_de_la_ligne\tLien\tHTTP \tEncodage_Charset\tNombre_de_mots\tNombre_d'_occurences\tAspirations\tDump" > "$fichier_sortie" #Ce qui doit apparaître dans le fichier de sortie que l'utilisateur nommera.
+echo -e "Numéro de la ligne\tLien\tHTTP \tEncodage Charset\tNombre de mots (envoyer dans le fichier en sortie : '$fichier_tmp'\n)" #Instruction générée en sortie de la Konsole comme information pour l'utilisateur.
+echo -e "Numéro de la ligne\tLien\tHTTP \tEncodage Charset\tNombre de mots > '$fichier_tmp'" #Ce qui doit apparaître dans le fichier de sortie que l'utilisateur nommera.
 
 #Générer une page HTML :
 #Ecrire le fichier :
@@ -83,50 +84,28 @@ echo "<html>
                 <th>Dumps</th>
                 <th>Contexte</th>
                 <th>Concordance</th>
-            </tr>" >> "$fichier_sortie"
-
-N=1 #N pour numéro de la ligne (nomme l'url et correspond aussi à la ligne du tableau).
-#On veut lire ligne par ligne le contenu du fichier contenant les urls.
+            </tr>" >> "$fichier_tmp"
+N=1
+#On veut lire ligne par ligne le contenu du fichier.
 while read -r line
 do
     #On crée des variables pour l'HTTP, l'encodage, le nombre de mots et le fichier de sortie pour que les résultats se génèrent à l'intérieur de ce même fichier.
-    fichier_data=$(curl -s -i -L -w "%{http_code}\n%{content_type}") #Récupérer la page web avec ses métadonnées et les sauvegarder dans le fichier fr-numérodelalignedelurl.html au sein du dossier français.
+    fichier_data=$(curl -s -i -L -w "%{http_code}\n%{content_type}" -o ./.fichier_data.tmp $line) #Récupérer la page web avec ses métadonnées et les sauvegarder dans le fichier fr-numérodelalignedelurl.html au sein du dossier français.
     echo $line #Pour afficher en sortie afin de regarder l'avancement du script.
     http_code=$(echo "$fichier_data" | head -1) #Extraction du code HTTP.
     content_type=$(echo "$fichier_data" | tail -1 | grep -Po "charset=\S+" | cut -d"=" -f2) #Extraction de l'encodage.
-
-
 
     if [ -z "${content_type}" ] #Cette condition permet de vérifier si l'url contient ou non un encodage. S'il n'en contient pas, il affichera "rien".
 	then
 		content_type="rien"
 	fi
 
-    nb_mots=$(lynx -dump -nolist -stdin $line | wc -w)
-    aspirations="./aspirations/fr-$N.html"
-    aspirations=$(curl -o ./aspirations/fr-$N.html $line)
-    #dumps=$(lynx -dump -nolist ./aspirations/fr-$N.html > ./dumps-text/fr-$N.txt)
+    nb_mots=$(cat ../tableaux/"$fichier_tmp" | lynx -dump -nolist -stdin $line | wc -w)
 
-    #nb_occurences=$(egrep -i -o "\b(Â|â)me(s)?\b" .dumps-text/fr-$N.txt | wc -l)
-
-    echo -e " <tr>
-                  <td>$N</td>
-                  <td><a href="$line">$line</a></td>
-                  <td>$http_code</td>
-                  <td>$content_type</td>
-                  <td>$nb_mots</td>
-                  <td>$nb_occurences</td>
-                  <td>$aspirations</td>
-                  <td>$dump</td>
-                  <td>$contexte</td>
-                  <td>$concordance</td>
-              </tr>" >> "$fichier_sortie"
-
-    echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}\t${nb_occurences}\t${aspirations}\t${dumps}" >> "$fichier_sortie" #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
+    echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}" >> $fichier_tmp #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
+    #RAJOUTER LE RESTE APRES AVOIR FAIT LEUR CODE.
     N=$( expr $N + 1 )
-
 done < $fichier_urls
 
-echo "   </table>
-    </body>
-</html>" >> "$fichier_sortie"
+#Suppression du fichier.tsv qui est le fichier temporaire :
+#rm ../tableaux/"$fichier_tmp"

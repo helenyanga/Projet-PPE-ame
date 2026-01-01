@@ -6,6 +6,6 @@ line=1
 
 while read -r line
 do
-    curl -o "../aspirations/francais/fr_${line}.html" $N
+    curl -o "../aspirations/fr_${line}.html" $N
     N=$(expr $N + 1)
 done < ../urls/fichier_urls_fr.txt
