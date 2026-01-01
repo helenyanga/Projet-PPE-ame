@@ -1,0 +1,1945 @@
+HTTP/1.1 200 OK
+date: Thu, 01 Jan 2026 21:45:49 GMT
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+cache-control: max-age=14400, no-transform, public
+content-language: en-US
+content-type: text/html;charset=utf-8
+x-content-type-options: nosniff
+x-xss-protection: 0
+x-frame-options: DENY
+transfer-encoding: chunked
+content-security-policy: frame-ancestors 'self' https://*.usherbrooke.ca https://*.ecoleouverte.ca https://ecoleouverte.ca https://*.nexam.io https://*.exam.net https://exam.net https://exam-fallback-2.azurewebsites.net https://app.formative.com https://*.app-stager.ent.evadi.ca
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    
+    <title>Expressions contenant le mot « âme » | Usito</title>
+    <meta name="author" content="Université de Sherbrooke">
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+
+    <meta property="og:description" content="Expressions contenant le mot « âme »"/>
+    <meta property="og:site_name" content="Dictionnaire Usito"/>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://usito.usherbrooke.ca"/>
+    <meta property="og:title" content="Expressions contenant le mot « âme » | Usito"/>
+    <meta property="og:locale" content="fr_CA"/>
+    <meta property="og:image" content="https://usito.usherbrooke.ca/images/logoUsito-og.png" />
+    <meta property="og:image:secure_url" content="https://usito.usherbrooke.ca/images/logoUsito-og.png" />
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://usito.usherbrooke.ca/images/logoUsito-ms-carre.png" />
+    <meta name="twitter:image:alt" content="Usito" />
+    <meta name="twitter:site" content="@USherbrooke">
+    <meta name="twitter:creator" content="@USherbrooke">
+    <meta name="twitter:description" content="${description}" />
+    
+    
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"/>
+
+    
+    <link rel="search" type="application/opensearchdescription+xml" title="usito.usherbrooke.ca" href="/usitoOpenSearch.xml" />
+
+    
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:300,600|Roboto:300,400,700&amp;subset=latin-ext" />
+    <!--<link rel="stylesheet" type="text/css" href="https://www.usherbrooke.ca/webfonts/udes-icons/css/udes-icons.css" media="all"/>-->
+    <link rel="stylesheet" type="text/css" href="/udes-icons/css/udes-icons.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-usito/style.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/wdg0ygm.css">
+    
+
+    
+
+    
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/scripts/jquery-ui-1.10.4.custom/css/smoothness/jquery-ui-1.10.4.custom.min.css"/>
+
+    <script type="text/javascript" src="/scripts/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui" src="/scripts/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+
+    <script type="text/javascript" src="/scripts/bluebird.core.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="/css/paquet.css"/>
+
+    <script type="text/javascript">
+        const usitoApiUri = window.location.origin + "/v2";
+        let itemType = "GRAPHIE";
+        let numHomonyme = null;
+        let v = [ "bonne âme", "âme", "être l'âme damnée de qqn", "avoir charge d'âme(s)", "âme sœur", "grandeur d'âme", "vague à l'âme", "la mort dans l'âme", "fendre l'âme", "vendre son âme au diable", "rendre l'âme", "corps et âme", "avoir l'âme chevillée au corps", "état d'âme", "avec, sans âme", "avoir charge d’âme(s)", "en mon âme et conscience", "âme d'un instrument à cordes", "de toute son âme", "comme une âme en peine", "avoir l'âme, le cœur à l’envers", "âme qui vive", "avoir l'âme, la vie chevillée au corps", "être, errer comme une âme en peine", "grandeur d’âme", "fendre l'âme, le cœur", "pêcheur d'âmes, d'hommes", "médecin de l’âme" ];
+        const vedettes = v != null ? v : [];
+        const vedette = vedettes[0];
+
+        Promise.config({
+            warnings: false,
+            longStackTraces: false,
+            cancellation: true,
+            monitoring: false
+        });
+
+        const LS_CONSENTEMENT = 'usito_consentement';
+        function récupérerConsentement() {
+            return localStorage.getItem(LS_CONSENTEMENT);
+        }
+
+    </script>
+
+    <script type="text/javascript" src="/scripts/commun.js"></script>
+    <script type="text/javascript" src="/scripts/usito.js"></script>
+    <script type="text/javascript" src="/scripts/infobulles.js"></script>
+
+    <script type="text/javascript" src="/scripts/utilitaires.js"></script>
+
+    <script type="text/javascript" src="/scripts/popper/popper.min.js"></script>
+
+
+    
+        <script id="gtag-init">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        const consentement = récupérerConsentement();
+
+        if (consentement === null) {
+            // Positionnement des valeurs par défaut pour le mode de consentement
+            gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'analytics_storage': 'granted'
+            });
+        }
+        else {
+            // Si consentements déjà donnés, les appliquer pour les appels depuis la page courante
+            gtag('consent', 'default', JSON.parse(consentement));
+        }
+
+    </script>
+        <script id="gtag" async src="https://www.googletagmanager.com/gtag/js?id=G-5RH9W6RVGW"></script>
+        <script id="gtag2">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5RH9W6RVGW');
+    </script>
+
+        <script id="gtm">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window,document,'script','dataLayer','GTM-T8WRXNX');</script>
+    
+
+
+
+
+    <meta name="description" content="Expressions qui contiennent le mot « âme ». Définitions et remarques. Dictionnaire Usito" />
+
+    
+        <script type="text/javascript">
+            var synonymes = [ ];
+            var antonymes = [ ];
+        </script>
+    
+
+    <script type="application/ecmascript">
+        document.addEventListener('DOMContentLoaded',() => {
+            Infobulles.associeInfobulles(true);
+        }, false);
+    </script>
+
+</head>
+<body>
+
+
+    <noscript id="gtm-noscript">
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8WRXNX"
+                height="0"
+                width="0"
+                style="display:none;visibility:hidden">
+
+        </iframe>
+    </noscript>
+
+
+<div class="usito-grid">
+
+    <header id="entête" role="banner">
+    <div  class="entête-grid">
+
+        <div class="entête-logoUsito">
+            <a href="/" aria-label="Accueil Usito">
+
+                <svg id="logoUsito-s" width="140" version="1.1" viewBox="0 0 1080 440" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <style>.cls-1{fill:#00a759;}.cls-2{fill:#fff;}.cls-3{fill:#447d5c;}.cls-4{fill:#95c14e;}.cls-5{fill:#486b5d;}.cls-6{fill:#79b551;}</style>
+                    </defs>
+                    <rect class="cls-1" x="784.84" y="193.35" width="195.16" height="99.94"/>
+                    <path class="cls-2" d="m817.72 268.68c-3.96-4.47-5.93-11.4-5.93-20.79v-27.8c0-2.04-1.47-3.78-3.48-4.12l-2.58-0.44v-4.27h20.96v4.27l-2.28 0.47c-1.83 0.37-3.14 1.98-3.14 3.85v28.98c0 7.74 1.38 13.32 4.14 16.73s6.73 5.12 11.91 5.12 9.06-1.82 11.65-5.46 3.88-8.93 3.88-15.88v-29.31c0-1.97-1.39-3.68-3.32-4.08l-2.02-0.42v-4.27h18.06v4.27l-2.62 0.43c-2.08 0.34-3.61 2.14-3.61 4.25v28.7c0 8.88-2.11 15.51-6.32 19.89s-9.82 6.57-16.82 6.57c-8.37 0-14.53-2.23-18.48-6.7z"/>
+                    <path class="cls-2" d="m928.34 275.08c-2.33-0.51-4.87-1.28-7.68-2.05-1.79-0.49-3.84-1.02-3.84-1.02l0.68-15.45h5.46s0.12 9.39 1.45 11.1c0.69 0.88 2.55 1.72 4.74 2.43s4.6 1.07 7.21 1.07c4.32 0 7.61-0.97 9.86-2.9s3.37-4.61 3.37-8.02c0-2.22-0.61-4.13-1.84-5.72-1.22-1.59-2.85-2.96-4.87-4.1s-4.8-2.48-8.32-4.01c-3.19-1.42-5.96-2.87-8.32-4.35s-4.41-3.46-6.15-5.93c-1.74-2.48-2.6-5.45-2.6-8.92 0-3.13 0.84-5.93 2.52-8.41s4.1-4.42 7.26-5.85c3.16-1.42 6.84-2.13 11.06-2.13 2.62 0 4.94 0.2 6.96 0.6s4.31 0.94 6.87 1.62c1.18 0.37 2.9 0.77 2.9 0.77l-0.51 14.34h-5.21s0.07-8.76-1.71-10.5c-0.61-0.6-1.75-1.11-3.54-1.62s-3.74-0.77-5.85-0.77c-3.93 0-6.9 0.83-8.92 2.48s-3.03 4.04-3.03 7.17c0 2.28 0.61 4.18 1.84 5.72 1.22 1.54 2.75 2.85 4.57 3.93s4.72 2.56 8.71 4.44c3.7 1.77 6.71 3.36 9.05 4.78 2.33 1.42 4.34 3.29 6.02 5.59 1.68 2.31 2.52 5.05 2.52 8.24 0 3.02-0.84 5.92-2.52 8.71s-4.24 5.08-7.68 6.87-7.61 2.69-12.51 2.69c-2.96 0-5.61-0.26-7.94-0.77z"/>
+                    <path class="cls-2" d="m907.78 232.73c-1.78-2.96-4.27-5.29-7.46-6.98s-8.38-2.54-12.62-2.54h-16.67v3.05s3.77 0 3.77 2.11c0 0-0.08 9.4-0.08 14.92s0.08 14.98 0.08 14.98c0 1.75-3.77 2.08-3.77 2.08v3.02h16.9c4.22 0 9.39-0.85 12.55-2.55 3.17-1.7 5.62-4.04 7.36-7.01s2.61-6.34 2.61-10.11v-0.8c0-3.82-0.89-7.22-2.68-10.18zm-4.34 10.91c0 3.19-0.66 6.03-1.98 8.54s-3.19 4.48-5.59 5.92c-2.41 1.44-6.33 2.16-9.54 2.16h-5.34v-33.94h5.16c3.22 0 7.17 0.71 9.59 2.14s4.31 3.4 5.67 5.9 2.03 5.37 2.03 8.6v0.68z"/>
+                    <path class="cls-4" d="M100,100h27.1v124.84c0,29.57,19.16,46.82,48.73,46.82s49.28-17.25,49.28-47.36V100h27.1v124.84c0,42.98-30.94,71.73-76.11,71.73s-76.11-28.74-76.11-71.73V100Z"/>
+                    <path class="cls-5" d="m654.55 96.71c55.85 0 99.1 42.98 99.1 98.56s-43.26 101.29-99.1 101.29-99.38-44.35-99.38-101.29 43.53-98.56 99.38-98.56zm0 174.94c39.42 0 71.18-32.85 71.18-76.38s-31.76-73.92-71.18-73.92-71.46 31.76-71.46 73.92 32.03 76.38 71.46 76.38z"/>
+                    <path class="cls-1" d="m398.63 147.09h27.1v146.2h-27.1v-146.2zm0-47.09h27.1v23.54h-27.1v-23.54z"/>
+                    <path class="cls-6" d="M291.95,197.18c0-15.33,14.52-28.66,35.04-28.2,26.84,.6,54.75,25,54.75,25v-30.74s-18.89-19.44-54.75-19.44c-27.99,0-49.78,14.1-58.39,34.3-2.59,6.07-4.03,12.68-4.03,19.64,0,7.43,1.47,13.8,4.03,19.32,17.94,38.62,89.6,36.29,89.6,72.94,0,18.34-15.33,28.42-33.4,28.47-24.63,.06-45.26-14.56-56.2-24.21v31.22c10.1,7.52,29.06,18.18,55.65,18.18,38.33,0,61.33-24.64,61.33-54.48,0-62.69-93.63-52.02-93.63-91.99Z"/>
+                    <path class="cls-3" d="M553.3,147.08h-114.65v23.54h44.78v169.74h27.1V170.63h34.83c1.79-8.26,4.46-16.14,7.94-23.54Z"/>
+                    <path class="cls-5" d="m567.18 319.09h7.73v35.9h18.4v6.65h-26.13v-42.55z"/>
+                    <path class="cls-5" d="M611.66,330.36c8.81,0,13.55,6.41,13.55,14.5,0,.9-.18,2.94-.18,2.94h-21.1c.48,5.34,4.62,8.09,9.17,8.09,4.91,0,8.81-3.36,8.81-3.36l2.94,5.45s-4.68,4.38-12.29,4.38c-10.13,0-16.42-7.31-16.42-16,0-9.41,6.42-16,15.52-16Zm5.87,12.22c-.12-4.13-2.7-6.35-6.05-6.35-3.9,0-6.59,2.4-7.31,6.35h13.37Z"/>
+                    <path class="cls-5" d="M658.34,330.36c6.72,0,8.81,3.89,8.81,3.89h.12s-.06-.78-.06-1.74v-13.42h7.61v42.55h-7.19v-2.52c0-1.14,.12-1.98,.12-1.98h-.12s-2.58,5.21-9.59,5.21c-8.27,0-13.55-6.53-13.55-16s5.75-16,13.84-16Zm1.44,25.59c3.95,0,7.67-2.88,7.67-9.65,0-4.74-2.52-9.41-7.61-9.41-4.2,0-7.67,3.42-7.67,9.47s3.12,9.59,7.61,9.59Z"/>
+                    <path class="cls-5" d="m683.22 319.09h7.55v6.77h-7.55v-6.77zm0 11.98h7.61v30.57h-7.61v-30.57z"/>
+                    <path class="cls-5" d="m713.62 330.36c7.97 0 11.75 4.55 11.75 4.55l-3.36 5.21s-3.17-3.3-7.97-3.3c-5.63 0-9.29 4.26-9.29 9.47s3.72 9.59 9.53 9.59c5.15 0 8.99-3.89 8.99-3.89l2.94 5.39s-4.38 4.98-12.59 4.98c-10.13 0-16.61-7.13-16.61-16s6.48-16 16.61-16z"/>
+                    <path class="cls-5" d="M733.23,337.61h-3.96v-6.06h4.14v-8.81h7.43v8.81h6.95v6.06h-6.95v11.87c0,5.04,3.95,5.75,6.05,5.75,.84,0,1.38-.12,1.38-.12v6.65s-.9,.18-2.34,.18c-4.26,0-12.71-1.26-12.71-11.51v-12.83Z"/>
+                    <path class="cls-5" d="m754.51 319.09h7.55v6.77h-7.55v-6.77zm0 11.98h7.61v30.57h-7.61v-30.57z"/>
+                    <path class="cls-5" d="M785.03,330.36c9.35,0,16.84,6.65,16.84,16s-7.49,16-16.78,16-16.84-6.59-16.84-16,7.49-16,16.78-16Zm.06,25.53c4.91,0,9.05-3.83,9.05-9.53s-4.14-9.53-9.05-9.53-9.11,3.9-9.11,9.53,4.14,9.53,9.11,9.53Z"/>
+                    <path class="cls-5" d="M807.99,331.08h7.31v3.54c0,1.14-.12,2.1-.12,2.1h.12c1.32-2.58,4.67-6.35,10.85-6.35,6.77,0,10.61,3.54,10.61,11.63v19.66h-7.55v-18.1c0-3.71-.96-6.23-4.85-6.23s-7.07,2.58-8.21,6.23c-.42,1.26-.54,2.64-.54,4.08v14.03h-7.61v-30.57Z"/>
+                    <path class="cls-5" d="M844.75,331.08h7.31v3.54c0,1.14-.12,2.1-.12,2.1h.12c1.32-2.58,4.67-6.35,10.85-6.35,6.77,0,10.61,3.54,10.61,11.63v19.66h-7.55v-18.1c0-3.71-.96-6.23-4.85-6.23s-7.07,2.58-8.21,6.23c-.42,1.26-.54,2.64-.54,4.08v14.03h-7.61v-30.57Z"/>
+                    <path class="cls-5" d="M897.03,342.47h1.02v-.42c0-4.02-2.52-5.39-5.87-5.39-4.37,0-8.39,2.94-8.39,2.94l-2.88-5.45s4.74-3.78,11.99-3.78c8.03,0,12.71,4.43,12.71,12.17v19.12h-7.01v-2.52c0-1.2,.12-2.16,.12-2.16h-.12c.06,0-2.34,5.39-9.29,5.39-5.46,0-10.37-3.42-10.37-9.53,0-9.71,13.13-10.37,18.1-10.37Zm-5.82,13.97c4.02,0,6.89-4.32,6.89-8.03v-.72h-1.32c-3.9,0-10.19,.54-10.19,4.8,0,2.04,1.5,3.95,4.61,3.95Z"/>
+                    <path class="cls-5" d="m913.51 319.09h7.55v6.77h-7.55v-6.77zm0 11.98h7.61v30.57h-7.61v-30.57z"/>
+                    <path class="cls-5" d="M929.52,331.08h7.31v5.28c0,1.14-.12,2.16-.12,2.16h.12c1.38-4.38,5.04-7.85,9.71-7.85,.72,0,1.38,.12,1.38,.12v7.49s-.78-.12-1.8-.12c-3.24,0-6.89,1.86-8.33,6.41-.48,1.5-.66,3.18-.66,4.98v12.11h-7.61v-30.57Z"/>
+                    <path class="cls-5" d="M966.45,330.36c8.81,0,13.55,6.41,13.55,14.5,0,.9-.18,2.94-.18,2.94h-21.1c.48,5.34,4.62,8.09,9.17,8.09,4.91,0,8.81-3.36,8.81-3.36l2.94,5.45s-4.68,4.38-12.29,4.38c-10.13,0-16.42-7.31-16.42-16,0-9.41,6.42-16,15.52-16Zm5.87,12.22c-.12-4.13-2.7-6.35-6.05-6.35-3.9,0-6.59,2.4-7.31,6.35h13.37Z"/>
+                </svg>
+
+
+                <svg id="logoUsito" width="140" version="1.1" viewBox="0 0 1080 440" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <style>.cls-1{fill:#00a759;}.cls-2{fill:#fff;}.cls-3{fill:#447d5c;}.cls-4{fill:#95c14e;}.cls-5{fill:#486b5d;}.cls-6{fill:#79b551;}</style>
+                    </defs>
+                    <rect class="cls-1" x="784.84" y="193.35" width="195.16" height="99.94"/>
+                    <path class="cls-2" d="m817.72 268.68c-3.96-4.47-5.93-11.4-5.93-20.79v-27.8c0-2.04-1.47-3.78-3.48-4.12l-2.58-0.44v-4.27h20.96v4.27l-2.28 0.47c-1.83 0.37-3.14 1.98-3.14 3.85v28.98c0 7.74 1.38 13.32 4.14 16.73s6.73 5.12 11.91 5.12 9.06-1.82 11.65-5.46 3.88-8.93 3.88-15.88v-29.31c0-1.97-1.39-3.68-3.32-4.08l-2.02-0.42v-4.27h18.06v4.27l-2.62 0.43c-2.08 0.34-3.61 2.14-3.61 4.25v28.7c0 8.88-2.11 15.51-6.32 19.89s-9.82 6.57-16.82 6.57c-8.37 0-14.53-2.23-18.48-6.7z"/>
+                    <path class="cls-2" d="m928.34 275.08c-2.33-0.51-4.87-1.28-7.68-2.05-1.79-0.49-3.84-1.02-3.84-1.02l0.68-15.45h5.46s0.12 9.39 1.45 11.1c0.69 0.88 2.55 1.72 4.74 2.43s4.6 1.07 7.21 1.07c4.32 0 7.61-0.97 9.86-2.9s3.37-4.61 3.37-8.02c0-2.22-0.61-4.13-1.84-5.72-1.22-1.59-2.85-2.96-4.87-4.1s-4.8-2.48-8.32-4.01c-3.19-1.42-5.96-2.87-8.32-4.35s-4.41-3.46-6.15-5.93c-1.74-2.48-2.6-5.45-2.6-8.92 0-3.13 0.84-5.93 2.52-8.41s4.1-4.42 7.26-5.85c3.16-1.42 6.84-2.13 11.06-2.13 2.62 0 4.94 0.2 6.96 0.6s4.31 0.94 6.87 1.62c1.18 0.37 2.9 0.77 2.9 0.77l-0.51 14.34h-5.21s0.07-8.76-1.71-10.5c-0.61-0.6-1.75-1.11-3.54-1.62s-3.74-0.77-5.85-0.77c-3.93 0-6.9 0.83-8.92 2.48s-3.03 4.04-3.03 7.17c0 2.28 0.61 4.18 1.84 5.72 1.22 1.54 2.75 2.85 4.57 3.93s4.72 2.56 8.71 4.44c3.7 1.77 6.71 3.36 9.05 4.78 2.33 1.42 4.34 3.29 6.02 5.59 1.68 2.31 2.52 5.05 2.52 8.24 0 3.02-0.84 5.92-2.52 8.71s-4.24 5.08-7.68 6.87-7.61 2.69-12.51 2.69c-2.96 0-5.61-0.26-7.94-0.77z"/>
+                    <path class="cls-2" d="m907.78 232.73c-1.78-2.96-4.27-5.29-7.46-6.98s-8.38-2.54-12.62-2.54h-16.67v3.05s3.77 0 3.77 2.11c0 0-0.08 9.4-0.08 14.92s0.08 14.98 0.08 14.98c0 1.75-3.77 2.08-3.77 2.08v3.02h16.9c4.22 0 9.39-0.85 12.55-2.55 3.17-1.7 5.62-4.04 7.36-7.01s2.61-6.34 2.61-10.11v-0.8c0-3.82-0.89-7.22-2.68-10.18zm-4.34 10.91c0 3.19-0.66 6.03-1.98 8.54s-3.19 4.48-5.59 5.92c-2.41 1.44-6.33 2.16-9.54 2.16h-5.34v-33.94h5.16c3.22 0 7.17 0.71 9.59 2.14s4.31 3.4 5.67 5.9 2.03 5.37 2.03 8.6v0.68z"/>
+                    <path class="cls-4" d="M100,100h27.1v124.84c0,29.57,19.16,46.82,48.73,46.82s49.28-17.25,49.28-47.36V100h27.1v124.84c0,42.98-30.94,71.73-76.11,71.73s-76.11-28.74-76.11-71.73V100Z"/>
+                    <path class="cls-5" d="m654.55 96.71c55.85 0 99.1 42.98 99.1 98.56s-43.26 101.29-99.1 101.29-99.38-44.35-99.38-101.29 43.53-98.56 99.38-98.56zm0 174.94c39.42 0 71.18-32.85 71.18-76.38s-31.76-73.92-71.18-73.92-71.46 31.76-71.46 73.92 32.03 76.38 71.46 76.38z"/>
+                    <path class="cls-1" d="m398.63 147.09h27.1v146.2h-27.1v-146.2zm0-47.09h27.1v23.54h-27.1v-23.54z"/>
+                    <path class="cls-6" d="M291.95,197.18c0-15.33,14.52-28.66,35.04-28.2,26.84,.6,54.75,25,54.75,25v-30.74s-18.89-19.44-54.75-19.44c-27.99,0-49.78,14.1-58.39,34.3-2.59,6.07-4.03,12.68-4.03,19.64,0,7.43,1.47,13.8,4.03,19.32,17.94,38.62,89.6,36.29,89.6,72.94,0,18.34-15.33,28.42-33.4,28.47-24.63,.06-45.26-14.56-56.2-24.21v31.22c10.1,7.52,29.06,18.18,55.65,18.18,38.33,0,61.33-24.64,61.33-54.48,0-62.69-93.63-52.02-93.63-91.99Z"/>
+                    <path class="cls-3" d="M553.3,147.08h-114.65v23.54h44.78v169.74h27.1V170.63h34.83c1.79-8.26,4.46-16.14,7.94-23.54Z"/>
+                    <path class="cls-5" d="m567.18 319.09h7.73v35.9h18.4v6.65h-26.13v-42.55z"/>
+                    <path class="cls-5" d="M611.66,330.36c8.81,0,13.55,6.41,13.55,14.5,0,.9-.18,2.94-.18,2.94h-21.1c.48,5.34,4.62,8.09,9.17,8.09,4.91,0,8.81-3.36,8.81-3.36l2.94,5.45s-4.68,4.38-12.29,4.38c-10.13,0-16.42-7.31-16.42-16,0-9.41,6.42-16,15.52-16Zm5.87,12.22c-.12-4.13-2.7-6.35-6.05-6.35-3.9,0-6.59,2.4-7.31,6.35h13.37Z"/>
+                    <path class="cls-5" d="M658.34,330.36c6.72,0,8.81,3.89,8.81,3.89h.12s-.06-.78-.06-1.74v-13.42h7.61v42.55h-7.19v-2.52c0-1.14,.12-1.98,.12-1.98h-.12s-2.58,5.21-9.59,5.21c-8.27,0-13.55-6.53-13.55-16s5.75-16,13.84-16Zm1.44,25.59c3.95,0,7.67-2.88,7.67-9.65,0-4.74-2.52-9.41-7.61-9.41-4.2,0-7.67,3.42-7.67,9.47s3.12,9.59,7.61,9.59Z"/>
+                    <path class="cls-5" d="m683.22 319.09h7.55v6.77h-7.55v-6.77zm0 11.98h7.61v30.57h-7.61v-30.57z"/>
+                    <path class="cls-5" d="m713.62 330.36c7.97 0 11.75 4.55 11.75 4.55l-3.36 5.21s-3.17-3.3-7.97-3.3c-5.63 0-9.29 4.26-9.29 9.47s3.72 9.59 9.53 9.59c5.15 0 8.99-3.89 8.99-3.89l2.94 5.39s-4.38 4.98-12.59 4.98c-10.13 0-16.61-7.13-16.61-16s6.48-16 16.61-16z"/>
+                    <path class="cls-5" d="M733.23,337.61h-3.96v-6.06h4.14v-8.81h7.43v8.81h6.95v6.06h-6.95v11.87c0,5.04,3.95,5.75,6.05,5.75,.84,0,1.38-.12,1.38-.12v6.65s-.9,.18-2.34,.18c-4.26,0-12.71-1.26-12.71-11.51v-12.83Z"/>
+                    <path class="cls-5" d="m754.51 319.09h7.55v6.77h-7.55v-6.77zm0 11.98h7.61v30.57h-7.61v-30.57z"/>
+                    <path class="cls-5" d="M785.03,330.36c9.35,0,16.84,6.65,16.84,16s-7.49,16-16.78,16-16.84-6.59-16.84-16,7.49-16,16.78-16Zm.06,25.53c4.91,0,9.05-3.83,9.05-9.53s-4.14-9.53-9.05-9.53-9.11,3.9-9.11,9.53,4.14,9.53,9.11,9.53Z"/>
+                    <path class="cls-5" d="M807.99,331.08h7.31v3.54c0,1.14-.12,2.1-.12,2.1h.12c1.32-2.58,4.67-6.35,10.85-6.35,6.77,0,10.61,3.54,10.61,11.63v19.66h-7.55v-18.1c0-3.71-.96-6.23-4.85-6.23s-7.07,2.58-8.21,6.23c-.42,1.26-.54,2.64-.54,4.08v14.03h-7.61v-30.57Z"/>
+                    <path class="cls-5" d="M844.75,331.08h7.31v3.54c0,1.14-.12,2.1-.12,2.1h.12c1.32-2.58,4.67-6.35,10.85-6.35,6.77,0,10.61,3.54,10.61,11.63v19.66h-7.55v-18.1c0-3.71-.96-6.23-4.85-6.23s-7.07,2.58-8.21,6.23c-.42,1.26-.54,2.64-.54,4.08v14.03h-7.61v-30.57Z"/>
+                    <path class="cls-5" d="M897.03,342.47h1.02v-.42c0-4.02-2.52-5.39-5.87-5.39-4.37,0-8.39,2.94-8.39,2.94l-2.88-5.45s4.74-3.78,11.99-3.78c8.03,0,12.71,4.43,12.71,12.17v19.12h-7.01v-2.52c0-1.2,.12-2.16,.12-2.16h-.12c.06,0-2.34,5.39-9.29,5.39-5.46,0-10.37-3.42-10.37-9.53,0-9.71,13.13-10.37,18.1-10.37Zm-5.82,13.97c4.02,0,6.89-4.32,6.89-8.03v-.72h-1.32c-3.9,0-10.19,.54-10.19,4.8,0,2.04,1.5,3.95,4.61,3.95Z"/>
+                    <path class="cls-5" d="m913.51 319.09h7.55v6.77h-7.55v-6.77zm0 11.98h7.61v30.57h-7.61v-30.57z"/>
+                    <path class="cls-5" d="M929.52,331.08h7.31v5.28c0,1.14-.12,2.16-.12,2.16h.12c1.38-4.38,5.04-7.85,9.71-7.85,.72,0,1.38,.12,1.38,.12v7.49s-.78-.12-1.8-.12c-3.24,0-6.89,1.86-8.33,6.41-.48,1.5-.66,3.18-.66,4.98v12.11h-7.61v-30.57Z"/>
+                    <path class="cls-5" d="M966.45,330.36c8.81,0,13.55,6.41,13.55,14.5,0,.9-.18,2.94-.18,2.94h-21.1c.48,5.34,4.62,8.09,9.17,8.09,4.91,0,8.81-3.36,8.81-3.36l2.94,5.45s-4.68,4.38-12.29,4.38c-10.13,0-16.42-7.31-16.42-16,0-9.41,6.42-16,15.52-16Zm5.87,12.22c-.12-4.13-2.7-6.35-6.05-6.35-3.9,0-6.59,2.4-7.31,6.35h13.37Z"/>
+                </svg>
+
+
+            </a>
+        </div>
+
+        <div class="entête-recherche" title="Recherche">
+
+            
+
+                    <div class="entête-search-input">
+                        <form id="search-input-form" role="search">
+                            <div id="search-input-wrapper">
+                                <input type="search" placeholder="Rechercher dans le dictionnaire..." class="form-control search-input" id="search-input"
+                                       autocomplete="off" autocapitalize="off" spellcheck="false" autocorrect="off" maxlength="50" value="" tabindex="100" aria-label="Recherche"/>
+
+                                <div class="boutonsRecherche">
+
+                                     <i class="icon i-effacer2x xEffacer bouton"></i>
+
+                                     <i class="icon i-recherche loupeRecherche bouton"></i>
+
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+            
+        </div>
+
+        <div class="entête-historique" role="button" title="Historique" onclick="historique(this);">
+                <i class="icon i-historique"></i>
+                <p>Historique</p>
+        </div>
+
+
+    </div>
+
+
+
+</header>
+
+    <div class="filDAriane" id="filDAriane">
+
+    <div>
+        <a href="/">Accueil</a>
+
+        
+
+            <span class="ariane-séparateur">/</span>
+
+            
+
+            
+                
+                <a href="/index/graphies/tous"
+                   id="filDAriane_lienIndex">Toutes les unités lexicales du dictionnaire</a>
+
+                
+                    <span class="ariane-séparateur">/</span>
+                    <span class="ariane-vedette"></span>
+                
+
+                
+            
+
+
+
+        
+    </div>
+
+    
+
+    <script language="JavaScript">
+        if(!window.location.href.includes("/mots")) {
+
+            if (itemType === "INDEX_ALPHABÉTIQUE") {
+
+                // Ajuster le troisième niveau du fil pour les index(division)
+                if (!window.location.hash || window.location.hash.trim().length < 2) {
+                    var divisionCourante = null;
+                    if (divisionCourante != null) {
+                        var hashAjusté = "#" + decodeURI(divisionCourante);
+                        // console.log("Redirection vers la page avec le # de la division courante : " + hashAjusté);
+                        window.location.hash = hashAjusté;
+                    }
+
+                } else {
+                    // console.log("Pas de redirection nécessaire : un hash existe => ", window.location.hash);
+                    var divisionIndex = document.getElementById("filDAriane_divisionIndex");
+                    divisionIndex.innerHTML = decodeURI(window.location.hash.substring(1));
+                }
+            } else {
+                // Ajuster le deuxième niveau du fil (index) pour les contenus (index par défaut pour le type de contenu ou
+                // d'où l'utilisateur provient (à cliqué) pour atteindre ce contenu)
+                var lienIndex = document.getElementById("filDAriane_lienIndex");
+
+                var catégorieEtNom = document.referrer.match(/\/index\/(.*)/);
+
+
+                if (catégorieEtNom) {
+                    getUrlPromise(usitoApiUri + "/listes/catégories/" + catégorieEtNom[1]).then(function (r) {
+                        lienIndex.innerHTML = r.données.titre || "Index";
+                        // History back pour conserver le hash (#)
+                        lienIndex.setAttribute("href", "javascript:window.history.back()");
+                    }).catch(reason => {
+                        console.warn(`Catégories ${catégorieEtNom[1]} introuvable`);
+                    });
+                } else {
+
+                    getUrlPromise(usitoApiUri + "/listes/itemTypes/" + itemType).then(function (r) {
+                        lienIndex.innerHTML = r.données.titre || "Index";
+                        lienIndex.setAttribute("href", r.données.url);
+                    }).catch(reason => {
+                        console.warn(`Type d'item ${itemType} introuvable`);
+                    });
+
+                }
+
+            }
+        }
+
+
+    </script>
+
+
+</div>
+
+    <div class="coeur-grid contenuÀPanneau">
+        <section id="sectionPrincipale" class="contenu lexies">
+            <!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>
+                    Expressions contenant le mot
+                    âme</title>
+      <link type="text/css" rel="stylesheet" href="https://usito.usherbrooke.ca/css/paquet.css">
+      <link rel="stylesheet" type="text/css" href="https://usito.usherbrooke.ca/css/font-usito/style.css"><script src="https://usito.usherbrooke.ca/scripts/lexies.js">/* Script pour les lexies */</script><script type="application/ld+json">{
+  "name": "Expressions qui contiennent le mot « âme ». Dictionnaire Usito",
+  "about": {
+    "inDefinedTermSet": {
+      "name": "Dictionnaire Usito",
+      "url": "https:\/\/usito.usherbrooke.ca",
+      "@type": "DefinedTermSet",
+      "@id": "https:\/\/usito.usherbrooke.ca\/#dictionnaire"
+    },
+    "@type": "DefinedTerm"
+  },
+  "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme",
+  "@context": "https:\/\/schema.org",
+  "isPartOf": {
+    "name": "Dictionnaire Usito",
+    "url": "https:\/\/usito.usherbrooke.ca",
+    "@type": "WebSite",
+    "@id": "https:\/\/usito.usherbrooke.ca\/#siteWeb"
+  },
+  "@type": "CollectionPage",
+  "@id": "https:\/\/usito.usherbrooke.ca\/expressions\/âme",
+  "publisher": {
+    "name": "Université de Sherbrooke",
+    "url": "https:\/\/www.usherbrooke.ca",
+    "@type": "CollegeOrUniversity",
+    "@id": "https:\/\/www.usherbrooke.ca\/#universite"
+  },
+  "mainEntity": {
+    "name": "Expressions qui contiennent le mot « âme ». Définitions et remarques. Dictionnaire Usito",
+    "itemListElement": [
+      {
+        "name": "bonne âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#E3EBc2d41219e787",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#BD9BBbd29743e514",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "être l'âme damnée de qqn",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#eCedAcd29743e154",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "avoir charge d'âme(s)",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#CF59cCd29743e180",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "âme sœur",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#b3b590d29743e188",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "grandeur d'âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#d633dAd29743e273",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "vague à l'âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#c1c2dbd29743e280",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "la mort dans l'âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#aa3dBDd29743e287",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "fendre l'âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#ddcCadd29743e295",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "vendre son âme au diable",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#AA182cd56903e248",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "rendre l'âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#c2c5bbd38383e373",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "corps et âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#BBe75d2d51084e85",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "avoir l'âme chevillée au corps",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#A2B567d51084e104",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "état d'âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#F82AaF7d34256e56",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "avec, sans âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#e1E46ed29743e372",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "avoir charge d’âme(s)",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#f2fc6e3d2823e645",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "en mon âme et conscience",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#FFafB7d30125e356",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "âme d'un instrument à cordes",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#bb9d0Ed29743e434",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "de toute son âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#b9b6b8d29743e332",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "comme une âme en peine",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#BBEAE5d29743e112",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "avoir l'âme, le cœur à l’envers",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#C4Ce6Ed48179e213",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "âme qui vive",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#A6AcC7d29743e230",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "avoir l'âme, la vie chevillée au corps",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#ED87E02d52742e79",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "être, errer comme une âme en peine",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#DDb1cCd42735e321",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "grandeur d’âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#BcE67Dd46982e361",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "fendre l'âme, le cœur",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#dE34aBd36314e165",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "pêcheur d'âmes, d'hommes",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#c1fccAd29012e181",
+        "@type": "DefinedTerm"
+      },
+      {
+        "name": "médecin de l’âme",
+        "url": "https:\/\/usito.usherbrooke.ca\/expressions\/âme#e71DFed49125e465",
+        "@type": "DefinedTerm"
+      }
+    ],
+    "@type": "ItemList",
+    "@id": "https:\/\/usito.usherbrooke.ca\/expressions\/âme"
+  },
+  "description": "Expressions qui contiennent le mot « âme ». Définitions et remarques. Dictionnaire Usito",
+  "inLanguage": "fr"
+}</script></head>
+   <body>
+      <h3 id="unitésLexicales" class="entree_bloc-style entrée_lexies" title="RechercheParLemmeTKAvecFormes de [ âme ]">
+         Expressions contenant le mot
+         <span class="entree-style">âme</span></h3>
+      <div id="optionsLexies"><input type="checkbox" id="afficherDéfinitions" checked><label for="afficherDéfinitions">Afficher les définitions</label></div>
+      <ul class="lexies lexies-groupe">
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="BD9BBbd29743e514">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span><span class="genre">féminin</span><span class="nombre">singulier</span></span></div>
+                  </div>
+                  <div class="formes">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">âmes</span></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span><span class="genre">féminin</span><span class="nombre">pluriel</span></span></div>
+                  </div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#F1F4Fb5d29743e46"><span xmlns="http://www.w3.org/1999/xhtml">Principe spirituel de vie transcendant à l'être humain auquel il est uni.</span></a></div>
+               </dd>
+               <dd>
+                  <div><span class="indicateurs"><span class="marque marque_technolectal">relig.</span><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#FE6FA08d29743e60"><span>Principe de vie et de pensée qui, uni au corps, constitue l'être humain vivant</span></a><span class="séparateur-juxtaposée">;</span><span class="indicateurs"></span><a href="/d%C3%A9finitions/%C3%A2me#FE6FA08d29743e60"><span>ce même principe en tant qu’il est immortel.</span></a></div>
+               </dd>
+               <dd>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#C21FcCd29743e162"><span>Personne, en tant qu'être humain vivant</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span><span class="séparateur-juxtaposée">;</span><span class="indicateurs"><span class="marque marque_temporel">vieilli</span></span><a href="/d%C3%A9finitions/%C3%A2me#C21FcCd29743e162"><span>habitant.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+               <dd>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#E3EB27d29743e250"><span>Principe et siège de l'activité psychique, consciente et inconsciente</span></a><span class="séparateur-juxtaposée">;</span><span class="indicateurs"></span><a href="/d%C3%A9finitions/%C3%A2me#E3EB27d29743e250"><span>siège des sentiments.</span></a></div>
+               </dd>
+               <dd>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">concret</span></span><a href="/d%C3%A9finitions/%C3%A2me#CC98dad29743e416"><span xmlns="http://www.w3.org/1999/xhtml">Élément central, vital, la partie intérieure d'un objet.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="bb9d0Ed29743e434">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">âme d'un instrument à cordes</span></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">concret</span></span><a href="/d%C3%A9finitions/%C3%A2me#c14Cb0d29743e432"><span xmlns="http://www.w3.org/1999/xhtml">Petite pièce de bois assurant la qualité et la propagation des vibrations.</span></a></div>
+               </dd>
+               <dd>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">concret</span></span><a href="/d%C3%A9finitions/%C3%A2me#d3Ee3dd29743e440"><span xmlns="http://www.w3.org/1999/xhtml">Dans une arme à feu, évidement intérieur où se place le projectile.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="A6AcC7d29743e230">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">âme qui vive</span></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span><span class="precision precision_syntaxique">(surtout en constr. nég.)</span></span><a href="/d%C3%A9finitions/%C3%A2me#c5ACc3d29743e228"><span xmlns="http://www.w3.org/1999/xhtml">Être humain, quel qu'il soit.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="b3b590d29743e188">
+                  <div class="lemme vedette">
+                     <div class="forme"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">âme</span><a href="/d%C3%A9finitions/soeur/lexies?v=%C3%A2me s%C5%93ur" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien espace-avant" data-cible="soeur">sœur</span></a></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/soeur/lexies?v=%C3%A2me s%C5%93ur" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">soeur</span>&nbsp;»
+                        </a></div>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#C21FcCd29743e162" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="E3EBc2d41219e787">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">bonne</span><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=bonne %C3%A2me" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien espace-avant" data-cible="âme">âme</span></a></dfn><span class="infolexicogramm forme-élément"><span class="classe">adjectif</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=bonne %C3%A2me" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+                  <div><a href="/d%C3%A9finitions/bon#F02F9Cd41219e749" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">bon</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="BBe75d2d51084e85">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">corps et</span><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=corps et %C3%A2me" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien espace-avant" data-cible="âme">âme</span></a></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><span class="indicateurs"><span class="precision precision_rhetorique">spécialt</span></span><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=corps et %C3%A2me" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+                  <div><span class="indicateurs"><span class="precision precision_rhetorique">spécialt</span></span><a href="/d%C3%A9finitions/corps#AEBA4F9d51084e83" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">corps</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="F82AaF7d34256e56">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">état d'</span><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=%C3%A9tat d'%C3%A2me" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien" data-cible="âme">âme</span></a></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=%C3%A9tat d'%C3%A2me" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+                  <div><a href="/d%C3%A9finitions/%C3%A9tat#f6eB3fFd34256e46" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">état</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="dE34aBd36314e165">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">fendre l'âme, le cœur</span></dfn><span class="infolexicogramm forme-élément"><span class="classe">verbe</span><span class="transitivité">transitif direct</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_semantique">(parties du corps)</span></span><a href="/d%C3%A9finitions/fendre#c4c3D9d36314e163"><span>Causer une vive douleur morale</span></a><span class="séparateur-juxtaposée">;</span><span class="indicateurs"></span><a href="/d%C3%A9finitions/fendre#c4c3D9d36314e163"><span>susciter la compassion.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="BcE67Dd46982e361">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">grandeur d’âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_semantique">(moralement, intellectuellement)</span></span><a href="/d%C3%A9finitions/grandeur#aDfa9bd46982e359"><span xmlns="http://www.w3.org/1999/xhtml">Magnanimité.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="e71DFed49125e465">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">médecin de l’âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_rhetorique">fig.</span></span><a href="/d%C3%A9finitions/m%C3%A9decin#DDD18dd49125e463"><span xmlns="http://www.w3.org/1999/xhtml">Qui soigne, guérit les affections morales, spirituelles.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="c1fccAd29012e181">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">pêcheur d'âmes, d'hommes</span></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_rhetorique">fig.</span></span><a href="/d%C3%A9finitions/p%C3%AAcheur#ba215bd29012e179"><span xmlns="http://www.w3.org/1999/xhtml">Personne qui exerce une activité apostolique, missionnaire, qui convertit à la doctrine
+                           chrétienne.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="c2c5bbd38383e373">
+                  <div class="lemme vedette">
+                     <div class="forme"><span class="indicateurs"><span class="precision precision_rhetorique">(par anal.)</span></span><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">rendre l'</span><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=rendre l'%C3%A2me" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien" data-cible="âme">âme</span></a></dfn><span class="infolexicogramm forme-élément"><span class="classe">verbe</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><span class="indicateurs"><span class="precision precision_rhetorique">(par anal.)</span></span><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=rendre l'%C3%A2me" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+                  <div><span class="indicateurs"><span class="precision precision_rhetorique">(par anal.)</span></span><a href="/d%C3%A9finitions/rendre#DD773ed38383e371" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">rendre</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="AABeE8d43370e417">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">vague à l'âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe">nom</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><a href="/d%C3%A9finitions/vague_2#cAc7abd43370e415"><span xmlns="http://www.w3.org/1999/xhtml">Difficulté d'être, mal de vivre sans cause bien définie.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="AA182cd56903e248">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">vendre son</span><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=vendre son %C3%A2me au diable" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien espace-avant" data-cible="âme">âme</span></a><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">au diable</span></dfn><span class="infolexicogramm forme-élément"><span class="classe">verbe</span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><span class="indicateurs"><span class="marque marque_connotation">(souvent péj.)</span></span><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=vendre son %C3%A2me au diable" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+                  <div><span class="indicateurs"><span class="marque marque_connotation">(souvent péj.)</span></span><a href="/d%C3%A9finitions/vendre#fF16f4d56903e246" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">vendre</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="B7B80a4Cd7837e99">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">âme qui vive</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="remarques">
+                  <div class="remarque"><i class="icon i-info"></i><a href="/d%C3%A9finitions/vivre_1#C3d201ed7837e103"><span xmlns="http://www.w3.org/1999/xhtml">Le verbe</span><span xmlns="http://www.w3.org/1999/xhtml" class="exception espace-avant">vivre</span><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">peut avoir tantôt un complément direct, tantôt un complément de mesure; le participe
+                           passé ne s'accorde qu'avec le complément direct (</span><span xmlns="http://www.w3.org/1999/xhtml" class="exception">les émotions que j'ai vécues avec toi</span><span xmlns="http://www.w3.org/1999/xhtml">, mais</span><span xmlns="http://www.w3.org/1999/xhtml" class="exception espace-avant">toutes ces années que j'ai vécu avec toi</span><span xmlns="http://www.w3.org/1999/xhtml">).</span></a></div>
+               </div>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_syntaxique">(en constr. nég.)</span></span><a href="/d%C3%A9finitions/vivre_1#dd2D76bFd7837e97"><span xmlns="http://www.w3.org/1999/xhtml">Être humain quel qu'il soit.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="FF1Ed7d23956e131">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">âme sœur</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_rhetorique">fig.</span></span><a href="/d%C3%A9finitions/soeur#A2d5aAd23956e129"><span xmlns="http://www.w3.org/1999/xhtml">Personne qui a de profondes affinités avec une autre personne, particulièrement de
+                           sexe opposé.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="e1E46ed29743e372">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">avec, sans âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#EEFCd7d29743e370"><span xmlns="http://www.w3.org/1999/xhtml">Avec, sans sentiments, émotions.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="CF59cCd29743e180">
+                  <div class="lemme vedette">
+                     <div class="forme"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">avoir</span><a href="/d%C3%A9finitions/charge/lexies?v=avoir charge d'%C3%A2me(s)" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien espace-avant" data-cible="charge">charge</span></a><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">d'âme(s)</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/charge/lexies?v=avoir charge d'%C3%A2me(s)" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">charge</span>&nbsp;»
+                        </a></div>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#C21FcCd29743e162" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="f2fc6e3d2823e645">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">avoir charge d’âme(s)</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/charge#dAC5513d2823e643"><span xmlns="http://www.w3.org/1999/xhtml">Avoir la responsabilité morale d’une ou de plusieurs personnes.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="ED87E02d52742e79">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">avoir l'âme, la vie chevillée au corps</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_syntaxique">expression</span></span><a href="/d%C3%A9finitions/cheviller#b3A59b2d52742e77"><span xmlns="http://www.w3.org/1999/xhtml">Être résistant, avoir une grande énergie vitale.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="C4Ce6Ed48179e213">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">avoir l'âme, le cœur à l’envers</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_rhetorique">(par ext.)</span><span class="precision precision_rhetorique">fig.</span></span><a href="/d%C3%A9finitions/envers_2#bD7bEad48179e211"><span xmlns="http://www.w3.org/1999/xhtml">Être bouleversé, troublé, ému.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="A2B567d51084e104">
+                  <div class="lemme vedette">
+                     <div class="forme"><span class="indicateurs"><span class="marque marque_topolectal">F/E</span><span class="precision precision_syntaxique">expression</span></span><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">avoir l'âme</span><a href="/d%C3%A9finitions/cheviller/lexies?v=avoir l'%C3%A2me chevill%C3%A9e au corps" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien espace-avant" data-cible="cheviller">chevillée</span></a><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">au corps</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><span class="indicateurs"><span class="marque marque_topolectal">F/E</span><span class="precision precision_rhetorique">spécialt</span><span class="precision precision_syntaxique">expression</span></span><a href="/d%C3%A9finitions/cheviller/lexies?v=avoir l'%C3%A2me chevill%C3%A9e au corps" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">cheviller</span>&nbsp;»
+                        </a></div>
+                  <div><span class="indicateurs"><span class="marque marque_topolectal">F/E</span><span class="precision precision_rhetorique">spécialt</span><span class="precision precision_syntaxique">expression</span></span><a href="/d%C3%A9finitions/corps#E7e2615d51084e92" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">corps</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="EEBF11d29743e205">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">bonne âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#Df9D0Fd29743e203"><span xmlns="http://www.w3.org/1999/xhtml">Personne d'une nature bonne et simple, personne charitable.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="BBEAE5d29743e112">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">comme une âme en peine</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="marque marque_technolectal">relig.</span><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#b5beddd29743e110"><span xmlns="http://www.w3.org/1999/xhtml">En proie à un ennui, une solitude, une inquiétude que l'on ne sait comment rompre
+                           ou tromper.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="bbEB8dd29743e316">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">corps et âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#DEe13Dd29743e314"><span xmlns="http://www.w3.org/1999/xhtml">Tout entier, totalement.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="b9b6b8d29743e332">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">de toute son âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#FcBFEdd29743e330"><span xmlns="http://www.w3.org/1999/xhtml">De tout son être, en engageant toutes ses ressources.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="FFafB7d30125e356">
+                  <div class="lemme vedette">
+                     <div class="forme"><span class="indicateurs"><span class="precision precision_semantique">(conscience morale)</span></span><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">en mon</span><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=en mon %C3%A2me et conscience" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien espace-avant" data-cible="âme">âme</span></a><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">et conscience</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#E48AfEd29743e350"><span xmlns="http://www.w3.org/1999/xhtml">En toute sincérité, en toute honnêteté.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="aB72aEd29743e397">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">état d'âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#FF163Bd29743e395"><span xmlns="http://www.w3.org/1999/xhtml">Ensemble d'impressions, de sentiments ressentis dans une circonstance donnée.</span></a><span class="source" data-infobulle-id="in_TLF">
+                        (<span class="source-in">in</span><span class="source-nom">&nbsp;TLF</span>)
+                        </span></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="DDb1cCd42735e321">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">être, errer comme une âme en peine</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><a href="/d%C3%A9finitions/peine#bb30eed42735e319"><span xmlns="http://www.w3.org/1999/xhtml">Être triste.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="eCedAcd29743e154">
+                  <div class="lemme vedette">
+                     <div class="forme"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">être l'âme</span><a href="/d%C3%A9finitions/damn%C3%A9/lexies?v=%C3%AAtre l'%C3%A2me damn%C3%A9e de qqn" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien espace-avant" data-cible="damné">damnée</span></a><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">de qqn</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div><span class="indicateurs"><span class="precision precision_syntaxique">expression</span></span><a href="/d%C3%A9finitions/damn%C3%A9#b7e5bb3d26635e64"><span xmlns="http://www.w3.org/1999/xhtml">Lui être dévoué de façon aveugle.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="ddcCadd29743e295">
+                  <div class="lemme vedette">
+                     <div class="forme"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><dfn class="forme-élément"><a href="/d%C3%A9finitions/fendre/lexies?v=fendre l'%C3%A2me" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien" data-cible="fendre">fendre</span></a><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">l'âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/fendre/lexies?v=fendre l'%C3%A2me" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">fendre</span>&nbsp;»
+                        </a></div>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#E3EB27d29743e250" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="d633dAd29743e273">
+                  <div class="lemme vedette">
+                     <div class="forme"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><dfn class="forme-élément"><a href="/d%C3%A9finitions/grandeur/lexies?v=grandeur d'%C3%A2me" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien" data-cible="grandeur">grandeur</span></a><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">d'âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/grandeur/lexies?v=grandeur d'%C3%A2me" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">grandeur</span>&nbsp;»
+                        </a></div>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#E3EB27d29743e250" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="aa3dBDd29743e287">
+                  <div class="lemme vedette">
+                     <div class="forme"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">la</span><a href="/d%C3%A9finitions/mort_1/lexies?v=la mort dans l'%C3%A2me" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien espace-avant" data-cible="mort_1">mort</span></a><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">dans l'âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/mort_1/lexies?v=la mort dans l'%C3%A2me" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">1. mort</span>&nbsp;»
+                        </a></div>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#E3EB27d29743e250" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="D2cd09d31605e727">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">la mort dans l'âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_rhetorique">fig.</span></span><a href="/d%C3%A9finitions/mort_1#FFde24d31605e725"><span>Avec beaucoup de tristesse, de chagrin</span></a><span class="séparateur-juxtaposée">;</span><span class="indicateurs"></span><a href="/d%C3%A9finitions/mort_1#FFde24d31605e725"><span>contre son gré.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="D99248Dd29743e54">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">rendre l'âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div class="sansPuce"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#DfB5D6Bd29743e52"><span xmlns="http://www.w3.org/1999/xhtml">Mourir.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="c1c2dbd29743e280">
+                  <div class="lemme vedette">
+                     <div class="forme"><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><dfn class="forme-élément"><a href="/d%C3%A9finitions/vague_2/lexies?v=vague %C3%A0 l'%C3%A2me" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien" data-cible="vague_2">vague</span></a><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">à l'âme</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <div class="lexiesDéfinitionVide ">
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/vague_2/lexies?v=vague %C3%A0 l'%C3%A2me" onclick="location.href=this.href"><span class="rectangleInfobulle">VOIR</span>
+                        dans les unités lexicales de l’article «&nbsp;<span class="entree-style">2. vague</span>&nbsp;»
+                        </a></div>
+                  <div><span class="indicateurs"><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#E3EB27d29743e250" class="lexiesVoirArticle"><span class="rectangleInfobulle">VOIR</span>
+                        dans l’article «&nbsp;<span class="entree-style">âme</span>&nbsp;»
+                        </a></div>
+               </div>
+            </dl>
+         </div>
+         <div class="lexie">
+            <dl>
+               <dt class="lexie-tête" id="a8651ad13785e153">
+                  <div class="lemme vedette">
+                     <div class="forme"><dfn class="forme-élément"><span xmlns="http://www.w3.org/1999/xhtml">vendre son</span><a href="/d%C3%A9finitions/%C3%A2me/lexies?v=vendre son %C3%A2me au diable" onclick="location.href=this.href"><span xmlns="http://www.w3.org/1999/xhtml" class="hyperlien espace-avant" data-cible="âme">âme</span></a><span xmlns="http://www.w3.org/1999/xhtml" class="espace-avant">au diable</span></dfn><span class="infolexicogramm forme-élément"><span class="classe"></span></span></div>
+                  </div>
+                  <div class="formes"></div>
+               </dt>
+               <div class="dt_dd_séparateur"></div>
+               <dd>
+                  <div><span class="indicateurs"><span class="marque marque_technolectal">relig.</span><span class="precision precision_semantique">abstrait</span></span><a href="/d%C3%A9finitions/%C3%A2me#DDc2E3d29743e135"><span xmlns="http://www.w3.org/1999/xhtml">Conclure avec le diable un pacte pour bénéficier d'avantages contre la damnation éternelle.</span></a></div>
+               </dd>
+            </dl>
+         </div>
+      </ul>
+      <h3 id="recherchesAssociées">Recherches associées</h3>
+      <div class="notes">
+         <div class="lexies-explorations">
+            <ul>
+               <div class="logo"><img class="logoUsito" src="/images/logoUsito.svg"></div>
+               <li>Chercher toutes les expressions comportant
+                  
+                  les mots
+                  <a href="/expressions/bon" onclick="location.href=this.href">bon</a>, <a href="/expressions/%C3%A2me" onclick="location.href=this.href">âme</a>, <a href="/expressions/vendre" onclick="location.href=this.href">vendre</a>, <a href="/expressions/rendre" onclick="location.href=this.href">rendre</a>, <a href="/expressions/corps" onclick="location.href=this.href">corps</a>, <a href="/expressions/diable" onclick="location.href=this.href">diable</a>, <a href="/expressions/%C3%A9tat" onclick="location.href=this.href">état</a>, <a href="/expressions/mort" onclick="location.href=this.href">mort</a>, <a href="/expressions/charge" onclick="location.href=this.href">charge</a>, <a href="/expressions/conscience" onclick="location.href=this.href">conscience</a>, <a href="/expressions/vague" onclick="location.href=this.href">vague</a>, <a href="/expressions/envers" onclick="location.href=this.href">envers</a>, <a href="/expressions/vivre" onclick="location.href=this.href">vivre</a>, <a href="/expressions/cheviller" onclick="location.href=this.href">cheviller</a>, <a href="/expressions/peine" onclick="location.href=this.href">peine</a>, <a href="/expressions/damn%C3%A9" onclick="location.href=this.href">damné</a>, <a href="/expressions/grandeur" onclick="location.href=this.href">grandeur</a>, <a href="/expressions/fendre" onclick="location.href=this.href">fendre</a>, <a href="/expressions/s%C5%93ur" onclick="location.href=this.href">sœur</a>, <a href="/expressions/soeur" onclick="location.href=this.href">soeur</a>, <a href="/expressions/p%C3%AAcheur" onclick="location.href=this.href">pêcheur</a>, <a href="/expressions/m%C3%A9decin" onclick="location.href=this.href">médecin</a>
+                  dans Usito.
+                  </li>
+               <div class="logo"><a href="https://fdlq.recherche.usherbrooke.ca/" target="_blank"><img class="logoFDLQ" src="/images/logoFDLQ-avecNom.svg" alt="FDLQ"></a></div>
+               <li>Chercher
+                  
+                  les mots
+                  <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=bon" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">bon</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=%C3%A2me" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">âme</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=vendre" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">vendre</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=rendre" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">rendre</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=corps" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">corps</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=diable" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">diable</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=%C3%A9tat" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">état</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=mort" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">mort</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=charge" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">charge</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=conscience" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">conscience</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=vague" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">vague</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=envers" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">envers</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=vivre" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">vivre</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=cheviller" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">cheviller</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=peine" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">peine</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=damn%C3%A9" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">damné</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=grandeur" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">grandeur</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=fendre" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">fendre</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=s%C5%93ur" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">sœur</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=soeur" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">soeur</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=p%C3%AAcheur" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">pêcheur</a>, <a href="https://fdlq.crifuq.usherbrooke.ca/concordancier?c3c=true&amp;ds=true&amp;dt=PHRASE&amp;sm=NORMAL&amp;st=OCCURRENCES&amp;q=m%C3%A9decin" target="_blank" title="Lancer la recherche dans le site du FDLQ" alt="Lancer la recherche dans le site du FDLQ">médecin</a>
+                  dans le Fonds de données linguistiques du Québec
+                  (<a href="https://fdlq.recherche.usherbrooke.ca" target="_blank">FDLQ</a>).
+                  </li>
+            </ul>
+         </div>
+      </div>
+      <h3 id="sources">Sources</h3>
+      <div class="notes">
+         <div class="lexies-sources">
+            <ul>
+               <li class="note">Contenu extrait des articles suivants du dictionnaire Usito :
+                  </li>
+               <ul>
+                  <li><a href="/d%C3%A9finitions/%C3%A2me"><a href="/d%C3%A9finitions/%C3%A2me"><span class="nomFichier">âme</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/bon"><a href="/d%C3%A9finitions/bon"><span class="nomFichier">bon</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/charge"><a href="/d%C3%A9finitions/charge"><span class="nomFichier">charge</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/cheviller"><a href="/d%C3%A9finitions/cheviller"><span class="nomFichier">cheviller</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/conscience"><a href="/d%C3%A9finitions/conscience"><span class="nomFichier">conscience</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/corps"><a href="/d%C3%A9finitions/corps"><span class="nomFichier">corps</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/damn%C3%A9"><a href="/d%C3%A9finitions/damn%C3%A9"><span class="nomFichier">damné</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/diable"><a href="/d%C3%A9finitions/diable"><span class="nomFichier">diable</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/envers_2"><a href="/d%C3%A9finitions/envers_2"><span class="num_homonyme">2. </span><span class="nomFichier">envers</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/%C3%A9tat"><a href="/d%C3%A9finitions/%C3%A9tat"><span class="nomFichier">état</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/fendre"><a href="/d%C3%A9finitions/fendre"><span class="nomFichier">fendre</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/grandeur"><a href="/d%C3%A9finitions/grandeur"><span class="nomFichier">grandeur</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/m%C3%A9decin"><a href="/d%C3%A9finitions/m%C3%A9decin"><span class="nomFichier">médecin</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/mort_1"><a href="/d%C3%A9finitions/mort_1"><span class="num_homonyme">1. </span><span class="nomFichier">mort</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/p%C3%AAcheur"><a href="/d%C3%A9finitions/p%C3%AAcheur"><span class="nomFichier">pêcheur</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/peine"><a href="/d%C3%A9finitions/peine"><span class="nomFichier">peine</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/rendre"><a href="/d%C3%A9finitions/rendre"><span class="nomFichier">rendre</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/soeur"><a href="/d%C3%A9finitions/soeur"><span class="nomFichier">sœur</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/vague_2"><a href="/d%C3%A9finitions/vague_2"><span class="num_homonyme">2. </span><span class="nomFichier">vague</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/vendre"><a href="/d%C3%A9finitions/vendre"><span class="nomFichier">vendre</span></a></a></li>
+                  <li><a href="/d%C3%A9finitions/vivre_1"><a href="/d%C3%A9finitions/vivre_1"><span class="num_homonyme">1. </span><span class="nomFichier">vivre</span></a></a></li>
+               </ul>
+               <li class="note">Certaines de ces définitions s’appuient sur des données du <img src="/images/contenu/logotlf-etym.gif" alt="TLFi" width="25" height="17" title="TLFi">.
+                  </li>
+            </ul>
+         </div>
+      </div>
+   </body>
+</html>
+        </section>
+
+        
+            <div id="panneau" class="panneau initial">
+    <header>
+
+        <ul>
+
+            <li><i class="icon i-citation" onclick="commentCiter(this);"
+                   title="Citer"></i></li>
+
+            <li><i class="icon i-partage-media-sans-cercle" onclick="commentPartager(this);"
+                   title="Partager"></i></li>
+
+<!--            TODO griser bouton du mode actif (article, lexie, exemplification) -->
+<!--            TODO où son passée les lexies dans l'index de DEV? -->
+
+            
+
+
+        </ul>
+
+        <i class="icon i-fermer" onclick="togglePanneau(document.getElementById('onglet-panneau'));"></i>
+
+    </header>
+
+    <div id="panneau-contenu" class="panneau-contenu">
+
+
+        
+
+        
+            <section class="panneau-toc">
+                <header>Table des matières</header>
+
+                <ul class="panneau-structure-liste">
+
+                    <li>
+                    <span class="numérotation-cercle">
+                        <span>1</span>
+                    </span>
+                        <a
+                                href="#unitésLexicales"
+
+                        ><h2>Unités lexicales</h2></a>
+                    </li>
+
+                    <li>
+                    <span class="numérotation-cercle">
+                        <span>2</span>
+                    </span>
+                        <a
+                                href="#recherchesAssociées"
+
+                        ><h2>Recherches associées</h2></a>
+                    </li>
+
+                    <li>
+                    <span class="numérotation-cercle">
+                        <span>3</span>
+                    </span>
+                        <a
+                                href="#sources"
+
+                        ><h2>Sources</h2></a>
+                    </li>
+
+                    <!-- Ne gère pas plus de deux enfants à la racine - continue la numérotation : délire d'auteure... -->
+                    
+                </ul>
+            </section>
+
+        
+
+
+    </div>
+</div>
+        
+    </div>
+
+
+    <footer id="piedDePage" class="piedDePage">
+    <div class="piedDePage-grid" >
+            <div class="logoFooter">
+                <div id="logoFooterQC">
+                    <!--
+                    Autorité de certification du certificat SSL du MiFi invalide (webmidisvr01.immigration-quebec.gouv.qc.ca) d'où http seulement pour éviter
+                    un message d'alerte "effrayant" à l'utilisateur.
+                     -->
+                    <!--<a href="http://www.mifi.gouv.qc.ca/" aria-label="Aller à Immigration, Diversité et Inclusion Québec" target="_blank">-->
+                    <a aria-label="Aller à Immigration, Diversité et Inclusion Québec" target="_blank" href="http://www.mifi.gouv.qc.ca/">
+                        <svg
+
+                                x="0px"
+                                y="0px"
+                                viewBox="0 0 1350.6558 565.81714"
+                                xml:space="preserve"
+                                width="152"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:svg="http://www.w3.org/2000/svg"><defs
+       id="defs47" />
+                            <style
+                                    type="text/css"
+                                    id="style2">
+        .st0{fill:#FFFFFF;}
+        .st1{fill:#373737;}
+    </style>
+                            <g
+                                    id="g40"
+                                    transform="matrix(8.5150406,0,0,8.5150406,-4081.2589,-3335.8522)">
+        <path
+                class="st0"
+                d="m 522.25,448.04 v -14.05 h -0.1 c -0.47,0.46 -2.21,0.5 -2.95,0.5 h -1.28 v 0.11 c 1.48,0.96 1.28,2.39 1.28,4.16 v 5.95 c 0,2.97 -2.75,5.06 -4.97,5.06 -2.93,0 -4.14,-2.2 -4.14,-5.76 v -10.02 h -0.1 c -0.47,0.46 -2.22,0.5 -2.96,0.5 h -1.27 v 0.11 c 1.48,0.96 1.28,2.39 1.28,4.16 v 5.93 c 0,5.43 2.22,8 6.19,8 2.35,0 4.77,-0.88 5.98,-3 v 2.56 h 4.33 v -0.11 c -1.49,-0.9 -1.29,-2.33 -1.29,-4.1"
+                id="path4" />
+                                <path
+                                        class="st0"
+                                        d="m 541.18,442.76 c 0.13,-4.96 -3,-8.7 -7.57,-8.7 -5.01,0 -8.41,3.86 -8.41,9.2 0,5.39 3.93,9.49 9.65,9.49 1.58,0 3.2,-0.27 4.64,-0.95 l 1.68,-3.62 h -0.1 c -1.55,1.39 -3.5,2.05 -5.52,2.05 -3.8,0 -6.66,-2.75 -6.73,-7.48 h 12.36 z m -12.21,-2.24 c 0.41,-2.41 2.09,-3.94 4.34,-3.94 2.42,0 3.97,1.26 4.34,3.94 z"
+                                        id="path6" />
+                                <path
+                                        class="st0"
+                                        d="m 543.85,425.83 c 0.8,0 2.45,-0.05 2.94,-0.57 h 0.1 v 24.33 c 0.9,0.27 1.84,0.46 2.77,0.46 3.68,0 5.78,-2.72 5.78,-6.52 0,-3.72 -1.64,-6.6 -5.01,-6.6 -1.07,0 -1.91,0.31 -2.81,0.85 l 1.81,-3.28 c 0.77,-0.31 1.57,-0.43 2.37,-0.43 3.81,0 7.05,3.51 7.05,8.77 0,6.02 -3.84,9.92 -9.93,9.92 -2.27,0 -4.46,-0.42 -6.1,-0.7 v -0.12 c 1.11,-0.54 1.01,-1.82 1.01,-3.08 v -17.69 c 0,-1.78 0.2,-4.26 -1.24,-5.23 v -0.11 z"
+                                        id="path8" />
+                                <path
+                                        class="st0"
+                                        d="m 577.05,442.76 c 0.14,-4.96 -2.99,-8.7 -7.57,-8.7 -5.01,0 -8.41,3.86 -8.41,9.2 0,5.39 3.94,9.49 9.66,9.49 1.58,0 3.2,-0.27 4.64,-0.95 l 1.68,-3.62 h -0.1 c -1.55,1.39 -3.5,2.05 -5.52,2.05 -3.8,0 -6.66,-2.75 -6.73,-7.48 h 12.35 z m -12.21,-2.24 c 0.41,-2.41 2.09,-3.94 4.34,-3.94 2.42,0 3.97,1.26 4.34,3.94 z"
+                                        id="path10" />
+                                <path
+                                        class="st0"
+                                        d="M 592.1,438.47 H 592 c -0.97,-1.27 -2.59,-1.89 -4.1,-1.89 -3.26,0 -5.62,2.63 -5.62,6.29 0,4.44 3.26,7.37 7,7.37 1.72,0 3.6,-0.77 4.91,-1.89 h 0.1 l -1.75,3.64 c -1.41,0.61 -2.96,0.76 -4.44,0.76 -5.18,0 -9.23,-3.87 -9.23,-8.88 0,-6.64 4.52,-9.81 9.6,-9.81 1.21,0 2.46,0.15 3.63,0.46 z"
+                                        id="path12" />
+                                <path
+                                        class="st0"
+                                        d="m 536.98,430.88 v -3.86 c -2.2,1.05 -4.25,3.01 -5.62,4.91 v 1.51 c 3.27,-2.34 5.62,-2.45 5.62,-2.56"
+                                        id="path14" />
+                                <path
+                                        class="st0"
+                                        d="m 509.31,456.01 c -3.75,0.65 -7.36,-0.6 -11.19,-5.25 3.7,-1.97 5.99,-6.87 5.99,-11.43 v -0.57 c -0.07,-7.8 -5.59,-12.95 -12.18,-12.95 -6.6,0 -12.44,5.36 -12.49,13.22 v 0.53 c 0,7.65 5.35,13.32 11.91,13.32 0.94,0 1.85,-0.16 2.76,-0.39 4.3,4.27 8.13,6.08 11.44,5.66 1.57,-0.2 3.23,-0.86 4.22,-2.23 z M 491.9,450.1 c -5.08,0 -8.62,-6.08 -8.62,-11.24 v -0.58 c 0.06,-5 3.12,-9.69 8.45,-9.69 5.61,0 8.5,5.62 8.55,10.95 v 0.56 c 0,5.68 -3.33,10 -8.38,10"
+                                        id="path16" />
+                                <rect
+                                        x="600.29999"
+                                        y="425.82999"
+                                        class="st0"
+                                        width="16.41"
+                                        height="10.66"
+                                        id="rect18" />
+                                <g
+                                        id="g22">
+            <path
+                    class="st1"
+                    d="m 608.51,426.39 c -0.12,0.23 -0.39,0.57 -0.84,1.17 -0.52,0.69 -0.43,1.62 -0.18,2.16 0.28,0.63 0.45,1.15 0.58,1.65 0.18,0.72 0.06,1.69 0.07,1.6 h -0.45 c 0,-1.18 -0.35,-2.29 -1.18,-2.78 -1.19,-0.7 -2.37,0.51 -1.99,1.77 0.2,0.66 0.55,0.88 0.65,0.88 0,0 -0.16,-0.73 0.33,-1.1 0.47,-0.35 1.04,-0.14 1.31,0.28 0.25,0.4 0.29,0.94 0.29,0.94 h -0.85 v 0.67 h 1.72 c 0,0 -0.05,0.95 -0.99,0.86 0,0 0.12,0.74 0.99,0.36 0,0 -0.05,0.78 0.55,1.17 0.6,-0.39 0.55,-1.17 0.55,-1.17 0.87,0.39 0.99,-0.36 0.99,-0.36 -0.94,0.09 -0.99,-0.86 -0.99,-0.86 h 1.72 v -0.67 h -0.86 c 0,0 0.04,-0.54 0.29,-0.94 0.27,-0.42 0.84,-0.63 1.31,-0.28 0.5,0.37 0.33,1.1 0.33,1.1 0.1,0 0.45,-0.22 0.65,-0.88 0.37,-1.26 -0.8,-2.47 -1.99,-1.77 -0.84,0.49 -1.18,1.6 -1.18,2.78 h -0.46 c 0.01,0.09 -0.11,-0.88 0.08,-1.6 0.13,-0.49 0.29,-1.02 0.58,-1.65 0.25,-0.55 0.34,-1.47 -0.18,-2.16 -0.46,-0.6 -0.73,-0.94 -0.85,-1.17"
+                    id="path20" />
+        </g>
+                                <rect
+                                        x="621.5"
+                                        y="425.82999"
+                                        class="st0"
+                                        width="16.42"
+                                        height="10.66"
+                                        id="rect24" />
+                                <g
+                                        id="g28">
+            <path
+                    class="st1"
+                    d="m 629.71,426.39 c -0.12,0.23 -0.39,0.57 -0.85,1.17 -0.52,0.69 -0.43,1.62 -0.18,2.16 0.29,0.63 0.45,1.15 0.58,1.65 0.18,0.72 0.06,1.69 0.08,1.6 h -0.46 c 0,-1.18 -0.34,-2.29 -1.18,-2.78 -1.19,-0.7 -2.36,0.51 -1.99,1.77 0.19,0.66 0.55,0.88 0.65,0.88 0,0 -0.16,-0.73 0.33,-1.1 0.46,-0.35 1.04,-0.14 1.31,0.28 0.26,0.4 0.29,0.94 0.29,0.94 h -0.85 v 0.67 h 1.72 c 0,0 -0.05,0.95 -0.99,0.86 0,0 0.11,0.74 0.99,0.36 0,0 -0.05,0.78 0.56,1.17 0.59,-0.39 0.55,-1.17 0.55,-1.17 0.87,0.39 0.99,-0.36 0.99,-0.36 -0.95,0.09 -0.99,-0.86 -0.99,-0.86 h 1.72 v -0.67 h -0.86 c 0,0 0.04,-0.54 0.29,-0.94 0.27,-0.42 0.85,-0.63 1.31,-0.28 0.49,0.37 0.34,1.1 0.34,1.1 0.09,0 0.44,-0.22 0.64,-0.88 0.37,-1.26 -0.8,-2.47 -1.99,-1.77 -0.83,0.49 -1.18,1.6 -1.18,2.78 h -0.45 c 0.01,0.09 -0.11,-0.88 0.07,-1.6 0.12,-0.49 0.29,-1.02 0.58,-1.65 0.25,-0.55 0.34,-1.47 -0.18,-2.16 -0.47,-0.6 -0.74,-0.94 -0.85,-1.17"
+                    id="path26" />
+        </g>
+                                <rect
+                                        x="600.29999"
+                                        y="441.57001"
+                                        class="st0"
+                                        width="16.41"
+                                        height="10.66"
+                                        id="rect30" />
+                                <g
+                                        id="g34">
+            <path
+                    class="st1"
+                    d="m 608.51,442.13 c -0.12,0.23 -0.39,0.57 -0.84,1.17 -0.52,0.69 -0.43,1.62 -0.18,2.16 0.28,0.63 0.45,1.15 0.58,1.65 0.18,0.72 0.06,1.68 0.07,1.6 h -0.45 c 0,-1.17 -0.35,-2.28 -1.18,-2.78 -1.19,-0.7 -2.37,0.51 -1.99,1.77 0.2,0.66 0.55,0.89 0.65,0.89 0,0 -0.16,-0.73 0.33,-1.1 0.47,-0.35 1.04,-0.14 1.31,0.28 0.25,0.4 0.29,0.94 0.29,0.94 h -0.85 v 0.67 h 1.72 c 0,0 -0.05,0.94 -0.99,0.86 0,0 0.12,0.74 0.99,0.35 0,0 -0.05,0.78 0.55,1.18 0.6,-0.39 0.55,-1.18 0.55,-1.18 0.87,0.39 0.99,-0.35 0.99,-0.35 -0.94,0.09 -0.99,-0.86 -0.99,-0.86 h 1.72 v -0.67 h -0.86 c 0,0 0.04,-0.54 0.29,-0.94 0.27,-0.41 0.84,-0.62 1.31,-0.28 0.5,0.37 0.33,1.1 0.33,1.1 0.1,0 0.45,-0.23 0.65,-0.89 0.37,-1.26 -0.8,-2.47 -1.99,-1.77 -0.84,0.49 -1.18,1.6 -1.18,2.78 h -0.46 c 0.01,0.09 -0.11,-0.88 0.08,-1.6 0.13,-0.5 0.29,-1.02 0.58,-1.65 0.25,-0.55 0.34,-1.47 -0.18,-2.16 -0.46,-0.6 -0.73,-0.94 -0.85,-1.17"
+                    id="path32" />
+        </g>
+                                <rect
+                                        x="621.5"
+                                        y="441.57001"
+                                        class="st0"
+                                        width="16.42"
+                                        height="10.66"
+                                        id="rect36" />
+                                <path
+                                        class="st1"
+                                        d="m 629.71,442.13 c -0.12,0.23 -0.39,0.57 -0.85,1.17 -0.52,0.69 -0.43,1.62 -0.18,2.16 0.29,0.63 0.45,1.15 0.58,1.65 0.18,0.72 0.06,1.68 0.08,1.6 h -0.46 c 0,-1.17 -0.34,-2.28 -1.18,-2.78 -1.19,-0.7 -2.36,0.51 -1.99,1.77 0.19,0.66 0.55,0.89 0.65,0.89 0,0 -0.16,-0.73 0.33,-1.1 0.46,-0.35 1.04,-0.14 1.31,0.28 0.26,0.4 0.29,0.94 0.29,0.94 h -0.85 v 0.67 h 1.72 c 0,0 -0.05,0.94 -0.99,0.86 0,0 0.11,0.74 0.99,0.35 0,0 -0.05,0.78 0.56,1.18 0.59,-0.39 0.55,-1.18 0.55,-1.18 0.87,0.39 0.99,-0.35 0.99,-0.35 -0.95,0.09 -0.99,-0.86 -0.99,-0.86 h 1.72 v -0.67 h -0.86 c 0,0 0.04,-0.54 0.29,-0.94 0.27,-0.41 0.85,-0.62 1.31,-0.28 0.49,0.37 0.34,1.1 0.34,1.1 0.09,0 0.44,-0.23 0.64,-0.89 0.37,-1.26 -0.8,-2.47 -1.99,-1.77 -0.83,0.49 -1.18,1.6 -1.18,2.78 h -0.45 c 0.01,0.09 -0.11,-0.88 0.07,-1.6 0.12,-0.5 0.29,-1.02 0.58,-1.65 0.25,-0.55 0.34,-1.47 -0.18,-2.16 -0.47,-0.6 -0.74,-0.94 -0.85,-1.17"
+                                        id="path38" />
+    </g>
+                            <path
+                                    class="st0"
+                                    d="m 1350.5706,52.112048 h -9.1962 v 9.19624 h 9.1962 z m 0,-33.20866 h -9.1962 v 9.2814 h 9.1962 z m -71.2709,17.45584 c 0.085,-3.40602 1.1921,-6.30114 3.1506,-8.7705 2.0436,-2.46936 4.8536,-3.66147 8.4299,-3.66147 3.5762,0 6.3862,1.27726 8.3447,3.83177 1.703,2.38422 2.5546,5.19418 2.5546,8.6002 z m 24.5233,-13.11317 c -3.3208,-3.66147 -7.6635,-5.44962 -12.8576,-5.44962 -3.5764,0 -6.727,0.76635 -9.4517,2.38421 -2.7248,1.61785 -4.9388,3.74661 -6.4715,6.47143 -2.2139,3.66147 -3.2357,8.17444 -3.2357,13.53891 0,6.38628 1.7882,11.66561 5.2793,15.75283 3.5764,4.25752 8.2597,6.38628 14.0499,6.38628 4.002,0 7.5782,-1.10696 10.814,-3.15057 3.7467,-2.55451 5.8754,-6.04567 6.5567,-10.4735 h -6.8972 c -0.5109,1.87331 -1.3624,3.40602 -2.4694,4.59812 -1.7881,1.87331 -4.4278,2.72482 -7.8337,2.72482 -3.1507,0 -5.7904,-1.02181 -7.7488,-2.98026 -2.7249,-2.72482 -4.0873,-6.30114 -4.0873,-10.64381 h 29.8878 l 0.085,-4.25752 c -0.1703,-5.87537 -1.9585,-10.8141 -5.6199,-14.90132 m -55.6884,30.31355 c -2.0436,1.87331 -4.3427,2.72481 -6.8972,2.72481 -4.2575,0 -7.3229,-1.53271 -9.1961,-4.68327 -1.8734,-3.15057 -2.7249,-6.98234 -2.7249,-11.49531 0,-4.59812 0.9367,-8.42989 2.7249,-11.4953 1.8732,-3.15057 4.9386,-4.68328 9.1961,-4.68328 2.4695,0 4.7685,0.93666 6.8972,2.72482 3.1506,2.72481 4.6832,7.23778 4.6832,13.45376 0,6.21598 -1.5326,10.72895 -4.6832,13.45377 m 11.325,-52.708104 h -7.0675 v 22.990614 c -1.0218,-1.87331 -2.8099,-3.32087 -5.109,-4.42783 -2.3842,-1.10695 -4.7684,-1.61785 -7.1526,-1.61785 -4.7684,0 -8.6002,1.44755 -11.6657,4.25752 -4.2574,4.08722 -6.4713,10.13289 -6.4713,18.05188 0,7.49324 2.0435,13.36862 6.1307,17.54099 2.9803,3.06541 6.8973,4.59812 11.9212,4.59812 2.4693,0 4.9386,-0.59605 7.3229,-1.78816 2.3842,-1.19211 4.1723,-2.80996 5.2793,-4.85357 l 0.5109,5.53477 h 6.3011 z m -95.1981,35.507724 c 0.085,-3.40602 1.1921,-6.30114 3.1505,-8.7705 2.0436,-2.46936 4.8536,-3.66147 8.4299,-3.66147 3.6615,0 6.3863,1.27726 8.3448,3.83177 1.703,2.38422 2.5544,5.19418 2.5544,8.6002 z m 24.5234,-13.11317 c -3.3209,-3.66147 -7.6637,-5.44962 -12.8578,-5.44962 -3.5764,0 -6.7268,0.76635 -9.4517,2.38421 -2.7248,1.61785 -4.9388,3.74661 -6.4715,6.47143 -2.2139,3.66147 -3.2357,8.17444 -3.2357,13.53891 0,6.38628 1.7882,11.66561 5.2793,15.75283 3.5763,4.25752 8.2597,6.38628 14.05,6.38628 4.0019,0 7.5783,-1.10696 10.814,-3.15057 3.7466,-2.55451 5.8753,-6.04567 6.5566,-10.4735 h -6.8972 c -0.5109,1.87331 -1.3625,3.40602 -2.4694,4.59812 -1.7881,1.87331 -4.4278,2.72482 -7.8338,2.72482 -3.1506,0 -5.7903,-1.02181 -7.7487,-2.98026 -2.7249,-2.72482 -4.0871,-6.30114 -4.0871,-10.64381 h 29.8877 l 0.085,-4.25752 c -0.1704,-5.87537 -1.9584,-10.8141 -5.6198,-14.90132 m -38.0623,-4.34267 c -1.1069,-0.1703 -2.214,-0.25545 -3.3209,-0.25545 -2.81,0 -5.3644,0.6812 -7.5784,1.95846 -2.299,1.27726 -3.9169,3.23572 -5.0238,5.70508 l -0.5961,-7.40809 h -6.3011 v 42.31975 h 6.9823 v -18.81824 c 0,-6.55658 1.2772,-11.06955 3.8317,-13.53891 2.3842,-2.21391 5.0239,-3.32087 8.0042,-3.32087 1.5327,0 2.81,0.0851 3.9169,0.3406 v -6.98233 z m -57.9875,-18.392486 14.2202,10.303199 -2.4694,3.916919 -15.4973,-8.259589 z m -6.5565,35.848326 c 0.085,-3.40602 1.1921,-6.30114 3.1505,-8.7705 2.0437,-2.46936 4.8537,-3.66147 8.43,-3.66147 3.6614,0 6.3862,1.27726 8.3446,3.83177 1.7031,2.38422 2.5546,5.19418 2.5546,8.6002 z m 24.439,-13.11317 c -3.3209,-3.66147 -7.6636,-5.44962 -12.8577,-5.44962 -3.5763,0 -6.7269,0.76635 -9.4518,2.38421 -2.7248,1.61785 -4.9387,3.74661 -6.4714,6.47143 -2.2139,3.66147 -3.2358,8.17444 -3.2358,13.53891 0,6.38628 1.7882,11.66561 5.2794,15.75283 3.5762,4.25752 8.2596,6.38628 14.0499,6.38628 4.0019,0 7.5783,-1.10696 10.814,-3.15057 3.7466,-2.55451 5.8754,-6.04567 6.5566,-10.4735 h -6.8972 c -0.5109,1.87331 -1.3625,3.40602 -2.4694,4.59812 -1.7881,1.87331 -4.4277,2.72482 -7.8338,2.72482 -3.1506,0 -5.7902,-1.02181 -7.7486,-2.98026 -2.7249,-2.72482 -4.0872,-6.30114 -4.0872,-10.64381 h 29.8877 l 0.085,-4.25752 c -0.1702,-5.87537 -1.9584,-10.8141 -5.6198,-14.90132 m -44.2782,-4.34267 h -7.2378 v 42.31975 h 7.2378 z M 1066.85,0.851504 h -8.2596 v 8.344739 h 8.2596 z m -26.567,46.151524 c -0.2554,2.46936 -1.1921,4.59812 -2.81,6.30112 -1.7881,1.87331 -4.1723,2.80997 -7.1525,2.80997 -2.81,0 -5.2794,-0.93666 -7.323,-2.72481 -2.81,-2.38422 -4.2575,-6.81204 -4.2575,-13.28347 0,-6.47143 1.4475,-10.89925 4.2575,-13.28346 2.1287,-1.87331 4.5981,-2.72481 7.323,-2.72481 2.7248,0 5.0238,0.8515 6.8119,2.55451 1.7031,1.70301 2.6397,3.91692 2.9803,6.64173 h 7.1527 c -0.3406,-4.25752 -2.0437,-7.91899 -5.024,-10.89925 -3.1505,-2.98027 -7.1525,-4.51297 -12.0061,-4.51297 -6.6417,0 -11.7507,2.63966 -15.4122,7.91898 -2.3843,3.49117 -3.4912,8.17444 -3.4912,14.30527 0,6.04568 1.1921,10.8141 3.4912,14.30527 3.6615,5.27933 8.7705,7.91899 15.4974,7.91899 4.9387,0 9.0259,-1.53271 12.1765,-4.59812 2.9802,-2.89512 4.5981,-6.47143 4.9387,-10.72895 z m -40.44692,-13.62407 c 0,-4.93872 -1.2773,-8.77049 -3.7467,-11.4953 -2.46929,-2.72482 -6.13077,-4.08722 -10.8992,-4.08722 -2.55451,0 -5.02387,0.6812 -7.49323,2.04361 -2.46937,1.3624 -4.17239,3.15056 -5.27933,5.44962 l -0.59605,-6.38628 h -6.21599 v 42.31975 h 7.06749 v -19.66974 c 0,-5.02387 0.5109,-8.60019 1.53271,-10.8141 2.04361,-4.34267 5.10901,-6.55658 9.19624,-6.55658 6.21598,0 9.28137,3.40601 9.28137,10.1329 v 26.82237 h 7.06749 z m -60.20097,19.58459 c -2.2139,2.29906 -5.10901,3.40602 -8.68534,3.40602 -2.80996,0 -4.93872,-0.6812 -6.30113,-2.04361 -1.36241,-1.36241 -2.04361,-3.15056 -2.04361,-5.19417 0,-2.46937 0.93665,-4.25752 2.7248,-5.53478 1.87332,-1.19211 4.00208,-1.95846 6.55659,-2.04361 l 11.32501,-0.6812 v 2.46936 c 0,4.00207 -1.19211,7.15263 -3.57632,9.62199 m 14.73102,2.55452 -1.8733,0.25545 c -1.53271,0 -2.38421,-0.93666 -2.38421,-2.80997 v -20.43609 c 0,-2.46937 -0.42576,-4.59813 -1.27727,-6.55658 -2.38421,-5.36448 -7.32294,-8.08929 -14.90131,-8.08929 -5.87538,0 -10.21805,1.5327 -13.02802,4.51297 -2.38422,2.46936 -3.66146,5.36447 -3.66146,8.85564 h 6.89718 c 0,-2.04361 0.6812,-3.74662 2.12876,-5.10902 1.70301,-1.70301 4.25752,-2.46937 7.66354,-2.46937 3.06542,0 5.36447,0.68121 6.89718,2.21391 1.44756,1.36241 2.2139,3.49117 2.2139,6.47144 v 3.06541 l -12.8577,0.76635 c -3.66147,0.25546 -6.64174,1.10696 -9.02595,2.55452 -2.3842,1.44755 -4.00207,3.15056 -4.76842,4.93872 -0.8515,1.78816 -1.27725,3.74662 -1.27725,5.70508 0,3.49116 1.27725,6.55658 3.83176,9.11109 2.55451,2.55451 6.13083,3.91692 10.72895,3.91692 2.98026,0 5.61993,-0.59605 8.08929,-1.87331 2.46937,-1.27726 4.25752,-2.89511 5.53479,-5.02387 h 0.17028 c 0,1.8733 0.59606,3.40601 1.70302,4.59812 1.10695,1.1921 2.55451,1.87331 4.42782,1.87331 1.78815,0 3.32086,-0.3406 4.68327,-1.02181 z m -50.15392,-22.13911 c 0,-4.93872 -1.27726,-8.77049 -3.74662,-11.4953 -2.46937,-2.72482 -6.13083,-4.08722 -10.89925,-4.08722 -2.55452,0 -5.10902,0.6812 -7.49324,2.04361 -2.46936,1.3624 -4.17237,3.15056 -5.27933,5.44962 l -0.59604,-6.38628 h -6.216 v 42.31975 h 7.0675 v -19.66974 c 0,-5.02387 0.5109,-8.60019 1.53271,-10.8141 2.0436,-4.34267 5.10901,-6.55658 9.19624,-6.55658 6.21598,0 9.28139,3.40601 9.28139,10.1329 v 26.82237 h 7.06748 z m -49.72784,-14.47557 h -7.23778 v 42.31975 h 7.23778 z m 0.5109,-18.051884 h -8.25959 v 8.344739 h 8.25959 z M 839.1573,0.766354 C 836.34733,0.255452 833.70767,0 831.32346,0 c -3.66148,0 -6.55659,1.106957 -8.85564,3.235716 -2.29906,2.21391 -3.40602,4.853573 -3.40602,8.089288 v 7.493234 h -7.66354 v 6.04568 h 7.66354 v 36.27408 h 7.06747 v -36.27408 h 12.17652 v -6.04568 h -12.17652 v -7.067482 c 0,-1.703008 0.51091,-3.150566 1.61787,-4.172371 1.10696,-1.021805 2.55451,-1.617857 4.34267,-1.617857 0.68121,0 2.98026,0.255451 7.06749,0.681203 z m -56.36956,32.612604 c 0,-4.93872 -1.27727,-8.77049 -3.74664,-11.4953 -2.46936,-2.72482 -6.13082,-4.08722 -10.89924,-4.08722 -2.55452,0 -5.10903,0.6812 -7.49325,2.04361 -2.46936,1.3624 -4.17236,3.15056 -5.27932,5.44962 l -0.59605,-6.38628 h -6.21598 v 42.31975 h 7.06748 v -19.66974 c 0,-5.02387 0.51091,-8.60019 1.53271,-10.8141 2.04361,-4.34267 5.10903,-6.55658 9.19624,-6.55658 6.21599,0 9.2814,3.40601 9.2814,10.1329 v 26.82237 h 7.06749 z m -57.64684,19.84005 c -2.04361,2.04361 -4.51297,2.98026 -7.57838,2.98026 -3.06542,0 -5.61994,-1.0218 -7.5784,-2.98026 -2.63965,-2.63967 -3.91692,-7.06749 -3.91692,-13.11317 0,-6.04567 1.27727,-10.4735 3.91692,-13.11316 2.04361,-2.04361 4.51298,-2.98026 7.5784,-2.98026 3.06541,0 5.61992,1.0218 7.57838,2.98026 2.63966,2.63966 3.91692,7.06749 3.91692,13.11316 0,6.04568 -1.36241,10.38835 -3.91692,13.11317 m 5.19417,-30.3987 c -3.40602,-3.32086 -7.66353,-4.93872 -12.77255,-4.93872 -5.10904,0 -9.36655,1.61786 -12.77257,4.93872 -4.00207,3.91692 -6.04568,9.70715 -6.04568,17.28553 0,7.57839 2.04361,13.36862 6.04568,17.28554 3.40602,3.32086 7.66353,4.93872 12.77257,4.93872 5.10902,0 9.36653,-1.61786 12.77255,-4.93872 4.00207,-3.91692 6.04569,-9.70715 6.04569,-17.28554 -0.0852,-7.57838 -2.04362,-13.36861 -6.04569,-17.28553 m -43.93761,-3.91692 h -7.23778 v 42.31976 h 7.23778 z m 0.51091,-18.051882 h -8.25959 v 8.344739 h 8.25959 z m -18.05189,53.729902 -1.10696,0.1703 c -0.76634,0.0851 -1.78815,0.25546 -2.98026,0.34061 -1.1921,0.1703 -2.29906,0.1703 -3.15056,0.1703 -2.04361,0 -3.49117,-0.42576 -4.34267,-1.36241 -0.93666,-0.93665 -1.36242,-2.38421 -1.36242,-4.34267 v -24.52332 h 12.51712 v -6.13083 H 655.91361 V 6.471431 l -7.06747,1.703007 v 10.8141 h -8.17444 v 6.13083 h 8.17444 v 25.28967 c 0,3.32087 0.8515,6.04568 2.63966,8.17444 1.78816,2.21391 4.76843,3.23572 8.94079,3.23572 2.63967,0 5.44963,-0.42576 8.42989,-1.19211 z m -47.93968,-1.61785 c -2.21391,2.29906 -5.10902,3.40601 -8.68534,3.40601 -2.80996,0 -4.93873,-0.6812 -6.30113,-2.04361 -1.3624,-1.3624 -2.04361,-3.15056 -2.04361,-5.19417 0,-2.46936 0.93665,-4.25752 2.72481,-5.53478 1.87332,-1.1921 4.00208,-1.95846 6.55658,-2.04361 l 11.32501,-0.6812 v 2.46936 c 0,4.00207 -1.19212,7.15263 -3.57632,9.622 m 14.73102,2.55451 -1.87331,0.25545 c -1.53271,0 -2.38421,-0.93666 -2.38421,-2.80996 v -20.4361 c 0,-2.46937 -0.42575,-4.59813 -1.27725,-6.55658 -2.38422,-5.36448 -7.32293,-8.08929 -14.90132,-8.08929 -5.87538,0 -10.21805,1.5327 -13.02802,4.51297 -2.38421,2.46936 -3.66147,5.36447 -3.66147,8.85564 h 6.89719 c 0,-2.04361 0.6812,-3.74662 2.12877,-5.10902 1.70299,-1.70301 4.25751,-2.46937 7.66353,-2.46937 3.06542,0 5.36447,0.68121 6.89718,2.21391 1.44756,1.36241 2.2139,3.49117 2.2139,6.47144 v 3.06541 l -12.8577,0.76635 c -3.66147,0.25546 -6.64174,1.10696 -9.02595,2.55452 -2.38421,1.44755 -4.00206,3.15056 -4.76842,4.93872 -0.8515,1.78816 -1.27725,3.74662 -1.27725,5.70508 0,3.49116 1.27725,6.55658 3.83176,9.11109 2.55452,2.55451 6.13083,3.91692 10.72896,3.91692 2.98027,0 5.61992,-0.59605 8.08928,-1.87331 2.46936,-1.27726 4.25751,-2.89511 5.53478,-5.02387 h 0.1703 c 0,1.8733 0.59605,3.40601 1.70301,4.59812 1.10696,1.1921 2.55452,1.87331 4.42782,1.87331 1.78815,0 3.32086,-0.3406 4.68327,-1.02181 z m -66.92822,0.8515 c -2.46936,0 -4.76842,-0.93665 -6.89718,-2.72481 -3.15057,-2.72481 -4.68327,-7.23779 -4.68327,-13.45376 0,-6.21598 1.5327,-10.72896 4.68327,-13.45377 2.04361,-1.87331 4.34268,-2.72481 6.89718,-2.72481 4.25753,0 7.32295,1.5327 9.19625,4.68327 1.87331,3.15057 2.72481,6.98233 2.72481,11.49531 0,4.59812 -0.93666,8.42989 -2.72481,11.4953 -1.78817,3.15056 -4.93872,4.68327 -9.19625,4.68327 m 13.11317,-33.80471 c -2.98026,-3.06541 -6.89718,-4.59812 -11.92106,-4.59812 -2.46937,0 -4.93873,0.59605 -7.32294,1.78816 -2.38421,1.1921 -4.17237,2.80996 -5.27932,4.85357 l -0.5109,-5.53478 h -6.30114 v 60.37164 h 7.06749 v -22.99061 c 1.02181,1.87331 2.80996,3.32087 5.10903,4.42782 2.38421,1.10696 4.76841,1.61786 7.15262,1.61786 4.76843,0 8.60021,-1.44756 11.66561,-4.25752 4.25753,-4.08722 6.47143,-10.1329 6.47143,-18.05189 0,-7.66353 -2.04361,-13.45376 -6.13082,-17.62613 m -46.83273,-3.66147 h -7.23778 v 42.31975 h 7.23778 z m 0.42575,-18.051884 h -8.25958 v 8.344739 h 8.25958 z m -26.56692,46.151524 c -0.25546,2.46936 -1.19211,4.59812 -2.80996,6.30112 -1.78817,1.87331 -4.17238,2.80997 -7.15264,2.80997 -2.80996,0 -5.27933,-0.93666 -7.32294,-2.72481 -2.80996,-2.38422 -4.25751,-6.81204 -4.25751,-13.28347 0,-6.47143 1.44755,-10.89925 4.25751,-13.28346 2.12877,-1.87331 4.59813,-2.72481 7.32294,-2.72481 2.72482,0 5.02388,0.8515 6.81203,2.55451 1.70301,1.70301 2.63967,3.91692 2.98026,6.64173 h 7.15264 c -0.34061,-4.25752 -2.0436,-7.91899 -5.02387,-10.89925 -3.15057,-2.98027 -7.15265,-4.51297 -12.00622,-4.51297 -6.64172,0 -11.75074,2.63966 -15.41221,7.91898 -2.38421,3.49117 -3.49117,8.17444 -3.49117,14.30527 0,6.04568 1.1921,10.8141 3.49117,14.30527 3.66147,5.27933 8.77049,7.91899 15.49737,7.91899 4.93872,0 9.02595,-1.53271 12.1765,-4.59812 2.98027,-2.89512 4.59813,-6.47143 4.93873,-10.72895 z m -41.21279,-28.09964 h -7.2378 v 42.31975 h 7.2378 z m 0.51089,-18.051884 h -8.25959 v 8.344739 h 8.25959 z m -18.05188,53.729904 -1.10695,0.1703 c -0.76637,0.0851 -1.78816,0.25545 -2.98027,0.3406 -1.19211,0.1703 -2.29906,0.1703 -3.15057,0.1703 -2.04361,0 -3.49116,-0.42575 -4.34267,-1.3624 -0.8515,-0.93666 -1.3624,-2.38421 -1.3624,-4.34267 v -24.52332 h 12.5171 v -6.13083 h -12.5171 V 6.471431 l -7.06748,1.703007 v 10.8141 h -8.17444 v 6.13083 h 8.17444 v 25.28967 c 0,3.32087 0.93665,6.04568 2.63966,8.17444 1.78816,2.21391 4.76841,3.23572 8.94078,3.23572 2.63966,0 5.44963,-0.42576 8.4299,-1.19211 z m -31.16504,-35.67802 c -1.10696,-0.1703 -2.21393,-0.25545 -3.32089,-0.25545 -2.80995,0 -5.36446,0.6812 -7.57837,1.95846 -2.29907,1.27726 -3.91692,3.23572 -5.02388,5.70508 l -0.59605,-7.40809 h -6.30113 v 42.31975 h 7.06749 v -18.81824 c 0,-6.55658 1.27724,-11.06955 3.83176,-13.53891 2.38421,-2.21391 5.02388,-3.32087 8.00415,-3.32087 1.53271,0 2.80996,0.0851 3.91692,0.3406 z m -48.87635,34.06016 c -2.21391,2.29906 -5.10902,3.40602 -8.68533,3.40602 -2.80997,0 -4.93873,-0.6812 -6.30114,-2.04361 -1.3624,-1.36241 -2.0436,-3.15056 -2.0436,-5.19417 0,-2.46937 0.93665,-4.25752 2.72481,-5.53478 1.87331,-1.19211 4.00206,-1.95846 6.55658,-2.04361 l 11.32501,-0.6812 v 2.46936 c 0,4.00207 -1.19212,7.15263 -3.57633,9.62199 m 14.81618,2.55452 -1.8733,0.25545 c -1.53271,0 -2.38423,-0.93666 -2.38423,-2.80997 v -20.43609 c 0,-2.46937 -0.42575,-4.59813 -1.27725,-6.55658 -2.38421,-5.36448 -7.32294,-8.08929 -14.90132,-8.08929 -5.87538,0 -10.21805,1.5327 -13.02802,4.51297 -2.38421,2.46936 -3.66146,5.36447 -3.66146,8.85564 h 6.89718 c 0,-2.04361 0.6812,-3.74662 2.12876,-5.10902 1.70301,-1.70301 4.25752,-2.46937 7.66354,-2.46937 3.06541,0 5.36447,0.68121 6.89718,2.21391 1.44756,1.36241 2.21391,3.49117 2.21391,6.47144 v 3.06541 l -12.85771,0.76635 c -3.66147,0.25546 -6.64174,1.10696 -9.02595,2.55452 -2.3842,1.44755 -4.00207,3.15056 -4.76841,4.93872 -0.8515,1.78816 -1.27726,3.74662 -1.27726,5.70508 0,3.49116 1.27726,6.55658 3.83177,9.11109 2.55451,2.55451 6.13082,3.91692 10.72894,3.91692 2.98027,0 5.61994,-0.59605 8.0893,-1.87331 2.46937,-1.27726 4.25752,-2.89511 5.53477,-5.02387 h 0.1703 c 0,1.8733 0.59606,3.40601 1.70302,4.59812 1.10694,1.1921 2.5545,1.87331 4.4278,1.87331 1.78818,0 3.32089,-0.3406 4.68329,-1.02181 z m -67.01338,0.8515 c -2.46935,0 -4.76842,-0.93665 -6.89717,-2.72481 -3.15058,-2.72482 -4.68329,-7.23779 -4.68329,-13.45377 0,-6.21598 1.53271,-10.72895 4.68329,-13.45376 2.0436,-1.87331 4.34267,-2.72481 6.89717,-2.72481 4.25753,0 7.32294,1.5327 9.19625,4.68327 1.87332,3.15056 2.72482,6.98233 2.72482,11.4953 0,4.59812 -0.93666,8.42989 -2.72482,11.49531 -1.78816,3.15056 -4.85357,4.68327 -9.19625,4.68327 m 13.11316,-33.80471 c -2.98026,-3.06542 -6.89717,-4.59812 -11.92104,-4.59812 -2.46937,0 -4.93873,0.59605 -7.32295,1.78816 -2.38421,1.1921 -4.17236,2.80996 -5.27932,4.85357 l -0.5109,-5.53478 h -6.30113 v 60.37164 h 7.06748 v -22.99061 c 1.02181,1.87331 2.80997,3.32087 5.10903,4.42782 2.3842,1.10696 4.76842,1.61786 7.15263,1.61786 4.76842,0 8.60018,-1.44756 11.6656,-4.25752 4.25752,-4.08722 6.47144,-10.1329 6.47144,-18.05189 0,-7.66353 -2.04361,-13.45376 -6.13084,-17.62613 m -76.63536,30.39869 c -2.2139,2.29906 -5.10902,3.40602 -8.68533,3.40602 -2.80997,0 -4.93873,-0.6812 -6.30114,-2.04361 -1.3624,-1.36241 -2.04361,-3.15056 -2.04361,-5.19417 0,-2.46937 0.93666,-4.25752 2.72481,-5.53478 1.87331,-1.19211 4.00207,-1.95846 6.55659,-2.04361 l 11.41016,-0.6812 v 2.46936 c -0.0852,4.00207 -1.27727,7.15263 -3.66148,9.62199 m 14.81618,2.55452 -1.87332,0.25545 c -1.5327,0 -2.38421,-0.93666 -2.38421,-2.80997 v -20.43609 c 0,-2.46937 -0.42576,-4.59813 -1.27725,-6.55658 -2.38421,-5.36448 -7.32294,-8.08929 -14.90132,-8.08929 -5.87538,0 -10.21805,1.5327 -13.02802,4.51297 -2.38421,2.46936 -3.66147,5.36447 -3.66147,8.85564 h 6.89719 c 0,-2.04361 0.6812,-3.74662 2.04361,-5.10902 1.70301,-1.70301 4.25753,-2.46937 7.66354,-2.46937 3.0654,0 5.36448,0.68121 6.89719,2.21391 1.44755,1.36241 2.2139,3.49117 2.2139,6.47144 v 3.06541 l -12.85772,0.76635 c -3.66146,0.25546 -6.64172,1.10696 -8.94079,2.55452 -2.38421,1.44755 -4.00206,3.15056 -4.76841,4.93872 -0.85151,1.78816 -1.27726,3.74662 -1.27726,5.70508 0,3.49116 1.27726,6.55658 3.83176,9.11109 2.55452,2.55451 6.13083,3.91692 10.72895,3.91692 2.98027,0 5.61994,-0.59605 8.0893,-1.87331 2.46936,-1.27726 4.25751,-2.89511 5.53476,-5.02387 h 0.17031 c 0,1.8733 0.59606,3.40601 1.70302,4.59812 1.10694,1.1921 2.5545,1.87331 4.42781,1.87331 1.78816,0 3.32087,-0.3406 4.68327,-1.02181 z m -46.15153,-0.34061 -2.89511,0.0851 c -1.36241,0 -2.38422,-0.3406 -2.98026,-1.0218 -0.59605,-0.6812 -0.85152,-1.78816 -0.85152,-3.32087 V 0.851504 h -7.06747 v 50.494194 c 0,6.89718 2.98027,10.38835 8.85565,10.38835 2.29905,0 3.91692,-0.1703 5.02386,-0.51091 v -6.04568 z m -51.68629,-8.17443 c -0.25546,2.46936 -1.19211,4.59812 -2.80997,6.30112 -1.78816,1.87331 -4.17237,2.80997 -7.23779,2.80997 -2.80995,0 -5.19416,-0.93666 -7.32293,-2.72481 -2.80996,-2.38422 -4.25751,-6.81204 -4.25751,-13.28347 0,-6.47143 1.44755,-10.89925 4.25751,-13.28346 2.12877,-1.87331 4.59813,-2.72481 7.32293,-2.72481 2.72483,0 5.02388,0.8515 6.89719,2.55451 1.70302,1.70301 2.63967,3.91692 2.98026,6.64173 h 7.15263 c -0.34059,-4.25752 -2.04359,-7.91899 -5.02386,-10.89925 -3.15057,-2.98027 -7.15264,-4.51297 -12.00622,-4.51297 -6.64172,0 -11.75074,2.63966 -15.41222,7.91898 -2.38421,3.49117 -3.49117,8.17444 -3.49117,14.30527 0,6.04568 1.19212,10.8141 3.49117,14.30527 3.66148,5.27933 8.7705,7.91899 15.49738,7.91899 4.93872,0 9.02595,-1.53271 12.1765,-4.59812 2.98027,-2.89512 4.59813,-6.47143 4.93873,-10.72895 z m -67.43913,-10.6438 c 0.0852,-3.40602 1.19211,-6.30114 3.15057,-8.7705 2.04361,-2.46936 4.85357,-3.66147 8.42989,-3.66147 3.66147,0 6.38627,1.27726 8.34473,3.83177 1.70302,2.38422 2.55452,5.19418 2.55452,8.6002 z m 24.52332,-13.11317 c -3.32086,-3.66147 -7.66354,-5.44962 -12.85771,-5.44962 -3.57632,0 -6.72688,0.76635 -9.4517,2.38421 -2.72481,1.61785 -4.93872,3.74661 -6.471425,6.47143 -2.2139,3.66147 -3.23571,8.17444 -3.23571,13.53891 0,6.38628 1.78815,11.66561 5.279315,15.75283 3.57633,4.25752 8.25959,6.38628 14.04982,6.38628 4.00208,0 7.57838,-1.10696 10.81411,-3.15057 3.74661,-2.55451 5.87538,-6.04567 6.55657,-10.4735 h -6.89718 c -0.5109,1.87331 -1.36241,3.40602 -2.46936,4.59812 -1.78816,1.87331 -4.42782,2.72482 -7.83384,2.72482 -3.15056,0 -5.79022,-1.02181 -7.74868,-2.98026 -2.72482,-2.72482 -4.08723,-6.30114 -4.08723,-10.64381 h 29.88781 l 0.0851,-4.25752 c -0.17028,-5.87537 -1.95845,-10.8141 -5.61991,-14.90132 M 83.702851,18.903388 71.952093,52.878398 59.775585,18.903388 h -7.408089 l 15.667678,42.31975 h 7.663533 L 91.025786,18.903388 Z M 14.645872,40.190988 25.119367,9.451695 35.678025,40.190988 Z M 29.547189,1.958459 H 20.861848 L 0,61.223138 h 7.4932399 l 4.7684211,-14.04981 h 25.715422 l 4.853572,14.04981 h 7.663534 z"
+                                    id="path42"
+                                    style="stroke-width:8.51504" />
+    </svg>
+                    </a>
+            </div>
+                <div id="logoFooterUdeS">
+                <a aria-label="Aller à USherbrooke.ca" target="_blank" href="https://www.usherbrooke.ca">
+                    <svg
+                            x="0px"
+                            y="0px"
+                            viewBox="0 0 1353.8904 494.90271"
+                            xml:space="preserve"
+                            width="180"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:svg="http://www.w3.org/2000/svg"><defs
+       id="defs75" />
+                        <style
+                                type="text/css"
+                                id="style2">
+        .st0{fill:#FFFFFF;}
+        .st1{fill:#373737;}
+    </style>
+                        <g
+                                id="g6"
+                                transform="matrix(7.3493126,0,0,7.3493126,-5134.5238,-2880.7101)">
+        <path
+                class="st0"
+                d="m 784.29,397.99 h -1.08 v 1.08 h 1.08 z m 0,-3.89 h -1.08 v 1.09 h 1.08 z m -8.38,2.04 c 0.01,-0.4 0.14,-0.74 0.37,-1.03 0.24,-0.29 0.57,-0.43 0.99,-0.43 0.43,0 0.75,0.15 0.98,0.45 0.2,0.28 0.3,0.61 0.3,1.01 z m 2.88,-1.53 c -0.39,-0.43 -0.9,-0.64 -1.51,-0.64 -0.42,0 -0.79,0.09 -1.11,0.28 -0.32,0.19 -0.58,0.44 -0.76,0.76 -0.26,0.43 -0.38,0.96 -0.38,1.59 0,0.75 0.21,1.37 0.62,1.85 0.42,0.5 0.97,0.75 1.65,0.75 0.47,0 0.89,-0.13 1.27,-0.37 0.44,-0.3 0.69,-0.71 0.77,-1.23 h -0.81 c -0.06,0.22 -0.16,0.4 -0.29,0.54 -0.21,0.22 -0.52,0.32 -0.92,0.32 -0.37,0 -0.68,-0.12 -0.91,-0.35 -0.32,-0.32 -0.48,-0.74 -0.48,-1.25 h 3.51 l 0.01,-0.5 c -0.02,-0.7 -0.23,-1.28 -0.66,-1.75 m -6.54,3.55 c -0.24,0.22 -0.51,0.32 -0.8,0.32 -0.5,0 -0.86,-0.18 -1.08,-0.55 -0.22,-0.37 -0.32,-0.82 -0.32,-1.35 0,-0.54 0.11,-0.99 0.32,-1.35 0.22,-0.37 0.58,-0.55 1.08,-0.55 0.29,0 0.56,0.11 0.8,0.32 0.37,0.32 0.55,0.85 0.55,1.58 0,0.73 -0.18,1.26 -0.55,1.58 m 1.34,-6.18 h -0.83 v 2.7 c -0.12,-0.22 -0.33,-0.39 -0.6,-0.52 -0.28,-0.13 -0.56,-0.19 -0.84,-0.19 -0.56,0 -1.01,0.17 -1.36,0.5 -0.5,0.48 -0.76,1.19 -0.76,2.12 0,0.88 0.24,1.57 0.72,2.06 0.35,0.36 0.81,0.54 1.4,0.54 0.29,0 0.58,-0.07 0.86,-0.21 0.28,-0.14 0.49,-0.33 0.62,-0.57 l 0.06,0.65 h 0.74 z m -8,3.82 c 0,-0.58 -0.15,-1.03 -0.44,-1.35 -0.29,-0.32 -0.72,-0.48 -1.28,-0.48 -0.3,0 -0.6,0.08 -0.88,0.24 -0.29,0.16 -0.49,0.37 -0.62,0.64 l -0.07,-0.75 h -0.73 v 4.97 h 0.83 v -2.31 c 0,-0.59 0.06,-1.01 0.18,-1.27 0.24,-0.51 0.6,-0.77 1.08,-0.77 0.73,0 1.09,0.4 1.09,1.19 v 3.15 h 0.83 z m -6.78,2.32 c -0.24,0.24 -0.53,0.35 -0.89,0.35 -0.36,0 -0.66,-0.12 -0.89,-0.35 -0.31,-0.31 -0.46,-0.83 -0.46,-1.54 0,-0.71 0.15,-1.23 0.46,-1.54 0.24,-0.24 0.53,-0.35 0.89,-0.35 0.36,0 0.66,0.12 0.89,0.35 0.31,0.31 0.46,0.83 0.46,1.54 0,0.71 -0.15,1.23 -0.46,1.54 m 0.61,-3.57 c -0.4,-0.39 -0.9,-0.58 -1.5,-0.58 -0.6,0 -1.1,0.19 -1.5,0.58 -0.47,0.46 -0.71,1.14 -0.71,2.03 0,0.89 0.24,1.57 0.71,2.03 0.4,0.39 0.9,0.58 1.5,0.58 0.6,0 1.1,-0.19 1.5,-0.58 0.47,-0.46 0.71,-1.14 0.71,-2.03 0,-0.89 -0.24,-1.57 -0.71,-2.03 m -5.15,-0.45 h -0.85 v 4.97 h 0.85 z m 0.06,-2.12 h -0.97 v 0.98 h 0.97 z m -2.12,6.3 -0.13,0.02 c -0.09,0.01 -0.21,0.03 -0.35,0.04 -0.14,0.02 -0.27,0.02 -0.37,0.02 -0.24,0 -0.41,-0.05 -0.51,-0.16 -0.1,-0.11 -0.16,-0.28 -0.16,-0.51 v -2.88 h 1.47 v -0.72 h -1.47 v -1.46 l -0.83,0.2 v 1.27 h -0.96 v 0.72 h 0.96 v 2.97 c 0,0.39 0.11,0.71 0.31,0.96 0.21,0.26 0.56,0.38 1.05,0.38 0.31,0 0.64,-0.05 0.99,-0.14 z m -5.64,-0.19 c -0.26,0.27 -0.6,0.4 -1.02,0.4 -0.33,0 -0.58,-0.08 -0.74,-0.24 -0.16,-0.16 -0.24,-0.37 -0.24,-0.61 0,-0.29 0.11,-0.5 0.32,-0.65 0.22,-0.14 0.47,-0.23 0.77,-0.24 l 1.33,-0.08 v 0.29 c 0,0.47 -0.14,0.85 -0.42,1.13 m 1.74,0.31 -0.22,0.03 c -0.18,0 -0.28,-0.11 -0.28,-0.33 v -2.4 c 0,-0.29 -0.05,-0.54 -0.15,-0.77 -0.28,-0.63 -0.86,-0.95 -1.75,-0.95 -0.69,0 -1.2,0.18 -1.53,0.53 -0.28,0.29 -0.43,0.63 -0.43,1.04 h 0.81 c 0,-0.24 0.08,-0.44 0.24,-0.6 0.2,-0.2 0.5,-0.29 0.9,-0.29 0.36,0 0.63,0.08 0.81,0.26 0.17,0.16 0.26,0.41 0.26,0.76 v 0.36 l -1.51,0.09 c -0.43,0.03 -0.78,0.13 -1.06,0.3 -0.28,0.17 -0.47,0.37 -0.56,0.58 -0.1,0.21 -0.15,0.44 -0.15,0.67 0,0.41 0.15,0.77 0.45,1.07 0.3,0.3 0.72,0.46 1.26,0.46 0.35,0 0.66,-0.07 0.95,-0.22 0.29,-0.15 0.5,-0.34 0.65,-0.59 h 0.02 c 0,0.22 0.07,0.4 0.2,0.54 0.13,0.14 0.3,0.22 0.52,0.22 0.21,0 0.39,-0.04 0.55,-0.12 v -0.64 z m -5.96,-1.69 c -0.24,-0.25 -0.54,-0.4 -0.91,-0.46 -0.16,-0.03 -0.31,-0.05 -0.47,-0.07 -0.15,-0.02 -0.3,-0.04 -0.44,-0.06 -0.14,-0.02 -0.24,-0.03 -0.29,-0.04 -0.44,-0.07 -0.67,-0.28 -0.67,-0.65 0,-0.31 0.17,-0.53 0.5,-0.67 0.16,-0.07 0.35,-0.1 0.58,-0.1 0.35,0 0.62,0.09 0.81,0.27 0.18,0.16 0.27,0.36 0.29,0.62 h 0.83 c 0,-0.35 -0.12,-0.66 -0.35,-0.95 -0.33,-0.42 -0.86,-0.63 -1.58,-0.63 -0.62,0 -1.11,0.18 -1.46,0.55 -0.27,0.27 -0.41,0.6 -0.41,0.97 0,0.37 0.11,0.67 0.32,0.9 0.22,0.23 0.51,0.37 0.89,0.43 0.13,0.02 0.34,0.05 0.63,0.08 0.29,0.04 0.45,0.06 0.49,0.06 0.52,0.07 0.78,0.31 0.78,0.71 0,0.23 -0.08,0.41 -0.25,0.54 -0.22,0.18 -0.52,0.28 -0.91,0.28 -0.39,0 -0.69,-0.08 -0.89,-0.23 -0.26,-0.2 -0.4,-0.45 -0.4,-0.78 h -0.83 c 0,0.45 0.16,0.83 0.48,1.14 0.38,0.37 0.92,0.56 1.61,0.56 0.71,0 1.25,-0.19 1.62,-0.56 0.26,-0.28 0.39,-0.61 0.39,-1.01 0,-0.35 -0.12,-0.65 -0.36,-0.9 m -5.14,-2.61 h -0.85 v 4.97 h 0.85 z m 0.06,-2.12 h -0.97 v 0.98 h 0.97 z m -2.17,6.38 -0.34,0.01 c -0.16,0 -0.28,-0.04 -0.35,-0.12 -0.07,-0.08 -0.1,-0.21 -0.1,-0.39 v -5.88 h -0.83 v 5.93 c 0,0.81 0.35,1.22 1.04,1.22 0.27,0 0.46,-0.02 0.59,-0.06 v -0.71 z m -4.67,-0.27 c -0.26,0.27 -0.6,0.4 -1.02,0.4 -0.33,0 -0.58,-0.08 -0.74,-0.24 -0.16,-0.16 -0.24,-0.37 -0.24,-0.61 0,-0.29 0.11,-0.5 0.32,-0.65 0.22,-0.14 0.47,-0.23 0.77,-0.24 l 1.33,-0.08 v 0.29 c 0,0.47 -0.14,0.85 -0.42,1.13 m 1.74,0.31 -0.22,0.03 c -0.18,0 -0.28,-0.11 -0.28,-0.33 v -2.4 c 0,-0.29 -0.05,-0.54 -0.15,-0.77 -0.27,-0.63 -0.86,-0.95 -1.75,-0.95 -0.69,0 -1.2,0.18 -1.53,0.53 -0.28,0.29 -0.43,0.63 -0.43,1.04 h 0.81 c 0,-0.24 0.08,-0.44 0.25,-0.6 0.2,-0.2 0.5,-0.29 0.9,-0.29 0.36,0 0.63,0.08 0.81,0.26 0.17,0.16 0.26,0.41 0.26,0.76 v 0.36 l -1.51,0.09 c -0.43,0.03 -0.78,0.13 -1.06,0.3 -0.28,0.17 -0.47,0.37 -0.56,0.58 -0.1,0.21 -0.15,0.44 -0.15,0.67 0,0.41 0.15,0.77 0.45,1.07 0.3,0.3 0.72,0.46 1.26,0.46 0.35,0 0.66,-0.07 0.95,-0.22 0.29,-0.15 0.5,-0.34 0.65,-0.59 h 0.02 c 0,0.22 0.07,0.4 0.2,0.54 0.13,0.14 0.3,0.22 0.52,0.22 0.21,0 0.39,-0.04 0.55,-0.12 z m -7.06,-6.43 -1.67,1.21 0.29,0.46 1.82,-0.97 z m -2.01,4.17 c 0.01,-0.4 0.14,-0.74 0.37,-1.03 0.24,-0.29 0.57,-0.43 0.99,-0.43 0.43,0 0.75,0.15 0.98,0.45 0.2,0.28 0.3,0.61 0.3,1.01 z m 2.88,-1.53 c -0.39,-0.43 -0.9,-0.64 -1.51,-0.64 -0.42,0 -0.79,0.09 -1.11,0.28 -0.32,0.19 -0.58,0.44 -0.76,0.76 -0.26,0.43 -0.38,0.96 -0.38,1.59 0,0.75 0.21,1.37 0.62,1.85 0.42,0.5 0.97,0.75 1.65,0.75 0.47,0 0.89,-0.13 1.27,-0.37 0.44,-0.3 0.69,-0.71 0.77,-1.23 h -0.81 c -0.06,0.22 -0.16,0.4 -0.29,0.54 -0.21,0.22 -0.52,0.32 -0.92,0.32 -0.37,0 -0.68,-0.12 -0.91,-0.35 -0.32,-0.32 -0.48,-0.74 -0.48,-1.25 h 3.51 l 0.01,-0.5 c -0.02,-0.7 -0.23,-1.28 -0.66,-1.75 m -4.47,-0.51 c -0.13,-0.02 -0.26,-0.03 -0.39,-0.03 -0.33,0 -0.63,0.08 -0.89,0.23 -0.27,0.15 -0.46,0.38 -0.59,0.67 l -0.07,-0.87 h -0.74 v 4.97 h 0.83 v -2.21 c 0,-0.77 0.15,-1.3 0.45,-1.59 0.28,-0.26 0.59,-0.39 0.94,-0.39 0.18,0 0.33,0.01 0.46,0.04 z m -9.85,2.04 c 0.01,-0.4 0.14,-0.74 0.37,-1.03 0.24,-0.29 0.57,-0.43 0.99,-0.43 0.42,0 0.75,0.15 0.98,0.45 0.2,0.28 0.3,0.61 0.3,1.01 z m 2.88,-1.53 c -0.39,-0.43 -0.9,-0.64 -1.51,-0.64 -0.42,0 -0.79,0.09 -1.11,0.28 -0.32,0.19 -0.58,0.44 -0.76,0.76 -0.26,0.43 -0.38,0.96 -0.38,1.59 0,0.75 0.21,1.37 0.62,1.85 0.42,0.5 0.97,0.75 1.65,0.75 0.47,0 0.89,-0.13 1.27,-0.37 0.44,-0.3 0.69,-0.71 0.77,-1.23 h -0.81 c -0.06,0.22 -0.16,0.4 -0.29,0.54 -0.21,0.22 -0.52,0.32 -0.92,0.32 -0.37,0 -0.68,-0.12 -0.91,-0.35 -0.32,-0.32 -0.48,-0.74 -0.48,-1.25 h 3.51 l 0.01,-0.5 c -0.02,-0.7 -0.23,-1.28 -0.66,-1.75 m -5.1,1.19 c 0,-0.58 -0.15,-1.03 -0.44,-1.35 -0.29,-0.32 -0.72,-0.48 -1.28,-0.48 -0.3,0 -0.59,0.08 -0.88,0.24 -0.29,0.16 -0.49,0.37 -0.62,0.64 l -0.07,-0.75 h -0.73 v 4.97 h 0.83 v -2.31 c 0,-0.59 0.06,-1.01 0.18,-1.27 0.24,-0.51 0.6,-0.77 1.08,-0.77 0.73,0 1.09,0.4 1.09,1.19 v 3.15 h 0.83 z m -5.72,-3.7 h -0.87 v 4.43 c 0,1.23 -0.56,1.85 -1.67,1.85 -1.11,0 -1.67,-0.62 -1.67,-1.85 v -4.43 h -0.87 v 4.41 c 0,0.86 0.23,1.52 0.68,1.98 0.45,0.46 1.07,0.7 1.87,0.7 0.79,0 1.41,-0.23 1.87,-0.7 0.45,-0.46 0.68,-1.13 0.68,-1.98 v -4.41 z"
+                id="path4" />
+    </g>
+                        <g
+                                id="g70"
+                                transform="matrix(7.3493126,0,0,7.3493126,-5134.5238,-2880.7101)">
+        <g
+                id="g14">
+            <path
+                    class="st0"
+                    d="m 792.08,435.08 c -0.7,-0.81 -1.05,-2.06 -1.05,-3.75 v -5.66 l -1.07,-0.18 v -0.77 H 794 v 0.77 l -1.29,0.2 v 5.81 c 0,1.4 0.24,2.4 0.73,3.02 0.49,0.62 1.19,0.92 2.11,0.92 0.92,0 1.61,-0.33 2.06,-0.99 0.46,-0.66 0.69,-1.61 0.69,-2.87 v -5.9 l -1.27,-0.2 v -0.77 h 3.53 v 0.78 l -1.1,0.18 v 5.84 c 0,1.6 -0.37,2.8 -1.12,3.59 -0.75,0.79 -1.74,1.19 -2.98,1.19 -1.48,0.01 -2.58,-0.4 -3.28,-1.21"
+                    id="path8" />
+            <path
+                    class="st0"
+                    d="m 801.81,428.8 -1.11,-0.28 v -0.83 l 2.21,-0.28 h 0.05 l 0.32,0.28 v 0.65 l -0.02,0.37 c 0.37,-0.33 0.86,-0.63 1.47,-0.89 0.61,-0.27 1.19,-0.4 1.75,-0.4 0.65,0 1.15,0.12 1.51,0.37 0.36,0.25 0.61,0.62 0.75,1.13 0.14,0.51 0.22,1.2 0.22,2.06 v 4.32 l 1.08,0.11 v 0.77 h -3.67 v -0.76 l 0.96,-0.12 v -4.33 c 0,-0.61 -0.04,-1.08 -0.12,-1.43 -0.08,-0.34 -0.24,-0.6 -0.46,-0.77 -0.23,-0.17 -0.56,-0.25 -0.99,-0.25 -0.37,0 -0.77,0.09 -1.19,0.28 -0.42,0.18 -0.8,0.4 -1.13,0.65 v 5.84 l 1.05,0.14 v 0.76 h -3.65 v -0.76 l 0.97,-0.14 z"
+                    id="path10" />
+            <path
+                    class="st0"
+                    d="m 812.11,425.8 c -0.16,-0.19 -0.25,-0.42 -0.25,-0.71 0,-0.33 0.1,-0.6 0.3,-0.82 0.2,-0.22 0.48,-0.32 0.83,-0.32 0.35,0 0.61,0.09 0.77,0.28 0.16,0.18 0.25,0.42 0.25,0.71 0,0.35 -0.1,0.63 -0.3,0.83 -0.2,0.21 -0.48,0.31 -0.84,0.31 h -0.02 c -0.32,-0.01 -0.57,-0.1 -0.74,-0.28 m 0.13,3 -1.18,-0.28 v -0.82 l 2.4,-0.29 h 0.03 l 0.36,0.28 v 7.6 l 1.24,0.12 v 0.76 h -4.1 v -0.76 l 1.25,-0.14 z"
+                    id="path12" />
+        </g>
+                            <polygon
+                                    class="st0"
+                                    points="823.76,427.62 823.76,428.34 822.95,428.54 819.97,436.3 818.65,436.3 815.54,428.54 814.84,428.34 814.84,427.62 818.43,427.62 818.43,428.34 817.34,428.54 818.9,432.98 819.55,434.94 820.1,433.04 821.67,428.54 820.62,428.34 820.62,427.62 "
+                                    id="polygon16" />
+                            <g
+                                    id="g50">
+            <path
+                    class="st0"
+                    d="m 829.08,431.07 c 0.03,-0.22 0.05,-0.44 0.05,-0.66 -0.01,-0.67 -0.15,-1.19 -0.43,-1.58 -0.27,-0.38 -0.7,-0.58 -1.29,-0.58 -0.6,0 -1.08,0.22 -1.43,0.65 -0.35,0.43 -0.56,1.16 -0.61,2.17 z m -4.44,4.05 c -0.66,-0.81 -0.98,-1.9 -0.98,-3.25 0,-0.89 0.17,-1.68 0.51,-2.36 0.34,-0.68 0.82,-1.2 1.43,-1.57 0.61,-0.37 1.31,-0.55 2.1,-0.55 0.96,0 1.7,0.26 2.24,0.79 0.53,0.53 0.81,1.29 0.84,2.27 0,0.63 -0.04,1.1 -0.11,1.43 h -5.32 c 0.02,1.02 0.26,1.84 0.71,2.46 0.45,0.62 1.1,0.93 1.93,0.93 0.41,0 0.84,-0.07 1.29,-0.22 0.45,-0.15 0.8,-0.33 1.04,-0.53 l 0.29,0.68 c -0.3,0.31 -0.74,0.58 -1.33,0.8 -0.59,0.23 -1.19,0.34 -1.8,0.34 -1.23,0 -2.18,-0.41 -2.84,-1.22"
+                    id="path18" />
+                                <path
+                                        class="st0"
+                                        d="m 831.54,435.42 1.16,-0.09 v -6.52 l -1.11,-0.28 v -0.83 l 2.14,-0.28 h 0.03 l 0.34,0.28 v 0.28 l -0.05,1.2 h 0.05 c 0.1,-0.18 0.29,-0.4 0.56,-0.68 0.27,-0.28 0.61,-0.53 1.04,-0.76 0.42,-0.23 0.88,-0.35 1.38,-0.35 0.21,0 0.38,0.03 0.51,0.08 v 1.73 c -0.07,-0.05 -0.19,-0.1 -0.35,-0.15 -0.16,-0.05 -0.34,-0.07 -0.53,-0.07 -0.86,0 -1.65,0.26 -2.38,0.79 v 5.55 l 1.97,0.12 v 0.74 h -4.74 v -0.76 z"
+                                        id="path20" />
+                                <path
+                                        class="st0"
+                                        d="m 839.8,434.94 c 0.1,0.15 0.32,0.29 0.66,0.42 0.33,0.12 0.69,0.18 1.06,0.18 0.59,0 1.02,-0.11 1.3,-0.34 0.28,-0.23 0.42,-0.54 0.42,-0.94 0,-0.28 -0.09,-0.52 -0.26,-0.72 -0.18,-0.21 -0.42,-0.39 -0.74,-0.55 -0.31,-0.16 -0.77,-0.35 -1.35,-0.58 -0.79,-0.3 -1.37,-0.65 -1.74,-1.07 -0.37,-0.42 -0.55,-0.96 -0.55,-1.64 0,-0.45 0.14,-0.85 0.41,-1.19 0.27,-0.34 0.65,-0.6 1.13,-0.79 0.48,-0.19 1.01,-0.29 1.6,-0.29 0.47,0 0.89,0.04 1.25,0.11 0.36,0.07 0.64,0.14 0.86,0.22 0.22,0.07 0.36,0.12 0.43,0.14 v 1.91 h -0.94 l -0.31,-1.14 c -0.06,-0.12 -0.23,-0.23 -0.5,-0.32 -0.27,-0.09 -0.57,-0.13 -0.9,-0.13 -0.46,0 -0.84,0.1 -1.12,0.31 -0.28,0.21 -0.43,0.48 -0.43,0.83 0,0.31 0.07,0.56 0.22,0.76 0.15,0.2 0.34,0.36 0.56,0.49 0.23,0.12 0.54,0.27 0.93,0.43 l 0.31,0.12 c 0.58,0.23 1.05,0.44 1.41,0.65 0.36,0.21 0.66,0.48 0.9,0.81 0.24,0.33 0.36,0.74 0.36,1.23 0,0.76 -0.3,1.37 -0.89,1.82 -0.59,0.45 -1.41,0.68 -2.44,0.68 -0.51,0 -1.03,-0.07 -1.59,-0.21 -0.55,-0.14 -1,-0.28 -1.35,-0.42 v -1.97 h 1.01 z"
+                                        id="path22" />
+                                <path
+                                        class="st0"
+                                        d="m 846.77,425.8 c -0.16,-0.19 -0.25,-0.42 -0.25,-0.71 0,-0.33 0.1,-0.6 0.3,-0.82 0.2,-0.22 0.48,-0.32 0.83,-0.32 0.35,0 0.61,0.09 0.77,0.28 0.16,0.18 0.25,0.42 0.25,0.71 0,0.35 -0.1,0.63 -0.3,0.83 -0.2,0.21 -0.48,0.31 -0.84,0.31 h -0.02 c -0.33,-0.01 -0.58,-0.1 -0.74,-0.28 m 0.12,3 -1.18,-0.28 v -0.82 l 2.4,-0.29 h 0.03 l 0.36,0.28 v 7.6 l 1.24,0.12 v 0.76 h -4.1 v -0.76 l 1.25,-0.14 z"
+                                        id="path24" />
+                                <path
+                                        class="st0"
+                                        d="m 851.54,435.92 c -0.29,-0.27 -0.43,-0.72 -0.43,-1.37 v -5.92 H 850 v -0.69 c 0.05,-0.01 0.2,-0.05 0.43,-0.11 0.24,-0.06 0.4,-0.12 0.48,-0.17 0.17,-0.09 0.29,-0.28 0.39,-0.56 0.08,-0.19 0.18,-0.51 0.29,-0.94 0.11,-0.43 0.18,-0.69 0.2,-0.77 h 0.91 l 0.03,2.22 h 2.58 v 1.02 h -2.58 v 4.73 c 0,0.59 0.02,1 0.05,1.23 0.04,0.24 0.11,0.39 0.23,0.46 0.12,0.07 0.32,0.11 0.61,0.11 0.28,0 0.59,-0.04 0.92,-0.11 0.34,-0.07 0.6,-0.15 0.78,-0.23 l 0.23,0.69 c -0.25,0.19 -0.65,0.37 -1.2,0.54 -0.55,0.17 -1.05,0.26 -1.51,0.26 -0.58,0.02 -1.02,-0.12 -1.3,-0.39"
+                                        id="path26" />
+                                <path
+                                        class="st0"
+                                        d="m 861.42,431.07 c 0.03,-0.22 0.05,-0.44 0.05,-0.66 -0.01,-0.67 -0.15,-1.19 -0.43,-1.58 -0.27,-0.38 -0.7,-0.58 -1.29,-0.58 -0.6,0 -1.08,0.22 -1.43,0.65 -0.35,0.43 -0.56,1.16 -0.61,2.17 z m -4.43,4.05 c -0.66,-0.81 -0.98,-1.9 -0.98,-3.25 0,-0.89 0.17,-1.68 0.51,-2.36 0.34,-0.68 0.82,-1.2 1.43,-1.57 0.61,-0.37 1.31,-0.55 2.1,-0.55 0.96,0 1.7,0.26 2.24,0.79 0.53,0.53 0.81,1.29 0.84,2.27 0,0.63 -0.04,1.1 -0.11,1.43 h -5.32 c 0.02,1.02 0.26,1.84 0.71,2.46 0.45,0.62 1.1,0.93 1.93,0.93 0.41,0 0.84,-0.07 1.29,-0.22 0.45,-0.15 0.8,-0.33 1.04,-0.53 l 0.29,0.68 c -0.3,0.31 -0.74,0.58 -1.33,0.8 -0.59,0.23 -1.19,0.34 -1.8,0.34 -1.23,0 -2.19,-0.41 -2.84,-1.22"
+                                        id="path28" />
+                                <path
+                                        class="st0"
+                                        d="m 872.34,434.98 c 0.34,-0.18 0.59,-0.39 0.76,-0.62 v -5.64 c -0.08,-0.12 -0.27,-0.23 -0.56,-0.33 -0.29,-0.1 -0.6,-0.15 -0.93,-0.15 -0.77,0 -1.39,0.31 -1.85,0.92 -0.46,0.61 -0.69,1.56 -0.69,2.83 0,1.11 0.2,1.93 0.61,2.47 0.41,0.53 0.93,0.8 1.58,0.8 0.38,-0.01 0.74,-0.1 1.08,-0.28 m -3.32,0.9 c -0.5,-0.31 -0.89,-0.78 -1.18,-1.42 -0.29,-0.64 -0.44,-1.42 -0.44,-2.36 0,-0.87 0.17,-1.67 0.52,-2.39 0.35,-0.72 0.85,-1.29 1.5,-1.7 0.65,-0.42 1.42,-0.62 2.3,-0.62 0.51,0 0.97,0.06 1.38,0.17 v -2.88 l -1.52,-0.19 v -0.66 l 2.68,-0.28 h 0.04 l 0.33,0.25 v 11.59 h 0.86 v 0.71 c -0.32,0.07 -0.59,0.13 -0.83,0.17 -0.23,0.04 -0.48,0.06 -0.74,0.06 -0.26,0 -0.44,-0.05 -0.55,-0.14 -0.11,-0.09 -0.16,-0.29 -0.16,-0.59 v -0.49 c -0.28,0.35 -0.64,0.64 -1.09,0.88 -0.45,0.24 -0.94,0.35 -1.47,0.35 -0.59,0 -1.14,-0.15 -1.63,-0.46"
+                                        id="path30" />
+                                <path
+                                        class="st0"
+                                        d="m 881.22,431.07 c 0.03,-0.22 0.04,-0.44 0.04,-0.66 -0.01,-0.67 -0.15,-1.19 -0.41,-1.58 -0.26,-0.38 -0.68,-0.58 -1.24,-0.58 -0.58,0 -1.03,0.22 -1.38,0.65 -0.35,0.43 -0.54,1.16 -0.59,2.17 z m -4.26,4.05 c -0.63,-0.81 -0.95,-1.9 -0.95,-3.25 0,-0.89 0.16,-1.68 0.49,-2.36 0.33,-0.68 0.79,-1.2 1.38,-1.57 0.59,-0.37 1.26,-0.55 2.02,-0.55 0.92,0 1.64,0.26 2.15,0.79 0.51,0.53 0.78,1.29 0.81,2.27 0,0.63 -0.03,1.1 -0.1,1.43 h -5.12 c 0.02,1.02 0.25,1.84 0.69,2.46 0.44,0.62 1.06,0.93 1.86,0.93 0.4,0 0.81,-0.07 1.24,-0.22 0.43,-0.15 0.77,-0.33 1,-0.53 l 0.28,0.68 c -0.29,0.31 -0.72,0.58 -1.28,0.8 -0.56,0.22 -1.14,0.34 -1.73,0.34 -1.2,0 -2.11,-0.41 -2.74,-1.22"
+                                        id="path32" />
+                                <path
+                                        class="st0"
+                                        d="m 790.57,451.18 c 0.18,0.02 0.43,0.08 0.76,0.2 0.56,0.17 1.09,0.3 1.56,0.41 0.47,0.1 1.01,0.15 1.61,0.15 0.99,0 1.84,-0.18 2.53,-0.53 0.69,-0.35 1.21,-0.81 1.55,-1.35 0.34,-0.55 0.51,-1.12 0.51,-1.71 0,-0.62 -0.17,-1.17 -0.51,-1.61 -0.34,-0.45 -0.75,-0.82 -1.22,-1.1 -0.47,-0.28 -1.09,-0.6 -1.84,-0.94 -0.81,-0.37 -1.41,-0.67 -1.77,-0.88 -0.37,-0.21 -0.69,-0.48 -0.94,-0.78 -0.25,-0.31 -0.38,-0.69 -0.38,-1.15 0,-0.63 0.21,-1.11 0.63,-1.44 0.41,-0.33 1.03,-0.5 1.83,-0.5 0.43,0 0.83,0.05 1.2,0.15 0.37,0.1 0.61,0.21 0.73,0.33 l 0.01,0.01 v 0.01 l 0.34,2.06 h 1.01 l 0.1,-2.79 c -0.16,-0.02 -0.35,-0.07 -0.57,-0.15 -0.52,-0.13 -0.99,-0.24 -1.39,-0.32 -0.41,-0.08 -0.88,-0.12 -1.41,-0.12 -0.85,0 -1.6,0.14 -2.24,0.42 -0.64,0.28 -1.13,0.67 -1.46,1.15 -0.34,0.48 -0.51,1.04 -0.51,1.65 0,0.68 0.18,1.27 0.52,1.75 0.35,0.48 0.77,0.88 1.24,1.17 0.48,0.29 1.04,0.58 1.69,0.86 0.71,0.3 1.28,0.57 1.69,0.8 0.41,0.23 0.75,0.5 1,0.82 0.25,0.32 0.38,0.71 0.38,1.15 0,0.68 -0.23,1.22 -0.7,1.61 -0.46,0.39 -1.14,0.58 -2.02,0.58 -0.53,0 -1.03,-0.07 -1.48,-0.21 -0.45,-0.14 -0.78,-0.31 -0.97,-0.49 l -0.01,-0.01 v -0.01 l -0.29,-2.17 h -1.06 z"
+                                        id="path34" />
+                                <path
+                                        class="st0"
+                                        d="m 800.79,440.3 -1.33,-0.17 v -0.66 l 2.58,-0.29 h 0.03 l 0.35,0.23 v 3.58 l -0.06,1.31 c 0.34,-0.3 0.8,-0.58 1.39,-0.85 0.59,-0.27 1.19,-0.4 1.79,-0.4 0.66,0 1.18,0.12 1.55,0.37 0.37,0.25 0.63,0.62 0.78,1.13 0.15,0.51 0.22,1.19 0.22,2.06 v 4.3 l 1.11,0.14 v 0.76 h -3.78 v -0.76 l 1.03,-0.14 v -4.32 c 0,-0.61 -0.04,-1.08 -0.13,-1.43 -0.08,-0.34 -0.24,-0.6 -0.47,-0.77 -0.23,-0.17 -0.58,-0.25 -1.04,-0.25 -0.38,0 -0.79,0.09 -1.22,0.28 -0.43,0.18 -0.81,0.4 -1.14,0.65 v 5.84 l 1.09,0.14 v 0.76 h -3.69 v -0.76 l 0.95,-0.12 V 440.3 Z"
+                                        id="path36" />
+                                <path
+                                        class="st0"
+                                        d="m 815.62,446.69 c 0.03,-0.22 0.05,-0.44 0.05,-0.66 -0.01,-0.67 -0.16,-1.19 -0.44,-1.58 -0.28,-0.38 -0.72,-0.58 -1.32,-0.58 -0.61,0 -1.1,0.22 -1.46,0.65 -0.36,0.43 -0.57,1.16 -0.62,2.17 z m -4.54,4.06 c -0.67,-0.81 -1,-1.9 -1,-3.25 0,-0.89 0.17,-1.68 0.52,-2.36 0.35,-0.68 0.84,-1.2 1.46,-1.57 0.63,-0.37 1.34,-0.55 2.14,-0.55 0.98,0 1.74,0.26 2.29,0.79 0.54,0.53 0.83,1.29 0.86,2.27 0,0.63 -0.04,1.1 -0.11,1.43 h -5.44 c 0.02,1.02 0.26,1.84 0.73,2.46 0.46,0.62 1.12,0.93 1.98,0.93 0.42,0 0.86,-0.07 1.32,-0.22 0.46,-0.15 0.82,-0.33 1.07,-0.53 l 0.3,0.68 c -0.31,0.31 -0.76,0.58 -1.36,0.8 -0.6,0.23 -1.21,0.34 -1.84,0.34 -1.28,0 -2.25,-0.41 -2.92,-1.22"
+                                        id="path38" />
+                                <path
+                                        class="st0"
+                                        d="m 818.59,451.04 1.19,-0.09 v -6.52 l -1.14,-0.28 v -0.83 l 2.18,-0.28 h 0.03 l 0.35,0.28 v 0.28 l -0.05,1.2 h 0.05 c 0.1,-0.18 0.3,-0.4 0.57,-0.68 0.27,-0.28 0.63,-0.53 1.06,-0.76 0.43,-0.23 0.9,-0.35 1.41,-0.35 0.21,0 0.39,0.03 0.52,0.08 v 1.73 c -0.07,-0.05 -0.19,-0.1 -0.36,-0.15 -0.16,-0.05 -0.35,-0.07 -0.55,-0.07 -0.88,0 -1.69,0.26 -2.44,0.79 v 5.55 l 2.01,0.12 v 0.74 h -4.84 v -0.76 z"
+                                        id="path40" />
+                                <path
+                                        class="st0"
+                                        d="m 828.67,444.37 c -0.34,0.18 -0.62,0.38 -0.83,0.61 v 5.67 c 0.06,0.14 0.25,0.26 0.55,0.35 0.3,0.09 0.64,0.13 1.02,0.13 0.81,0 1.47,-0.32 1.96,-0.96 0.5,-0.64 0.74,-1.57 0.74,-2.79 0,-1.1 -0.22,-1.92 -0.65,-2.47 -0.43,-0.54 -0.99,-0.82 -1.68,-0.82 -0.39,0.01 -0.77,0.1 -1.11,0.28 m -3.76,-4.91 2.53,-0.29 h 0.03 l 0.36,0.23 v 4.64 c 0.32,-0.3 0.69,-0.54 1.13,-0.74 0.44,-0.2 0.93,-0.29 1.46,-0.29 0.63,0 1.21,0.15 1.73,0.45 0.52,0.3 0.94,0.76 1.25,1.39 0.31,0.63 0.47,1.42 0.47,2.37 0,0.88 -0.19,1.69 -0.56,2.41 -0.37,0.72 -0.91,1.29 -1.61,1.71 -0.7,0.42 -1.5,0.63 -2.42,0.63 -0.73,0 -1.39,-0.07 -1.99,-0.21 -0.6,-0.14 -0.96,-0.26 -1.09,-0.38 v -11.1 l -1.3,-0.17 z"
+                                        id="path42" />
+                                <path
+                                        class="st0"
+                                        d="m 834.94,451.04 1.19,-0.09 v -6.52 l -1.14,-0.28 v -0.83 l 2.18,-0.28 h 0.03 l 0.35,0.28 v 0.28 l -0.05,1.2 h 0.05 c 0.1,-0.18 0.29,-0.4 0.57,-0.68 0.27,-0.28 0.63,-0.53 1.06,-0.76 0.43,-0.23 0.9,-0.35 1.41,-0.35 0.21,0 0.39,0.03 0.52,0.08 v 1.73 c -0.07,-0.05 -0.19,-0.1 -0.36,-0.15 -0.16,-0.05 -0.35,-0.07 -0.55,-0.07 -0.88,0 -1.69,0.26 -2.44,0.79 v 5.55 l 2.01,0.12 v 0.74 h -4.84 v -0.76 z"
+                                        id="path44" />
+                                <path
+                                        class="st0"
+                                        d="m 847.74,450.21 c 0.39,-0.59 0.59,-1.45 0.59,-2.61 0,-1.14 -0.18,-2.05 -0.54,-2.71 -0.36,-0.67 -0.93,-1 -1.73,-1 -0.73,0 -1.29,0.29 -1.69,0.88 -0.4,0.59 -0.59,1.45 -0.59,2.61 0,1.14 0.18,2.05 0.55,2.71 0.37,0.67 0.94,1 1.73,1 0.73,0 1.29,-0.3 1.68,-0.88 m -5.19,-5.12 c 0.39,-0.68 0.9,-1.19 1.54,-1.55 0.64,-0.36 1.32,-0.53 2.05,-0.53 1.33,0 2.33,0.41 3,1.23 0.67,0.82 1,1.9 1,3.24 0,0.93 -0.2,1.74 -0.59,2.42 -0.39,0.68 -0.91,1.19 -1.54,1.54 -0.64,0.35 -1.32,0.52 -2.05,0.52 -1.33,0 -2.33,-0.41 -3,-1.23 -0.67,-0.82 -1,-1.9 -1,-3.24 0.01,-0.92 0.2,-1.72 0.59,-2.4"
+                                        id="path46" />
+                                <path
+                                        class="st0"
+                                        d="m 857.3,450.21 c 0.39,-0.59 0.59,-1.45 0.59,-2.61 0,-1.14 -0.18,-2.05 -0.54,-2.71 -0.36,-0.67 -0.93,-1 -1.73,-1 -0.73,0 -1.29,0.29 -1.69,0.88 -0.4,0.59 -0.59,1.45 -0.59,2.61 0,1.14 0.18,2.05 0.55,2.71 0.37,0.67 0.94,1 1.73,1 0.73,0 1.29,-0.3 1.68,-0.88 m -5.19,-5.12 c 0.39,-0.68 0.9,-1.19 1.54,-1.55 0.64,-0.36 1.32,-0.53 2.05,-0.53 1.33,0 2.33,0.41 3,1.23 0.67,0.82 1,1.9 1,3.24 0,0.93 -0.2,1.74 -0.59,2.42 -0.39,0.68 -0.91,1.19 -1.54,1.54 -0.64,0.35 -1.32,0.52 -2.05,0.52 -1.33,0 -2.33,-0.41 -3,-1.23 -0.67,-0.82 -1,-1.9 -1,-3.24 0,-0.92 0.2,-1.72 0.59,-2.4"
+                                        id="path48" />
+        </g>
+                            <polygon
+                                    class="st0"
+                                    points="865.8,443.24 869.63,443.24 869.63,443.95 868.38,444.17 866.06,446.37 869.06,450.92 870.04,451.04 870.04,451.8 866.2,451.8 866.2,451.04 867.19,450.9 864.96,447.33 863.33,448.9 863.36,449.68 863.36,450.9 864.49,451.04 864.49,451.8 860.72,451.8 860.72,451.04 861.72,450.9 861.72,440.3 860.48,440.13 860.48,439.46 863,439.17 863.02,439.17 863.36,439.4 863.36,446.94 863.33,447.85 866.99,444.17 865.8,443.95 "
+                                    id="polygon52" />
+                            <g
+                                    id="g56">
+            <path
+                    class="st0"
+                    d="m 875.84,446.69 c 0.03,-0.22 0.05,-0.44 0.05,-0.66 -0.01,-0.67 -0.16,-1.19 -0.43,-1.58 -0.28,-0.38 -0.72,-0.58 -1.32,-0.58 -0.61,0 -1.1,0.22 -1.46,0.65 -0.36,0.43 -0.57,1.16 -0.62,2.17 z m -4.53,4.06 c -0.67,-0.81 -1,-1.9 -1,-3.25 0,-0.89 0.17,-1.68 0.52,-2.36 0.35,-0.68 0.84,-1.2 1.46,-1.57 0.63,-0.37 1.34,-0.55 2.14,-0.55 0.98,0 1.74,0.26 2.29,0.79 0.54,0.53 0.83,1.29 0.86,2.27 0,0.63 -0.04,1.1 -0.11,1.43 h -5.44 c 0.02,1.02 0.26,1.84 0.73,2.46 0.46,0.62 1.12,0.93 1.98,0.93 0.42,0 0.86,-0.07 1.32,-0.22 0.46,-0.15 0.82,-0.33 1.07,-0.53 l 0.3,0.68 c -0.31,0.31 -0.76,0.58 -1.36,0.8 -0.6,0.22 -1.21,0.34 -1.84,0.34 -1.28,0 -2.25,-0.41 -2.92,-1.22"
+                    id="path54" />
+        </g>
+                            <polygon
+                                    class="st0"
+                                    points="860.28,425.83 859.27,425.83 859.2,425.83 860.55,423.84 862.23,423.84 862.25,423.89 "
+                                    id="polygon58" />
+                            <rect
+                                    x="698.64001"
+                                    y="417.19"
+                                    class="st0"
+                                    width="82.550003"
+                                    height="42.119999"
+                                    id="rect60" />
+                            <g
+                                    id="g68">
+            <path
+                    class="st1"
+                    d="m 712.55,448.94 c -1.67,-1.88 -2.51,-4.8 -2.51,-8.76 v -11.71 c 0,-0.86 -0.62,-1.59 -1.47,-1.74 l -1.09,-0.18 v -1.8 h 8.87 v 1.8 l -0.96,0.2 c -0.77,0.16 -1.33,0.84 -1.33,1.62 v 12.21 c 0,3.26 0.58,5.61 1.75,7.05 1.17,1.44 2.85,2.16 5.04,2.16 2.19,0 3.83,-0.77 4.93,-2.3 1.09,-1.53 1.64,-3.77 1.64,-6.69 v -12.35 c 0,-0.83 -0.59,-1.55 -1.4,-1.72 l -0.85,-0.18 v -1.8 h 7.64 v 1.8 l -1.11,0.18 c -0.88,0.14 -1.53,0.9 -1.53,1.79 v 12.09 c 0,3.74 -0.89,6.54 -2.67,8.38 -1.78,1.85 -4.15,2.77 -7.11,2.77 -3.57,0 -6.17,-0.94 -7.84,-2.82"
+                    id="path62" />
+                                <path
+                                        class="st1"
+                                        d="m 759.34,451.63 c -0.99,-0.22 -2.06,-0.54 -3.25,-0.86 -0.76,-0.21 -1.63,-0.43 -1.63,-0.43 l 0.29,-6.51 h 2.31 c 0,0 0.05,3.96 0.61,4.68 0.29,0.37 1.08,0.73 2,1.03 0.93,0.3 1.94,0.45 3.05,0.45 1.83,0 3.22,-0.41 4.17,-1.22 0.95,-0.82 1.43,-1.94 1.43,-3.38 0,-0.94 -0.26,-1.74 -0.78,-2.41 -0.52,-0.67 -1.2,-1.25 -2.06,-1.73 -0.86,-0.48 -2.03,-1.04 -3.52,-1.69 -1.35,-0.6 -2.52,-1.21 -3.52,-1.83 -1,-0.62 -1.87,-1.46 -2.6,-2.5 -0.74,-1.04 -1.1,-2.3 -1.1,-3.76 0,-1.32 0.36,-2.5 1.07,-3.54 0.71,-1.04 1.73,-1.86 3.07,-2.46 1.34,-0.6 2.89,-0.9 4.68,-0.9 1.11,0 2.09,0.08 2.94,0.25 0.85,0.17 1.82,0.4 2.91,0.68 0.5,0.15 1.23,0.32 1.23,0.32 l -0.22,6.04 h -2.2 c 0,0 0.03,-3.69 -0.72,-4.43 -0.26,-0.25 -0.74,-0.47 -1.5,-0.68 -0.76,-0.22 -1.58,-0.32 -2.47,-0.32 -1.66,0 -2.92,0.35 -3.77,1.04 -0.85,0.7 -1.28,1.7 -1.28,3.02 0,0.96 0.26,1.76 0.78,2.41 0.52,0.65 1.16,1.2 1.93,1.65 0.77,0.46 2,1.08 3.68,1.87 1.57,0.74 2.84,1.42 3.83,2.01 0.99,0.6 1.84,1.38 2.55,2.36 0.71,0.97 1.07,2.13 1.07,3.47 0,1.27 -0.36,2.49 -1.07,3.67 -0.71,1.18 -1.79,2.14 -3.25,2.9 -1.46,0.76 -3.22,1.13 -5.29,1.13 -1.27,0 -2.38,-0.11 -3.37,-0.33"
+                                        id="path64" />
+                                <path
+                                        class="st1"
+                                        d="m 748.8,438.38 c 0,1.34 -0.28,2.54 -0.84,3.6 -0.56,1.06 -1.35,1.89 -2.36,2.5 -1.02,0.61 -2.68,0.91 -4.04,0.91 h -2.26 v -14.3 h 2.18 c 1.36,0 3.03,0.3 4.06,0.9 1.02,0.6 1.82,1.43 2.4,2.49 0.57,1.05 0.86,2.26 0.86,3.62 z m 1.84,-4.59 c -0.75,-1.25 -1.81,-2.23 -3.15,-2.94 -1.35,-0.71 -3.54,-1.07 -5.34,-1.07 h -5.46 -1.6 v 1.29 c 0,0 1.6,0 1.6,0.89 0,0 -0.03,3.96 -0.03,6.29 0,2.32 0.03,6.31 0.03,6.31 0,0.74 -1.6,0.88 -1.6,0.88 v 1.27 h 7.15 c 1.79,0 3.97,-0.36 5.31,-1.07 1.34,-0.72 2.38,-1.7 3.11,-2.95 0.74,-1.25 1.1,-2.67 1.1,-4.26 v -0.34 c 0.01,-1.63 -0.37,-3.06 -1.12,-4.3"
+                                        id="path66" />
+        </g>
+    </g>
+    </svg>
+                </a >
+            </div>
+            </div>
+            <div class="auteurs">
+                <a target="_blank" href="https://www.usherbrooke.ca/usito/lhistoire-usito/auteurs-et-collaborateurs/">Auteurs</a>&nbsp;:
+                <a target="_blank" href="https://www.usherbrooke.ca/usito/lhistoire-usito/auteurs-et-collaborateurs/#acc-6779-1491">Hélène
+                    Cajolet-Laganière</a>,
+                <a target="_blank" href="https://www.usherbrooke.ca/usito/lhistoire-usito/auteurs-et-collaborateurs/#acc-6779-1493">Pierre
+                    Martel</a> et
+                <a target="_blank" href="https://www.usherbrooke.ca/usito/lhistoire-usito/auteurs-et-collaborateurs/#acc-6779-1495">Chantal&#8209;Édith
+                    Masson</a>,
+                avec le concours de <a
+                    target="_blank" href="https://www.usherbrooke.ca/usito/lhistoire-usito/auteurs-et-collaborateurs/#acc-6779-1497">Louis
+                Mercier</a> et
+                    <a target="_blank" href="https://www.usherbrooke.ca/crifuq/recherche/productions-scientifiques/equipe-professorale/membres-reguliers/nadine-vincent">Nadine Vincent</a>,
+                professeurs, Université de Sherbrooke
+            </div>
+
+            <div class="auteurs-autres">
+                <a target="_blank" href="https://www.usherbrooke.ca/usito/lhistoire-usito/lequipe-de-chercheurs">Direction lexicographique</a> : <a>Serge D’Amico</a>
+                -
+                <a target="_blank" href="https://www.usherbrooke.ca/usito/lhistoire-usito/lequipe-de-chercheurs">Direction informatique</a> : <a>Benoit Mercier</a>
+            </div>
+
+            <div class="auteurs-autres">
+                <a target="_blank" href="https://www.usherbrooke.ca/usito/lhistoire-usito/auteurs-et-collaborateurs/">Professeurs collaborateurs</a>&nbsp;:
+                <a target="_blank" href="https://www.usherbrooke.ca/usito/lhistoire-usito/auteurs-et-collaborateurs/#acc-6779-1505">feu Jean-Claude Boulanger</a>, Université Laval,
+                <a target="_blank" href="https://www.usherbrooke.ca/usito/lhistoire-usito/auteurs-et-collaborateurs/#acc-6779-1499">feu Michel Théoret</a>, Université de Sherbrooke
+            </div>
+
+            
+                <nav>
+                    <a href="https://www.usherbrooke.ca/usito" target="_blank">Qu&rsquo;est-ce que le dictionnaire Usito&thinsp;?</a> |
+                    <a href="https://www.usherbrooke.ca/usito/communiquer-avec-usito/" target="_blank">Contactez-nous</a> |
+                    <a href="https://www.usherbrooke.ca/vers/conditions-utilisation/" target="_blank">Conditions d&rsquo;utilisation</a> |
+                    <a href="javascript:ajusterConsentement()">Paramètres des témoins</a>
+                </nav>
+            
+
+        <div>
+            <p>
+                Tous droits réservés <a id="copyright" href="/quiVaLà?">©</a> Université de Sherbrooke |
+                <span>3.0.32</span> -
+                Dernière mise à jour du contenu&nbsp;:
+                <span id="dateDernièreModification"
+                      data-date-index="2025-12-09T08:41:49HNE"
+                      data-version-index="1765287709"
+                      data-version-usito="3.0.32"
+                      data-version-usito-hash="3813762"
+                      data-branche="main"
+                      title="2025-12-09T08:41:49HNE">2025-12-09</span>
+            </p>
+        </div>
+    </div>
+
+    
+
+    
+
+    <div id="dialogue-consentement" class="modal fade ct_cacher" tabindex="0" aria-hidden="true" aria-labelledby="dialogue-consentement-label" aria-modal="true" role="dialog">
+    <div class="ct_dialogue">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title m-0" id="dialogue-consentement-label">Paramètres des témoins</h3>
+                <i class="icon i-fermer" onclick="fermerDialogueConsentement()"></i>
+            </div>
+            <div class="modal-body">
+                <p>Pour obtenir plus d’information sur la nature et l’utilisation des témoins, voir la <a href="https://www.usherbrooke.ca/decouvrir/confidentialite" target="_blank" rel="noopener" class="ct_lien-externe">Politique de confidentialité</a>.</p>
+                <div class="cookie-consent-options">
+                    <h4>Témoins essentiels</h4>
+                    <p class="ct_p">Ces témoins sont nécessaires au bon fonctionnement du site Web. Ils permettent de maintenir
+                        l’accès à certaines sections sécurisées et de conserver des critères de recherche, par exemple.
+                        Ces témoins ne peuvent être désactivés.
+                    </p>
+                    <div class="ct_checkbox">
+                        <input id="consent-necessary" type="checkbox" value="Necessary" checked="" disabled="" class="ct_checkbox-input">
+                        <label for="consent-necessary" class="ct_checkbox-label">Toujours autorisés</label>
+                    </div>
+                    <h4>Témoins analytiques</h4>
+                    <p class="ct_p">Ces témoins nous aident à comprendre votre utilisation de notre site Web et nous permettent d'améliorer l’expérience qu'il propose.</p>
+                    <div class="ct_checkbox">
+                        <input id="consentement-analytics" type="checkbox" value="Analytics" class="ct_checkbox-input">
+                        <label for="consentement-analytics" class="ct_checkbox-label">Autoriser</label>
+                    </div>
+                    <h4>Témoins publicitaires</h4>
+                    <p class="ct_p">Ces témoins sont utilisés pour vous proposer des publicités pertinentes en fonction de votre navigation sur notre site. Ces publicités peuvent être émises par l'Université de Sherbrooke ou d'autres entités.</p>
+                    <div class="ct_checkbox">
+                        <input id="consentement-ad" type="checkbox" value="Ad" class="ct_checkbox-input">
+                        <label for="consentement-ad" class="ct_checkbox-label">Autoriser</label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="ct_btn" data-bs-dismiss="modal" onclick="fermerDialogueConsentement()">Annuler</button>
+                <button type="button" class="ct_btn ct_btn-success" onclick="enregistrerConsentement()">Enregistrer</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <section tabindex="0" id="bannière-consentement" class="ct_cacher" aria-hidden="true" aria-label="Déclaration d'utilisation de fichiers témoins sur ce site">
+    <div class="ct_banniere-conteneur">
+        <div class="ct_banniere-conteneur-texte">
+            <p>
+                Ce site Web utilise des fichiers témoins (<i>cookies</i>) essentiels à son bon fonctionnement.
+                Vous pouvez paramétrer l'utilisation de témoins facultatifs nous permettant d'optimiser votre expérience à travers le site.
+                <a href="https://www.usherbrooke.ca/decouvrir/confidentialite" target="_blank" rel="noopener" class="ct_lien-externe">Voir la Politique de confidentialité</a>
+            </p>
+        </div>
+        <div class="ct_banniere-conteneur-boutons">
+            <button type="button" id="cookie-consent-banner__manage-settings" class="ct_btn" onclick="ouvrirDialogueConsentement()">Gérer les paramètres</button>
+            <button type="button" class="ct_btn ct_btn-accepter-tous" color="primary" onclick="consentementIntégral()">Autoriser tout</button>
+        </div>
+    </div>
+</section>
+    <div id="arrière-consentement" class="modal-backdrop fade"></div>
+
+</footer>
+
+</div>
+
+
+<div id="onglet-panneau" class="onglet-panneau fermé" onclick="togglePanneau(this);">
+    accès directs
+    <span class="flèche"><i class="icon i-haut"></i></span>
+</div>
+<div class="infobulle popper" id="infobulle">
+
+    <div class="titre">
+        <span id="infobulle-titre"></span>
+        <i class="icon i-fermer" onclick="document.getElementById('infobulle').style.display='none';"></i>
+    </div>
+
+    <h5 id="infobulle-titre-contenu" class="contenu"></h5>
+
+    <div id="infobulle-contenu" class="contenu"></div>
+
+    <div id="infobulle-renvois" class="renvois"></div>
+
+    <div class="popper__arrow" x-arrow=""></div>
+
+</div>
+<div class="infobulle popper" id="commentCiter">
+
+    <div class="titre">
+        <span id="citer-titre">Citer</span>
+        <i class="icon i-fermer" onclick="document.getElementById('commentCiter').style.display='none';"></i>
+    </div>
+
+    <div id="citer-article" class="contenu">
+        <h5>Ce contenu</h5>
+        <div id="citer-article-texte">
+
+        </div>
+    </div>
+
+    <div id="citer-usito" class="contenu">
+        <h5><i>Usito</i></h5>
+        <div id="citer-usito-texte">
+
+        </div>
+    </div>
+
+</div>
+<div class="infobulle popper" id="commentPartager">
+
+    <div class="titre">
+        <span id="partager-titre">Partager</span>
+        <i class="icon i-fermer" onclick="document.getElementById('commentPartager').style.display='none';"></i>
+    </div>
+
+    <div id="partager-url" class="contenu">
+
+        
+            <ul class="nav-médias-sociaux">
+                <li><a href="" onclick="partageFacebook()"><span class="icon i-facebook"></span></a></li>
+<!--                <li><a href="" onclick="partageTwitter()"><span class="icon i-x"></span></a></li>-->
+    <!--            <li><a href="#" onclick="partageLien()"><span class="icon i-www"></span></a></li>-->
+            </ul>
+        
+
+        <div>
+            <p>Le lien suivant a été copié dans le presse-papiers :</p>
+            <a id="urlContenuÀPartager">url</a>
+        </div>
+    </div>
+
+</div>
+<div class="infobulle popper" id="infobulle-listeMEQ">
+
+    <div class="titre">
+        <span class="infobulle-listeMEQ-titre">MEQ - #liste#</span>
+        <i class="icon i-fermer" onclick="document.getElementById('infobulle-listeMEQ').style.display='none';"></i>
+    </div>
+
+    <div id="infobulle-listeMEQ-contenu" class="contenu">
+        <h5>
+            Ministère de l’Éducation et de l'Enseignement supérieur<br />
+            #listeNomComplet#
+        </h5>
+
+        <div class="définition">
+            <p>
+                Ce mot fait partie de la <em>liste orthographique</em> (#listeNomComplet#) du
+                ministère de l’Éducation et de l'Enseignement supérieur (MEQ) du Québec, élaborée en collaboration
+                avec le Centre d’analyse et de traitement informatique du français québécois (CATIFQ) de
+                l’Université de Sherbrooke.
+            </p>
+        </div>
+    </div>
+
+    <div id="infobulle-listeMEQ-renvois" class="renvois">
+
+        <p><a href="/index/liste_orthographique_du_MEQ/#listeNomIndex#">Afficher tous les mots de cette liste</a></p>
+
+        
+            <p><a href="http://www.education.gouv.qc.ca/references/publications/resultats-de-la-recherche/detail/article/liste-orthographique-a-lusage-des-enseignantes-et-des-enseignants/"
+                  target="_blank">En savoir davantage sur la liste orthographique</a></p>
+            <p><a href="http://www.franqus.ca/MELS/liste_orthographique/outil_de_recherche/" target="_blank">Utiliser l'outil dynamique de recherche du MEQ</a></p>
+        
+
+    </div>
+
+    <div class="popper__arrow" x-arrow=""></div>
+
+</div>
+<div class="infobulle popper" id="détailsMotApparenté">
+
+    <div class="titre">
+        <span id="détailsMotApparenté-titre">Détails du synonyme</span>
+        <i class="icon i-fermer" onclick="document.getElementById('détailsMotApparenté').style.display='none';"></i>
+    </div>
+
+    <div id="détailsMotApparenté-contenu" class="contenu">
+        <p>
+            <span id="détailsMotApparenté-vedette" class="renvoi-style">vedette</span>
+            <span id="détailsMotApparenté-déclaration">a pour antonyme/synonyme</span>
+            <span id="détailsMotApparenté-motApparenté" class="renvoi-style">mot apparenté</span>
+        </p>
+
+        <p class="auSensDe">au sens de&nbsp;:</p>
+
+        <div id="détailsMotApparenté-lesSens">
+            <div class="détailsMotApparenté-sens">
+                <div class="détailsMotApparenté-defSens">
+                    <a>Définition du sens</a>
+                    <p>
+                        <span class="arrow-style" data-infobulle-id="renvoi_syn__"> ⇒ </span>
+                        <ul>
+                            <li>
+                                <span class="indic-style">indicateur</span>
+                                <a href="">lien vers synonyme</a>
+                            </li>
+                        </ul>
+
+                    </p>
+                </div>
+                <div class="détailsMotApparenté-voirSens">
+                    <span class="indic-style rectangleInfobulle">VOIR</span>
+                    <a href="">lien vers article</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="popper__arrow" x-arrow=""></div>
+
+</div>
+<div class="infobulle popper" id="historique">
+
+    <div class="titre">
+        <span id="historique-titre">Historique</span>
+        <i class="icon i-fermer" onclick="document.getElementById('historique').style.display='none';"></i>
+    </div>
+
+    <ul class="nomenclature-liste">
+        <li>
+            <a href="/définitions/mot">un mot</a>
+        </li>
+        <li>
+            <a href="/définitions/mot">un mot</a>
+        </li>
+    </ul>
+
+    <button onclick="viderHistorique(this)" title="Vider l'historique">Effacer</button>
+
+</div>
+<div class="infobulle popper" id="message-global">
+
+    <div class="titre">
+        <span>Message</span>
+        <i class="icon i-fermer" onclick="document.getElementById('message-global').style.display='none';"></i>
+    </div>
+
+    <div class="message">
+        <h2 id="message-global-titre">Pas d'Usito!</h2>
+        <div id="message-global-contenu">Oh, comme c'est dommage...</div>
+    </div>
+
+    <div id="désactivation" class="désactivation">
+        <input id="désactiveMessage" type="checkbox" name="désactive" value="non" onchange="basculeDésactivationMessage(this)" data-message-id=""/>
+        <label for="désactiveMessage">Ne plus afficher ce message</label>
+    </div>
+
+    <button onclick="document.getElementById('message-global').style.display='none';" title="Fermer la fenêtre message">Fermer</button>
+
+</div>
+<div class="recherche-dynamique popper entête" id="recherche-dynamique">
+
+    <div id="dsr-wrapper">
+        <div id="dsr-info">
+            <div id="dsr-suggestions">
+                <span id="dsr-suggestions-label" class="dsr-suggestions-label">Suggestions&nbsp;:</span>
+                <ul id="dsr-suggestions-liste" class="dsr-suggestions-liste">
+                    <li class="dsr-suggestions-liste-élément">...</li>
+                </ul>
+            </div>
+            <div id="dsr-count-label" class="dsr-count-label">38 résultats trouvés</div>
+        </div>
+        <ul id="dsr" class="dsr"/>
+    </div>
+
+</div>
+
+<div id="indicateurCible" class="indicateurCible"></div>
+
+</body>
+</html>

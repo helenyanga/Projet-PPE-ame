@@ -65,6 +65,9 @@ echo -e "\nOn doit avoir comme résultat :"
 echo -e "Numéro de la ligne\tLien\tHTTP\tEncodage Charset\tNombre de mots (envoyer dans le fichier en sortie : '$fichier_tmp'\n)" #Instruction générée en sortie de la Konsole comme information pour l'utilisateur.
 echo -e "Numéro de la ligne\tLien\tHTTP\tEncodage Charset\tNombre de mots > '$fichier_tmp'" #Ce qui doit apparaître dans le fichier de sortie que l'utilisateur nommera.
 
+#Création du dossier "aspirations".
+mkdir -p ../aspirations
+
 echo "<html>
     <head>
         <meta charset=\"UTF-8\"/>
@@ -84,7 +87,7 @@ N=1
 while read -r line
 do
     #On crée des variables pour l'HTTP, l'encodage, le nombre de mots et le fichier de sortie pour que les résultats se génèrent à l'intérieur de ce même fichier.
-    fichier_data=$(curl -s -i -L -w "%{http_code}\n%{content_type}" -o ./.fichier_data.tmp $line) #Récupérer la page web avec ses métadonnées et les sauvegarder dans le fichier.
+    fichier_data=$(curl -s -i -L -w "%{http_code}\n%{content_type}" -o "../aspirations/fr-${N}.html" $line) #Récupérer la page web avec ses métadonnées et les sauvegarder dans le fichier.
     http_code=$(echo "$fichier_data" | head -1) #Extraction du code HTTP.
     content_type=$(echo "$fichier_data" | tail -1 | grep -Po "charset=\S+" | cut -d"=" -f2) #Extraction de l'encodage.
 
@@ -95,19 +98,27 @@ do
 
     nb_mots=$(cat ./.fichier_data.tmp | lynx -dump -nolist -stdin $line | wc -w)
 
+    aspirations_fichier=(curl -s -L "$line" -o "../aspirations/fr-${N}.html")
+
+    #Ecrire dans le fichier tsv :
     echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}" >> $fichier_tmp #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
     #RAJOUTER LE RESTE APRES AVOIR FAIT LEUR CODE.
+
+    #Ecrire dans le HTML :
     echo -e " <tr>
+                  <td><a href=\"$line\">$line</a></td>
                   <td>$N</td>
                   <td>$line</td>
                   <td>$http_code</td>
                   <td>$content_type</td>
                   <td>$nb_mots</td>
+                  <td><a href=\"$aspirations_fichier\"HTML<\a><\td>
               </tr>" >> "$fichier_html"
 
     N=$( expr $N + 1 )
 done < $fichier_urls
 
+#Fermer le tableau HTML :
 echo "		</table>
 	</body>
 </html>"

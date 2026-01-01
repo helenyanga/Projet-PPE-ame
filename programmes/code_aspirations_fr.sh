@@ -1,11 +1,15 @@
 #!/usr/bin/bash
+#Code pour l'aspiration HTML.
+#Boucle qui télécharge la page url pour chaque lien :
+echo "Téléchargement de la page HTML de chaque URLs..."
 
-#Boucle qui donne le html brute pour chaque urls :
 N=$1 #N pour numéro de la ligne
-line=1
+line=$1
 
 while read -r line
 do
-    curl -o "../aspirations/fr_${line}.html" $N
+    curl -s -L "$line" -o "../aspirations/fr-${line}.html"
     N=$(expr $N + 1)
-done < ../urls/fichier_urls_fr.txt
+done < ../urls/fr.txt
+
+echo "Fin du téléchargement des pages HTML. Aspirations terminées."
