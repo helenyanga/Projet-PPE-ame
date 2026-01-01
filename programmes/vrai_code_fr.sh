@@ -1,16 +1,16 @@
 #!/usr/bin/bash
 
 #A titre informatif pour l'utilisateur (1) : comment lancer le programme.
-echo "N.B. :"
-echo "Avant de lancer le programme : vous pouvez également éxécuter votre fichier.sh suivi de votre premier argument qui est le chemin vers le fichier que vous souhaitez. A cela, vous ajoutez un deuxième argument à la suite qui va indiquer le chemin où vous souhaitez déplacer votre fichier de sortie généré. Cela devra prendre la forme suivante : ./nomdufichier.sh /chemin/fichier chemin/fichierdesortie (si cette option a été choisie, réexécuter le script en ajoutant le second argument ; vous pouvez ajouter plusieurs arguments par exemple, un argument qui envoie le contenu d'un fichier dans un autre : /chemin/fichier.tsv > /chemin/fichier.html )"
-echo "Exemple concret : ./miniprojet.sh /chemin_absolu_ou_relatif/fichier ../tableaux/fichier_data.tsv"
+#echo "N.B. :"
+#echo "Avant de lancer le programme : vous pouvez également éxécuter votre fichier.sh suivi de votre premier argument qui est le chemin vers le fichier que vous souhaitez. A cela, vous ajoutez un deuxième argument à la suite qui va indiquer le chemin où vous souhaitez déplacer votre fichier de sortie généré. Cela devra prendre la forme suivante : ./nomdufichier.sh /chemin/fichier chemin/fichierdesortie (si cette option a été choisie, réexécuter le script en ajoutant le second argument ; vous pouvez ajouter plusieurs arguments par exemple, un argument qui envoie le contenu d'un fichier dans un autre : /chemin/fichier.tsv > /chemin/fichier.html )"
+#echo "Exemple concret : ./miniprojet.sh /chemin_absolu_ou_relatif/fichier ../tableaux/fichier_data.tsv"
 #A titre informatif pour l'utilisateur (2) : déplacement manuellement du fichier à un autre.
-echo "Quand le programme sera terminé : écrivez le chemin pour déplacer le fichier crée en sortie dans le dossier que vous souhaitez, avec la commande suivante : mv nomdufichier chemin/"
-echo "Ou déplacer avec la commande suivante : mv"
+#echo "Quand le programme sera terminé : écrivez le chemin pour déplacer le fichier crée en sortie dans le dossier que vous souhaitez, avec la commande suivante : mv nomdufichier chemin/"
+#echo "Ou déplacer avec la commande suivante : mv"
 #A titre informatif pour l'utilisateur (3) : déplacement manuellement du fichier à un autre.
-echo "On peut aussi transformer un fichier en un autre fichier avec cette commande suivante, par exemple : fichier_tmp > fichier_tsv"
-echo "(Fin du N.B.)"
-echo -e "\n"
+#echo "On peut aussi transformer un fichier en un autre fichier avec cette commande suivante, par exemple : fichier_tmp > fichier_tsv"
+#echo "(Fin du N.B.)"
+#echo -e "\n"
 #Condition qui vérifie si la variable argument est différent de 1, c'est-à-dire, si un argument est donné.
 
 
@@ -77,7 +77,7 @@ echo "<html>
                 <th>HTTP</th>
                 <th>Encodage_Charset</th>
                 <th>Nombre_de_mots</th>
-            </tr>"
+            </tr>" >> "$fichier_html"
 
 N=1
 #On veut lire ligne par ligne le contenu du fichier.
@@ -103,10 +103,14 @@ do
                   <td>$http_code</td>
                   <td>$content_type</td>
                   <td>$nb_mots</td>
-              </tr>"
+              </tr>" >> "$fichier_html"
 
     N=$( expr $N + 1 )
 done < $fichier_urls
+
+echo "		</table>
+	</body>
+</html>"
 
 #Suppression du fichier.tsv qui est le fichier temporaire :
 #rm ../tableaux/"$fichier_tmp"
