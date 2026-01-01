@@ -62,11 +62,9 @@ echo -e "...fin du traitement des URLs.\n"
 fichier_tmp=$2
 fichier_html=$3
 echo -e "\nOn doit avoir comme résultat :"
-echo -e "Numéro de la ligne\tLien\tHTTP \tEncodage Charset\tNombre de mots (envoyer dans le fichier en sortie : '$fichier_tmp'\n)" #Instruction générée en sortie de la Konsole comme information pour l'utilisateur.
-echo -e "Numéro de la ligne\tLien\tHTTP \tEncodage Charset\tNombre de mots > '$fichier_tmp'" #Ce qui doit apparaître dans le fichier de sortie que l'utilisateur nommera.
+echo -e "Numéro de la ligne\tLien\tHTTP\tEncodage Charset\tNombre de mots (envoyer dans le fichier en sortie : '$fichier_tmp'\n)" #Instruction générée en sortie de la Konsole comme information pour l'utilisateur.
+echo -e "Numéro de la ligne\tLien\tHTTP\tEncodage Charset\tNombre de mots > '$fichier_tmp'" #Ce qui doit apparaître dans le fichier de sortie que l'utilisateur nommera.
 
-#Générer une page HTML :
-#Ecrire le fichier :
 echo "<html>
     <head>
         <meta charset=\"UTF-8\"/>
@@ -75,23 +73,18 @@ echo "<html>
         <table>
             <tr>
                 <th>Numéro_de_la_ligne</th>
-                <th>URLS</th>
+                <th>Lien</th>
                 <th>HTTP</th>
-                <th>Encodage</th>
+                <th>Encodage_Charset</th>
                 <th>Nombre_de_mots</th>
-                <th>Occurences</th>
-                <th>Aspirations</th>
-                <th>Dumps</th>
-                <th>Contexte</th>
-                <th>Concordance</th>
-            </tr>" >> "$fichier_tmp"
+            </tr>"
+
 N=1
 #On veut lire ligne par ligne le contenu du fichier.
 while read -r line
 do
     #On crée des variables pour l'HTTP, l'encodage, le nombre de mots et le fichier de sortie pour que les résultats se génèrent à l'intérieur de ce même fichier.
-    fichier_data=$(curl -s -i -L -w "%{http_code}\n%{content_type}" -o ./.fichier_data.tmp $line) #Récupérer la page web avec ses métadonnées et les sauvegarder dans le fichier fr-numérodelalignedelurl.html au sein du dossier français.
-    echo $line #Pour afficher en sortie afin de regarder l'avancement du script.
+    fichier_data=$(curl -s -i -L -w "%{http_code}\n%{content_type}" -o ./.fichier_data.tmp $line) #Récupérer la page web avec ses métadonnées et les sauvegarder dans le fichier.
     http_code=$(echo "$fichier_data" | head -1) #Extraction du code HTTP.
     content_type=$(echo "$fichier_data" | tail -1 | grep -Po "charset=\S+" | cut -d"=" -f2) #Extraction de l'encodage.
 
@@ -100,10 +93,18 @@ do
 		content_type="rien"
 	fi
 
-    nb_mots=$(cat ../tableaux/"$fichier_tmp" | lynx -dump -nolist -stdin $line | wc -w)
+    nb_mots=$(cat ./.fichier_data.tmp | lynx -dump -nolist -stdin $line | wc -w)
 
     echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}" >> $fichier_tmp #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
     #RAJOUTER LE RESTE APRES AVOIR FAIT LEUR CODE.
+    echo -e " <tr>
+                  <td>$N</td>
+                  <td>$line</td>
+                  <td>$http_code</td>
+                  <td>$content_type</td>
+                  <td>$nb_mots</td>
+              </tr>"
+
     N=$( expr $N + 1 )
 done < $fichier_urls
 

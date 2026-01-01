@@ -90,7 +90,7 @@ N=1 #N pour numéro de la ligne (nomme l'url et correspond aussi à la ligne du 
 while read -r line
 do
     #On crée des variables pour l'HTTP, l'encodage, le nombre de mots et le fichier de sortie pour que les résultats se génèrent à l'intérieur de ce même fichier.
-    fichier_data=$(curl -s -i -L -w "%{http_code}\n%{content_type}") #Récupérer la page web avec ses métadonnées et les sauvegarder dans le fichier fr-numérodelalignedelurl.html au sein du dossier français.
+    fichier_data=$(curl -s -i -L -w "%{http_code}\n%{content_type}") #Récupérer la page web avec ses métadonnées et les sauvegarder dans le fichier.
     echo $line #Pour afficher en sortie afin de regarder l'avancement du script.
     http_code=$(echo "$fichier_data" | head -1) #Extraction du code HTTP.
     content_type=$(echo "$fichier_data" | tail -1 | grep -Po "charset=\S+" | cut -d"=" -f2) #Extraction de l'encodage.
