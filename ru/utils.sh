@@ -6,7 +6,7 @@ get_filename()
     echo "$path" | rev | cut -d"/" -f1 | rev | cut -d "." -f1
 }
 
-get_folder_name()
+get_parent_folder_name()
 {
     path=$1
     path="$(dirname "$path")"
