@@ -62,8 +62,8 @@ echo -e "...fin du traitement des URLs.\n"
 fichier_tmp=$2
 fichier_html=$3
 echo -e "\nOn doit avoir comme résultat :"
-echo -e "Numéro de la ligne\tLien\tHTTP\tEncodage Charset\tNombre de mots (envoyer dans le fichier en sortie : '$fichier_tmp'\n)" #Instruction générée en sortie de la Konsole comme information pour l'utilisateur.
-echo -e "Numéro de la ligne\tLien\tHTTP\tEncodage Charset\tNombre de mots > '$fichier_tmp'" #Ce qui doit apparaître dans le fichier de sortie que l'utilisateur nommera.
+echo -e "Numéro\tLien\tHTTP\tEncodage Charset\tNombre de mots (envoyer dans le fichier en sortie : '$fichier_tmp'\n)" #Instruction générée en sortie de la Konsole comme information pour l'utilisateur.
+echo -e "Numéro\tLien\tHTTP\tEncodage Charset\tNombre de mots > '$fichier_tmp'" #Ce qui doit apparaître dans le fichier de sortie que l'utilisateur nommera.
 
 #Création des dossiers :
 mkdir -p ../aspirations
@@ -76,11 +76,12 @@ echo "<html>
     <body>
         <table>
             <tr>
-                <th>Numéro de la ligne</th>
+                <th>Numéro</th>
                 <th>Lien</th>
                 <th>HTTP</th>
                 <th>Encodage Charset</th>
                 <th>Nombre de mots</th>
+                <th>Occurences</th>
                 <th>Aspirations</th>
                 <th>Dumps</th>
             </tr>" >> "$fichier_html"
@@ -106,11 +107,11 @@ do
 
     #Ecrire dans le fichier tsv :
     echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}" >> $fichier_tmp #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
-    #RAJOUTER LE RESTE APRES AVOIR FAIT LEUR CODE.
 
     #Liens pour le tableau HTML :
     aspiration_fichier="../aspirations/fr-$N.html"
     dumps_fichier="../dumps-text/fr-$N.txt"
+
 
     #Ecrire dans le HTML :
     echo -e " <tr>
@@ -120,8 +121,9 @@ do
                   <td>$http_code</td>
                   <td>$content_type</td>
                   <td>$nb_mots</td>
-                  <td><a href=\"../aspirations/fr-${N}.html\">aspiration</a></td>
-                  <td><a href=\"../dumps-text/fr-${N}.html\">dumps</a></td>
+                  <td>$nb_occurences</td>
+                  <td><a href=\"../aspirations/fr-${N}.html\">aspiration</a></<td>
+                  <td><a href=\"../dumps-text/fr-${N}.txt\">dumps</a></td>
               </tr>" >> "$fichier_html"
 
     N=$( expr $N + 1 )
