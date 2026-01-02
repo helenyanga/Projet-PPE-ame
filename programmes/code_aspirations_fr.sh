@@ -4,7 +4,7 @@
 echo "Téléchargement de la page HTML de chaque URLs..."
 
 N=$1 #N pour numéro de la ligne
-line=$1
+line=$2
 
 while read -r line
 do

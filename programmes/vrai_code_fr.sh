@@ -70,6 +70,7 @@ echo -e "Numéro\tLien\tHTTP\tEncodage Charset\tNombre de mots > '$fichier_tmp'"
 mkdir -p ../aspirations
 mkdir -p ../dumps-text
 mkdir -p ../contextes
+mkdir -p ../concordances
 
 
 echo "<html>
@@ -88,6 +89,7 @@ echo "<html>
                 <th>Aspirations</th>
                 <th>Dumps</th>
                 <th>Contextes</th>
+                <th>Concordances</th>
             </tr>" >> "$fichier_html"
 
 N=1
@@ -106,18 +108,22 @@ do
 
     nb_mots=$(lynx -dump -nolist "../aspirations/fr-$N.html" | wc -w)
 
+    #Ecrire dans le fichier tsv :
+    echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}" >> $fichier_tmp #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
+
+    #Pour le tableau HTML :
     aspirations_fichier=$(curl -s -L "$line" -o "../aspirations/fr-${N}.html")
     dumps_fichier=$(lynx -dump -nolist "../aspirations/fr-${N}.html" > "../dumps-text/fr-${N}.txt")
     nb_occurences=$(egrep -a -i -o "\b(Â|â)me(s)?\b" "../dumps-text/fr-${N}.txt" | wc -l)
     contextes_fichier=$(egrep -a -i -C2 "\b(Â|â)me(s)?\b" "../dumps-text/fr-${N}.txt" > "../contextes/fr-${N}.txt")
-
-    #Ecrire dans le fichier tsv :
-    echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}" >> $fichier_tmp #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
+    #concordances=fichier=
 
 
     #Liens cliquables pour le tableau HTML :
     aspirations_fichier="../aspirations/fr-$N.html"
     dumps_fichier="../dumps-text/fr-$N.txt"
+    contexte="../contextes/fr-${N}.html"
+
 
     #Ecrire dans le HTML :
     echo -e " <tr>
@@ -128,8 +134,8 @@ do
                   <td>$nb_mots</td>
                   <td>$nb_occurences</td>
                   <td><a href=\"../aspirations/fr-${N}.html\">aspiration</a></<td>
-                  <td><a href=\"../contextes/fr-${N}.txt\"</td>
                   <td><a href=\"../dumps-text/fr-${N}.txt\">dump</a></td>
+                  <td><a href=\"../contextes/fr-${N}.txt\">contexte</a></td>
               </tr>" >> "$fichier_html"
 
     N=$( expr $N + 1 )
@@ -141,4 +147,4 @@ echo "		</table>
 </html>" >> "$fichier_html"
 
 #Suppression du fichier.tsv qui est le fichier temporaire :
-#rm ../tableaux/"$fichier_tmp"
+rm ../tableaux/"$fichier_tmp"
