@@ -1,0 +1,297 @@
+   (BUTTON) ibahiyya al Ibahiyya (Pascal Garandel) philosophies
+   hétérodoxes et hérésies philosophiques
+   (BUTTON)
+   ____________________
+   (BUTTON)
+   ____________________
+   (BUTTON)
+
+     * Accueil
+     * Le projet al Ibahiyya
+     * Philosophie
+          + Philosophie analytique
+               o Carnap
+               o Wittgenstein
+               o Russell
+          + Ernst Bloch
+          + Léon Chestov
+          + Georges Bataille
+          + C. Castoriadis
+          + Nietzsche
+          + Philosophie politique
+          + Divers
+          + Foucault
+          + Robert Linhart, l'établi
+     * Théorie économique
+          + Economie islamique
+          + Théorie monétaire
+          + Théorie de la firme
+          + Microéconomie
+          + Histoire économique
+          + Management
+     * Théologie et philosophie religieuse
+          + Protestantisme
+               o Paul Tillich
+               o Karl Barth
+               o Jacques Ellul
+          + Islam
+               o Ibn Arabi
+               o Islam et économie
+          + Hétérodoxies
+               o Ernst Bloch
+               o Léon Chestov
+     * Art et Littérature
+          + Présentation
+          + Gide, anthologie philosophique
+          + Pasolini, philosophe hérétique
+          + Moby Dick, monstre littéraire
+          + Garcia Marquez, le Noyé
+          + Thomas Mann : guerre des mots
+          + Histoires de perspective
+     * Jeux Vidéo
+     * Philosophie et astronomie
+          + La révolution astronomique
+          + Astronomie et vision du monde
+          + Astronomie et littérature
+     * Géographie, cartographie
+          + La révolution géographique
+               o La géographie comme science
+               o Géographie et humanisme
+               o Entre tradition et rupture
+          + Géographie et religion
+               o Géographie et théologie
+               o Les Jésuites en mission
+          + Géographie et philosophie
+               o Géographie et scepticisme
+               o La tolérance des Turcs
+               o Le spectacle du monde
+
+    1. Accueil
+    2. Cours en ligne
+    3. Cours (par thèmes)
+    4. Le vivant, entre science et éthique
+    5. Le vivant et la science (1)
+
+Le vivant et la science (1)
+
+   Nous avons entamé notre étude du rapport entre science et vie en
+   remarquant qu'une science de la vie (ou du vivant) est nécessairement
+   possible... puisqu'elle existe !  On pourrait même dire qu'elle existe
+   trop, puisque, outre la bio-logie, on doit compter parmi les sciences
+   qui prennent des êtres vivants pour objet : la botanique, la zoologie,
+   l'éthologie... et toutes les sciences humaines. La question est donc de
+   savoir en quoi consistent ces sciences, dans quelle mesure elles sont
+   capables d'en produire une étude rationnelle, et enfin dans quelle
+   mesure elles en ont le droit.  Notre programme sera donc :
+
+        a) déterminer ce que sont les caractéristiques essentielles des
+   êtres vivants
+
+        b) déterminer en quoi ces caractéristiques impliquent / expliquent
+   les spécificités des sciences du vivant (par rapport aux autres
+   sciences de la nature)
+
+        c) déterminer les limites techniques que les caractéristiques
+   propres des êtres vivants imposent à la démarche scientifique
+
+       d) déterminer les problèmes éthiques que ces caractéristiques
+   soulèvent lorsque les êtres vivants sont posés comme objets de science.
+
+                                [foetus.jpg]
+
+   Qu'est-ce qu'un être vivant ? Si l'on veut éviter la tautologie (un
+   être vivant est un être qui vit...), il faut indiquer les
+   caractéristiques majeures qui constituent les critères du vivant. On
+   peut alors dire qu'un être vivant est un être :
+
+        a) organisé (toutes les parties d'un être vivant sont
+   inter-dépendantes : un corps vivant est un organisme)
+
+        b) animé d'un principe d'auto-organisation (maintien et
+   développement de la structure)
+
+        c) en relation d'échange avec son milieu
+
+        d) capable de se reproduire
+
+   L'ensemble du vivant n'est pas homogène, et l'on peut croiser cette
+   approche "biologique" du vivant avec la hiérarchie établie par
+   Aristote, qui différencie les êtres vivants par le type "d'âme" qui les
+   habite ; l'âme renvoie ici au principe immatériel qui anime les êtres
+   vivants, les distinguant ainsi de tous les êtres inertes. Conformément
+   à la typologie du sens commun, Aristote distingue donc :
+
+        a) les végétaux (animés d'une âme "végétative", qui leur permet de
+   se nourrir et de se reproduire ou, si l'on préfère, de se maintenir en
+   vie et de la transmettre)
+
+        b) les animaux (animés d'une âme "sensitive", qui leur permet de
+   percevoir, d'éprouver des sensations)
+
+        c) les hommes (animés d'une âme "intellective", qui leur permet de
+   penser rationnellement par concepts, idées)
+
+   On remarquera qu'il n'y a pas d'opposition entre ces deux approches :
+   l'une envisage la vie à partir des caractéristiques des êtres vivants,
+   l'autre envisage les êtres vivants à partir du type de vie qui les
+   anime.
+
+   Il est inutile, le jour de l'examen, de se montrer facétieux en
+   remarquant qu'Aristote ne connaissait pas les Ents, qui posent quelques
+   problèmes de classification...
+
+                                 [ents.jpg]
+
+   Telles sont donc les caractéristiques que l'on peut mobiliser pour
+   mettre en lumière et expliquer les caractéristiques spécifiques des
+   sciences du vivant. Le travail est assez simple.
+
+   Si l'on prend appui sur la capacité de reproduction des êtres vivants,
+   alors on comprend que la totalité des êtres vivants constitue un réseau
+   de lignées qui, elles-mêmes, se séparent en sous-lignées, classes, etc.
+   Parmi les êtres vivants, il y a ceux qui constituent le règne animal ;
+   dans le règne animal, il y a les vertébrés (et les invertébrés) ; parmi
+   les vertébrés, il y a les mammifères (et les oiseaux, les reptiles et
+   les poissons, si l'on suit la classification de Linné) ; parmi les
+   mammifères, il y a les vivipares et les ovipares ; parmi les mammifères
+   ovipares (les "monotrèmes"), il y a les Tachyglossidés et les
+   Ornithorynchidés ; parmi les Ornithorynchidés, il y a... ah non : il
+   n'y en a qu'un : l'orithorynque !
+
+   L'ornithorynque est donc l'animal vertébré monotrème ornithorynchidé !
+
+                             [Ornithorynque.jpg]
+
+   C'est avec ce double travail de "répertoriage" et de "classement" des
+   différentes espèces vivantes qu'est née la biologie, dont les deux
+   ancêtres sont donc la botanique et la zoologie. Au passage, on comprend
+   pourquoi les noms qui sont indiqués sur les petites pancartes que l'on
+   trouve au pied des plantes dans les jardins botaniques sont
+   (généralement) interminables, notamment lorsqu'ils ont gardé leur forme
+   latine initiale. C'est que le nom de l'espèce a ici une fonction très
+   particulière : son nom désigne en fait ses coordonnées dans le système
+   des êtres vivants. Le nom d'un être vivant n'est pas ici un "prénom"
+   permettant de le désigner, mais un ensemble de caractéristiques qui
+   permettent de le situer sur la carte générale de la biosphère. Ainsi,
+   le nom complet de l'orinthorynque, c'est "animal (règne) chordé
+   (embranchement) vertébré (sous-embranchement) mammifère (classe)
+   protothérien (sous-classe) monotrème (ordre) ornithorynchidé". Il ne
+   reste plus qu'à traduire en latin, et nous aurons notre petite pancarte
+   !
+
+   En botanique et en zoologie, nommer, c'est situer.  La connaissance
+   scientifique est ici taxinomie (description et regroupement des
+   organismes vivants) et systématique (classification des organismes
+   vivants).
+
+   Autres grandes caractéristiques des êtres vivants : l'organisation et
+   l'auto-organisation, par échanges internes et externes. L'étude
+   scientifique consistera donc à analyser / rationaliser la structure et
+   les mécanismes propres aux organismes vivants. C'est donc l'étude du
+   "fonctionnement" du vivant qui est ici effectuée, ce qui définit la
+   tâche classique de la physiologie (étude des mécanismes de nutrition,
+   de reproduction [songeons ici à la génétique] et de locomotion) ;
+   l'étude des structures et des rapports internes de l'organisme définit
+   l'anatomie ; l'étude de la structure externe définit la morphologie. On
+   peut y ajouter l'histologie, l'étude des tissus des organismes vivants.
+
+   La connaissance scientifique est ici explication : il s'agit de
+   reconstruire le fonctionnement de l'organisme sous la forme d'un
+   système de rapports soumis à des lois, ce système étant accessible à la
+   raison. On comprend entrevoir ici l'enjeu de la représentation du
+   vivant par un modèle de type mécanique (machine).
+
+
+                            [Homme-machine-2.jpg]
+
+        Une construction 3D de Meats Meier (2005) : "L'homme-machine"
+
+   Enfin, dans la mesure où certains êtres vivants sont capables de se
+   mouvoir d'eux-mêmes en fonction de dynamiques et d'objectifs qui leur
+   sont propres, les sciences du vivant peuvent chercher à rationaliser le
+   comportement de ces organismes. L'étude du comportement animal définit
+   l'éthologie ; quant à l'étude du comportement humain, elle regroupe
+   l'ensemble... des sciences humaines (anthropologie, ethnologie,
+   sociologie, psychologie, histoire, etc.)
+
+   La connaissance scientifique vise ici la compréhension : le but est de
+   donner un sens (rationnellement accessible) au comportement des êtres
+   vivants. On peut donc admettre que la tâche des sciences du vivants
+   réside avant tout, ici, dans un travail d'interprétation.
+
+   On comprend alors ce qui constitue l'enjeu de la "théorie de
+   l'évolution", dont on peut se demander, au départ, où il conviendrait
+   de la classer. Elle est évidemment liée à la taxinomie et à la
+   systématique... puisqu'elle vise à unifier, dans un enchaînement
+   temporel, les différentes branches du monde vivant. Elle est également
+   liée à l'explication des mécanismes internes du vivant, puisqu'elle
+   repose sur un processus génétique. Enfin, elle est liée à
+   l'interprétation des conduites, puisqu'elle contient (au moins en
+   germe) la notion de "lutte pour la survie" de chaque espèce. La théorie
+   de l'évolution n'appartient donc pas à un secteur particulier des
+   sciences du vivant : elle concerne des hypothèses qui surplombent le
+   domaine global de la biologie ; er, en ce sens, la théorie de
+   l'évolution est à la fois un lieu de synthèse pour les différentes
+   sciences du vivant, et un lieu d'articulation avec d'autres domaines du
+   savoir humain : qu'il s'agisse du domaine politique, du domaine
+   philosophique ou du domaine religieux.
+
+                              [Darwin_ape.jpg]
+
+               Célèbre caricature de Darwin... "as an ape !"
+
+   Ajouter un commentaire
+   Nom
+   ____________________
+   E-mail
+   ____________________
+   Site Internet
+   ____________________
+   Message
+   ____________________
+   (BUTTON)
+   Aperçu
+
+   _
+   _
+   _
+   _
+   _
+   _
+   _
+   _
+   _
+   _
+   (BUTTON) Ajouter
+     * Actualités du Site
+
+   Posez vos questions !
+
+   Posez vos questions !
+   Espace élèves
+   [Pages_________________]
+   Cours en ligne
+     * Cours (par thèmes)
+          + Bonheur, Désir, Devoir
+          + La culture, l'art et la technique
+          + Histoire, sens et interprétation
+          + La liberté, la raison et la loi
+          + Le sujet, la conscience et l'inconscient
+          + La religion, la foi et le savoir
+          + Le vivant, entre science et éthique
+          + Raison, réel et vérité
+          + Définitions et chronologies
+     * Synthèses (archives)
+          + Liberté, désir et raison
+          + Bonheur et Morale
+          + Raison, réel et vérité
+          + Sujet, conscience et inconscient
+          + Culture, art et technique
+          + Oeuvres suivies
+          + Liberté et sécurité
+     * Archives 2020
+          + TG7
+          + TG8
+          + Term HLP
+          + 1ere HLP (1)
+          + 1ere HLP (2)

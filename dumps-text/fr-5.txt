@@ -1,0 +1,931 @@
+   En poursuivant votre navigation sur ce site, vous acceptez
+   l’utilisation d’un témoin de connexion (cookie), afin de réaliser des
+   statistiques de visites et de personnaliser votre navigation. Pour en
+   savoir plus, cliquez ici.
+   (BUTTON) J’accepte (BUTTON) Je refuse
+
+   PARAMÈTRES D’ACCESSIBILITÉ
+   [ ] Activer la navigation hypertexte adaptée pour les personnes
+   utilisant les technologies d’assistance.
+   [BUTTON Input] (not implemented)_______
+
+   Taille du texte
+   (BUTTON) (BUTTON) (BUTTON)
+   Informations sur les paramètres d’accessibilité
+   (BUTTON)
+
+   information recherche
+   ____________________ (BUTTON) Vider champ recherche (BUTTON) Recherche
+   avancée
+   RECHERCHE AVANCÉE
+   Mots commençant par
+   Mots proches
+
+   Pour chercher un mot dans le dictionnaire, tapez simplement ses
+   premières lettres. Utilisez le bouton « Mots proches » pour activer la
+   correction orthographique et phonétique.
+   (BUTTON) Fermer le formulaire de recherche avancée.
+
+Recherche en texte intégral :
+
+   ____________________
+   [X] Rechercher les mots sous toutes leurs formes
+   [ ] Respecter la casse
+   [ ] Rechercher également les graphies anciennes
+   Rechercher dans
+   [tout l’articlele]
+
+Recherche par domaines :
+
+   Liste hierarchique des domaines
+
+   (BUTTON) Liste des domaines
+     * [ ] Acoustique
+     * [ ] Administration
+     * [ ] Administration militaire
+     * [ ] Aéronautique, aviation
+     * [ ] Agriculture
+     * [ ] Algèbre
+     * [ ] (BUTTON)
+    ALIMENTATION
+          + [ ] Boucherie
+          + [ ] Boulangerie
+          + [ ] Charcuterie
+          + [ ] Confiserie
+          + [ ] Cuisine
+          + [ ] Œnologie
+          + [ ] Pâtisserie
+     * [ ] Alpinisme
+     * [ ] Ameublement
+     * [ ] Anatomie
+     * [ ] Anthropologie
+     * [ ] Antiquité
+     * [ ] Antiquité grecque
+     * [ ] Antiquité romaine
+     * [ ] Apiculture
+     * [ ] Arboriculture
+     * [ ] Archéologie
+     * [ ] (BUTTON)
+    ARCHITECTURE, BÂTIMENT
+          + [ ] Architecture
+          + [ ] Bâtiment
+          + [ ] Charpenterie
+          + [ ] Fortifications
+          + [ ] Maçonnerie
+          + [ ] Ponts et Chaussées
+          + [ ] Travaux publics
+          + [ ] Urbanisme
+     * [ ] Arithmétique
+     * [ ] Armes
+     * [ ] Artillerie
+     * [ ] Arts
+     * [ ] Arts décoratifs
+     * [ ] Astrologie
+     * [ ] Astronautique
+     * [ ] Astronomie
+     * [ ] Athlétisme
+     * [ ] Audiovisuel
+     * [ ] Automobile
+     * [ ] Aviation → Aéronautique
+     * [ ] Balistique
+     * [ ] Banque
+     * [ ] Bâtiment
+     * [ ] Beaux-Arts
+     * [ ] Billard
+     * [ ] Biologie
+     * [ ] Botanique
+     * [ ] Boucherie
+     * [ ] Boulangerie
+     * [ ] Bourse
+     * [ ] Céramique
+     * [ ] Chancellerie
+     * [ ] Charcuterie
+     * [ ] Charpenterie
+     * [ ] (BUTTON)
+    CHASSE [groupe]
+          + [ ] Chasse
+          + [ ] Fauconnerie
+          + [ ] Vènerie
+     * [ ] Chemins de fer
+     * [ ] Chimie
+     * [ ] Chirurgie
+     * [ ] Chronologie
+     * [ ] Cinéma
+     * [ ] Coiffure
+     * [ ] Commerce
+     * [ ] Comptabilité
+     * [ ] Conchyliologie (crustacés)
+     * [ ] Confiserie
+     * [ ] Courses
+     * [ ] Couture
+     * [ ] Cuisine
+     * [ ] Cyclisme
+     * [ ] Danse, chorégraphie
+     * [ ] Dessin
+     * [ ] Dévotion
+     * [ ] Didactique
+     * [ ] Diplomatie
+     * [ ] Divers
+     * [ ] Dogmatique
+     * [ ] Douanes
+     * [ ] (BUTTON)
+    DROIT ET ADMINISTRATION
+          + [ ] Administration
+          + [ ] Douanes
+          + [ ] Droit
+          + [ ] Droit administratif
+          + [ ] Droit ancien
+          + [ ] Droit canon
+          + [ ] Droit civil
+          + [ ] Droit commercial
+          + [ ] Droit constitutionnel
+          + [ ] Droit criminel → Droit pénal
+          + [ ] Droit du travail
+          + [ ] Droit féodal
+          + [ ] Droit fiscal
+          + [ ] Droit international
+          + [ ] Droit maritime
+          + [ ] Droit pénal
+          + [ ] Droit public
+          + [ ] Droit romain
+          + [ ] Jurisprudence
+          + [ ] Législation
+          + [ ] Palais (terme de)
+          + [ ] Pratique → Procédure
+          + [ ] Procédure
+     * [ ] Eaux et forêts
+     * [ ] (BUTTON)
+    ÉCONOMIE ET FINANCES
+          + [ ] Banque
+          + [ ] Bourse
+          + [ ] Commerce
+          + [ ] Comptabilité
+          + [ ] Économie
+          + [ ] Finances
+          + [ ] Fiscalité
+          + [ ] Monnaie
+          + [ ] Postes
+     * [ ] Écriture sainte (Bible)
+     * [ ] Écriture, Calligraphie
+     * [ ] Édition, Librairie
+     * [ ] Électricité
+     * [ ] Électronique
+     * [ ] Élevage
+     * [ ] Enseignement
+     * [ ] Entomologie
+     * [ ] Équitation, Manège
+     * [ ] Escrime
+     * [ ] Ethnologie
+     * [ ] Fauconnerie
+     * [ ] Féodalité, Moyen Âge
+     * [ ] Finances
+     * [ ] Fiscalité
+     * [ ] Fonderie
+     * [ ] Fortifications
+     * [ ] Généalogie
+     * [ ] Génétique
+     * [ ] Géodésie
+     * [ ] Géographie
+     * [ ] Géologie
+     * [ ] Géométrie
+     * [ ] Géomorphologie
+     * [ ] Géophysique
+     * [ ] Golf
+     * [ ] Grammaire
+     * [ ] Gravure
+     * [ ] Guerre (terme de)
+     * [ ] Gymnastique
+     * [ ] Habillement
+     * [ ] Héraldique (blason)
+     * [ ] Hippologie
+     * [ ] (BUTTON)
+    HISTOIRE [groupe]
+          + [ ] Antiquité
+          + [ ] Antiquité grecque
+          + [ ] Antiquité romaine
+          + [ ] Archéologie
+          + [ ] Chronologie
+          + [ ] Féodalité, Moyen Âge
+          + [ ] Généalogie
+          + [ ] Histoire
+          + [ ] Préhistoire
+     * [ ] Histoire littéraire
+     * [ ] Horlogerie
+     * [ ] Horticulture
+     * [ ] Hydrologie
+     * [ ] Imprimerie
+     * [ ] Informatique
+     * [ ] Jardinage
+     * [ ] (BUTTON)
+    JEUX [groupe]
+          + [ ] Billard
+          + [ ] Jeu d'échecs
+          + [ ] Jeu de dames
+          + [ ] Jeu de dés
+          + [ ] Jeu de paume
+          + [ ] Jeu de quilles
+          + [ ] Jeu de trictrac
+          + [ ] Jeux de cartes
+     * [ ] Jeux de ballon
+     * [ ] Joaillerie
+     * [ ] Journalisme
+     * [ ] Jurisprudence
+     * [ ] Législation
+     * [ ] Linguistique
+     * [ ] Littérature
+     * [ ] Liturgie
+     * [ ] Logique
+     * [ ] Maçonnerie
+     * [ ] Maréchalerie
+     * [ ] Marine
+     * [ ] (BUTTON)
+    MATHÉMATIQUES [groupe]
+          + [ ] Algèbre
+          + [ ] Arithmétique
+          + [ ] Géométrie
+          + [ ] Logique
+          + [ ] Mathématiques
+          + [ ] Statistiques
+     * [ ] Mécanique
+     * [ ] (BUTTON)
+    MÉDECINE [groupe]
+          + [ ] Anatomie
+          + [ ] Chirurgie
+          + [ ] Génétique
+          + [ ] Médecine
+          + [ ] Médecine vétérinaire
+          + [ ] Obstétrique
+          + [ ] Ophtalmologie
+          + [ ] Pathologie
+          + [ ] Pharmacie
+          + [ ] Psychiatrie
+          + [ ] Psychopathologie
+     * [ ] Menuiserie, Ébénisterie
+     * [ ] Mesures
+     * [ ] Métallurgie
+     * [ ] Météorologie
+     * [ ] (BUTTON)
+    MILITAIRE (ART)
+          + [ ] Administration militaire
+          + [ ] Armes
+          + [ ] Artillerie
+          + [ ] Guerre (terme de)
+          + [ ] Militaire (terme)
+     * [ ] Minéralogie
+     * [ ] Mines
+     * [ ] Monnaie
+     * [ ] Morale
+     * [ ] Musique
+     * [ ] Mysticisme
+     * [ ] Mythologie
+     * [ ] Numismatique (monnaies et médailles)
+     * [ ] Obstétrique
+     * [ ] Œnologie
+     * [ ] Ophtalmologie
+     * [ ] Optique
+     * [ ] Orfèvrerie
+     * [ ] Palais (terme de)
+     * [ ] Paléontologie
+     * [ ] Papeterie
+     * [ ] Parfumerie, cosmétiques
+     * [ ] Pathologie
+     * [ ] Pâtisserie
+     * [ ] Peausserie
+     * [ ] Pêche
+     * [ ] Peinture
+     * [ ] Pharmacie
+     * [ ] Philosophie
+     * [ ] Philosophie scolastique
+     * [ ] Phonétique
+     * [ ] Photographie
+     * [ ] Physiologie
+     * [ ] (BUTTON)
+    PHYSIQUE [groupe]
+          + [ ] Acoustique
+          + [ ] Astronomie
+          + [ ] Balistique
+          + [ ] Électricité
+          + [ ] Électronique
+          + [ ] Mécanique
+          + [ ] Mesures
+          + [ ] Optique
+          + [ ] Physique
+     * [ ] Poésie
+     * [ ] Politique
+     * [ ] Ponts et Chaussées
+     * [ ] Postes
+     * [ ] Pratique → Procédure
+     * [ ] Préhistoire
+     * [ ] Procédure
+     * [ ] Prosodie
+     * [ ] Psychanalyse
+     * [ ] Psychiatrie
+     * [ ] Psychologie
+     * [ ] Psychopathologie
+     * [ ] Pyrotechnie
+     * [ ] (BUTTON)
+    RELIGION ET SPIRITUALITÉ
+          + [ ] Dévotion
+          + [ ] Dogmatique
+          + [ ] Écriture sainte (Bible)
+          + [ ] Liturgie
+          + [ ] Mysticisme
+          + [ ] Religion
+          + [ ] Religion catholique
+          + [ ] Religion chrétienne
+          + [ ] Religion islamique
+          + [ ] Religion juive
+          + [ ] Spiritualité
+          + [ ] Théologie
+     * [ ] Reliure
+     * [ ] Rhétorique
+     * [ ] Sciences
+     * [ ] (BUTTON)
+    SCIENCES DE LA TERRE
+          + [ ] Géodésie
+          + [ ] Géographie
+          + [ ] Géologie
+          + [ ] Géomorphologie
+          + [ ] Géophysique
+          + [ ] Hydrologie
+          + [ ] Météorologie
+          + [ ] Minéralogie
+          + [ ] Paléontologie
+          + [ ] Topographie, Hydrographie
+     * [ ] Sciences naturelles
+     * [ ] Sculpture
+     * [ ] Sellerie
+     * [ ] Serrurerie
+     * [ ] Ski
+     * [ ] Sociologie
+     * [ ] Spectacles
+     * [ ] Spiritualité
+     * [ ] (BUTTON)
+    SPORTS [groupe]
+          + [ ] Alpinisme
+          + [ ] Athlétisme
+          + [ ] Courses
+          + [ ] Cyclisme
+          + [ ] Équitation, Manège
+          + [ ] Escrime
+          + [ ] Golf
+          + [ ] Gymnastique
+          + [ ] Jeux de ballon
+          + [ ] Ski
+          + [ ] Sports de combat
+          + [ ] Tennis, tennis de table
+     * [ ] Statistiques
+     * [ ] Sylviculture
+     * [ ] (BUTTON)
+    TECHNIQUES ET MÉTIERS
+          + [ ] Ameublement
+          + [ ] Céramique
+          + [ ] Coiffure
+          + [ ] Couture
+          + [ ] Fonderie
+          + [ ] Habillement
+          + [ ] Horlogerie
+          + [ ] Imprimerie
+          + [ ] Joaillerie
+          + [ ] Maréchalerie
+          + [ ] Menuiserie, Ébénisterie
+          + [ ] Métallurgie
+          + [ ] Mines
+          + [ ] Orfèvrerie
+          + [ ] Papeterie
+          + [ ] Parfumerie, cosmétiques
+          + [ ] Peausserie
+          + [ ] Pyrotechnie
+          + [ ] Reliure
+          + [ ] Sellerie
+          + [ ] Serrurerie
+          + [ ] Technique (terme)
+          + [ ] Télécommunications
+          + [ ] Textile (industrie)
+          + [ ] Typographie
+          + [ ] Verrerie
+     * [ ] Télécommunications
+     * [ ] Télévision
+     * [ ] Tennis, tennis de table
+     * [ ] Textile (industrie)
+     * [ ] Théâtre
+     * [ ] Théologie
+     * [ ] Topographie, Hydrographie
+     * [ ] Transports
+     * [ ] Travaux publics
+     * [ ] Typographie
+     * [ ] Urbanisme
+     * [ ] Vènerie
+     * [ ] Verrerie
+     * [ ] Versification
+     * [ ] Viticulture
+     * [ ] (BUTTON)
+    ZOOLOGIE [groupe]
+          + [ ] Conchyliologie (crustacés)
+          + [ ] Entomologie
+          + [ ] Hippologie
+          + [ ] Zoologie
+
+Recherche par entrées :
+
+   ____________________
+   [ ] Ignorer les accents
+
+Recherche par catégorie grammaticale :
+
+   Liste hierarchique des catégories grammaticale
+
+   (BUTTON) Liste des catégories grammaticales
+     * [ ] (BUTTON)
+    abréviation et symbole
+          + [ ] abréviation
+          + [ ] symbole
+     * [ ] (BUTTON)
+    adjectif
+          + [ ] adjectif
+          + [ ] adjectif numéral
+     * [ ] adverbe
+     * [ ] article
+     * [ ] conjonction
+     * [ ] (BUTTON)
+    élément (préfixe, suffixe)
+          + [ ] préfixe
+          + [ ] suffixe
+     * [ ] interjection
+     * [ ] (BUTTON)
+    locution
+          + [ ] locution
+          + [ ] locution adjectivale
+          + [ ] locution adverbiale
+          + [ ] locution conjonctive
+          + [ ] locution prépositive
+     * [ ] (BUTTON)
+    nom
+          + [ ] nom
+          + [ ] nom masculin
+          + [ ] nom féminin
+     * [ ] possessif (adjectif, pronom)
+     * [ ] pronom
+     * [ ] préposition
+     * [ ] (BUTTON)
+    verbe
+          + [ ] verbe
+          + [ ] verbe transitif
+          + [ ] verbe intransitif
+          + [ ] verbe pronominal
+          + [ ] verbe réciproque
+          + [ ] verbe impersonnel
+
+Recherche dans l’étymologie :
+
+par langue
+
+   Liste hierarchique par langue
+
+   (BUTTON) Liste des langues
+     * [ ] aborigènes d'Australie (langues)
+     * [ ] (BUTTON)
+    africaines (langues)
+          + [ ] africaine (langue)
+          + [ ] bantou
+          + [ ] malinké
+          + [ ] swahili
+          + [ ] wolof
+          + [ ] yoruba
+          + [ ] zoulou
+     * [ ] (BUTTON)
+    allemand [groupe]
+          + [ ] alémanique
+          + [ ] allemand
+          + [ ] alsacien
+     * [ ] (BUTTON)
+    amérindiennes (langues)
+          + [ ] algonquin
+          + [ ] amérindienne (langue)
+          + [ ] arawak
+          + [ ] caraïbe
+          + [ ] inuit
+          + [ ] nahuatl
+          + [ ] quechua
+          + [ ] taïno
+          + [ ] tupi-guarani
+     * [ ] (BUTTON)
+    anglais et anglo-américain
+          + [ ] anglais
+          + [ ] anglais des États-Unis
+     * [ ] arabe
+     * [ ] (BUTTON)
+    Asie (langues d')
+          + [ ] birman
+          + [ ] chinois
+          + [ ] thaï
+          + [ ] tibétain
+          + [ ] vietnamien
+     * [ ] basque
+     * [ ] (BUTTON)
+    caucasiennes (langues)
+          + [ ] caucasien
+          + [ ] géorgien
+     * [ ] (BUTTON)
+    celtiques (langues)
+          + [ ] breton
+          + [ ] celtique
+          + [ ] écossais
+          + [ ] gaélique
+          + [ ] gallois
+          + [ ] gaulois
+          + [ ] irlandais
+     * [ ] chinois
+     * [ ] coréen
+     * [ ] (BUTTON)
+    dravidiennes (langues)
+          + [ ] dravidienne (langue) [Inde]
+          + [ ] malayalam
+          + [ ] tamoul
+     * [ ] égyptien (ancien)
+     * [ ] espagnol
+     * [ ] étrusque
+     * [ ] (BUTTON)
+    finno-ougriennes (langues)
+          + [ ] finnois
+          + [ ] hongrois
+     * [ ] (BUTTON)
+    français (non régional)
+          + [ ] ancien français
+          + [ ] anglo-normand
+          + [ ] argot
+          + [ ] français (non régional)
+          + [ ] gallo-roman
+          + [ ] moyen français
+     * [ ] (BUTTON)
+    français (régional ou dialectal) de France
+          + [ ] français d'oïl
+          + [ ] français régional ou dialectal
+          + [ ] franco-provençal
+          + [ ] gascon
+          + [ ] languedocien
+          + [ ] normand
+          + [ ] occitan
+          + [ ] picard
+          + [ ] provençal
+     * [ ] (BUTTON)
+    français hors de France
+          + [ ] créole
+          + [ ] français de Suisse
+          + [ ] français du Canada
+          + [ ] wallon
+     * [ ] francique
+     * [ ] gaulois
+     * [ ] (BUTTON)
+    germaniques (langues)
+          + [ ] francique
+          + [ ] germanique
+          + [ ] gotique
+     * [ ] grec
+     * [ ] hébreu
+     * [ ] (BUTTON)
+    indo-aryennes (langues)
+          + [ ] bengali
+          + [ ] cingalais
+          + [ ] hindi
+          + [ ] hindoustani
+          + [ ] indo-aryenne (langue)
+          + [ ] népalais
+          + [ ] sanscrit
+     * [ ] (BUTTON)
+    indo-européen (langues isolées de l')
+          + [ ] indo-européen
+          + [ ] romani
+          + [ ] tsigane
+     * [ ] (BUTTON)
+    iraniennes (langues)
+          + [ ] avestique
+          + [ ] iranien
+          + [ ] pashtô
+          + [ ] persan
+     * [ ] (BUTTON)
+    italien [groupe]
+          + [ ] corse
+          + [ ] italien
+          + [ ] vénitien
+     * [ ] japonais
+     * [ ] (BUTTON)
+    latin [groupe]
+          + [ ] bas latin
+          + [ ] latin
+          + [ ] latin chrétien ou ecclésiastique
+          + [ ] latin impérial
+          + [ ] latin médiéval
+          + [ ] latin populaire
+          + [ ] latin scientifique
+     * [ ] (BUTTON)
+    malayo-polynésiennes (langues)
+          + [ ] malais
+          + [ ] malayo-polynésienne (langue)
+          + [ ] malgache
+          + [ ] maori
+          + [ ] polynésien
+          + [ ] tahitien
+     * [ ] (BUTTON)
+    néerlandais [groupe]
+          + [ ] flamand
+          + [ ] néerlandais
+     * [ ] (BUTTON)
+    nordiques (langues)
+          + [ ] danois
+          + [ ] islandais
+          + [ ] nordique
+          + [ ] norvégien
+          + [ ] scandinave
+          + [ ] suédois
+     * [ ] normand
+     * [ ] persan
+     * [ ] portugais
+     * [ ] provençal
+     * [ ] (BUTTON)
+    romanes (autres langues)
+          + [ ] catalan
+          + [ ] romane (autre langue)
+          + [ ] sarde
+     * [ ] russe
+     * [ ] sanscrit
+     * [ ] (BUTTON)
+    sémitiques (langues)
+          + [ ] amharique
+          + [ ] arabe
+          + [ ] araméen
+          + [ ] berbère
+          + [ ] hébreu
+          + [ ] sémitique
+          + [ ] syriaque
+     * [ ] (BUTTON)
+    slaves (langues)
+          + [ ] polonais
+          + [ ] russe
+          + [ ] serbo-croate
+          + [ ] slave
+          + [ ] tchèque
+          + [ ] ukrainien
+     * [ ] (BUTTON)
+    turques (langues) [ouralo-altaïques]
+          + [ ] kirghiz
+          + [ ] mongol
+          + [ ] ouïgour
+          + [ ] toungouse
+          + [ ] turc
+     * [ ] *acronymes
+     * [ ] (BUTTON)
+    *dérivés de noms de personnes ou de lieux
+          + [ ] *dérivé de nom de lieu
+          + [ ] *dérivé de nom de personne
+     * [ ] *noms et marques déposés
+     * [ ] *origine incertaine ou inconnue
+
+par datation
+
+   [Liste des datations]
+
+Filtre par éditions :
+
+   [9ᵉ édition (actuelle)le)]
+   Statut du mot : [ ] apparu [ ] disparu
+   Information
+   (BUTTON) Rechercher (BUTTON) Réinitialiser
+   (BUTTON)
+     * Accueil
+     * Recherche avancée
+     * Aide en ligne
+     * Préfaces et annexes
+     * Présentation
+     * Crédits
+
+   Logo Académie Française
+   (BUTTON) Aller au contenu Aide en ligne
+   Préfaces
+   Paramètres d’accessibilité
+     * 1^re
+       1694
+     * 2^e
+       1718
+     * 3^e
+       1740
+     * 4^e
+       1762
+     * 5^e
+       1798
+     * 6^e
+       1835
+     * 7^e
+       1878
+     * 8^e
+       1935
+     * 9^e édition
+       ACTUELLE
+       ACT.
+
+   Dictionnaire de l’Académie française, 9^e édition (actuelle)
+   (BUTTON) Réduire la taille des caractères (BUTTON) Agrandir la taille
+   des caractères (BUTTON) Imprimer le texte de l’article (BUTTON)
+   Partager l’article
+
+   PARTAGER
+   (BUTTON)
+
+   Vous pouvez copier le lien suivant
+   dans le presse-papiers :
+   http://www.dictionna
+   (BUTTON) COPIER
+
+   Il vous permet de créer un lien hypertexte vers cet article du
+   Dictionnaire.
+
+   Consultez les conditions d’utilisation pour en savoir plus.
+
+ : ce mot correspond à plusieurs entrées :
+
+     * Mot 1
+
+Termes, abréviations et symboles
+
+     * Texte 1
+
+âme
+
+   (BUTTON)
+     * Accueil
+     * DÉFINITION
+     * VOIR AUSSI
+     * PAGE NUMÉRISÉE
+     * HISTOIRE DU MOT
+     * VOISINAGE ALPHABÉTIQUE
+     * HISTORIQUE DE CONSULTATION
+
+   (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+
+ÂME
+
+   nom féminin
+   Étymologie : xi^e siècle, anerme ; xii^e siècle, anme. Du latin anima,
+   proprement « air ; souffle ».
+
+I.
+
+   (BUTTON) section
+   I. Marque de domaine : philosophie. Marque de domaine : religion.
+   Principe spirituel animant la matière.
+   A.  Principe qui anime tout être, toute existence. L’âme du monde,
+   principe d’unité de l’Univers selon Platon, les stoïciens, etc. Âme
+   végétative, sensitive, pensante, fonctions de l’âme, dans la
+   philosophie d’Aristote.
+   B.  Chez l’homme, principe considéré comme distinct du corps auquel il
+   est uni et qui, selon certaines religions, survit au corps après la
+   mort.
+   1.  Principe de la vie. Il a rendu l’âme, il est mort. Il a l’âme sur
+   les lèvres, il est près d’expirer. Il a l’âme chevillée au corps, il
+   résiste franchement à la maladie, à la mort. Fig. Se donner, se vouer,
+   se consacrer corps et âme à une personne, à une chose, sans réserve, de
+   toutes ses forces. Un corps sans âme, une personne que la vie semble
+   avoir quittée. Depuis la mort de sa femme, de son ami, c’est un corps
+   sans âme. Par analogie. Cette troupe, ce parti, cette armée est un
+   corps sans âme, manque d’un chef qui l’anime, lui donne la vie.
+   2.  Partie immatérielle de l’homme, par opposition au corps.
+   L’immortalité de l’âme. Vendre son âme au diable, signer avec le démon
+   un pacte aux termes duquel on lui abandonne son âme dans l’au-delà, en
+   échange de ses services dans la vie terrestre. Faust, dit la légende,
+   vendit son âme au diable. Sur mon âme, formule de serment signifiant :
+   « Je le jure sur le salut de mon âme. » Spécialement. Cette partie
+   immatérielle de l’homme séparée du corps après la mort. Les âmes des
+   trépassés. Les âmes bienheureuses, les âmes accueillies au Paradis.
+   Dieu ait son âme, que Dieu veuille admettre son âme en son éternité.
+   Prions Dieu pour son âme, pour le salut, le repos de son âme. Les âmes
+   en peine, chez les Anciens, les âmes des morts sans sépulture, qui
+   erraient au bord du Styx ; dans la religion catholique, celles qui,
+   étant au purgatoire, ont besoin de prières ou, par extension, les âmes
+   damnées, celles qui sont condamnées à l’enfer. Fig. Errer comme une âme
+   en peine, se sentir seul, nostalgique.
+   ▪ Par analogie. Marque de domaine : zoologie. Âme en peine, oiseau
+   marin voisin des pétrels, qui se déplace en bandes, rasant les eaux et
+   voltigeant dans une agitation continuelle, avec une sorte d’inquiétude.
+   3.  Par métonymie. Dans l’usage courant. La personne dont la présence
+   est nécessaire comme l’âme est nécessaire au corps ; l’inspirateur,
+   l’inspiratrice. Il était l’âme du complot. Elle est l’âme de la
+   famille. Être l’âme damnée de quelqu’un, lui être entièrement dévoué
+   et, par extension, être l’instigateur de ses mauvaises actions ou
+   l’exécuteur de ses basses œuvres.
+
+II.
+
+   (BUTTON) section
+   II. Ce qui caractérise un individu considéré dans son intériorité ou
+   dans son essence.
+   1.  Principe ou siège de la pensée, du sentiment, de la volonté chez
+   l’homme. Avoir de la grandeur, de la noblesse d’âme. Avoir l’âme noble,
+   généreuse, vile. Spécialement. Il a de l’âme, il est facilement ému par
+   ce qui est juste, généreux, digne d’intérêt. Ce tyran n’a pas d’âme, il
+   n’a ni cœur ni sentiments humains.
+   ▪ Par métonymie. En parlant d’une personne. C’est une grande âme, une
+   belle âme, une âme faible, une âme basse. Fam. C’est une bonne âme, une
+   personne sans malice et compatissante. Une bonne âme m’a indiqué le
+   chemin, quelqu’un de serviable m’a renseigné. Iron. Personne peu
+   charitable, malveillante et hypocrite. Une bonne âme lui a dit pis que
+   pendre de moi.
+   2.  Expr. Les yeux sont le miroir de l’âme. Lire dans l’âme d’une
+   personne, au fond d’elle-même. Épancher son âme, en livrer le fond. Une
+   âme sœur, une personne avec qui on a de grandes affinités. Mon âme, ma
+   chère âme, expressions de tendresse (vieilli). La paix de l’âme, la
+   quiétude de l’esprit. Un état d’âme, une humeur, une disposition des
+   sentiments. Fam. Avoir des états d’âme, éprouver des sentiments mêlés
+   et, par extension, hésiter sur la conduite à tenir. Avoir du vague à
+   l’âme, être mélancolique sans raison précise. Être ému jusqu’au fond de
+   l’âme, violemment ému. Pousser des cris à fendre l’âme, à émouvoir la
+   personne la plus insensible. Jouer un air, réciter un poème avec âme,
+   avec beaucoup d’âme, en y mettant du sentiment, de la passion. Elle est
+   musicienne dans l’âme, de tout son être. Par métonymie. Cet ouvrage n’a
+   point d’âme, manque de sentiment. Marque de domaine : droit. Les jurés
+   décideront en leur âme et conscience, en ne considérant que leur intime
+   conviction.
+   3.  Par métonymie. Être humain, individu. Une ville de cent mille âmes.
+   Il n’y avait plus âme qui vive dans le village. Avoir charge d’âme, ou
+   d’âmes, se tenir pour responsable des intérêts spirituels et matériels
+   d’une personne ou d’un groupe.
+    Titre célèbre : Les Âmes mortes, de Gogol (1842-1852).
+
+III.
+
+   (BUTTON) section
+   III. Partie centrale ou vitale d’un objet.
+   Marque de domaine : beaux-arts. L’âme d’une statue, l’armature sur
+   laquelle on applique la terre, le plâtre, le stuc, etc. – Marque de
+   domaine : musique. L’âme d’un instrument à cordes à archet, le petit
+   cylindre de bois de sapin, ajusté et coincé entre le fond et la table
+   d’harmonie sous le pied droit du chevalet, qui soutient la table et
+   communique les vibrations sonores à toute la caisse de l’instrument.
+   – Marque de domaine : héraldique. L’âme d’une devise, les mots qui
+   expliquent la figure représentée sur un blason. – Marque de domaine :
+   armement. L’âme d’un canon, l’intérieur du tube. – Marque de domaine :
+   technique. L’âme d’un cordage, le fil de caret qui en assure la
+   solidité. L’âme d’un câble électrique, la partie métallique centrale,
+   qui conduit le courant et qui est enrobée d’un isolant. L’âme d’un
+   soufflet, la soupape de cuir qui permet à l’air d’y entrer.
+   Voir aussi (BUTTON) section
+     * [Terminologie (FranceTerme)] :
+          + (Habitat et construction) âme [n. f.] ● âme [n. f.] ● âme
+            [n. f.]
+
+   Liens externes (BUTTON) section
+     * [Francophonie (BDLP)] âme (Centrafrique, Réunion, Tchad)
+
+   Vous pouvez cliquer sur n’importe quel mot pour naviguer dans le
+   dictionnaire.
+
+VOISINAGE ALPHABÉTIQUE
+
+     * ambréine, n. f.
+     * ambrer, v. tr.
+     * ambrette, n. f.
+     * ambroisie, n. f.
+     * ambrosien, -enne, adj.
+     * ambulance, n. f.
+     * ambulancier, -ière, n.
+     * ambulant, -ante, adj.
+     * ambulatoire, adj.
+     * ambuler, v. [2^e édition]
+     * âme, n. f.
+     * amé, ée, adj. [7^e édition]
+     * améliorant, -ante, adj.
+     * amélioration, n. f.
+     * améliorer, v. tr.
+     * améliorissement, n. m. [4^e édition]
+     * amen, interj.
+     * amenage, n. m. [1^re édition]
+     * aménagement, n. m.
+     * aménager, v. tr.
+
+VOIR AUSSI
+
+     * Terminologie (FranceTerme) [3]
+     * Francophonie (BDLP) [1]
+
+ORTHOGRAPHE
+
+PAGE NUMÉRISÉE
+
+HISTOIRE DU MOT
+
+     * ame, n. f. [1^re édition]
+     * ame, n. f. [2^e édition]
+     * ame, n. f. [3^e édition]
+     * ame, n. f. [4^e édition]
+     * âme, n. f. [5^e édition]
+     * âme, n. f. [6^e édition]
+     * âme, n. f. [7^e édition]
+     * âme, n. f. [8^e édition]
+     * âme, n. f.
+
+HISTORIQUE DE CONSULTATION
+
+     * Académie française
+     * Aide en ligne
+     * Mentions légales
+     * Accessibilité
+     * Contacts

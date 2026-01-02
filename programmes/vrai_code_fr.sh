@@ -44,7 +44,7 @@ echo -e "...fin du traitement du fichier.\n"
 echo "Traitement des URLs en cours..."
 OK=0
 NOK=0
-while read -r line;
+while read -r line; #ligne pour url
 do
     echo "La ligne : $line";
     if [[ $line =~ ^https?:// ]]
@@ -65,8 +65,9 @@ echo -e "\nOn doit avoir comme résultat :"
 echo -e "Numéro de la ligne\tLien\tHTTP\tEncodage Charset\tNombre de mots (envoyer dans le fichier en sortie : '$fichier_tmp'\n)" #Instruction générée en sortie de la Konsole comme information pour l'utilisateur.
 echo -e "Numéro de la ligne\tLien\tHTTP\tEncodage Charset\tNombre de mots > '$fichier_tmp'" #Ce qui doit apparaître dans le fichier de sortie que l'utilisateur nommera.
 
-#Création du dossier "aspirations".
+#Création des dossiers :
 mkdir -p ../aspirations
+mkdir -p ../dumps-text
 
 echo "<html>
     <head>
@@ -75,11 +76,13 @@ echo "<html>
     <body>
         <table>
             <tr>
-                <th>Numéro_de_la_ligne</th>
+                <th>Numéro de la ligne</th>
                 <th>Lien</th>
                 <th>HTTP</th>
-                <th>Encodage_Charset</th>
-                <th>Nombre_de_mots</th>
+                <th>Encodage Charset</th>
+                <th>Nombre de mots</th>
+                <th>Aspirations</th>
+                <th>Dumps</th>
             </tr>" >> "$fichier_html"
 
 N=1
@@ -96,23 +99,29 @@ do
 		content_type="rien"
 	fi
 
-    nb_mots=$(cat ./.fichier_data.tmp | lynx -dump -nolist -stdin $line | wc -w)
+    nb_mots=$(lynx -dump -nolist "../aspirations/fr-$N.html" | wc -w)
 
-    aspirations_fichier=(curl -s -L "$line" -o "../aspirations/fr-${N}.html")
+    aspirations_fichier=$(curl -s -L "$line" -o "../aspirations/fr-${N}.html")
+    dumps_fichier=$(lynx -dump -nolist "../aspirations/fr-${N}.html" > "../dumps-text/fr-${N}.txt")
 
     #Ecrire dans le fichier tsv :
     echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}" >> $fichier_tmp #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
     #RAJOUTER LE RESTE APRES AVOIR FAIT LEUR CODE.
 
+    #Liens pour le tableau HTML :
+    aspiration_fichier="../aspirations/fr-$N.html"
+    dumps_fichier="../dumps-text/fr-$N.txt"
+
     #Ecrire dans le HTML :
     echo -e " <tr>
-                  <td><a href=\"$line\">$line</a></td>
+
                   <td>$N</td>
-                  <td>$line</td>
+                  <td><a href=\"$line\">$line</a></td>
                   <td>$http_code</td>
                   <td>$content_type</td>
                   <td>$nb_mots</td>
-                  <td><a href=\"$aspirations_fichier\"HTML<\a><\td>
+                  <td><a href=\"../aspirations/fr-${N}.html\">aspiration</a></td>
+                  <td><a href=\"../dumps-text/fr-${N}.html\">dumps</a></td>
               </tr>" >> "$fichier_html"
 
     N=$( expr $N + 1 )
@@ -121,7 +130,7 @@ done < $fichier_urls
 #Fermer le tableau HTML :
 echo "		</table>
 	</body>
-</html>"
+</html>" >> ./tableaux/tableau_fr.html
 
 #Suppression du fichier.tsv qui est le fichier temporaire :
 #rm ../tableaux/"$fichier_tmp"

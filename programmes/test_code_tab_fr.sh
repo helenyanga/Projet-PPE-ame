@@ -107,7 +107,7 @@ do
     aspirations=$(curl -o ./aspirations/fr-$N.html $line)
     #dumps=$(lynx -dump -nolist ./aspirations/fr-$N.html > ./dumps-text/fr-$N.txt)
 
-    #nb_occurences=$(egrep -i -o "\b(Â|â)me(s)?\b" .dumps-text/fr-$N.txt | wc -l)
+    #nb_occurences=$(egrep -i -o "\b(Â|â)me(s)?\b" ../dumps-text/fr-$N.txt | wc -l)
 
     echo -e " <tr>
                   <td>$N</td>
