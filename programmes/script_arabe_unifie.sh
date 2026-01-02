@@ -220,7 +220,7 @@ CONCORD_EOF
                         <td><strong>$NUMERO_LIGNE</strong></td>
                         <td><span class="tag is-info">$MOT_RECHERCHE</span></td>
                         <td><a href="$URL" target="_blank" style="font-size: 11px;">رابط</a></td>
-echo "                  <td><span class=\"tag is-light\">$ROBOTS_STATUS</span></td>" >> "$TABLEAU"
+                        <td><span class="tag is-light">$ROBOTS_STATUS</span></td>
                         <td><span class="tag is-$([ "$HTTP_CODE" = "200" ] && echo "success" || echo "danger")">$HTTP_CODE</span></td>
                         <td style="font-size: 11px;">$ENCODAGE</td>
                         <td class="$OCC_CLASS"><strong>$OCCURRENCES</strong></td>
