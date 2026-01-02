@@ -1,0 +1,121 @@
+   ____________________ (BUTTON) Recherche
+
+   Âme
+
+Âme
+
+Rubrique
+
+   Le terme « âme » est issu du grec ἄνεμο, qui a donné le latin anima :
+   il désigne le principe vital analogue au souffle ou à la respiration.
+   L’âme constitue le siège des émotions, de la sensibilité, de la
+   conscience et de la raison. Sa substance est définie par les
+   théologiens comme étant incorruptible et immortelle, incorporelle mais
+   assurant la pérennité de la personne après sa séparation du corps.
+
+   La terminologie qui entoure l’âme est assez variée au Moyen Âge et
+   témoigne des débats sur sa nature et des tentatives de définition dont
+   elle a fait l’objet : anima, mens, intellectus, spiritus, ratio, sont
+--
+   fonctionnelles, le souffle ou principe vital, et l’activité
+   spirituelle/intellectuelle, constitue la base d’une grande partie des
+   réflexions sur la nature de l’âme. La terminologie d’Augustin d’Hippone
+   (différente de celle de Paul) est celle qui exprime le plus clairement
+   cet enjeu — nous l’avons donc adoptée tout au long de la rubrique :
+   spiritus est le principe vital ; mens, le siège des activités
+   spirituelles et intellectuelles. Ces termes constituent les prémices
+   des puissances de l’âme telles que théorisées par la scolastique :
+   l’âme végétative, qui permet la croissance et l’engendrement ; l’âme
+   sensitive, qui permet la sensation ; l’âme rationnelle, recoupant le
+   mens augustinien et, conçue à l’image de Dieu, consacrant la
+   singularité de l’homme. Cette partie de l’âme, à la ressemblance du
+   Créateur, est la source des capacités cognitives qui distinguent
+   l’homme des animaux : langage, jugement, conscience de soi. L’âme a une
+   origine divine, qu’elle ait été créée en même temps que toutes les
+   autres au commencement des temps, ou qu’elle soit créée
+--
+   anima d’Aristote qui lie étroitement les deux composantes de l’Homme,
+   tout comme la forme est liée à la matière. Les disputes théologiques
+   donneront aussi naissance à des conceptions plus matérialistes de l’âme
+   ainsi qu’à l’idée de la séparation de l’âme et de l’intellect (dans le
+   sillage d’Averroès), sans que la stabilité du mode de représentation
+   figurative de l’âme n’en soit affectée.
+
+   La rubrique s’organise en trois questionnements : le premier concerne
+   la façon dont les deux principes majeurs de l’âme, le mens et le
+   spiritus, se définissent et s’articulent entre eux pour différencier un
+   principe vital et un principe intellectuel de compréhension du monde et
+   de relation à Dieu.
+
+   Le deuxième questionnement concerne la relation entre l’âme et la
+   notion de personne : étant le siège des fonctions vitales et
+   intellectuelles, l’âme est aussi dépositaire de la personnalité qu’elle
+   sert à désigner, et dont elle assure la pérennité jusqu’au Jugement
+   Dernier.
+
+   Sera enfin questionnée la substance de l’âme, vis-à-vis du corps dont
+   elle adopte la forme mais pas la matérialité, mais aussi dans ses
+   différentes déclinaisons telles que la lumière. Celle-ci apparaît comme
+   une transcription visuelle des qualités substantielles de l’âme, de
+   même que le souffle auquel elle est associée, qualités que nous
+   regrouperons sous le terme d’âme in-formée.
+
+Rédaction
+--
+
+   Collectif OMCI-INHA, Marion Loiseau (avec la participation de Maréva U)
+   / Direction scientifique : Sébastien Biay, Isabelle Marchesin, « Âme »
+   in Ontologie du christianisme médiéval en images, consulté le 02
+   janvier 2026, https://omci.inha.fr/s/ocmi/item/2
+--
+Branche du concept en cours
+
+     * Âme
+          + Âme comme personne
+               o Âme, expression de soi
+               o Singularité de l’âme
+               o Uniformité des âmes
+          + Âme comme principe de vie
+               o Animation
+               o Union de l’âme avec le corps
+          + Âme in-formée
+               o Incorruptibilité de l’âme
+               o Mutabilité de l’âme
+               o Substance de l’âme
+          + Âme intellectuelle
+               o Âme en relation avec Dieu
+               o Âme et raison
+               o Intelligibilité du Verbe pour l’âme
+
+   Télécharger le livret de la rubrique
+--
+       The Archabbey Press, Latrobe, 1965
+
+     * Spiritus. Le vocabulaire de l'âme au XIIe siècle, Chenu,
+       Marie-Dominique, 1957
+
+--
+       Guerreau-Jalabert, Anita, Librairie Droz, Genève, 2013
+
+     * Corps et âme, Le Goff, Jacques, Fayard, Paris, 1999
+
+     * Corps et âmes : une histoire de la personne au Moyen Âge, Baschet,
+       Jérôme, Flammarion, Paris, 2016
+
+--
+       Aldershot-Burlington, VT, 2007
+
+     * Âme, Alcoy, Rosa, Presses universitaires de Rennes, Rennes, 2003
+
+     * Âme, Cerf, Paris, 1962
+
+     * Âme, Clair, Pierre
+
+     * Âme, Lipinski, Edouard, Brepols, Turnhout, 1987
+
+     * Âme et corps : une dualité non dualiste, Baschet, Jérôme,
+       Flammarion, Paris, 2016
+
+     * Âme et corps dans l'Occident médiéval : une dualité dynamique,
+       entre pluralité et dualisme, Baschet, Jérôme, 2000
+
