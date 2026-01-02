@@ -108,10 +108,10 @@ do
     #Ecrire dans le fichier tsv :
     echo -e "${N}\t${line}\t${http_code}\t${content_type}\t${nb_mots}" >> $fichier_tmp #Les chevrons permettent d'envoyer les métadonnées dans le fichier de sortie "tsv".
 
-    #Liens pour le tableau HTML :
+    #Liens cliquable pour le tableau HTML :
     aspiration_fichier="../aspirations/fr-$N.html"
     dumps_fichier="../dumps-text/fr-$N.txt"
-
+    nb_occurences=$(egrep -i -o "\b(Â|â)me(s)?\b" "../dumps-text/fr-$N.txt" | wc -l)
 
     #Ecrire dans le HTML :
     echo -e " <tr>
@@ -132,7 +132,7 @@ done < $fichier_urls
 #Fermer le tableau HTML :
 echo "		</table>
 	</body>
-</html>" >> ./tableaux/tableau_fr.html
+</html>" >> "$fichier_html"
 
 #Suppression du fichier.tsv qui est le fichier temporaire :
 #rm ../tableaux/"$fichier_tmp"
