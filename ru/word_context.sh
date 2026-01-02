@@ -7,7 +7,7 @@ write_file_arrays()
     local export_folder=$2
     local filename="$(get_filename "$input_file")"
     # Possible export folder = txt/processed/$filename
-    path_exists "$export_folder"
+    folder_path_exists "$export_folder"
     # \p{L} matches any unicode character 
     # (?<!\p{L}) no letter before the match
     # (?!\p{L}) no letter after the match
@@ -17,23 +17,35 @@ write_file_arrays()
     local count=0
     local current_export_file="$export_folder/$filename-$count.txt"
 
-    grep -Pi -A1 -B1 --color "$pattern" "$input_file" | while IFS= read -r line; do
-    if [[ "$line" == "--" ]]; then
-        count=$((count+1))
-        current_export_file="$export_folder/$filename-$count.txt"
-        touch "$current_export_file"
-    else
-        for word in $line; do
-            echo "$word" >> "$current_export_file"
-        done
-    fi
-    done
+    while IFS= read -r line; do
+        if [[ "$line" == "--" ]]; then
+            count=$((count+1))
+            current_export_file="$export_folder/$filename-$count.txt"
+            touch "$current_export_file"
+        else
+            clean_line=$(echo "$line" | sed -E '
+                s/\[[0-9]+\]//g;     # remove [NUMNUM]
+                s/[(){}.,;:!?^]//g;  # remove punctuation
+            ')
+            for word in $clean_line; do
+                echo "$word"
+            done >> "$current_export_file"
+        fi
+    done < <(grep -Pi -A1 -B1 --color "$pattern" "$input_file")
 }
 
-process_files_with_spinner() 
+process_files() 
 {
     local source_folder_path=$1 # txt/original/ru2
     local export_folder_base=$2 # txt/processed
+    
+    local folder_count="$(folder_length "$export_folder_base")"
+    # If/fi block avoiding appending to already existing files
+    if [[ "$folder_count" -ne 0 ]]; then
+        echo "Export folder not empty ("$folder_count" items)"
+        echo "Deleting content"
+        rm -rf "$export_folder_base"/*
+    fi
 
     message="Starting file processing"
     printf "%s" "$message"
@@ -54,7 +66,7 @@ process_files_with_spinner()
     local folder_name="$(get_folder_name $source_folder)"
     local export_folder_base="$export_folder_base/$folder_name"
     echo $export_folder_base
-    path_exists "$export_folder_base"
+    folder_path_exists "$export_folder_base"
 
     for file in $source_folder; do
         local filename
@@ -81,5 +93,5 @@ dialog()
     local file_to_convert 
 }
 
-process_files_with_spinner "txt/original/ru2" "txt/processed"
+process_files "txt/original/ru2" "txt/processed"
 #process_files_with_spinner "txt/original/ru1" "txt/processed"

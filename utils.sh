@@ -14,18 +14,17 @@ get_folder_name()
     echo $name
 }
 
-path_exists()
+folder_path_exists()
 {
-    folder=$1
+    local folder=$1
     if [ ! -d "$folder" ]; then 
         mkdir -p "$folder"
     fi
 }
 
 folder_length() {
-    dir="$1"
-    # Check if directory exists
+    local dir="$1"
     [[ -d "$dir" ]] || { echo 0; return; }
-    # Count only regular files in directory (not subdirectories)
-    find "$dir" -maxdepth 1 -type f | wc -l | xargs
+    find "$dir" -mindepth 1 | wc -l
 }
+
