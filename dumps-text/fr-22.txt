@@ -95,7 +95,7 @@
    Alertes quotidiennes par thématique
 
    « * » indique les champs nécessaires
-   X/Twitter
+   Phone
    Ce champ n’est utilisé qu’à des fins de validation et devrait rester
    inchangé.
    ____________________

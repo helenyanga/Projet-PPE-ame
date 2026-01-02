@@ -1,7 +1,7 @@
    HTTP/2 307 server: AkamaiGHost content-length: 0 location:
    https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
    ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:20 GMT x-cache: TCP_MISS from
+   Fri, 02 Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
    a2-23-14-16.deploy.akamaitechnologies.com
    (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
    x-cache-key:
@@ -11,438 +11,46 @@
    e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
    server-timing: edge; dur=1 strict-transport-security: max-age=31536000
    ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369980604_35065360_775820247_15_5118_7_34_15";dur=1 HTTP/2
+   desc="1767370505294_35065360_778949969_17_5672_6_32_15";dur=1 HTTP/2
    307 content-type: application/json content-length: 2 location:
    https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=b9d8316e-7ec2-4419-b6b8-28550a134b68&next=https%3A%2F%2F
+   b_anonymous_id=55d5283e-8bdc-4067-8fbf-3e5e3d5e7baf&next=https%3A%2F%2F
    www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:20 GMT cache-control:
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:05 GMT cache-control:
    no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=b9d8316e-7ec2-4419-b6b8-28550a134b68;
+   qub_anonymous_id=55d5283e-8bdc-4067-8fbf-3e5e3d5e7baf;
    Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
    from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
    x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   ZB7uRJLu2iZ9xm0GcsFrmiOgBE4cVgcJvhGEz8MRCPA2h8s75bSkEQ== HTTP/2 307
+   Tct0mHWSyzIeecw8mrjbk3_Hn5Fpe1MUPlmxJfBgDB7Kc2SQg_9eeQ== HTTP/2 307
    content-type: application/json content-length: 2 server: CloudFront
    cache-control: no-cache, no-store, max-age=0, must-revalidate location:
    https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
    x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   QcZ9jRUNLM2gm1rBrK0ELCVw37jQ0IP-M1FtpghyiUYo5ttV2YWkjA== date: Fri, 02
-   Jan 2026 16:06:20 GMT x-cache: TCP_MISS from
+   SzFVvcwtXxFNWjvFwIjjusOxN_rIo9SK0Y2vDs2P75k53HYAW7yYzg== date: Fri, 02
+   Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
    a2-23-14-16.deploy.akamaitechnologies.com
    (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
    x-cache-key:
    S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=b9d8316e-7ec2-4419-b6b8-28550a134b68&next=https%3A%2F%2Fw
+   _anonymous_id=55d5283e-8bdc-4067-8fbf-3e5e3d5e7baf&next=https%3A%2F%2Fw
    ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
    ai-transform=9 x-cache-key-extended-internal-use-only:
    S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=b9d8316e-7ec2-4419-b6b8-28550a134b68&next=https%3A%2F%2Fw
+   _anonymous_id=55d5283e-8bdc-4067-8fbf-3e5e3d5e7baf&next=https%3A%2F%2Fw
    ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
    ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=b9d8316e-7ec2-4419-b6b8-28550a134b68; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=29 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369980709_35065360_775820648_2934_6296_11_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:20 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369980751_35065360_775820836_8_5077_10_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=8a5c2518-f653-4634-8909-7e603de868aa&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:20 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=8a5c2518-f653-4634-8909-7e603de868aa;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   dkNHCzS_PF0SFSTQom08S5Xj5tSZYe5e1ABXlSa-0BtIC4fv3CODjw== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   tso96Deiu54iknthq4FdZq9-o0-7K9q97nU1xlg5VxnQfe2lGLbE_w== date: Fri, 02
-   Jan 2026 16:06:20 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=8a5c2518-f653-4634-8909-7e603de868aa&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=8a5c2518-f653-4634-8909-7e603de868aa&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=8a5c2518-f653-4634-8909-7e603de868aa; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=28 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369980794_35065360_775821008_2826_6536_9_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:20 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369980836_35065360_775821214_12_5880_9_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=6a14a7f3-6502-41a9-9b94-fff48a212671&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:20 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=6a14a7f3-6502-41a9-9b94-fff48a212671;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   OoNpIz3rlmjG4of3GHX5aqPosjDQvLGLU4DJNi9M-WKsFFXfeuIo0g== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   8KQN5SaGdqdAypbc79oNFF0HorJkJ6GyfkyJ_8UOdDGXaGp20wnvdg== date: Fri, 02
-   Jan 2026 16:06:20 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=6a14a7f3-6502-41a9-9b94-fff48a212671&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=6a14a7f3-6502-41a9-9b94-fff48a212671&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=6a14a7f3-6502-41a9-9b94-fff48a212671; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=32 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369980881_35065360_775821455_3284_5412_12_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:20 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369980929_35065360_775821652_11_5694_12_0_15";dur=1 HTTP/2
-   307 content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=fda8eb0c-4b96-406d-a356-dfee3ac29283&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:20 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=fda8eb0c-4b96-406d-a356-dfee3ac29283;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   9jipL-xcImkWpne7UMezic2aTJ3vnJq_cDS9inddFJPYRjKoNQf_dg== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   xKWyvptuS90lbtVBRsS_X8_MHXBnsjCgUawvqCqLGpUP-1V2_kUZXA== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=fda8eb0c-4b96-406d-a356-dfee3ac29283&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=fda8eb0c-4b96-406d-a356-dfee3ac29283&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=fda8eb0c-4b96-406d-a356-dfee3ac29283; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=2
-   server-timing: origin; dur=32 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369980975_35065360_775821858_3419_6556_11_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981023_35065360_775822104_9_6482_10_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=fb73cbab-16d8-4d8b-a1ed-3f20922f2802&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=fb73cbab-16d8-4d8b-a1ed-3f20922f2802;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   r1nMreOGdKMdsKn-95C2YkwaLZHtMnP7WDpeBtL1WW9SKsPig8vZSQ== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   cRM2kpLoUhbTnY7G4p0eD5WeG-qh895c-SMhc28WkuSFSWYa4gqISQ== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=fb73cbab-16d8-4d8b-a1ed-3f20922f2802&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=fb73cbab-16d8-4d8b-a1ed-3f20922f2802&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=fb73cbab-16d8-4d8b-a1ed-3f20922f2802; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=31 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981074_35065360_775822368_3162_6330_14_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981120_35065360_775822603_9_5047_13_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=cfdfcf11-b827-4f31-8743-1718ed28df25&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=cfdfcf11-b827-4f31-8743-1718ed28df25;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   WyZrFP0I4xxNNQObxXMDbBqaXXZCwrMc9xTDaufNdwkUUyNWnSaw7A== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   H5n-PRPDoAvyz01NFXYsA9oRtdNbLHMhuaffndyOmg-cu61V1XWwqg== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=cfdfcf11-b827-4f31-8743-1718ed28df25&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=cfdfcf11-b827-4f31-8743-1718ed28df25&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=cfdfcf11-b827-4f31-8743-1718ed28df25; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=29 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981166_35065360_775822764_2988_5138_12_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981208_35065360_775822970_9_4595_11_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=fe15cadb-4fe3-4456-b840-9d9af0ac4abf&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=fe15cadb-4fe3-4456-b840-9d9af0ac4abf;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   U9Iv5Pt0vBA1PGaGLH0d3tsVVJ3hBeMgwS2AuXrhdqdJjdhxmWzA-w== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   LH1ajGhWkJ9sfeAiaNny4cc8EesdLHNMXNQh66Mk4fQYjn7mnJ-SzA== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=fe15cadb-4fe3-4456-b840-9d9af0ac4abf&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=fe15cadb-4fe3-4456-b840-9d9af0ac4abf&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=fe15cadb-4fe3-4456-b840-9d9af0ac4abf; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=35 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981255_35065360_775823175_3532_6179_11_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981306_35065360_775823458_10_4694_10_0_15";dur=1 HTTP/2
-   307 content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=95e8fef6-2989-4dea-816d-8f4c88517459&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=95e8fef6-2989-4dea-816d-8f4c88517459;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   FWRXfUqkjvx-zjfBuuCOh7sFn3VBr43-WJ1PKwtGji1ofbY08Gfwkw== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   SnugIsE2sZTT1N_hzNohQz4GYxWjB8uLDo1Zmsu8EA1NE5wUyM6rrA== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=95e8fef6-2989-4dea-816d-8f4c88517459&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=95e8fef6-2989-4dea-816d-8f4c88517459&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=95e8fef6-2989-4dea-816d-8f4c88517459; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=34 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981354_35065360_775823630_3419_6202_10_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981401_35065360_775823827_9_4801_9_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=750096d7-d66d-47b0-93ab-32d53e709ed4&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=750096d7-d66d-47b0-93ab-32d53e709ed4;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   LEi_LNd2LoFltA5BemwofAFAV4lCbT0JjQJ8ALvKWycXrkO3MVBlNQ== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   wkqiUn4Pkfz2CdT9aBi_VSKc1kwoLpmTr5HJhNhQte14DvlwM2m8vw== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=750096d7-d66d-47b0-93ab-32d53e709ed4&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=750096d7-d66d-47b0-93ab-32d53e709ed4&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=750096d7-d66d-47b0-93ab-32d53e709ed4; Path=/;
+   qub_anonymous_id=55d5283e-8bdc-4067-8fbf-3e5e3d5e7baf; Path=/;
    HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
    server-timing: origin; dur=27 server-timing: cdn-cache; desc=MISS
    strict-transport-security: max-age=31536000 ; includeSubDomains
    x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981444_35065360_775824004_2770_5253_12_0_15";dur=1 HTTP/2
+   desc="1767370505408_35065360_778950526_2743_6446_11_0_15";dur=1 HTTP/2
    307 server: AkamaiGHost content-length: 0 location:
    https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
    ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
+   Fri, 02 Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
    a2-23-14-16.deploy.akamaitechnologies.com
    (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
    x-cache-key:
@@ -452,46 +60,46 @@
    e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
    server-timing: edge; dur=1 strict-transport-security: max-age=31536000
    ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981485_35065360_775824201_12_5156_11_0_15";dur=1 HTTP/2
-   307 content-type: application/json content-length: 2 location:
+   desc="1767370505449_35065360_778950848_9_6052_10_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
    https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=3c62e02e-27c5-4f1c-a541-59c790bc4caa&next=https%3A%2F%2F
+   b_anonymous_id=964ad7bb-d6e4-488d-819b-f7815be5e640&next=https%3A%2F%2F
    www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:05 GMT cache-control:
    no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=3c62e02e-27c5-4f1c-a541-59c790bc4caa;
+   qub_anonymous_id=964ad7bb-d6e4-488d-819b-f7815be5e640;
    Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
    from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
    x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   xYwR6EUSbI1BMd0TUbtjT-XoBxT3btKgacOmwywDgJQAdE34Mg2NIg== HTTP/2 307
+   hxSqaAXXcbK3cNrmKHI4tHlVMeJKu9LRTcwChwjlGBRWDlgWjaJWlw== HTTP/2 307
    content-type: application/json content-length: 2 server: CloudFront
    cache-control: no-cache, no-store, max-age=0, must-revalidate location:
    https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
    x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   lVfHnh0iPnXyrqrl9XF0Q9SSurooatWihy-JvvuegOcuxH2AqkwvEg== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
+   65hIHJFOvr0UWuUatglvNlGxeERtnh6soX3crksqt0KizYcqp1sXLg== date: Fri, 02
+   Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
    a2-23-14-16.deploy.akamaitechnologies.com
    (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
    x-cache-key:
    S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=3c62e02e-27c5-4f1c-a541-59c790bc4caa&next=https%3A%2F%2Fw
+   _anonymous_id=964ad7bb-d6e4-488d-819b-f7815be5e640&next=https%3A%2F%2Fw
    ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
    ai-transform=9 x-cache-key-extended-internal-use-only:
    S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=3c62e02e-27c5-4f1c-a541-59c790bc4caa&next=https%3A%2F%2Fw
+   _anonymous_id=964ad7bb-d6e4-488d-819b-f7815be5e640&next=https%3A%2F%2Fw
    ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
    ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=3c62e02e-27c5-4f1c-a541-59c790bc4caa; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=2
+   qub_anonymous_id=964ad7bb-d6e4-488d-819b-f7815be5e640; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
    server-timing: origin; dur=29 server-timing: cdn-cache; desc=MISS
    strict-transport-security: max-age=31536000 ; includeSubDomains
    x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981530_35065360_775824416_3033_5597_11_0_15";dur=1 HTTP/2
+   desc="1767370505497_35065360_778951190_2994_6496_9_0_15";dur=1 HTTP/2
    307 server: AkamaiGHost content-length: 0 location:
    https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
    ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
+   Fri, 02 Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
    a2-23-14-16.deploy.akamaitechnologies.com
    (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
    x-cache-key:
@@ -501,46 +109,683 @@
    e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
    server-timing: edge; dur=1 strict-transport-security: max-age=31536000
    ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981573_35065360_775824584_11_5302_10_0_15";dur=1 HTTP/2
+   desc="1767370505540_35065360_778951470_9_5544_9_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=35e89451-3836-47a1-ac11-bfe35a6330c7&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:05 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=35e89451-3836-47a1-ac11-bfe35a6330c7;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   aG5WPLlAlZHAHtN0NE-RHpRwIrp3NUL6XX8O8ypYVUcF65kyj9j-yA== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   Q2sO2Ioq-I1jNvoKNQxXZOauTkGXw4ZTLLugeVa0c2S5F2_Sdspj6g== date: Fri, 02
+   Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=35e89451-3836-47a1-ac11-bfe35a6330c7&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=35e89451-3836-47a1-ac11-bfe35a6330c7&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=35e89451-3836-47a1-ac11-bfe35a6330c7; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=31 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370505585_35065360_778951772_3138_6784_9_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370505631_35065360_778952035_8_6006_8_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=933c21e0-7606-4c76-8a60-946405466b9e&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:05 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=933c21e0-7606-4c76-8a60-946405466b9e;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   TyTa43hudWF-Cbw0wsJCuai5JVSGaIOOHAZZ5ntK3maRp_EXi1fj_w== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   oDXh06vW6qA2Jbh52XE8iCWkyu79_uzwoWyT_nVi3GMjuRxip3N3RQ== date: Fri, 02
+   Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=933c21e0-7606-4c76-8a60-946405466b9e&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=933c21e0-7606-4c76-8a60-946405466b9e&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=933c21e0-7606-4c76-8a60-946405466b9e; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=29 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370505681_35065360_778952289_3005_6330_8_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370505725_35065360_778952571_10_6119_8_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=5daf107d-34a6-48be-8a7b-e52bb2775b1f&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:05 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=5daf107d-34a6-48be-8a7b-e52bb2775b1f;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   8yyACZwqEnYnh3oZOiR2JJE_LtQyG8UnVm-JSp6xQnsf9iWBoYSvPg== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   is23LIzk85ooSnA8_QwzmuXG6Son4tHT1r5VULPYz918LuJlv-VRew== date: Fri, 02
+   Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=5daf107d-34a6-48be-8a7b-e52bb2775b1f&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=5daf107d-34a6-48be-8a7b-e52bb2775b1f&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=5daf107d-34a6-48be-8a7b-e52bb2775b1f; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=35 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370505771_35065360_778952787_3501_5802_8_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370505820_35065360_778953055_14_5922_8_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=ec577d0c-c245-410b-841e-bfaa8b994f0a&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:05 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=ec577d0c-c245-410b-841e-bfaa8b994f0a;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   JBnBNatqTp4aEOs5nbKZp4e5hKIAwDmNwmh1gcqecMr9F1l7PP2k2w== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   kn43m2Edo3VQ6n6b-s8tDbCx3e5Yo3fpTIf_QkKuXU3W3o3aixUudQ== date: Fri, 02
+   Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=ec577d0c-c245-410b-841e-bfaa8b994f0a&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=ec577d0c-c245-410b-841e-bfaa8b994f0a&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=ec577d0c-c245-410b-841e-bfaa8b994f0a; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=29 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370505868_35065360_778953364_2947_6413_8_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370505912_35065360_778953608_9_5241_8_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=0e37a9c1-3b88-43ca-b3e6-465cfdd95588&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:05 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=0e37a9c1-3b88-43ca-b3e6-465cfdd95588;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   IGJ-1DrO48N9wEeREI-8MAayiBbdlRDKmLoVIWyppJDN1HUzF4y_lA== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   3Tu-H02XJ9lFIBy5fJ0CN6MbUWJFQ4LNJZvlGZcTN1fQDr_P-P311w== date: Fri, 02
+   Jan 2026 16:15:05 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=0e37a9c1-3b88-43ca-b3e6-465cfdd95588&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=0e37a9c1-3b88-43ca-b3e6-465cfdd95588&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=0e37a9c1-3b88-43ca-b3e6-465cfdd95588; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=31 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370505959_35065360_778953949_3192_5785_7_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506005_35065360_778954148_11_5806_7_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=11a52a0a-8180-485d-90eb-1f900173e14f&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:06 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=11a52a0a-8180-485d-90eb-1f900173e14f;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   Gn_fNC8ZCrUDhm0E4TT11I-7IdNz2c_dCNXvLPdUx9htXTnu7rrz6g== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   4asZPvlcXRVsd_4Sr09uUYcDYfzQJznRw3YI6W4JQE5XqWZ0WdF62Q== date: Fri, 02
+   Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=11a52a0a-8180-485d-90eb-1f900173e14f&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=11a52a0a-8180-485d-90eb-1f900173e14f&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=11a52a0a-8180-485d-90eb-1f900173e14f; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=30 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506051_35065360_778954431_3035_5462_7_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506095_35065360_778954651_11_6052_7_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=6fd8b550-3370-4e07-8c8a-13f4f7679fdd&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:06 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=6fd8b550-3370-4e07-8c8a-13f4f7679fdd;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   3j9G-9Rfb_nj7GQ8h1nIWEL3O-u6F7u6Lx_o6IG2S5ZjskmVPSOi2w== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   9XAe6N3lVoeanYnPeAsfU_3LyJFbbyyJzNWV1_k99xnnNoUPoz4UAw== date: Fri, 02
+   Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=6fd8b550-3370-4e07-8c8a-13f4f7679fdd&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=6fd8b550-3370-4e07-8c8a-13f4f7679fdd&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=6fd8b550-3370-4e07-8c8a-13f4f7679fdd; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=31 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506141_35065360_778954992_3162_6271_7_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506186_35065360_778955239_10_5122_7_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=da8cdd30-3169-42d1-aea6-fe577c0e7f5d&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:06 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=da8cdd30-3169-42d1-aea6-fe577c0e7f5d;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   Qe_aTglaS-VccdwDgBwo_k8ZCNod0SdZwq7gGQ-11Xf7E7J6KWSZOw== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   L8R2HkJ_0cE6WKBi8KinOggGX_cKJL8BL7qjbbMz4FZ3JxTboepWVw== date: Fri, 02
+   Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=da8cdd30-3169-42d1-aea6-fe577c0e7f5d&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=da8cdd30-3169-42d1-aea6-fe577c0e7f5d&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=da8cdd30-3169-42d1-aea6-fe577c0e7f5d; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=2
+   server-timing: origin; dur=30 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506234_35065360_778955566_3141_6936_11_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506280_35065360_778955822_9_6077_10_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=6456f30c-8696-4fe7-be33-25c33732a47a&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:06 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=6456f30c-8696-4fe7-be33-25c33732a47a;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   nrRPyu7SL0Ix_WTGEq3dEQjQYFOmGj9YRv-4qjZ6MAomyUy5jyhkjw== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   of-Trx_zxATR71r5EQiCU1AybKS3Rl-fFI40jL8mp-CHq478Ud1K_w== date: Fri, 02
+   Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=6456f30c-8696-4fe7-be33-25c33732a47a&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=6456f30c-8696-4fe7-be33-25c33732a47a&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=6456f30c-8696-4fe7-be33-25c33732a47a; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=33 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506330_35065360_778956112_3334_5702_10_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506377_35065360_778956361_9_5044_9_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=9b29b901-eafe-4c3c-aa8d-614f8593881a&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:06 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=9b29b901-eafe-4c3c-aa8d-614f8593881a;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   S4sahYRER_ZVJVa8XWb1bcO-MBhAYR4uO1gMNrzpdI68_fYyjrQkMA== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   _g7WfNJ_s7X1LGRsVrDDyKvej3mTtA6g572qRiB3C8Q4A5L-fWvSjw== date: Fri, 02
+   Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=9b29b901-eafe-4c3c-aa8d-614f8593881a&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=9b29b901-eafe-4c3c-aa8d-614f8593881a&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=9b29b901-eafe-4c3c-aa8d-614f8593881a; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=29 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506421_35065360_778956544_2913_6657_9_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506465_35065360_778956805_11_4937_9_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=4241289d-3f63-416d-88ae-4a3022867d29&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:06 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=4241289d-3f63-416d-88ae-4a3022867d29;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   g_mat64olwVL9tuCIMveJE8hDeFX9u6JPaABT5sYixb5laInIpHiWQ== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   Ny6oU_aFg4cUQlaSUlNq5984-mq_-dbJoLx18z8PlDHmFj3TLdxoMQ== date: Fri, 02
+   Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=4241289d-3f63-416d-88ae-4a3022867d29&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=4241289d-3f63-416d-88ae-4a3022867d29&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=4241289d-3f63-416d-88ae-4a3022867d29; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=28 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506513_35065360_778957063_2884_6072_8_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506556_35065360_778957261_9_4669_8_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=c4e6bbcc-97d1-40a2-be18-8666e63eb5f5&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:06 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=c4e6bbcc-97d1-40a2-be18-8666e63eb5f5;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   pFyhrHjFT8zV1LxDOkqT6aECSWjXDPK-VoZm1_tnqUEWyh8e9VqX7Q== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   gbwmAJcAVx5lRbKK-jI4gNkXmt2ONk2f1A5EU3LNpXMKo_B5P0PNYg== date: Fri, 02
+   Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=c4e6bbcc-97d1-40a2-be18-8666e63eb5f5&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=c4e6bbcc-97d1-40a2-be18-8666e63eb5f5&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=c4e6bbcc-97d1-40a2-be18-8666e63eb5f5; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=26 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506600_35065360_778957493_2631_5569_8_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506640_35065360_778957682_11_5731_8_0_15";dur=1 HTTP/2 307
+   content-type: application/json content-length: 2 location:
+   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
+   b_anonymous_id=db82c106-cf79-4e12-b80d-ecbe860489e5&next=https%3A%2F%2F
+   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:06 GMT cache-control:
+   no-cache, no-store, max-age=0, must-revalidate set-cookie:
+   qub_anonymous_id=db82c106-cf79-4e12-b80d-ecbe860489e5;
+   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
+   from cloudfront via: 1.1
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   WnvQ6_98WdIZelQFqnU9w2JRiVb2fy9n-se0SDduC2qgjgpkJCE2Lw== HTTP/2 307
+   content-type: application/json content-length: 2 server: CloudFront
+   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
+   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
+   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
+   3q8awl_Zsw1KHcqrckpc5xW4zHI3npBCozlBtbuh7vOOA-XHG3lLRw== date: Fri, 02
+   Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=db82c106-cf79-4e12-b80d-ecbe860489e5&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
+   _anonymous_id=db82c106-cf79-4e12-b80d-ecbe860489e5&next=https%3A%2F%2Fw
+   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
+   ai-transform=9 vcd=4400 set-cookie:
+   qub_anonymous_id=db82c106-cf79-4e12-b80d-ecbe860489e5; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
+   server-timing: origin; dur=27 server-timing: cdn-cache; desc=MISS
+   strict-transport-security: max-age=31536000 ; includeSubDomains
+   x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506689_35065360_778958056_2740_6616_12_0_15";dur=1 HTTP/2
+   307 server: AkamaiGHost content-length: 0 location:
+   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
+   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
+   Fri, 02 Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
+   a2-23-14-16.deploy.akamaitechnologies.com
+   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
+   x-cache-key:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
+   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
+   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
+   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
+   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
+   desc="1767370506731_35065360_778958266_10_6000_11_0_15";dur=1 HTTP/2
    307 content-type: application/json content-length: 2 location:
    https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=27afbf49-cc67-4b35-b599-20131f9a3d31&next=https%3A%2F%2F
+   b_anonymous_id=07bb17a4-a571-4ff7-bee4-6eedd6e677b9&next=https%3A%2F%2F
    www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:06 GMT cache-control:
    no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=27afbf49-cc67-4b35-b599-20131f9a3d31;
+   qub_anonymous_id=07bb17a4-a571-4ff7-bee4-6eedd6e677b9;
    Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
    from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
    x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   NlT3s4vbv6hHQ7WaOSJEop09S4zQ4ZAsN-UB0HXY5N6TXvAnAXviig== HTTP/2 307
+   Yx0Bnpq6r1kuygdrAykrnl59cSZ88oeayjLuwSQF_oF0NPPvYjTREQ== HTTP/2 307
    content-type: application/json content-length: 2 server: CloudFront
    cache-control: no-cache, no-store, max-age=0, must-revalidate location:
    https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
    x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   sxfDbtVgX88uLXbDNehkA7ut-SS_InvSwBFbUALy8KZO01nXyEBKrA== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
+   Wne-pZIF9Np_P13WDVHY-cd8u0U223zSe3-6VRCpoUnJS9GWnGegug== date: Fri, 02
+   Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
    a2-23-14-16.deploy.akamaitechnologies.com
    (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
    x-cache-key:
    S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=27afbf49-cc67-4b35-b599-20131f9a3d31&next=https%3A%2F%2Fw
+   _anonymous_id=07bb17a4-a571-4ff7-bee4-6eedd6e677b9&next=https%3A%2F%2Fw
    ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
    ai-transform=9 x-cache-key-extended-internal-use-only:
    S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=27afbf49-cc67-4b35-b599-20131f9a3d31&next=https%3A%2F%2Fw
+   _anonymous_id=07bb17a4-a571-4ff7-bee4-6eedd6e677b9&next=https%3A%2F%2Fw
    ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
    ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=27afbf49-cc67-4b35-b599-20131f9a3d31; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=28 server-timing: cdn-cache; desc=MISS
+   qub_anonymous_id=07bb17a4-a571-4ff7-bee4-6eedd6e677b9; Path=/;
+   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=2
+   server-timing: origin; dur=30 server-timing: cdn-cache; desc=MISS
    strict-transport-security: max-age=31536000 ; includeSubDomains
    x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981623_35065360_775824799_2847_5828_10_0_15";dur=1 HTTP/2
+   desc="1767370506779_35065360_778958572_3191_6668_11_0_15";dur=1 HTTP/2
    307 server: AkamaiGHost content-length: 0 location:
    https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
    ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
+   Fri, 02 Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
    a2-23-14-16.deploy.akamaitechnologies.com
    (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
    x-cache-key:
@@ -550,284 +795,39 @@
    e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
    server-timing: edge; dur=1 strict-transport-security: max-age=31536000
    ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981664_35065360_775824907_9_5139_9_0_15";dur=1 HTTP/2 307
+   desc="1767370506826_35065360_778958831_9_5526_10_0_15";dur=1 HTTP/2 307
    content-type: application/json content-length: 2 location:
    https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=5d82f665-ec2a-4520-8f45-9bd5645f7722&next=https%3A%2F%2F
+   b_anonymous_id=c459aaa2-0beb-4cde-bb05-1837d7d57b72&next=https%3A%2F%2F
    www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
+   server: CloudFront date: Fri, 02 Jan 2026 16:15:06 GMT cache-control:
    no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=5d82f665-ec2a-4520-8f45-9bd5645f7722;
+   qub_anonymous_id=c459aaa2-0beb-4cde-bb05-1837d7d57b72;
    Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
    from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
+   267309f80dde2898fbac71fd2de86648.cloudfront.net (CloudFront)
    x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   1pFv-z2v2SsQfrE3xKL89k714Tw7wROzRnK5DABX4qbjEr0OJyidLQ== HTTP/2 307
+   eqle-V1Xqdput9cK1E0A1GErumcDGZuvWzAyXmtphO8wEoomPZF-HQ== HTTP/2 307
    content-type: application/json content-length: 2 server: CloudFront
    cache-control: no-cache, no-store, max-age=0, must-revalidate location:
    https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
    x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   sMUd0Z91mLuFo89rQrTycLniXdQcqnNd91vGtxp3bYLTdI3NF0VC2Q== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
+   ZC0L8y9XY66_thuPgoxRmkqejHq-fhuWx876HsQNrJxzMJMjVgtaQw== date: Fri, 02
+   Jan 2026 16:15:06 GMT x-cache: TCP_MISS from
    a2-23-14-16.deploy.akamaitechnologies.com
    (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
    x-cache-key:
    S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=5d82f665-ec2a-4520-8f45-9bd5645f7722&next=https%3A%2F%2Fw
+   _anonymous_id=c459aaa2-0beb-4cde-bb05-1837d7d57b72&next=https%3A%2F%2Fw
    ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
    ai-transform=9 x-cache-key-extended-internal-use-only:
    S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=5d82f665-ec2a-4520-8f45-9bd5645f7722&next=https%3A%2F%2Fw
+   _anonymous_id=c459aaa2-0beb-4cde-bb05-1837d7d57b72&next=https%3A%2F%2Fw
    ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
    ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=5d82f665-ec2a-4520-8f45-9bd5645f7722; Path=/;
+   qub_anonymous_id=c459aaa2-0beb-4cde-bb05-1837d7d57b72; Path=/;
    HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
    server-timing: origin; dur=30 server-timing: cdn-cache; desc=MISS
    strict-transport-security: max-age=31536000 ; includeSubDomains
    x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981708_35065360_775825091_3002_6829_9_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981753_35065360_775825268_12_5269_9_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=a3f23801-e64e-46ec-bad1-9bf13f878b87&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=a3f23801-e64e-46ec-bad1-9bf13f878b87;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   eY345crRXuUneE8hJ09UhV4WqnbBMLHGJeE6eCFR7vuG6fssnbmfiA== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   p1WIY38defKEEVbT7LX7HkCx22oGxAjuAi62mawRpMgxW-D8yWnXjg== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=a3f23801-e64e-46ec-bad1-9bf13f878b87&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=a3f23801-e64e-46ec-bad1-9bf13f878b87&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=a3f23801-e64e-46ec-bad1-9bf13f878b87; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=26 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981804_35065360_775825493_2648_6256_8_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981844_35065360_775825650_10_4982_8_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=c7914fae-2bbe-4446-8380-9d2a67cbac5b&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=c7914fae-2bbe-4446-8380-9d2a67cbac5b;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   OtuzFbto8C_ydWH3M6MdmfPBauUBdW4QUEgNIGiY2q8Zu-QKDqN6Fg== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   TFTpoH84T2SN4Gch57Frqk-W4N7dFQSoFiwe81hHFiqhidYXiS_9Gg== date: Fri, 02
-   Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=c7914fae-2bbe-4446-8380-9d2a67cbac5b&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=c7914fae-2bbe-4446-8380-9d2a67cbac5b&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=c7914fae-2bbe-4446-8380-9d2a67cbac5b; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=28 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981888_35065360_775825876_2917_5691_8_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:21 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981930_35065360_775826089_9_5611_8_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=54d0ac49-03fb-4019-b41f-7c6165981a7f&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:21 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=54d0ac49-03fb-4019-b41f-7c6165981a7f;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   1WMOSqFwSn_PfRMD14mbEi6mTm0RcIAMlyu-d_6bkQQUMQgNiRGd0w== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   TiCfVpwhbhLl0SWCpEWgfFBP42Ev36hmUe22vLyXE5m3HNgLBeuPrg== date: Fri, 02
-   Jan 2026 16:06:22 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=54d0ac49-03fb-4019-b41f-7c6165981a7f&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=54d0ac49-03fb-4019-b41f-7c6165981a7f&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=54d0ac49-03fb-4019-b41f-7c6165981a7f; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=38 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369981975_35065360_775826308_3835_5081_7_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:22 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369982025_35065360_775826518_9_4963_7_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=b43bd190-6e5b-42c6-8778-14b04517389e&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:22 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=b43bd190-6e5b-42c6-8778-14b04517389e;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   g7HQkLynXEvdcmGJE84Bm10P77JzkFM8qlcIivv7e6AItNE5jtSnkw== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   UVQT6C5JN4B5kmiwYcnpE-BuXAG3ywbFpwaUGTRAe_caY8Y164hJ7w== date: Fri, 02
-   Jan 2026 16:06:22 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=b43bd190-6e5b-42c6-8778-14b04517389e&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=b43bd190-6e5b-42c6-8778-14b04517389e&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=b43bd190-6e5b-42c6-8778-14b04517389e; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=30 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369982072_35065360_775826778_3029_5711_11_0_15";dur=1 HTTP/2
-   307 server: AkamaiGHost content-length: 0 location:
-   https://anonymous.qub.ca/anonymous-id/redirect?next=https%3a%2f%2fwww.j
-   ournaldemontreal.com%2f2012%2f10%2f20%2fdou-vient-notre-ame%3f date:
-   Fri, 02 Jan 2026 16:06:22 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/www.journaldemontreal.com/2012/10/20/dou-vient-notr
-   e-ame?akamai-transform=9 vcd=4400 server-timing: cdn-cache; desc=HIT
-   server-timing: edge; dur=1 strict-transport-security: max-age=31536000
-   ; includeSubDomains x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369982116_35065360_775827031_9_5757_11_0_15";dur=1 HTTP/2 307
-   content-type: application/json content-length: 2 location:
-   https://www.journaldemontreal.com/api/anonymous-id/redirect/callback?qu
-   b_anonymous_id=dcfaba21-fd2f-47ba-8967-8109f5b97b8f&next=https%3A%2F%2F
-   www.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F
-   server: CloudFront date: Fri, 02 Jan 2026 16:06:22 GMT cache-control:
-   no-cache, no-store, max-age=0, must-revalidate set-cookie:
-   qub_anonymous_id=dcfaba21-fd2f-47ba-8967-8109f5b97b8f;
-   Max-Age=31536000; Path=/; HttpOnly; Secure; SameSite=Lax x-cache: Miss
-   from cloudfront via: 1.1
-   f0ff45e105821feb76f7404e065f9c6e.cloudfront.net (CloudFront)
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   Myfr9010bsH-3AXEAgFF3Cexuj8td-FymowJI-qjsLlk3XuFueC8oQ== HTTP/2 307
-   content-type: application/json content-length: 2 server: CloudFront
-   cache-control: no-cache, no-store, max-age=0, must-revalidate location:
-   https://www.journaldemontreal.com/2012/10/20/dou-vient-notre-ame
-   x-amz-cf-pop: CDG52-P3 x-amz-cf-id:
-   y3hBu32ckOfX1KHwPqH0FDvGyDbSVnEPt7IVb2X59Sgd1X9Njqu1EA== date: Fri, 02
-   Jan 2026 16:06:22 GMT x-cache: TCP_MISS from
-   a2-23-14-16.deploy.akamaitechnologies.com
-   (AkamaiGHost/22.3.3.1-71e9d5dfbd3c1d9c60c216bbd0edd340) (-)
-   x-cache-key:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=dcfaba21-fd2f-47ba-8967-8109f5b97b8f&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 x-cache-key-extended-internal-use-only:
-   S/L/11888/847128/5m/anonymous.qub.ca/anonymous-id/redirect/callback?qub
-   _anonymous_id=dcfaba21-fd2f-47ba-8967-8109f5b97b8f&next=https%3A%2F%2Fw
-   ww.journaldemontreal.com%2F2012%2F10%2F20%2Fdou-vient-notre-ame%3F&akam
-   ai-transform=9 vcd=4400 set-cookie:
-   qub_anonymous_id=dcfaba21-fd2f-47ba-8967-8109f5b97b8f; Path=/;
-   HttpOnly; Secure; SameSite=Lax server-timing: edge; dur=1
-   server-timing: origin; dur=26 server-timing: cdn-cache; desc=MISS
-   strict-transport-security: max-age=31536000 ; includeSubDomains
-   x-check-cacheable: NO server-timing: ak_p;
-   desc="1767369982167_35065360_775827284_2629_5770_10_0_15";dur=1
+   desc="1767370506870_35065360_778959037_3025_6545_10_0_15";dur=1
