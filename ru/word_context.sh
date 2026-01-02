@@ -1,17 +1,24 @@
 #!/bin/bash
-source ../utils.sh # Import useful functions
+source ./utils.sh # Import useful functions
+
+CONFIG_FILE="word_context.conf"
+if [[ -f "$CONFIG_FILE" ]]; then
+    source "$CONFIG_FILE"
+else
+    echo "Config file not found: $CONFIG_FILE" >&2
+    exit 1
+fi
+
 
 write_file_arrays()
 {
     local input_file=$1
     local export_folder=$2
+    local pattern=$3
     local filename="$(get_filename "$input_file")"
     # Possible export folder = txt/processed/$filename
     folder_path_exists "$export_folder"
-    # \p{L} matches any unicode character 
-    # (?<!\p{L}) no letter before the match
-    # (?!\p{L}) no letter after the match
-    local pattern='(?<!\p{L})дух(а|у|ом|е|и|ов|ам|ами|ах)?(?!\p{L})'
+    
     
     # Gets the word in the file 1 line of context after and before
     local count=0
@@ -36,8 +43,9 @@ write_file_arrays()
 
 process_files() 
 {
-    local source_folder_path=$1 # txt/original/ru2
+    local source_folder_path=$1 # txt/original/ru2 | txt/original/ru1
     local export_folder_base=$2 # txt/processed
+    local pattern=$3
     
     local folder_count="$(folder_length "$export_folder_base")"
     # If/fi block avoiding appending to already existing files
@@ -71,7 +79,7 @@ process_files()
     for file in $source_folder; do
         local filename
         filename="$(get_filename "$file")"
-        write_file_arrays "$file" "$export_folder_base/$filename"
+        write_file_arrays "$file" "$export_folder_base/$filename" "$pattern"
 
         # Update spinner
         local spin_char="${spinner:spin_index:1}"
@@ -86,12 +94,52 @@ process_files()
     printf "\rAll files from %s have been processed\n" "$source_folder_path"
 }
 
-dialog()
-{
+dialog() {
     echo "Quel fichier est à convertir ?"
+
+    local source_dir=$SOURCE_DIR
+    local files=("$source_dir"/*)
     
-    local file_to_convert 
+    local i=1
+    for f in "${files[@]}"; do
+        printf '%d) %s\n' "$i" "${f##*/}"
+        ((i++))
+    done
+
+    echo
+    read -p "Choix numéro: " choice
+
+    # Input 
+    if ! [[ "$choice" =~ ^[0-9]+$ ]]; then
+        echo "Entrée invalide"
+        return 1
+    fi
+
+    # Map number into the array
+    local index=$((choice - 1))
+
+    # Bounds check
+    if (( index < 0 || index >= ${#files[@]} )); then
+        echo "Choix hors limites"
+        return 1
+    fi
+
+    local selected="${files[index]}"
+
+    echo "Fichier sélectionné : ${selected##*/}"
+    echo "Confirmez ?"
+    echo "1) Oui"
+    echo "2) Non"
+    read -p "" choice2
+
+    if [[ $choice2 == "2" ]];then
+        dialog # Starts the function again to change choice
+    else
+        local folder_name="${selected##*/}"
+        local export_dir=$EXPORT_DIR
+        local pattern="${PATTERNS[$folder_name]}"
+        process_files $selected $export_dir $pattern
+    fi
 }
 
-process_files "txt/original/ru2" "txt/processed"
-#process_files_with_spinner "txt/original/ru1" "txt/processed"
+dialog
