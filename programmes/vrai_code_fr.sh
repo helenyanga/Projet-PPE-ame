@@ -73,11 +73,12 @@ mkdir -p ../contextes
 mkdir -p ../concordances
 
 
-echo "<html>
-    <head>
+echo "<!DOCTYPE html>
+    <html>
+     <head>
         <meta charset=\"UTF-8\"/>
-    </head>
-    <body>
+     </head>
+     <body>
         <table>
             <tr>
                 <th>Numéro</th>
@@ -116,13 +117,17 @@ do
     dumps_fichier=$(lynx -dump -nolist "../aspirations/fr-${N}.html" > "../dumps-text/fr-${N}.txt")
     nb_occurences=$(egrep -a -i -o "\b(Â|â)me(s)?\b" "../dumps-text/fr-${N}.txt" | wc -l)
     contextes_fichier=$(egrep -a -i -C2 "\b(Â|â)me(s)?\b" "../dumps-text/fr-${N}.txt" > "../contextes/fr-${N}.txt")
-    #concordances=fichier=
+    #bash code_concordances.sh "$N"
+
+
+
 
 
     #Liens cliquables pour le tableau HTML :
     aspirations_fichier="../aspirations/fr-$N.html"
     dumps_fichier="../dumps-text/fr-$N.txt"
     contexte="../contextes/fr-${N}.html"
+    concordances_fichier=$"../concordances/fr-${N}.html"
 
 
     #Ecrire dans le HTML :
@@ -136,14 +141,15 @@ do
                   <td><a href=\"../aspirations/fr-${N}.html\">aspiration</a></<td>
                   <td><a href=\"../dumps-text/fr-${N}.txt\">dump</a></td>
                   <td><a href=\"../contextes/fr-${N}.txt\">contexte</a></td>
+                  <td><a href=\"../concordances/fr-${N}.html\">concordancier</a></td>
               </tr>" >> "$fichier_html"
 
     N=$( expr $N + 1 )
 done < $fichier_urls
 
 #Fermer le tableau HTML :
-echo "		</table>
-	</body>
+echo "      </table>
+     </body>
 </html>" >> "$fichier_html"
 
 #Suppression du fichier.tsv qui est le fichier temporaire :
