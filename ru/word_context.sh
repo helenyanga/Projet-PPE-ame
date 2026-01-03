@@ -30,8 +30,9 @@ write_file_arrays()
             # Horrible data cleaning part
             clean_line=$(echo "$line" | sed -E '
                 s/\[[^]]*\]//g;      # remove anything inside brackets
-                s/[(){};:!?^]//g;  # remove undesirable punctuation
-                s/[^А-Яа-яЁё .]//g   # remove anything non-cyrillic BUT KEEPS SPACES
+                s/[(){};,.:!?^]//g;    # remove undesirable punctuation
+                s/[^А-Яа-яЁё ]//g   # remove anything non-cyrillic BUT KEEPS SPACES
+                s!http[s]\?://\S*!!g # remove links
             ')
             for word in $clean_line; do
                 echo "$word"
@@ -64,7 +65,7 @@ process_files()
     printf "%s" "$message"
     for i in {1..3}; do
         printf "."
-        sleep 0.4
+        sleep 0.1
     done
     printf "\rFile processing started!\n"
 
