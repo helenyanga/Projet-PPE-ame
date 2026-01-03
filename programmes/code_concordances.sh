@@ -13,10 +13,10 @@ then
 	exit 1
 fi
 
-for fichier in $(ls "$fichier_context"/fr-*.txt)
+for fichier in "$fichier_context"/fr-*.txt
 do
     nom_fichier=$(basename "$fichier" .txt)
-    N=$(echo "nom_fichier" | sed 's/^fr-//')
+    N=$(echo "$nom_fichier" | sed 's/^fr-//')
 
     fichier_html_concordance="$fichier_concordance/fr-${N}.html"
 
@@ -53,4 +53,4 @@ do
 
 done
 
-echo "Concordancier terminés."
+echo "Concordanciers terminés."
