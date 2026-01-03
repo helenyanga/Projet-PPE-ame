@@ -1,5 +1,6 @@
 #!/bin/bash
 source ../utils.sh 
+
 make_txt()
 {
     url=$1

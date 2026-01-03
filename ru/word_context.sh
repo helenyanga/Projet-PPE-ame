@@ -9,7 +9,6 @@ else
     exit 1
 fi
 
-
 write_file_arrays()
 {
     local input_file=$1
@@ -31,8 +30,8 @@ write_file_arrays()
             # Horrible data cleaning part
             clean_line=$(echo "$line" | sed -E '
                 s/\[[^]]*\]//g;      # remove anything inside brackets
-                s/[(){}.,;:!?^]//g;  # remove punctuation
-                s/[^А-Яа-яЁё ]//g   # remove anything non-cyrillic BUT KEEPS SPACES
+                s/[(){};:!?^]//g;  # remove undesirable punctuation
+                s/[^А-Яа-яЁё .]//g   # remove anything non-cyrillic BUT KEEPS SPACES
             ')
             for word in $clean_line; do
                 echo "$word"
@@ -97,7 +96,6 @@ process_files()
     printf "\rAll files from %s have been processed\n" "$source_folder_path"
 }
 
-
 # Center of operations, where this whole madness starts
 dialog() {
     echo "Quel dossier convertir ?"
@@ -141,10 +139,9 @@ dialog() {
         dialog # Starts the function again to change choice
     else
         local folder_name="${selected##*/}"
-        local export_dir=$EXPORT_DIR
+        local export_dir=$PROCESSED_EXPORT_DIR
         local pattern="${PATTERNS[$folder_name]}"
         process_files $selected $export_dir $pattern
     fi
 }
 
-dialog
