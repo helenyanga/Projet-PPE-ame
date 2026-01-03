@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR - PPE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            display: block !important;
+            flex-direction: column !important;
+        }
+        section {
+            display: block !important;
+            width: 100% !important;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Projet de "programmation" encadré</h1>
+    <p class="subtitle">Extraction, analyse et mise en forme de données linguistiques</p>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="tableau-fr.html">Tableau</a>
+        <a href="index-ru.html">RU</a>
+        <a href="index-ar.html">AR</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <!-- Présentation générale -->
+    <section>
+        <h2>Le mot « âme » en arabe</h2>
+        <p>
+            Dans la langue arabe, le concept d’âme ne se limite pas à un seul terme.
+            Il est principalement exprimé par <strong>الروح</strong> (al-rūḥ) et
+            <strong>النفس</strong> (al-nafs). Ces deux notions renvoient à des dimensions
+            spirituelles, religieuses et psychologiques distinctes, très présentes
+            dans les textes littéraires et religieux.
+        </p>
+    </section>
+
+    <!-- Tableau -->
+    <section>
+        <h3>Tableau d’analyse lexicale</h3>
+        <p>
+            Le tableau ci-dessous présente les résultats de l’extraction automatique
+            réalisée à partir du corpus arabe (les graphies, les URLs, le code HTTP, l'encodage, les occurrences,ect.).
+        </p>
+        <iframe src="tableaux/ar.html" width="100%" height="500px"></iframe>
+    </section>
+
+    <!-- Nuage de mots -->
+    <section>
+        <h3>Nuage de mots</h3>
+        <p>
+            Le nuage de mots permet de visualiser les termes les plus fréquemment
+            associés aux notions de <em>الروح</em> et <em>النفس</em> dans le corpus.
+        </p>
+        <img src="nuages/nuage-arabe.png" alt="Nuage de mots arabe" style="max-width:100%;">
+    </section>
+
+    <!-- Analyse -->
+    <section>
+        <h3>Analyse linguistique</h3>
+        <p>
+            L’analyse des données met en évidence une distinction nette entre
+            <strong>الروح</strong>, souvent associée à une dimension spirituelle et transcendante,
+            et <strong>النفس</strong>, davantage liée à l’individu, à la psychologie et aux émotions.
+            Cette dualité confirme la richesse conceptuelle du mot « âme » en arabe,
+            comparativement aux autres langues étudiées.
+        </p>
+    </section>
+
+</main>
+
+</body>
+</html>
