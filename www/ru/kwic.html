@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWIC</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+    <h1>Projet de "programmation" encadré</h1>
+    <p class="subtitle">Extraction, analyse et mise en forme de données linguistiques</p>
+    <nav>
+        <a href="index-ru.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="index.html">FR</a>
+        <a href="index-ar.html">AR</a>
+    </nav>
+</header>
+<main class="container">
+    <table id="kwic-table">
+        <thead>
+            <tr>
+                <th>before4</th>
+                <th>before3</th>
+                <th>before2</th>
+                <th>before1</th>
+                <th>target</th>
+                <th>after1</th>
+                <th>after2</th>
+                <th>after3</th>
+                <th>after4</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</main>
+
+<script>
+// Get the file parameter from URL
+const urlParams = new URLSearchParams(window.location.search);
+const csvFile = urlParams.get('file');
+if (!csvFile) {
+    document.querySelector('#kwic-table tbody').innerHTML = '<tr><td colspan="9">No file specified.</td></tr>';
+} else {
+    const fullPath = '../../ru/' + csvFile;
+
+    // Function to parse CSV into array of arrays
+    function parseCSV(text) {
+        const lines = text.trim().split('\n');
+        const result = [];
+        // Skip header
+        for (let i = 1; i < lines.length; i++) {
+            const row = lines[i].split(';');
+            result.push(row);
+        }
+        return result;
+    }
+
+    // Function to build table
+    function buildTable(data) {
+        const tbody = document.querySelector('#kwic-table tbody');
+        data.forEach(row => {
+            const tr = document.createElement('tr');
+            row.forEach(cell => {
+                const td = document.createElement('td');
+                td.textContent = cell;
+                tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+        });
+    }
+
+    // Load CSV and populate table
+    fetch(fullPath)
+        .then(response => {
+            if (!response.ok) throw new Error(`Failed to load CSV: ${response.status} ${response.statusText}`);
+            return response.text();
+        })
+        .then(text => {
+            if (!text || text.trim().length === 0) throw new Error('CSV file is empty');
+            const data = parseCSV(text);
+            buildTable(data);
+        })
+        .catch(err => {
+            console.error('Error loading CSV:', err);
+            document.querySelector('#kwic-table tbody').innerHTML = '<tr><td colspan="9">Error loading CSV file.</td></tr>';
+        });
+}
+</script>
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2026 PPE M1 TAL. Paul B.</p>
+    </div>
+</footer>
+</body>
+</html>

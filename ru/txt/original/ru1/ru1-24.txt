@@ -1,55 +1,56 @@
 
-   [1]Перейти в раздел
-   [2]Все разделы
+   [1]Перейти к просмотру
+   [2]Перейти к просмотру
+   [3]Все разделы
      *
      *
      *
      *
      *
 
-     * [3]Официальный аккаунт МВД России
-     * [4]Аккаунт МВД МЕДИА
+     * [4]Официальный аккаунт МВД России
+     * [5]Аккаунт МВД МЕДИА
 
-     * [5]Официальный аккаунт МВД России
-     * [6]Аккаунт МВД МЕДИА
+     * [6]Официальный аккаунт МВД России
+     * [7]Аккаунт МВД МЕДИА
 
-     * [7]Официальный аккаунт МВД России
-     * [8]Аккаунт МВД МЕДИА
+     * [8]Официальный аккаунт МВД России
+     * [9]Аккаунт МВД МЕДИА
 
-     * [9]Официальный аккаунт МВД России
-     * [10]Аккаунт МВД МЕДИА
+     * [10]Официальный аккаунт МВД России
+     * [11]Аккаунт МВД МЕДИА
 
-     * [11]Официальный аккаунт МВД России
-     * [12]Аккаунт МВД МЕДИА
+     * [12]Официальный аккаунт МВД России
+     * [13]Аккаунт МВД МЕДИА
 
-     * [13]новости
-          + [14]Официальный представитель
-          + [15]Оперативные новости
-          + [16]Общество
-          + [17]Официально
-          + [18]Героизм
-     * [19]тв МВД
-          + [20]Акцент недели
-          + [21]Оперативные видео
-          + [22]Официальные мероприятия
-          + [23]Социальные ролики
-          + [24]Документальные фильмы
-     * [25]Милицейская волна
-          + [26]Вам слово! С Ириной Волк
-          + [27]Прямой разговор
-          + [28]В знании сила
-          + [29]Специальный репортаж
-     * [30]публикации
-          + [31]Газета «Щит и меч»
-          + [32]Журнал «Полиция России»
-     * [33]О портале
-          + [34]Контакты
-          + [35]Вакансии
+     * [14]новости
+          + [15]Официальный представитель
+          + [16]Оперативные новости
+          + [17]Общество
+          + [18]Официально
+          + [19]Героизм
+     * [20]тв МВД
+          + [21]Акцент недели
+          + [22]Оперативные видео
+          + [23]Официальные мероприятия
+          + [24]Социальные ролики
+          + [25]Документальные фильмы
+     * [26]Милицейская волна
+          + [27]Вам слово! С Ириной Волк
+          + [28]Прямой разговор
+          + [29]В знании сила
+          + [30]Специальный репортаж
+     * [31]публикации
+          + [32]Газета «Щит и меч»
+          + [33]Журнал «Полиция России»
+     * [34]О портале
+          + [35]Контакты
+          + [36]Вакансии
 
-     * [36]Новости
-     * [37]ТВ МВД
-     * [38]Публикации
-     * [39]Милицейская волна
+     * [37]Новости
+     * [38]ТВ МВД
+     * [39]Публикации
+     * [40]Милицейская волна
 
    ____________________ (BUTTON)
      *
@@ -59,7 +60,7 @@
      *
 
    19 декабря 2025 г.
-   834
+   844
 
 Душа откликалась на красоту
 
@@ -67,13 +68,13 @@
    [gu0a8vxbb8vzlyzp07wfvw99tsp9m8pq.jpg]
    ФОТО: из архива Центрального музея МВД России / На фото: Николай
    Буланов (в центре) на встрече с художниками, 1973 г.
-     * [40]было дело
-     * [41]Республика Северная Осетия
-     * [42]Алания
-     * [43]ветеран
-     * [44]художник
-     * [45]творчество
-     * [46]Великая Отечественная война
+     * [41]было дело
+     * [42]Республика Северная Осетия
+     * [43]Алания
+     * [44]ветеран
+     * [45]художник
+     * [46]творчество
+     * [47]Великая Отечественная война
 
    Осетия в творчестве советских художников занимает особое место. Этими
    произведениями можно заполнить целый музей, яркий по именам,
@@ -206,27 +207,27 @@
    величие подвига, очарование родной природы, бессмертие настоящего
    творчества.
 
-   [47][ii46a5bx240tiaqhd3iwd25ygv3z0hsi.jpg]
-   [48][psorx5vt6vcar1srt4fmoirbuycuibac.jpg]
+   [48][ii46a5bx240tiaqhd3iwd25ygv3z0hsi.jpg]
+   [49][psorx5vt6vcar1srt4fmoirbuycuibac.jpg]
 
-   [49]Вернуться в раздел
+   [50]Вернуться в раздел
 
 Читайте также
 
-     * [50][38807f2aaa6460ce0e8657ad12d30dbe.jpg]
-       [51]Рисуя счастье и тепло
-       16 марта 2022 г.
-     * [52][3yjyss8pxmanpoj453yu6tszdw2xsfdn.jpg]
-       [53]«В безопасность нужно вкладываться»
-       7 июля 2025 г.
+     * [51][j8c7opooq80gqmdb4kw07mhwo7o9xfsf.jpg]
+       [52]Таланта пленительного, а сердца - благородного
+       26 ноября 2023 г.
+     * [53][a25d58fafd26d60c463afb01cc5544ac.jpg]
+       [54]Всегда с собой беру фотокамеру
+       24 мая 2021 г.
 
-     * [54]Главная
+     * [55]Главная
 
-     [55]Публикации
+     [56]Публикации
 
-     [56]Щит и меч
+     [57]Щит и меч
 
-     [57]Было дело
+     [58]Было дело
 
      *
      *
@@ -248,66 +249,66 @@
 References
 
    Visible links:
-   1. https://mvdmedia.ru/zterritory/
-   2. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
-   3. https://vk.com/mvd
-   4. https://vk.com/ormvd
-   5. https://ok.ru/mvd
-   6. https://ok.ru/group/52510449598614
-   7. https://twitter.com/mvd_official
-   8. https://twitter.com/ormvdrf
-   9. https://www.facebook.com/mvd.official
-  10. https://www.facebook.com/ormvd.rf
-  11. https://www.youtube.com/channel/UCly3XBp22q26Yvy8MSd_bow
-  12. https://www.youtube.com/channel/UCftjoMzszX3kS_EaEun9TJA
-  13. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
-  14. https://mvdmedia.ru/news/ofitsialnyy-predstavitel/
-  15. https://mvdmedia.ru/news/operativnye-novosti/
-  16. https://mvdmedia.ru/news/obshchestvo/
-  17. https://mvdmedia.ru/news/official/
-  18. https://mvdmedia.ru/news/geroizm/
-  19. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
-  20. https://mvdmedia.ru/tvmvd/programm/
-  21. https://mvdmedia.ru/tvmvd/operativnye-video/
-  22. https://mvdmedia.ru/tvmvd/ofitsialnye-meropriyatiya/
-  23. https://mvdmedia.ru/tvmvd/sotsialnye-roliki/
-  24. https://mvdmedia.ru/tvmvd/documentaries/
-  25. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
-  26. https://mvdmedia.ru/radiomv/vam-slovo/
-  27. https://mvdmedia.ru/radiomv/pryamoy-razgovor/
-  28. https://mvdmedia.ru/radiomv/v-znanii-sila/
-  29. https://mvdmedia.ru/radiomv/spetsialnyy-reportazh/
-  30. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
-  31. https://mvdmedia.ru/publications/shield-and-sword/
-  32. https://mvdmedia.ru/publications/police-of-russia/
-  33. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
-  34. https://mvdmedia.ru/about/
-  35. https://mvdmedia.ru/about/vacancies/
-  36. https://mvdmedia.ru/news/
-  37. https://mvdmedia.ru/tvmvd/
-  38. https://mvdmedia.ru/publications/
-  39. https://mvdmedia.ru/radiomv
-  40. https://mvdmedia.ru/search/tags/было дело/
-  41. https://mvdmedia.ru/search/tags/Республика Северная Осетия/
-  42. https://mvdmedia.ru/search/tags/Алания/
-  43. https://mvdmedia.ru/search/tags/ветеран/
-  44. https://mvdmedia.ru/search/tags/художник/
-  45. https://mvdmedia.ru/search/tags/творчество/
-  46. https://mvdmedia.ru/search/tags/Великая Отечественная война/
-  47. https://mvdmedia.ru/upload/resize_cache/iblock/138/1280_720_112e23092a5dbb905c83b3ae67db670d0/ii46a5bx240tiaqhd3iwd25ygv3z0hsi.jpg
-  48. https://mvdmedia.ru/upload/resize_cache/iblock/0f4/1280_720_112e23092a5dbb905c83b3ae67db670d0/psorx5vt6vcar1srt4fmoirbuycuibac.jpg
-  49. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/
-  50. https://mvdmedia.ru/publications/shield-and-sword/nashi-lyudi/risuya-schaste-i-teplo/
-  51. https://mvdmedia.ru/publications/shield-and-sword/nashi-lyudi/risuya-schaste-i-teplo/
-  52. https://mvdmedia.ru/publications/shield-and-sword/nashi-lyudi/v-bezopasnost-nuzhno-vkladyvatsya/
-  53. https://mvdmedia.ru/publications/shield-and-sword/nashi-lyudi/v-bezopasnost-nuzhno-vkladyvatsya/
-  54. https://mvdmedia.ru/
-  55. https://mvdmedia.ru/publications/
-  56. https://mvdmedia.ru/publications/shield-and-sword/
-  57. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/
+   1. https://mvdmedia.ru/tvmvd/oldcrime/
+   2. https://mvdmedia.ru/tvmvd/oldcrime/
+   3. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
+   4. https://vk.com/mvd
+   5. https://vk.com/ormvd
+   6. https://ok.ru/mvd
+   7. https://ok.ru/group/52510449598614
+   8. https://twitter.com/mvd_official
+   9. https://twitter.com/ormvdrf
+  10. https://www.facebook.com/mvd.official
+  11. https://www.facebook.com/ormvd.rf
+  12. https://www.youtube.com/channel/UCly3XBp22q26Yvy8MSd_bow
+  13. https://www.youtube.com/channel/UCftjoMzszX3kS_EaEun9TJA
+  14. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
+  15. https://mvdmedia.ru/news/ofitsialnyy-predstavitel/
+  16. https://mvdmedia.ru/news/operativnye-novosti/
+  17. https://mvdmedia.ru/news/obshchestvo/
+  18. https://mvdmedia.ru/news/official/
+  19. https://mvdmedia.ru/news/geroizm/
+  20. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
+  21. https://mvdmedia.ru/tvmvd/programm/
+  22. https://mvdmedia.ru/tvmvd/operativnye-video/
+  23. https://mvdmedia.ru/tvmvd/ofitsialnye-meropriyatiya/
+  24. https://mvdmedia.ru/tvmvd/sotsialnye-roliki/
+  25. https://mvdmedia.ru/tvmvd/documentaries/
+  26. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
+  27. https://mvdmedia.ru/radiomv/vam-slovo/
+  28. https://mvdmedia.ru/radiomv/pryamoy-razgovor/
+  29. https://mvdmedia.ru/radiomv/v-znanii-sila/
+  30. https://mvdmedia.ru/radiomv/spetsialnyy-reportazh/
+  31. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
+  32. https://mvdmedia.ru/publications/shield-and-sword/
+  33. https://mvdmedia.ru/publications/police-of-russia/
+  34. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/dusha-otklikalas-na-krasotu-/
+  35. https://mvdmedia.ru/about/
+  36. https://mvdmedia.ru/about/vacancies/
+  37. https://mvdmedia.ru/news/
+  38. https://mvdmedia.ru/tvmvd/
+  39. https://mvdmedia.ru/publications/
+  40. https://mvdmedia.ru/radiomv
+  41. https://mvdmedia.ru/search/tags/было дело/
+  42. https://mvdmedia.ru/search/tags/Республика Северная Осетия/
+  43. https://mvdmedia.ru/search/tags/Алания/
+  44. https://mvdmedia.ru/search/tags/ветеран/
+  45. https://mvdmedia.ru/search/tags/художник/
+  46. https://mvdmedia.ru/search/tags/творчество/
+  47. https://mvdmedia.ru/search/tags/Великая Отечественная война/
+  48. https://mvdmedia.ru/upload/resize_cache/iblock/138/1280_720_112e23092a5dbb905c83b3ae67db670d0/ii46a5bx240tiaqhd3iwd25ygv3z0hsi.jpg
+  49. https://mvdmedia.ru/upload/resize_cache/iblock/0f4/1280_720_112e23092a5dbb905c83b3ae67db670d0/psorx5vt6vcar1srt4fmoirbuycuibac.jpg
+  50. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/
+  51. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/talanta-plenitelnogo-a-serdtsa-blagorodnogo/
+  52. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/talanta-plenitelnogo-a-serdtsa-blagorodnogo/
+  53. https://mvdmedia.ru/publications/shield-and-sword/nashi-lyudi/vsegda-s-soboy-beru-fotokameru/
+  54. https://mvdmedia.ru/publications/shield-and-sword/nashi-lyudi/vsegda-s-soboy-beru-fotokameru/
+  55. https://mvdmedia.ru/
+  56. https://mvdmedia.ru/publications/
+  57. https://mvdmedia.ru/publications/shield-and-sword/
+  58. https://mvdmedia.ru/publications/shield-and-sword/bylo-delo/
 
    Hidden links:
-  59. https://mvdmedia.ru/zterritory/
   60. https://vk.com/ormvd
   61. https://ok.ru/group/52510449598614
   62. https://rutube.ru/u/mvdmedia/

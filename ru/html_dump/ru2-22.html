@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Document</title>
+<script>
+(function() {
+var start = Date.now();
+function generateUUID() { // Public Domain/MIT
+var d = new Date().getTime();//Timestamp
+var d2 = ((typeof performance !== 'undefined') && performance.now && (performance.now()*1000)) || 0;//Time in microseconds since page-load or 0 if unsupported
+return 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+var r = Math.random() * 16;//random number between 0 and 16
+if(d > 0){//Use timestamp until depleted
+r = (d + r)%16 | 0;
+d = Math.floor(d/16);
+} else {//Use microseconds since page-load if supported
+r = (d2 + r)%16 | 0;
+d2 = Math.floor(d2/16);
+}
+return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+});
+}
+function setStopSSOCookie() {
+const d = new Date();
+d.setTime(d.getTime() + (4 * 60 * 60 * 1000));
+let expires = "expires=" + d.toUTCString();
+document.cookie = "unity_pause_sso=1; " + expires + "; path=/";
+}
+function returnHref(isauth) {
+search = location.search;
+var href = search.replace(/^[?]origin=/, "");
+if(!href) {
+return "/?utm_auth=false";
+}
+if(!href.match(/^\//)) {
+return "/?utm_auth=false";
+}
+if(href.match(/\/auth/)) {
+return "/?utm_auth=false";
+}
+if(href.match(/[?&]utm_auth=[^&]+/)) {
+return href;
+}
+return href.match(/[?]/) ? href + "&utm_auth=" + isauth : href + "?utm_auth=" + isauth;
+}
+var timeoutID = setTimeout(function() {
+timeoutID = void 0;
+setStopSSOCookie();
+location.replace(returnHref(false));
+}, 300);
+localStorage.setItem("unity_gazeta_redirect_start", Date.now());
+localStorage.setItem("unity_gazeta_redirect_referrer", JSON.stringify(document.referrer));
+Promise.all([
+fetch("/api/unity-id/v1/init")
+.then(response => {
+if (!response.ok) {
+throw new Error(`Response status: ${response.status}`);
+}
+return response.json();
+}),
+fetch("https://id.sber.ru/CSAFront/oidc/authorize.do", {
+method: 'HEAD'
+}).then(function(response) {
+if(response.ok) {
+return true;
+}
+throw new Error("No Ok ping")
+})
+]).then(function(values) {
+json = values[0];
+link = json.data.attributes.link;
+var url = "https://id.sber.ru/CSAFront/oidc/authorize.do?prompt=light&response_type=code&client_type=PRIVATE";
+url += "&client_id=" + json.data.attributes.client_id;
+url += "&state=" + json.data.attributes.state;
+url += "&redirect_uri=" + json.data.attributes.redirect_uri;
+url += "&scope=" + json.data.attributes.scope;
+url += "&nonce=" + json.data.attributes.nonce;
+url += "&machineClick=aggressivelogin";
+url += "&logUid=" + generateUUID();
+localStorage.setItem("unity_redirect_uri", returnHref(true));
+localStorage.setItem("unity_redirect_basename", "");
+if ( timeoutID ) {
+clearTimeout(timeoutID);
+location.replace(url);
+}
+}).catch(function(reason) {
+console.log(reason);
+if ( timeoutID ) {
+clearTimeout(timeoutID);
+setStopSSOCookie();
+location.replace(returnHref(false));
+}
+});
+})()
+</script>
+<style>html,body{height:100%}body{display:flex;align-items:center;justify-content:center}.spinner{animation:rotator 1.4s linear infinite}@keyframes rotator{0%{transform:rotate(0deg)}100%{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:dash 1.4s ease-in-out infinite,colors 5.6s ease-in-out infinite}@keyframes colors{0%{stroke:#4285F4}25%{stroke:#DE3E35}50%{stroke:#F7C223}75%{stroke:#1B9A59}100%{stroke:#4285F4}}@keyframes dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}100%{stroke-dashoffset:187;transform:rotate(450deg)}}
+</style>
+</head>
+<body>
+<svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+<circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+</svg>
+</body>
+</html>

@@ -46,3 +46,53 @@ nav a:hover, nav button:hover {
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
+
+.footer {
+    background: #4a5f7f;
+    margin-top: 180px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#about-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#analyse-container{
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#analyse-container img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+}
+
+#corpus-wrapper{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 5px 10px; text-align: center; }
+th { background-color: #f0f0f0; }
+tr:nth-child(even) { background-color: #fafafa; }
+
+#kwic-table {
+    margin-top: 20px;
+}
+
+#kwic-table th:nth-child(5),
+#kwic-table td:nth-child(5) {
+    background-color: #f0f8ff; 
+    font-weight: bold; 
+}
+.success { color: green; }
+.client-error { color: orange; }
+.server-error { color: red; }
+.other { color: grey; }
+.redirection {color: lightskyblue;}
