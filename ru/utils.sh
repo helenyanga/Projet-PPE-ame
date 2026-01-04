@@ -2,15 +2,15 @@
 
 get_filename()
 {
-    path=$1
+    local path=$1
     echo "$path" | rev | cut -d"/" -f1 | rev | cut -d "." -f1
 }
 
 get_parent_folder_name()
 {
-    path=$1
-    path="$(dirname "$path")"
-    name=${path##*/}
+    local path=$1
+    local path="$(dirname "$path")"
+    local name=${path##*/}
     echo $name
 }
 

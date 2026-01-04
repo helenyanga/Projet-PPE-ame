@@ -11,23 +11,21 @@ fi
 
 write_csv()
 {
-    source_path=$1
-    export_path=$2
-    window=3  # number of context words before and after the keyword
-
-    # Only match the exact word 'душа' and its flexions
-    pattern='\bдуш(а|и|е|у|ой|ою|ами|ах)\b'
+    local source_path=$1
+    local export_path=$2
+    local pattern=$3
+    local window=$CONTEXT_WINDOW  # number of context words before and after the keyword
 
     [[ -s "$export_path" ]] && echo "" >> "$export_path"
 
-    # read the file into an array of words (one per line)
+    # Read the file as an array of words
     mapfile -t words < "$source_path"
     len=${#words[@]}
 
     for i in "${!words[@]}"; do
         word="${words[$i]}"
-        if [[ "$word" =~ ^душ(а|и|е|у|ой|ою|ами|ах)$ ]]; then
-            # Collect context
+        if [[ "$word" =~ ^$pattern$ ]]; then
+            # Extracts context
             line=""
             for ((j=i-window; j<=i+window; j++)); do
                 if (( j < 0 || j >= len )); then
@@ -46,24 +44,30 @@ write_csv()
 
 write_csv_files()
 {
-    folders="txt/processed/ru1/*"
+    local folders=$1 # "txt/processed/ru1/*" for instance
+    local foldername="$(basename "$folders")" 
+    local export_path=$2 # "kwic.csv" for instance
+    local headers=$CSV_HEADERS # Headers as defined in config file
+    local pattern=${RAW_PATTERNS["$foldername"]}
 
-    headers=$HEADERS # Headers as defined in config file
-    echo -n $headers > "kwic.csv"
-    for subfolder in txt/processed/ru1/*; do
+    echo -n $headers > "$export_path"
+    for subfolder in $folders/*; do
         for file in $(find "$subfolder" -maxdepth 1 -type f | sort -V); do
             # Count number of lines in the file
             line_count=$(wc -l < "$file")
             
-            # Skip if only one line
+            # Skip if only one line, one line files most likely only contain the target word which is NOT interesting
             if [[ "$line_count" -le 1 ]]; then
                 echo "Skipping $file (only $line_count line)"
                 continue
             fi
-            write_csv "$file" "kwic.csv"
+            write_csv "$file" "$export_path" "$pattern"
         done
     done
-    sed -r '/^\s*$/d' "kwic.csv" > kwic.tmp && mv kwic.tmp kwic.csv
+    local export_filename="$(get_filename $export_path)"
+    # Removing empty lines
+    # To do so we create a temporary file and then rename it
+    sed -r '/^\s*$/d' "$export_path" > $export_filename.tmp && mv $export_filename.tmp $export_path
 }
 
 

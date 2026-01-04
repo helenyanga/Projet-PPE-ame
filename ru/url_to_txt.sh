@@ -1,11 +1,43 @@
 #!/bin/bash
-source ../utils.sh 
+source ./utils.sh 
+
+CONFIG_FILE="word_context.conf"
+if [[ -f "$CONFIG_FILE" ]]; then
+    source "$CONFIG_FILE"
+else
+    echo "Config file not found: $CONFIG_FILE" >&2
+    exit 1
+fi
+
+check_encoding()
+{
+    local url=$1
+    local encoding=$(lynx --dump --head $url | grep -i 'charset=' | awk '{print tolower($0)}')
+    echo "$encoding"
+}
+
+is_utf()
+{
+    local encoding=$1
+    if [[ $encoding==$UTF_ENCODING_LINE ]];then
+        return 0
+    else
+        return 1
+    fi
+}
 
 make_txt()
 {
     url=$1
     output_path=$2
-    lynx --dump $url > $output_path
+    local encoding="$(check_encoding $url)"
+    local is_unicode="$(is_utf $encoding)"
+    if is_utf "$encoding"; then
+        lynx --dump $url > $output_path
+    else
+        echo "$url is $encoding"
+        lynx --dump $url | iconv -f windows-1251 -t UTF-8 -o $output_path
+    fi
 }
 
 get_urls()
