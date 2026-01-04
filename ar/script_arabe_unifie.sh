@@ -24,13 +24,13 @@ mkdir -p concordances
 mkdir -p tableaux
 
 # Vérifier que le script Python existe
-if [ ! -f "programmes/tokenisation.py" ]; then
-    echo "ERREUR: Le script programmes/tokenisation.py n'existe pas !"
+if [ ! -f "ar/tokenisation.py" ]; then
+    echo "ERREUR: Le script ar/tokenisation.py n'existe pas !"
     exit 1
 fi
 
 # Fichier tableau unique
-TABLEAU="tableaux/ar.html"
+TABLEAU="www/tableaux/ar.html"
 
 # Si le tableau n'existe pas, créer l'en-tête
 if [ ! -f "$TABLEAU" ]; then
@@ -109,7 +109,7 @@ do
     # 1. Télécharger
     echo "1. Téléchargement..."
     HTTP_CODE=$(curl -L -s -o "$FICHIER_HTML" -w "%{http_code}" "$URL" --max-time 30)
-    ROBOTS_STATUS=$(bash programmes/verifier_robots.sh "$URL" 2>/dev/null || echo "INCONNU")
+    ROBOTS_STATUS=$(bash ar/verifier_robots.sh "$URL" 2>/dev/null || echo "INCONNU")
     if [ "$HTTP_CODE" = "200" ]; then
         echo "✓ Téléchargement réussi"
         
@@ -147,7 +147,7 @@ do
             else
                 # 4. Tokenisation
                 echo "3. Tokenisation..."
-                python3 programmes/tokenisation.py "$FICHIER_TEXTE" "$MOT_RECHERCHE" "$FICHIER_TOKENS" "$FICHIER_CONTEXTE" 2>/dev/null
+                python3 ar/tokenisation.py "$FICHIER_TEXTE" "$MOT_RECHERCHE" "$FICHIER_TOKENS" "$FICHIER_CONTEXTE" 2>/dev/null
                 
                 if [ $? -eq 0 ] && [ -f "${FICHIER_TOKENS}.stats" ]; then
                     source "${FICHIER_TOKENS}.stats"
@@ -225,13 +225,13 @@ CONCORD_EOF
                         <td style="font-size: 11px;">$ENCODAGE</td>
                         <td class="$OCC_CLASS"><strong>$OCCURRENCES</strong></td>
                         <td>$NB_TOKENS</td>
-                        <td><a href="../$FICHIER_HTML">HTML</a></td>
-                        <td><a href="../$FICHIER_TEXTE">TXT</a></td>
-                        <td><a href="../$FICHIER_TOKENS">Tokens</a></td>
+                        <td><a href="../../ar/$FICHIER_HTML">HTML</a></td>
+                        <td><a href="../../ar/$FICHIER_TEXTE">TXT</a></td>
+                        <td><a href="../../ar/$FICHIER_TOKENS">Tokens</a></td>
 EOF
     
     if [ -n "$FICHIER_CONCORDANCE" ] && [ -f "$FICHIER_CONCORDANCE" ]; then
-        echo "                        <td><a href=\"../$FICHIER_CONCORDANCE\" class=\"button is-small is-info\">عرض</a></td>" >> "$TABLEAU"
+        echo "                        <td><a href=\"../../ar/$FICHIER_CONCORDANCE\" class=\"button is-small is-info\">عرض</a></td>" >> "$TABLEAU"
     else
         echo "                        <td>-</td>" >> "$TABLEAU"
     fi
