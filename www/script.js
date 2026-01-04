@@ -8,23 +8,29 @@ const csvTitles = {
     "tableaux/tableau-ru2.csv": "Corpus RU2 – дух"
 };
 function loadCSV(file) {
-    // Clear existing table
+    // Clear the table
     thead.innerHTML = "";
     tbody.innerHTML = "";
-    console.log(corpusTitle);
+    clearTable(table);
+
     fetch(`tableaux/${file}`)
         .then(res => res.text())
         .then(text => {
             const rows = parseCSV(text);
             const header = rows[0];
             const data = rows.slice(1);
-            renderHeaders(header);
-            renderBody(header, data);
-            // Update page title
-            corpusTitle.innerHTML = csvTitles[file] || "Corpus RU1 – душа";
+
+            // Render using passed elements
+            renderHeaders(header, thead);
+            renderBody(header, data, tbody);
+
+            // Update the corpus title
+            corpusTitle.innerHTML = csvTitles[file] || "Corpus";
+            document.title = corpusTitle.innerHTML;
         })
         .catch(err => console.error("Error loading CSV:", err));
 }
+
 
 // Event listener for dropdown
 selector.addEventListener("change", () => {
@@ -50,14 +56,10 @@ function parseCSV(text){
     return lines.map(line => line.split(";"));
 }
 
-function renderHeaders(header){
-    const thead = document.querySelector("#metadata-table thead");
-    if (!thead) {
-        console.error("Table head element not found");
-        return;
-    }
+function renderHeaders(header, thead) {
+    thead.innerHTML = "";
     const tr = document.createElement("tr");
-    header.forEach(col=> {
+    header.forEach(col => {
         const th = document.createElement("th");
         th.textContent = col;
         tr.appendChild(th);
@@ -65,42 +67,43 @@ function renderHeaders(header){
     thead.appendChild(tr);
 }
 
-function renderBody(header, data) {
-    const tbody = document.querySelector("#metadata-table tbody");
-
+function renderBody(header, data, tbody) {
+    tbody.innerHTML = "";
     data.forEach(row => {
         const tr = document.createElement("tr");
-
-    row.forEach((cell, i) => {
-        const td = document.createElement("td");
-
-        // Special case: KWIC column
-        if (header[i] === "KWIC") {
-            const a = document.createElement("a");
-            a.href = `kwic.html?file=${cell}`;
-            a.textContent = "Voir KWIC";
-            td.appendChild(a);
-        } else if (header[i] === "URL") {
-            const a = document.createElement("a");
-            a.href = cell;
-            a.textContent = "Source";
-            a.target = "_blank";
-            td.appendChild(a);
-        } else if (header[i] === "TXT_DUMP"){
-            const a = document.createElement("a");
-            a.href = cell;
-            a.textContent = "Voir dump";
-            td.appendChild(a);
-        } else if (header[i] === "HTML_DUMP"){
-            const a = document.createElement("a");
-            a.href = cell;
-            a.textContent = "Voir dump HTML";
-            td.appendChild(a);
-        }else {
-            td.textContent = cell;
-        }
-        tr.appendChild(td);
+        row.forEach((cell, i) => {
+            const td = document.createElement("td");
+            if (header[i] === "KWIC") {
+                const a = document.createElement("a");
+                a.href = `kwic.html?file=${cell}`;
+                a.textContent = "Voir KWIC";
+                td.appendChild(a);
+            } else if (header[i] === "URL") {
+                const a = document.createElement("a");
+                a.href = cell;
+                a.textContent = "Source";
+                a.target = "_blank";
+                td.appendChild(a);
+            } else if (header[i] === "TXT_DUMP") {
+                const a = document.createElement("a");
+                a.href = cell;
+                a.textContent = "Voir dump";
+                td.appendChild(a);
+            } else if (header[i] === "HTML_DUMP") {
+                const a = document.createElement("a");
+                a.href = cell;
+                a.textContent = "Voir dump HTML";
+                td.appendChild(a);
+            } else {
+                td.textContent = cell;
+            }
+            tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
     });
-    tbody.appendChild(tr);
-    });
+}
+
+function clearTable(table) {
+    table.querySelector("thead").innerHTML = "";
+    table.querySelector("tbody").innerHTML = "";
 }

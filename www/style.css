@@ -55,6 +55,11 @@ nav a:hover, nav button:hover {
     color: white;
 }
 
+.about-container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 table { border-collapse: collapse; width: 100%; }
 th, td { border: 1px solid #ccc; padding: 5px 10px; text-align: center; }
 th { background-color: #f0f0f0; }
