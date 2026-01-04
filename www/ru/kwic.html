@@ -17,7 +17,6 @@
         <a href="index-ar.html">AR</a>
     </nav>
 </header>
-
 <main class="container">
     <table id="kwic-table">
         <thead>
@@ -34,7 +33,6 @@
             </tr>
         </thead>
         <tbody>
-            <!-- Rows will be filled by JavaScript -->
         </tbody>
     </table>
 </main>
@@ -46,10 +44,9 @@ const csvFile = urlParams.get('file');
 if (!csvFile) {
     document.querySelector('#kwic-table tbody').innerHTML = '<tr><td colspan="9">No file specified.</td></tr>';
 } else {
-    // Path relative to www/ru/
     const fullPath = '../../ru/' + csvFile;
 
-    // Function to parse CSV into array of arrays (semicolon separated)
+    // Function to parse CSV into array of arrays
     function parseCSV(text) {
         const lines = text.trim().split('\n');
         const result = [];

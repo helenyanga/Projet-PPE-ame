@@ -25,7 +25,7 @@ metadata_csv()
         TXT_DUMP_REL="../../ru/$TXT_DUMP"
         HTML_DUMP_REL="../../ru/$HTML_DUMP"
         KWIC_REL="../../ru/$KWIC"
-        echo "$INDEX;$URL;$ENCODING;$HTTP_CODE;$TXT_DUMP_REL;$HTML_DUMP_REL;$TOTAL_WORDS;$TARGET_TOTAL;$KWIC_REL" >> "$export_path"
+        echo "$INDEX;$URL;$ROBOT;$ENCODING;$HTTP_CODE;$TXT_DUMP_REL;$HTML_DUMP_REL;$TOTAL_WORDS;$TARGET_TOTAL;$KWIC_REL" >> "$export_path"
     done
 }
 

@@ -71,7 +71,7 @@ const aboutVersions = [
     </ul>
 
     <p><strong>Ce projet est terminé.</strong><br>
-    Il continue quand même, peut être un mercredi, non je pense que je crois être sûr que c'est une année bisextile selon le calendrier de Cotsworth.</p>
+    Il continue quand même, peut être un mercredi, non je pense que je crois être sûr que c'est une année bisextile selon le calendrier lunaire.</p>
     `,
     `
     <p>Le présent projet constitue une initiative académique dans le cadre du module de traitement de corpus et d’analyse linguistique. L’objectif principal était de concevoir une chaîne de traitement permettant l’extraction, la structuration et la visualisation de données textuelles issues de corpus en langue russe.</p>

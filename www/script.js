@@ -94,7 +94,20 @@ function renderBody(header, data, tbody) {
                 a.href = cell;
                 a.textContent = "Voir dump HTML";
                 td.appendChild(a);
-            } else {
+            } else if (header[i] === "HTTP_CODE"){
+                const code = Number(cell);
+                if (code >= 200 && code < 300){
+                    td.classList.add('success');
+                } else if(code >= 400 && code < 500){
+                    td.classList.add('client-error');
+                } else if(code >= 500 && code < 600){
+                    td.classList.add('server-error');
+                } else{
+                    td.classList.add('other-code');
+                }
+                td.textContent = cell;
+            }
+            else {
                 td.textContent = cell;
             }
             tr.appendChild(td);

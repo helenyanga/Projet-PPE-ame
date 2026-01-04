@@ -60,6 +60,23 @@ nav a:hover, nav button:hover {
     margin-right: 20px;
 }
 
+#analyse-container{
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#analyse-container img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+}
+
+#corpus-wrapper{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 table { border-collapse: collapse; width: 100%; }
 th, td { border: 1px solid #ccc; padding: 5px 10px; text-align: center; }
 th { background-color: #f0f0f0; }
@@ -74,3 +91,7 @@ tr:nth-child(even) { background-color: #fafafa; }
     background-color: #f0f8ff; 
     font-weight: bold; 
 }
+.success { color: green; }
+.client-error { color: orange; }
+.server-error { color: red; }
+.other { color: gray; }

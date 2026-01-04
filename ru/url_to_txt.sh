@@ -38,6 +38,15 @@ write_metadata_url()
     local http_code=$(lynx --dump --head "$url" | grep -i "HTTP/" | tail -1 | awk '{print $2}')    
     local txt_dump=$4
 
+    # Robots.txt
+    local domain=$(echo "$url" | awk -F/ '{print $1 "//" $3}')
+    local path=$(echo "$url" | awk -F"$domain" '{print $2}')
+    local robots_txt=$(curl -s "$domain/robots.txt")
+    local robot_status="allow"
+    if echo "$robots_txt" | grep -q -i "Disallow: $path"; then
+        robot_status="disallow"
+    fi
+
     # Ensures there is no unnecessary appending
     if file_exists "$metadata_path"; then
         rm $metadata_path
@@ -46,6 +55,7 @@ write_metadata_url()
 
     echo "INDEX="$index"" >> $metadata_path
     echo "URL="$url"" >> $metadata_path
+    echo "ROBOT=$robot_status" >> $metadata_path
     echo "ENCODING="$encoding"" >> $metadata_path
     echo "HTTP_CODE="$http_code"" >> $metadata_path
     echo "TXT_DUMP="$txt_dump"" >> $metadata_path
