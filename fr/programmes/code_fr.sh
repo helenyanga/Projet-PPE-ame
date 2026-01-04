@@ -77,21 +77,39 @@ echo "<!DOCTYPE html>
     <html>
      <head>
         <meta charset=\"UTF-8\"/>
-     </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>tableau_fr</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      </head>
      <body>
         <table>
-            <tr>
-                <th>Numéro</th>
-                <th>Lien</th>
-                <th>HTTP</th>
-                <th>Encodage Charset</th>
-                <th>Nombre de mots</th>
-                <th>Occurences</th>
-                <th>Aspirations</th>
-                <th>Dumps</th>
-                <th>Contextes</th>
-                <th>Concordances</th>
-            </tr>" >> "$fichier_html"
+            <section>
+                <div class="hero-body">
+                    <div class="container">
+                        <center>
+                            <h1 class="title">Le mot « âme » en français<br><br></h1>
+                        </center>
+                   </div>
+                </div>
+            </section>
+            <section class="section">
+               <div class="container has-background-white">
+                    <h1 class="title is-4">Tableau pour le corpus français :</h1>
+                <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Numéro</th>
+                                <th>Lien</th>
+                                <th>HTTP</th>
+                                <th>Encodage Charset</th>
+                                <th>Nombre de mots</th>
+                                <th>Occurences</th>
+                                <th>Aspirations</th>
+                                <th>Dumps</th>
+                                <th>Contextes</th>
+                                <th>Concordances</th>
+                            </tr>" >> "$fichier_html"
 
 N=1
 #On veut lire ligne par ligne le contenu du fichier.
@@ -128,18 +146,18 @@ do
 
 
     #Ecrire dans le HTML :
-    echo -e " <tr>
-                  <td>$N</td>
-                  <td><a href=\"$line\">$line</a></td>
-                  <td>$http_code</td>
-                  <td>$content_type</td>
-                  <td>$nb_mots</td>
-                  <td>$nb_occurences</td>
-                  <td><a href=\"../aspirations/fr-${N}.html\">aspiration</a></<td>
-                  <td><a href=\"../dumps-text/fr-${N}.txt\">dump</a></td>
-                  <td><a href=\"../contextes/fr-${N}.txt\">contexte</a></td>
-                  <td><a href=\"../concordances/fr-${N}.html\">concordancier</a></td>
-              </tr>" >> "$fichier_html"
+    echo -e "                   <tr>
+                                    <td>$N</td>
+                                    <td><a href=\"$line\">$line</a></td>
+                                    <td>$http_code</td>
+                                    <td>$content_type</td>
+                                    <td>$nb_mots</td>
+                                    <td>$nb_occurences</td>
+                                    <td><a href=\"../aspirations/fr-${N}.html\">aspiration</a></<td>
+                                    <td><a href=\"../dumps-text/fr-${N}.txt\">dump</a></td>
+                                    <td><a href=\"../contextes/fr-${N}.txt\">contexte</a></td>
+                                    <td><a href=\"../concordances/fr-${N}.html\">concordancier</a></td>
+                                </tr>" >> "$fichier_html"
 
     N=$( expr $N + 1 )
 done < $fichier_urls
