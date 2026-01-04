@@ -22,7 +22,8 @@ do
 
     echo "Traitement des fichiers : $nom_fichier → fr-${N}.html"
 
-    echo -e "<html>
+    echo -e "<!DOCTYPE html>
+        <html>
             <head>
                 <meta charset=\"UTF-8\">
             </head>
