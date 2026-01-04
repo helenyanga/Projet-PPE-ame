@@ -46,7 +46,6 @@ nav a:hover, nav button:hover {
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
-<<<<<<< HEAD
 
 .footer {
     background: #4a5f7f;
@@ -97,5 +96,3 @@ tr:nth-child(even) { background-color: #fafafa; }
 .server-error { color: red; }
 .other { color: grey; }
 .redirection {color: lightskyblue;}
-=======
->>>>>>> 8a72dd4b71a7aea9342ae25a10f2c5dc7812cc79
