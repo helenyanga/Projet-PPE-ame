@@ -91,3 +91,8 @@ nav a:hover, nav button:hover {
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
+
+.generic-container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
