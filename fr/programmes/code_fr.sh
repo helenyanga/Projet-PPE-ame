@@ -120,9 +120,6 @@ do
     #bash code_concordances.sh "$N"
 
 
-
-
-
     #Liens cliquables pour le tableau HTML :
     aspirations_fichier="../aspirations/fr-$N.html"
     dumps_fichier="../dumps-text/fr-$N.txt"
