@@ -85,6 +85,7 @@ if [ ! -f "$TABLEAU" ]; then
                             <th>Dump textuel</th>
                             <th>Tokens</th>
                             <th>Concordance</th>
+                            <th>Bigrammes</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -230,6 +231,7 @@ EOF
     echo "                        <td><a href=\"../../ar/$FICHIER_HTML\">HTML</a></td>" >> "$TABLEAU"
     echo "                        <td><a href=\"../../ar/$FICHIER_TEXTE\">TXT</a></td>" >> "$TABLEAU"
     echo "                        <td><a href=\"../../ar/$FICHIER_TOKENS\">Tokens</a></td>" >> "$TABLEAU"
+    echo "                        <td><a href=\"../../ar/bigrammes/ar-$NUMERO_LIGNE.txt\">Voir</a></td>" >> "$TABLEAU"
     
     if [ -n "$FICHIER_CONCORDANCE" ] && [ -f "$FICHIER_CONCORDANCE" ]; then
         echo "                        <td><a href=\"../../ar/$FICHIER_CONCORDANCE\" class=\"button is-small is-info\">عرض</a></td>" >> "$TABLEAU"
