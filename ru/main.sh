@@ -15,13 +15,17 @@ source kwic_generator.sh
 
 metadata_csv()
 {
-    filename=$1
-    echo "INDEX;URL;ENCODING;HTTP_CODE;TXT_DUMP;HTML_DUMP;TOTAL_WORDS;TARGET_TOTAL;KWIC" > "tableau-$filename.csv"
+    local filename=$1
+    local export_path="../www/ru/tableaux/tableau-$filename.csv"
+    echo "INDEX;URL;ENCODING;HTTP_CODE;TXT_DUMP;HTML_DUMP;TOTAL_WORDS;TARGET_TOTAL;KWIC" > "$export_path"
 
-    for f in metadata/*.conf; do
+    for f in $(ls -v metadata/*.conf); do
         unset INDEX URL ENCODING HTTP_CODE TXT_DUMP HTML_DUMP TOTAL_WORDS TARGET_TOTAL KWIC
         source "$f"
-        echo "$INDEX;$URL;$ENCODING;$HTTP_CODE;$TXT_DUMP;$HTML_DUMP;$TOTAL_WORDS;$TARGET_TOTAL;$KWIC" >> "tableau-$filename.csv"
+        TXT_DUMP_REL="../../ru/$TXT_DUMP"
+        HTML_DUMP_REL="../../ru/$HTML_DUMP"
+        KWIC_REL="../../ru/$KWIC"
+        echo "$INDEX;$URL;$ENCODING;$HTTP_CODE;$TXT_DUMP_REL;$HTML_DUMP_REL;$TOTAL_WORDS;$TARGET_TOTAL;$KWIC_REL" >> "$export_path"
     done
 }
 
@@ -77,6 +81,4 @@ main_dialog()
         main_dialog
     fi
 }
-
-# Run the main dialog
-#main_dialog
+main_dialog
