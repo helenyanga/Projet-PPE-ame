@@ -13,6 +13,18 @@ source url_to_txt.sh
 source word_context.sh
 source kwic_generator.sh
 
+metadata_csv()
+{
+    filename=$1
+    echo "INDEX;URL;ENCODING;HTTP_CODE;TXT_DUMP;HTML_DUMP;TOTAL_WORDS;TARGET_TOTAL;KWIC" > "tableau-$filename.csv"
+
+    for f in metadata/*.conf; do
+        unset INDEX URL ENCODING HTTP_CODE TXT_DUMP HTML_DUMP TOTAL_WORDS TARGET_TOTAL KWIC
+        source "$f"
+        echo "$INDEX;$URL;$ENCODING;$HTTP_CODE;$TXT_DUMP;$HTML_DUMP;$TOTAL_WORDS;$TARGET_TOTAL;$KWIC" >> "tableau-$filename.csv"
+    done
+}
+
 main_dialog() 
 {
     local urls_folder="urls"
@@ -59,6 +71,7 @@ main_dialog()
         local source_dir="$SOURCE_DIR/$filename"
         process_files $source_dir $export_dir $pattern
         write_csv_files "$export_dir/$filename"
+        metadata_csv $filename
     else
         echo "Recommençons..."
         main_dialog
@@ -66,4 +79,4 @@ main_dialog()
 }
 
 # Run the main dialog
-main_dialog
+#main_dialog
