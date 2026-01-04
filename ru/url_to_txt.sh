@@ -26,6 +26,31 @@ is_utf()
     fi
 }
 
+write_metadata()
+{
+    local metadata_path=$1
+    local index=$2
+    local url=$3
+    # Extracts result from check_encoding func and cuts off the html part to get only the name of the encoding
+    local encoding=$(check_encoding "$url" | grep -oP '(?i)charset=\K\S+' | awk '{print tolower($0)}')
+    # If it returns an empty string, it marks it as unavailable
+    local encoding="${encoding:-indisponible}"
+    local http_code=$(lynx --dump --head "$url" | grep -i "HTTP/" | tail -1 | awk '{print $2}')    
+    local txt_dump=$4
+
+    # Ensures there is no unnecessary appending
+    if file_exists "$metadata_path"; then
+        rm $metadata_path
+    fi
+    touch $metadata_path
+
+    echo "INDEX="$index"" >> $metadata_path
+    echo "URL="$url"" >> $metadata_path
+    echo "ENCODING="$encoding"" >> $metadata_path
+    echo "HTTP_CODE="$http_code"" >> $metadata_path
+    echo "TXT_DUMP="$txt_dump"" >> $metadata_path
+}
+
 make_txt()
 {
     url=$1
@@ -63,6 +88,14 @@ get_urls()
 
         # Move to next spinner
         spin_index=$(( (spin_index + 1) % 4 ))
+        
+        # Dumps raw html in background
+        wget -q $url -O html_dump/$base_name-$count.html  &
+
+        write_metadata "$METADATA_FOLDER/$base_name-$count.conf" $count $url "$output_folder/$base_name/$base_name-$count.txt"
+        # HTML dump is just too annoying to write within the appropriate func
+        # Not the first principle of good programming I am breaking with bash...
+        echo "HTML_DUMP="html_dump/$base_name-$count.html"" >> "$METADATA_FOLDER/$base_name-$count.conf"
 
         count=$((count+1))
     done < "$urls_path"

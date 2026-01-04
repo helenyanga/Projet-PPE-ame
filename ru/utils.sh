@@ -1,5 +1,15 @@
 #!/bin/bash
 
+file_exists()
+{
+    local filepath=$1
+    if [ -f $filepath ]; then
+        return 0 # File exists
+    else
+        return 1 # File does not exist
+    fi
+}
+
 get_filename()
 {
     local path=$1
