@@ -94,4 +94,5 @@ tr:nth-child(even) { background-color: #fafafa; }
 .success { color: green; }
 .client-error { color: orange; }
 .server-error { color: red; }
-.other { color: gray; }
+.other { color: grey; }
+.redirection {color: lightskyblue;}

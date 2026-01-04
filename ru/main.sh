@@ -17,10 +17,10 @@ metadata_csv()
 {
     local filename=$1
     local export_path="../www/ru/tableaux/tableau-$filename.csv"
-    echo "INDEX;URL;ENCODING;HTTP_CODE;TXT_DUMP;HTML_DUMP;TOTAL_WORDS;TARGET_TOTAL;KWIC" > "$export_path"
+    echo "INDEX;URL;ROBOT;ENCODING;HTTP_CODE;TXT_DUMP;HTML_DUMP;TOTAL_WORDS;TARGET_TOTAL;KWIC" > "$export_path"
 
-    for f in $(ls -v metadata/*.conf); do
-        unset INDEX URL ENCODING HTTP_CODE TXT_DUMP HTML_DUMP TOTAL_WORDS TARGET_TOTAL KWIC
+    for f in $(ls -v metadata/$filename-*.conf); do
+        unset INDEX URL ROBOT ENCODING HTTP_CODE TXT_DUMP HTML_DUMP TOTAL_WORDS TARGET_TOTAL KWIC
         source "$f"
         TXT_DUMP_REL="../../ru/$TXT_DUMP"
         HTML_DUMP_REL="../../ru/$HTML_DUMP"

@@ -42,9 +42,9 @@ write_metadata_url()
     local domain=$(echo "$url" | awk -F/ '{print $1 "//" $3}')
     local path=$(echo "$url" | awk -F"$domain" '{print $2}')
     local robots_txt=$(curl -s "$domain/robots.txt")
-    local robot_status="allow"
+    local robot_status="autorisé"
     if echo "$robots_txt" | grep -q -i "Disallow: $path"; then
-        robot_status="disallow"
+        robot_status="interdit"
     fi
 
     # Ensures there is no unnecessary appending
@@ -53,12 +53,13 @@ write_metadata_url()
     fi
     touch $metadata_path
 
-    echo "INDEX="$index"" >> $metadata_path
-    echo "URL="$url"" >> $metadata_path
-    echo "ROBOT=$robot_status" >> $metadata_path
-    echo "ENCODING="$encoding"" >> $metadata_path
-    echo "HTTP_CODE="$http_code"" >> $metadata_path
-    echo "TXT_DUMP="$txt_dump"" >> $metadata_path
+    echo "INDEX=\"$index\"" >> "$metadata_path"
+    echo "URL=\"$url\"" >> "$metadata_path"
+    echo "ROBOT=\"$robot_status\"" >> "$metadata_path"
+    echo "ENCODING=\"$encoding\"" >> "$metadata_path"
+    echo "HTTP_CODE=\"$http_code\"" >> "$metadata_path"
+    echo "TXT_DUMP=\"$txt_dump\"" >> "$metadata_path"
+
 }
 
 make_txt()
@@ -83,7 +84,7 @@ get_urls()
     # Spinner characters
     spinner="/-\|"
     spin_index=0
-    count_urls="$(folder_length "$urls_path")"
+    count_urls="$(wc -l < "$urls_path")"
 
     count=1
     base_name="$(get_filename "$urls_path")"

@@ -135,14 +135,14 @@
    (BUTTON)
    Иконка comment Иконка comment Иконка comment
    0
-   38
+   43
    LIKE
    FIRE
    2
    (BUTTON)
    Иконка comment Иконка comment Иконка comment
    0
-   38
+   43
    [25]
    Превью поста
    [26]

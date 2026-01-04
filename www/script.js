@@ -98,6 +98,8 @@ function renderBody(header, data, tbody) {
                 const code = Number(cell);
                 if (code >= 200 && code < 300){
                     td.classList.add('success');
+                } else if (code >= 300 && code < 400){
+                    td.classList.add('redirection');
                 } else if(code >= 400 && code < 500){
                     td.classList.add('client-error');
                 } else if(code >= 500 && code < 600){

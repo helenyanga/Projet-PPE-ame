@@ -27,9 +27,9 @@
    [14]
    Техника
    [15]
-   Образование
+   Право
    [16]
-   Приёмная
+   Образование
    Показать все
    vc.ru
    [17]
@@ -118,8 +118,8 @@ References
   12. https://vc.ru/invest
   13. https://vc.ru/telegram
   14. https://vc.ru/tech
-  15. https://vc.ru/education
-  16. https://vc.ru/claim
+  15. https://vc.ru/legal
+  16. https://vc.ru/education
   17. https://vc.ru/about
   18. https://vc.ru/rules
   19. https://vc.ru/ads
