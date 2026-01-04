@@ -9,7 +9,7 @@ else
     exit 1
 fi
 
-write_metadata()
+write_metadata_kwic()
 {
     local csv_path=$1 # csv/ru1-1.csv for example
     local filename=$2 # ru1-1 for example
@@ -69,12 +69,12 @@ write_csv_files()
             
             # Skip if only one line, one line files most likely only contain the target word which is NOT interesting
             if [[ "$line_count" -le 1 ]]; then
-                echo "Skipping $file (only $line_count line/word&)"
+                echo "Skipping $file (only $line_count line/word)"
                 continue
             fi
             write_csv "$file" "$export_path" "$pattern"
         done
-        write_metadata "$export_path" "$subfolder_name"
+        write_metadata_kwic "$export_path" "$subfolder_name"
 
         local export_filename="$(basename "$export_path")"
         # Removing empty lines

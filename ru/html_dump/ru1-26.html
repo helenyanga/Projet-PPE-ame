@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name=viewport content="width=device-width, initial-scale=1.0 ">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<link href="/bitrix/templates/quiltshowflex/components/bitrix/news.detail/photo-slider/style.css?1656398487266" type="text/css"  rel="stylesheet" />
+<link href="/js/jquery-plugins/owl.carousel3/assets/owl.carousel.css?16563930224112" type="text/css"  rel="stylesheet" />
+<link href="/js/jquery-plugins/owl.carousel3/assets/owl.theme.default.css?16563930221370" type="text/css"  rel="stylesheet" />
+<link href="/js/jquery-plugins/fancybox3/jquery.fancybox.css?162062529717412" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/quiltshowflex/components/bitrix/menu/left-menu/style.css?1576472258581" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/quiltshowflex/components/bitrix/news.list/banner-left/style.css?1576472259150" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/quiltshowflex/components/bitrix/breadcrumb/nav-chain/style.css?1576472259563" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/quiltshowflex/components/bitrix/menu/extra-menu/style.css?1576472258581" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/quiltshowflex/components/bitrix/menu/bottom-menu/style.css?1576472258150" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/quiltshowflex/styles.css?16745010761398" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/quiltshowflex/template_styles.css?174478819893831" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script type="text/javascript" src="/bitrix/js/main/core/core.js?1682015547487656"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+</script>
+<script type="text/javascript">(window.BX||top.BX).message({'pull_server_enabled':'N','pull_config_timestamp':'0','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'N','SITE_ID':'qs','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1767534712','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'451a2a47780d15c6a59daae51ab021c5'});</script>
+
+
+<script type="text/javascript" src="/bitrix/js/pull/protobuf/protobuf.js?1601827263274055"></script>
+<script type="text/javascript" src="/bitrix/js/pull/protobuf/model.js?160182726370928"></script>
+<script type="text/javascript" src="/bitrix/js/rest/client/rest.client.js?160182727917414"></script>
+<script type="text/javascript" src="/bitrix/js/pull/client/pull.client.js?168201552681012"></script>
+<script type="text/javascript">
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_qs");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("qs")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+
+
+
+<script type="text/javascript" src="/js/jquery.js?1389438121273199"></script>
+<script type="text/javascript" src="/js/jquery-plugins/fancybox3/jquery.fancybox.js?1620625297160667"></script>
+<script type="text/javascript" src="/bitrix/templates/quiltshowflex/components/bitrix/menu/top-dropdown-menu/script.js?1576472258470"></script>
+<script type="text/javascript" src="/bitrix/templates/quiltshowflex/components/bitrix/news.detail/photo-slider/script.js?1659794313491"></script>
+<script type="text/javascript" src="/js/jquery-plugins/owl.carousel3/owl.carousel.js?165639302285321"></script>
+<script type="text/javascript" src="/js/jquery-plugins/owl.carousel3/src/js/owl.autoplay.js?16563930224539"></script>
+<script type="text/javascript" src="/bitrix/templates/quiltshowflex/components/bitrix/news.list/video-detail/script.js?1656997783148"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "6a495f767d2855900a71ceafd48404d5"]); _ba.push(["host", "www.quiltshow.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+<meta property="og:image" content="http://quiltshow.ru" />
+<meta name="yandex-verification" content="7246cb59863f7b68" />
+
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   var z = null;m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(34189365, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/34189365" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+<title>Фестиваль лоскутного шитья Душа России - Главная</title>
+
+</head>
+<body class="garden">
+
+<div id="fixed-menu">
+	<div id="site-menu">
+		<div id="google_translate_element"></div><script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+		}
+		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</div>
+	<div id="personal-box">
+					<span class="pb-item"><a href="/personal/">вход в личный кабинет</a></span>
+			</div>
+</div>
+<div id="page-wrapper">
+<header>
+	<div id="home">
+		<a class="selected" href="/" title="на главную страницу">главная</a>
+	</div>
+
+
+
+
+	<div id="top-menu">
+		<nav class="dropdown-menu">
+	<ul class="level-1">
+			
+			
+					<li class="parent level-1"><a href="/photoes/">Фото и видео</a>
+				<ul class="level-2">
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/">Фотогалерея 2025 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/video/">Видеогалерея</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/2024.php">Фотогалерея 2024 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/2023.php">Фотогалерея 2023 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/2022.php">Фотогалерея 2022 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/2021.php">Фотогалерея 2021 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/2020.php">Фотогалерея 2020 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/2019.php">Фотогалерея 2019 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/2018.php">Фотогалерея 2018 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/2017.php">Фотогалерея 2017 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/2016.php">Фотогалерея 2016 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/photoes/2015.php">Фотогалерея 2015 года</a></li>
+			
+	
+					
+					</ul></li>			
+					<li class="parent level-1"><a href="/news/">Новости</a>
+				<ul class="level-2">
+			
+	
+					
+			
+					<li class="level-2"><a href="/news/index.php">Новости</a></li>
+			
+	
+					
+					</ul></li>			
+					<li class="parent level-1"><a href="/about/">О фестивале</a>
+				<ul class="level-2">
+			
+	
+					
+			
+					<li class="level-2"><a href="/about/tema/2024.php">Тема фестиваля 2024</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/about/idea/">Идея фестиваля</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/about/condition/">Положение</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/about/jury/">Жюри фестиваля</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/about/media/">СМИ о фестивале</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/about/press/">Для прессы</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/about/press-release/">Пресс-релизы</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/about/logoes/">Логотипы и баннеры</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/about/partners/">Партнёры</a></li>
+			
+	
+					
+					</ul></li>			
+					<li class="parent level-1"><a href="/uchastnikam/">Участникам</a>
+				<ul class="level-2">
+			
+	
+					
+			
+					<li class="level-2"><a href="/uchastnikam/usloviya/">Условия участия</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/uchastnikam/konkursy/">Конкурсы 2025 года</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/uchastnikam/masterklassy/">Мастер-классы и обучение</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/uchastnikam/sovety/">Советы</a></li>
+			
+	
+					
+					</ul></li>			
+					<li class="parent level-1"><a href="/projects/">Проекты</a>
+				<ul class="level-2">
+			
+	
+					
+			
+					<li class="level-2"><a href="/projects/sakhalin/">Душа России на Сахалине</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/projects/vdnh/">Выставка на ВДНХ</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/projects/welcome/">Российское гостеприимство</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/projects/rzhd/">Железные дороги России</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/projects/online/">Выставка online</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/projects/showcase/">online Выставка-продажа</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/quilts-field/">Лоскутное поле</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/projects/black-white/">Международный  проект Black&White</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/times/">Проект «Связь времён»</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="https://quiltshow.ru/photoes/51964/">Проект «Возьмемся за руки, друзья!»</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/projects/russkiy-stil-v-loskutnom-shite.php">Русский стиль в лоскутном шитье</a></li>
+			
+	
+					
+			
+					<li class="level-2"><a href="/projects/study/">Где учиться?</a></li>
+			
+	
+					
+					</ul></li>			
+					<li class="level-1"><a href="/contacts/">Контакты</a></li>
+			
+	
+						
+			
+	</ul>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	<div id="top-picture"></div>
+	
+	<div id="menu-burger">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<script>
+	$(function() {
+		$('#menu-burger').click(function(){
+			$(this).toggleClass('open');
+			$('#phone-menu').toggleClass('open');
+		});
+	});
+	</script>
+
+	<div id="logo-box">
+			<img alt="Фестиваль лоскутного шитья в Суздале" src="/bitrix/templates/quiltshowflex/images/logo2020.png">
+		 &nbsp;<br>
+<br>
+<div id="logo-text" style="background-color: #FFF;">
+ <br>
+</div>
+ <br>	</div>
+
+</header>
+
+
+<div id="main-wrapper">
+<div id="left-column">
+	<div id="socnets-block">
+		<!--a class="ok" target="_blank" href="http://ok.ru/group/53449643065446" title="Одноклассники"></a-->
+		<!--a class="fb" target="_blank" href="https://www.facebook.com/quiltshow.ru/" title="Facebook"></a-->
+		<a class="vk" target="_blank" href="https://vk.com/quiltshow" title="ВКонтакте"></a>
+		<!--a class="in" target="_blank" href="https://www.instagram.com/quiltshow.ru/" title="Instagram"></a-->
+		<!--a class="youtube" target="_blank" href="https://www.youtube.com/user/quilts2015" title="YouTube"></a-->
+		<a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCuKKkxAiuIfS4PCfvG9njLw/videos" title="YouTube"></a>
+		<a class="zen" target="_blank" href="https://dzen.ru/quiltshow" title="Яндекс.Дзен"></a>
+	</div>
+
+	<div id="left-menu">
+	
+	</div>
+
+
+	<div class="section-inc">
+<div class="bn-left">
+		<div class="item" style="margin: 0 0 24px;" id="bx_3218110189_56983">
+				<a href="/projects/online/" title="" style="display: inline-block;"><img style="box-shadow2: 0px 0px 10px rgba(50, 50, 50, 0.7);" src="/upload/iblock/106/qfb3.png"></a>
+			</div>
+			<div class="item" style="margin: 0 0 24px;" id="bx_3218110189_51968">
+				<a href="https://quiltshow.ru/photoes/51964/" title="" style="display: inline-block;"><img style="box-shadow2: 0px 0px 10px rgba(50, 50, 50, 0.7);" src="/upload/iblock/5c6/lbf2.png"></a>
+			</div>
+			<div class="item" style="margin: 0 0 24px;" id="bx_3218110189_41114">
+				<a href="http://quiltshow.ru/quilts-field/" title="Перейти на страничку арт-проекта Лоскутное поле" style="display: inline-block;"><img style="box-shadow2: 0px 0px 10px rgba(50, 50, 50, 0.7);" src="/upload/iblock/b6c/qf.png"></a>
+			</div>
+			<div class="item" style="margin: 0 0 24px;" id="bx_3218110189_45978">
+				<a href="http://quiltshow.ru/times/" title="" style="display: inline-block;"><img style="box-shadow2: 0px 0px 10px rgba(50, 50, 50, 0.7);" src="/upload/iblock/985/times.png"></a>
+			</div>
+			<div class="item" style="margin: 0 0 24px;" id="bx_3218110189_76671">
+				<a href="/projects/study/" title="" style="display: inline-block;"><img style="box-shadow2: 0px 0px 10px rgba(50, 50, 50, 0.7);" src="/upload/iblock/2a9/97dm67988uhu09juszhvfc9ytvac3gk0.png"></a>
+			</div>
+	</div>
+
+
+</div>
+	<div class="page-inc"></div>
+
+</div>
+<div id="right-column">
+
+
+<div id="phone-menu">
+	
+</div>
+
+
+
+<main role="main">
+
+  
+
+
+<!--div style="margin: 0 0 1.5rem;"><img style="max-width: 100%; width: 100%;" src="/images/fl2020-1200.png"></div-->
+
+
+<a class="photo-slider" href="/photoes/76256/" title="Перейти к фотоальбому">
+	<div class="owl-carousel owl-theme">
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/a34/400_400_1/3gu0ut6eddsfc9ccv06ii47ar4ewgca6.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/c4d/400_400_1/jgwryw8xaz1xqfoedv13hlzz0y39vjx0.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/60e/400_400_1/nfwfex99fei3089at9fy62sa0nneg50l.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/22e/400_400_1/xdejrsquyxk70dppsd8zylxm41eni9gs.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/61c/400_400_1/kfq86pab8m1vzwnzibmulql4yiqehdsu.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/f3b/400_400_1/f31r4btel31sj4a3s3qz890y8k21pcfz.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/c06/400_400_1/fz7cyi1n8uuguhz708gkp9mob4peif2c.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/5ef/400_400_1/pxaf4nbxh9chw5ouu19lzwwjym61bff2.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/469/400_400_1/ikoe6ai5qtip0ft6vk2j542ofp3603ta.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/26f/400_400_1/zsslwvujhft4qt21cadaocqc0wrazxa2.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/290/400_400_1/fsmyzxvp64mi2lfwj8i6e1l0v34daviz.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/27f/400_400_1/5cq3cvh3u6hyev5imv30n8alle806tuj.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/a8d/400_400_1/z8byu5qlfalf4yixbvr2ygcz3pxx5ho0.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/781/400_400_1/2rymjf7ctd0dfwm6x6ud80u6z3nk5b3v.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/06a/400_400_1/diro9jr0xhnc53i0tw6avusjjf2b8xlh.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/f19/400_400_1/wb421159e5gl59fi7weel85pp4vljkmc.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/d27/400_400_1/k7s36rxfkt52prws73z3zzzyiu15epey.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/54d/400_400_1/fhryr625exwmo42nprjwydrcylz4v57y.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/d34/400_400_1/uaj4x9du7ym7motj0oropmfyq9u3l4j4.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/cee/400_400_1/2x668rotpg8jcrq1brm6a91zc7d06vd9.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/293/400_400_1/t2fr6f46w5eymvdfdovhgmvq5uwvk7c3.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/446/400_400_1/8z8s1uh5ygd6ckkwr7o7dz37yoqx3qko.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/477/400_400_1/hfhalee6rhxminwdi3l42ha22ztx11zz.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/1cf/400_400_1/i7zubm42xozuf5mwckmqudcp4i8l1rq1.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/521/400_400_1/gevmmg2416maz9umsszviyrv2dv6uyq6.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/20a/400_400_1/z4a8f5mm4w03ekkbto7i310th2oe03qg.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/71c/400_400_1/3kkx0ec5f0977x7eep8fitoq1ku0klk4.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/a41/400_400_1/6lg9yhmpsti8g5vb0pvxm5iet5j98dym.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ad1/400_400_1/d30n1v89p9ar8vp2gcsoy48xpkzbqwdc.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/4fe/400_400_1/2wr9gkzp35zydz2h69jm1q0qcxu1jl13.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/8ea/400_400_1/uyshicp6r66fc2vwveyt1giafcwjapgp.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/b07/400_400_1/5fslso0z49gqzxxrot1120180r4hqgbk.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/a5c/400_400_1/50ivnwwobvnz1oz8rbjifs6poe2mzrgx.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/8fb/400_400_1/qyedf80xwor58jsokc9x97b9u8apezv4.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/90d/400_400_1/9h8b8l5n7z137b5zgzzohczuk7nl140h.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/efc/400_400_1/rmvfb0o8qubmbefafnlxip83qz5mwstq.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/90e/400_400_1/bsrgcfvot5p9298do7oykgycv1w24dys.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/7ba/400_400_1/d792u65e8jl1bp0s8lv3cl8ka7h708s7.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/73b/400_400_1/nfsvg2csnosg4fu1smhzqc0suhyhjoi7.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/323/400_400_1/htn62dh8lw7sg02oexqc2nc13151c7c1.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/354/400_400_1/rk0028cd357is5clpv77e2lvdo4l3ypq.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/77d/400_400_1/gfyb7rbuyfw6e80gvdceyw4eanwbouiz.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/5f8/400_400_1/9507birqgw6s9l9o5ju6llkeeza8zzdd.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/1da/400_400_1/h9m7179wrcnzpzxpvwlr5yhad9wgpufu.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/c4d/400_400_1/07re48gt331nqonw315mvhagufe0stbb.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/5e2/400_400_1/yj4u0ddv2d8qnmws567lgdlhgyigopt6.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/a01/400_400_1/xbz03g312s7rek1prhbz9d6tsa9z766h.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/c90/400_400_1/u3hb8khupr7tdrrut9nduwpkk6xgnp67.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/368/400_400_1/p3i6entmut89g96s2i6pph25wdfumnzq.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/820/400_400_1/8ka1lhstedl9kmnq2os9u6o8p46ciqws.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/4fd/400_400_1/3nalps0na46ke5ff82fa0pi2nvokn4g5.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/f9d/400_400_1/5hori5bru0wu3bb2xb3n79nbmjygrmua.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/5be/400_400_1/mhws7l0snbue5a4q5tjq0isbbd5752uf.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ba1/400_400_1/2xu5li6ei9qc043qcez8tjecxygaujmj.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/880/400_400_1/pj46bmq03zux7bzruiykk6mdqnufcka2.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/b38/400_400_1/vifpmoruz8kvzyg5tosraoby0bv2thmz.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/4e5/400_400_1/dm4o529dr7rq2l2p145206wxiniohcsy.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/95b/400_400_1/u9j020w3yfr97ywn84n310zwkl6qga0p.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/9bb/400_400_1/rg2evd7b8l6lnne4kljeh34zvdlmjwnf.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ac2/400_400_1/tkuf1tk00elgttx6wd4ys1enq8vpij7x.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/f2e/400_400_1/3md1pxurmetcn5skk37rdozg0t0f5tb7.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/da9/400_400_1/wo97wrjv1ut4uhd4v57kvje62jvmotma.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/051/400_400_1/yjx3pa7qmbs68lfxsikdotak2t90ks9g.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/32a/400_400_1/u44k1v9xji17f6mb1vglzhkc91mwojwy.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/66c/400_400_1/3ad6oga1f4wat51epnb9xbtlbn6ybg2f.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/8f1/400_400_1/t132knvhiox1chxh6tt526cbsfb3nd3m.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/4ad/400_400_1/qhmybq0a3j8iddnpsx0dm8i98d9vjini.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/63f/400_400_1/h5zg2je1vkaipnpbryg7jmo6nx30lrma.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/2ed/400_400_1/2y6xy3svov3x3y0k2f4r4f3cy1rw2xh5.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/5cf/400_400_1/iplc7iyye4a0amj33gdpb4ly7qhnqowk.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/0c8/400_400_1/x3rwno9lew7tykn8v1wnebd0acenppn3.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/5d0/400_400_1/vg34vvlevln0sym8t8rzcm2g1emzka09.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/3e4/400_400_1/rekq7v9tw20x080ut0qkb7k2hx2znaq8.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/845/400_400_1/3lwti40f77yu3z0fvuoi6ey8rdms2n5q.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ad8/400_400_1/63vqwp5w8plgrd6zkmwblccc31nb2q2c.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ae8/400_400_1/jch2hgujn2ixb0t488qubnkys2hwebvi.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/246/400_400_1/kw3kydfigkb6o0h29k83fabnrz7nk03p.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/676/400_400_1/ieeiqgl76ltifzssenvgz061waha4ki6.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/00d/400_400_1/ttxui0j1u83fbqu8obzjejjcxua5ey6d.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/f8f/400_400_1/x0lhpnjg1f6d93ae2a9vnatkj9a0o9d0.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/1f8/400_400_1/xj62lo8kz90c15bdepq2mriohnr0habi.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ebc/400_400_1/em01x66et58e1dofi2iywqg3ke7ojspo.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/6e9/400_400_1/ubkz5wuz3ke5szrujvba0yzf4jjsnrm0.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/fc0/400_400_1/x1if8zag1cds45jul7dt7671lg0ujdku.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/73b/400_400_1/l006jm8dw5wnz796erwiqhz7wtnpltrj.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/2f0/400_400_1/i9t0oryfz0qfyr39j7d5f72ca4sjbr6g.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ebd/400_400_1/0rorqdzayj59bbu3deticr4ew5rtfdzb.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/779/400_400_1/xu2nytcbhgi79fyachshzk4bhxf6dx9e.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/63d/400_400_1/3zshfdklzfhogfi1ypkcdxchmhzftadw.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/c0a/400_400_1/tjhglmy9qopidco02g7nnvjcz8lnkti8.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/a71/400_400_1/t9xvo1grt60lpekbcuqv11fovs3fh92s.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/493/400_400_1/otz49up1kpqwp0lqn1dkene2790kgryp.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/fde/400_400_1/c06ub8c1xou76p2mzotg8la9k9apdgyc.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/983/400_400_1/0otf0lm0jvwy1ctf6fj86al8j1braqb3.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/74d/400_400_1/v27hf4w1hlc7sh3jjw3d8c8nfyz7v675.jpeg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109147/e0e2bca8e39d5cba92058b3b417a014c/iblock/39b/39bfa1695bb63abcab75936c60537cb0/362d351f84e8fb6c7ebdabc768c16d99.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109148/e0e2bca8e39d5cba92058b3b417a014c/iblock/b3c/b3c92829358e4a8f91e56c67f7287052/61b55b2b1c752e94de07562113db3533.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/1fb/400_400_1/3df00m7sivh51s8hhe98lpfc7z71lqp0.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/7a3/400_400_1/lkr1g9ipswv3is9ujh434heby6ba8idi.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/3bb/400_400_1/t2wp8mn8whuk6ys4vtu8qqyc764ds4qi.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/f67/400_400_1/5qwjef6m1h8ui5gw33vptdbhnt6zdhfz.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/2e4/400_400_1/w60moo5hm2rvqlzkiuqi1st0fpj4pkk9.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109154/e0e2bca8e39d5cba92058b3b417a014c/iblock/f58/f584741be2f3ba9db8249abd73e1224b/cc29b4d442b5c8a79a16b2ad89e9497c.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109155/e0e2bca8e39d5cba92058b3b417a014c/iblock/d19/d1980dc4e17e6d4e1844bfeddaaba3cd/9e0631fa186c9401362799cadfa2bf0b.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109156/e0e2bca8e39d5cba92058b3b417a014c/iblock/aca/aca352b4f5a45eec030f99724d9ed025/ff8e54deba72522d66926e2c59cec1d7.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109157/e0e2bca8e39d5cba92058b3b417a014c/iblock/b03/b03187a8831cf0d2997427b34d9fa21e/04b1ff9dc2b79a0b8c40c335a71bba99.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109158/e0e2bca8e39d5cba92058b3b417a014c/iblock/10f/10f59f3cdffcf87d4ada79bcff327c58/ca891fdd2e526702980a959efdea6f4e.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109159/e0e2bca8e39d5cba92058b3b417a014c/iblock/c79/c790f6a4177342b5ba5e3e9152e19d87/c79788bc4f16a2977a744a97cd14c0a2.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109160/e0e2bca8e39d5cba92058b3b417a014c/iblock/b42/b42b59fb63240a90195dfebd8c623d78/91bf7e2db937b9416fde8f3412995bc0.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/3d8/400_400_1/1daqq6fbyhq2h9727c8n2j6bup560ujl.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109162/e0e2bca8e39d5cba92058b3b417a014c/iblock/7d9/7d9b1dd6c7bf96cd5dbc32ea15cb28be/011d046758989156e81446a456accaee.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/6b4/400_400_1/u6chnh58r4pqfnar723kdnj2id0bj0y4.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/c2f/400_400_1/w3ncsmsvm57mbjpibunc9r0jz9kirifi.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109166/e0e2bca8e39d5cba92058b3b417a014c/iblock/845/845f34ef82e90f0056204aa614368ec1/b9c7243b3c74d9ddf31bfa635f89464b.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109167/e0e2bca8e39d5cba92058b3b417a014c/iblock/f3f/f3f3d67680413cc37ff91b0ba2f64d58/5090923b9a7f491ea611d588b32feb61.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109168/e0e2bca8e39d5cba92058b3b417a014c/iblock/908/9085ea11dcdf6317f5d212c8767df48d/5c6b49782e9c3bca854f9ae5343314d4.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109169/e0e2bca8e39d5cba92058b3b417a014c/iblock/6c5/6c5bdd55ff37e76dec7573d1bee1c26a/a10d9272aea5490ff40548e9c43a038e.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109170/e0e2bca8e39d5cba92058b3b417a014c/iblock/521/521b755a79b9663f5b4f5c75f05910fd/14be30ac41244a07f0023c17b86f2ecd.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/65c/400_400_1/jzw0drcylfulmsfhcnordo6etgrdy6hm.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/caa/400_400_1/kwsb6swjloae0py1ywc6mqokn9zanfaa.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ce7/400_400_1/1b0slgp4cqdrtbo5pbk8d405h0hhgzq1.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/251/400_400_1/sst814pvcrww5a4i01g0ufmf6ohe16al.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/82d/400_400_1/3vpyg06xn58udv3mrsapy6ca7g8h916k.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/a44/400_400_1/25ncev0qdfis1hu3kzsrf58pjhdj796f.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/265/400_400_1/xzdp0gs920e9fp4nqdss4hg6zejni095.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109178/e0e2bca8e39d5cba92058b3b417a014c/iblock/bb5/bb5c156854e3c170f9645ae0780bf330/a2026ec05afae18288667b9d13016776.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/d0d/400_400_1/okqv15e2o59lfycnr3zmt0lfccb2xb30.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109180/e0e2bca8e39d5cba92058b3b417a014c/iblock/260/260927ab03466c0977363ddae037d957/da72ae0e82ec52b594bf4395923682ea.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/a60/400_400_1/iodgh7obk8clc1mv1chls4ixwtzn7xj8.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/903/400_400_1/sz45osh0ql9ibgfqggzskph9kw37xt1w.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/645/400_400_1/1tj5lh58mlbe0d06nlrcfvj5krnopq6m.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109193/e0e2bca8e39d5cba92058b3b417a014c/iblock/3e0/3e00024c50a1cfed8dc4326b0a594efc/ca15c283d5567acc2e5d550445ed8f7b.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/d13/400_400_1/lt2x68lcj4865ja8khrha804qai1v68q.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109195/e0e2bca8e39d5cba92058b3b417a014c/iblock/994/994fc7291464415c922f15f7656e976d/1aae7f17f79065d7954520c051a90758.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/358/400_400_1/16egkq8de5dqd1flqqd2wri9ogxbblc3.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/a94/400_400_1/ch4anq0hygv4kjgroje7p55atx1wgd37.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109198/e0e2bca8e39d5cba92058b3b417a014c/iblock/0bb/0bbb852bd0e992a6ad824a61646c8577/2774dc0b9be7fce8a847df683c4b72c9.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109199/e0e2bca8e39d5cba92058b3b417a014c/iblock/86f/86f9cef8d0004c71c964d0fe85b2d513/124cdd1b81b616a14ed3ceeac772b252.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109200/e0e2bca8e39d5cba92058b3b417a014c/iblock/39d/39d27c7a628a9b7ba5ac6d70250d1ee2/16d712dda71b175fe321ac61d2a76638.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109201/e0e2bca8e39d5cba92058b3b417a014c/iblock/ce3/ce389f18a332ba8f7af584bcd4deb772/8b1a04e97028198ec73ab1fdd1339ec4.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/01a/400_400_1/wkh5h2dzl1q02nsmq1t3wby7rj315ugv.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/eac/400_400_1/71lfbspsz9by631ol7oc3wls626e0el4.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109204/e0e2bca8e39d5cba92058b3b417a014c/iblock/7e7/7e7acf60cc2f51f01b1c278ddf7f3c13/455f4357cfcbf16e25f2c7a69ece6623.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109205/e0e2bca8e39d5cba92058b3b417a014c/iblock/158/158275bab25f32bf5338bbe9d39906f6/a9257514c5afe5264a8241c3c58dbf89.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/29d/400_400_1/av4pvm84mv5v7o6xulr6h6f2nm7lxdkt.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109207/e0e2bca8e39d5cba92058b3b417a014c/iblock/f90/f90aedba1312ce56458cc452dfe1d801/a7df80c4e5abeba69c91bf9fb2e1c14f.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/549/400_400_1/sbz1vi15ht9o2q0fcjaqlhcw3xbrx4kz.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/5b9/400_400_1/shzv8x34rh0e7spjyv3m0wc2plrlx3jb.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/225/400_400_1/8oe9k7mxygn35jsmu464hs7ccoad54ve.JPG');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/5d1/400_400_1/j4gt58sz95oovpa44z1huqtfjl8io5zd.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/134/400_400_1/nrrwvebu8jrpjzqdmx18i210gbjyxoo6.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/6fd/400_400_1/gs4x4did7yi27o8xlippq0vrlxmpzvwc.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/2e8/400_400_1/on1lotxg96r1q12t8okya6yx36wiyucx.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/e85/400_400_1/0p2ymgvugtoyv8k06as2duaplcajgarv.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/7e4/400_400_1/61a27cceohf3ij9hmx9c016js86ydl7k.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109400/e0e2bca8e39d5cba92058b3b417a014c/iblock/f83/f8396d2126fb482f24619dc42010a3e1/f8f361e991b8641c44c9a9e51ec10a4f.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/0b7/400_400_1/hd3cqtikc4ur9a2cse8i615zcdvd2ozk.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/3a5/400_400_1/k3t84ar3su60mebyxjl0lh8lsa2i7000.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ae3/400_400_1/ap1qp39fayrj8zn3qx3ibrajrgtua924.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/c46/400_400_1/o8lyglymuydfyh59wj1yjzq4bkt73xew.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/308/400_400_1/xf1b8wu0ouaaqctx1a2tir1g7cxe57tu.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/10b/400_400_1/578y5ng863zhe4j2htugwgp2esv4lvlr.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ae2/400_400_1/b942i42fwjsfx1ql7yx11031xgocssf7.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/336/400_400_1/9w9pjgjtdz81nz96asd359wymrwvvlul.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/41e/400_400_1/vwzt7kopdizn8zfad6xmdpbkjq3h1pzq.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/59b/400_400_1/20bxud3blcdre0v40x6m83vtovq1q7cj.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/329/400_400_1/ab8z8r17nsip8jhwd3nlbza13r46oyw7.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/221/400_400_1/bba5qbekbjqlwm9u42hblm9z48rpoho9.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/0b5/400_400_1/gqixymsta3omlyevgcr0l0x5pcmtguoy.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/073/400_400_1/pl7irm9ub3qvsxbyydm2mbct9ezn7q40.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/10b/400_400_1/4tdw2ft2tq8n32d0qkfic9hjw25rzjxb.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/ba5/400_400_1/51grh3t2w8w8wjcs4td7hmq6husp2nls.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/921/400_400_1/4unweahks121kqtg0mjilqq5m2wahqv1.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/f53/400_400_1/rzyjjwecyupcgn5g7ib6n69r0f27cc8d.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/2fa/400_400_1/nw3x21y4z37hvgtqgukj30lf4g748xob.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109424/e0e2bca8e39d5cba92058b3b417a014c/iblock/d45/d4538ba9c7a363f5b351da76fc9632d5/f5ac4480472e6a259ed71f9b43eded4a.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/be5/400_400_1/ionrh2hdxn7jagr8949sbqfmemjtllnv.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/611/400_400_1/wauvwvysko789w2h7lwv3fgoyfkentzh.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109865/e0e2bca8e39d5cba92058b3b417a014c/iblock/149/1495410c5f17ba468a33573eb47f8ec7/08350656a081da606e6e2eab83faf9bf.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/725/400_400_1/3hsynxr541u8ok6z04bd3b0vazyp52eo.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/41e/400_400_1/gcewz1kifginzafxpmbr4xk7caucxqj7.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/949/400_400_1/3zmhzfjvymou33foqs7rjfxbq19c66z6.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/46e/400_400_1/hsb4yr1ob7oe92756kcb5jcm4qhfzrpk.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/a54/400_400_1/k9hqg8s4676509q2wqlncrkwjd7ayn2d.jpeg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/c00/400_400_1/drz59dztf1kxropi5ii0l138kv1seiv9.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109872/e0e2bca8e39d5cba92058b3b417a014c/iblock/a46/a46f65a7a4ee3318ba8716e613ed363c/1c4d0d679bb455ea672d1f783ff70e72.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/4ab/400_400_1/a4l4cyoodj0nl234eef92z3expq6981j.jpg');"></div>
+				<div class="item" style="background-image: url('/upload/resize_cache/iblock/b8d/400_400_1/iuett5glhdxlmx5dv2vll68vru6lt577.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109875/e0e2bca8e39d5cba92058b3b417a014c/iblock/a21/a210021d9c6fe18f96534b65e435b464/520509e22ce999156eff22a0517ebadc.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109876/e0e2bca8e39d5cba92058b3b417a014c/iblock/71b/71bb08593f4dbc2be0fdca9629b89093/49b916fb24b46d0f38ccb62b4b20b0a4.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109877/e0e2bca8e39d5cba92058b3b417a014c/iblock/b5e/b5eda9cd330a85a530ae1719179d1511/9e2f0665e0d78e85d42853629bb6960e.jpg');"></div>
+				<div class="item" style="background-image: url('https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/resize_cache/109878/e0e2bca8e39d5cba92058b3b417a014c/iblock/268/268c2215517d86423de83ba5267927d5/e5b871e913ea8573bb18a215826f7674.jpg');"></div>
+			</div>
+</a>
+
+<!--p style="text-align: center;"><a class="red-button" href="/uchastnikam/programma/">Вся программа</a></p-->
+
+<h2>Последние новости</h2>
+
+<div class="news-list">
+		<div class="item" id="bx_1373509569_77972">
+		<div class="picture-wrapper">
+			<div class="picture-box">
+				<a href="/news/detail/77972/" class="picture" style="background-image: url(/upload/iblock/ee3/1yrsm6dg2ywtztbcikoeom2f30saz2jt.jpg);"></a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="date">20.12.2025</div>
+			<h4><a href="/news/detail/77972/">Что год грядущий нам готовит?</a></h4>
+			<div class="preview-text">&nbsp;Что запланировано на <b>2026 год</b>? К каким событиям готовятся участники Международного фестиваля лоскутного шитья "ДУША РОССИИ"?<br>
+ Какая главная тема фестиваля? Где он будет проходить?<br></div>
+			<div class="read-more"><a href="/news/detail/77972/">Подробнее...</a></div>
+		</div>
+	</div>
+		<div class="item" id="bx_1373509569_77968">
+		<div class="picture-wrapper">
+			<div class="picture-box">
+				<a href="/news/detail/77968/" class="picture" style="background-image: url(/upload/iblock/c39/zgwe3wxl6700e6ldma4hgb5pg7c3lhzv.jpg);"></a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="date">08.12.2025</div>
+			<h4><a href="/news/detail/77968/">Приглашаем Президента страны на лоскутный фестиваль ДУША РОССИИ</a></h4>
+			<div class="preview-text">Участники лоскутного фестиваля "ДУША&nbsp;РОССИИ" &nbsp;решили пригласить Президента страны на свой фестиваль, который состоится в Москве в Гостином дворе с 02 по 08 мая 2026 года. &nbsp;<br>
+Письма-приглашения&nbsp;полетели&nbsp;со всех концов страны на ПРЯМУЮ ЛИНИЮ ПРЕЗИДЕНТА РОССИИ Владимира Владимировича Путина, которая состоится 19 декабря 2025 года. Обращение от нашего огромного сообщества, объединяющего мастеров всей страны, не должно остаться без внимания. Народное творчество, как никогда востребовано сегодня, как достойный пример сохранения духовно-нравственных ценностей.</div>
+			<div class="read-more"><a href="/news/detail/77968/">Подробнее...</a></div>
+		</div>
+	</div>
+		<div class="item" id="bx_1373509569_77949">
+		<div class="picture-wrapper">
+			<div class="picture-box">
+				<a href="/news/detail/77949/" class="picture" style="background-image: url(/upload/iblock/e8b/7t2moljl5wti2dbe9iyqlv8898gwhmvr.jpg);"></a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="date">23.10.2025</div>
+			<h4><a href="/news/detail/77949/">Кому и почему важен лоскутный фестиваль ДУША РОССИИ?</a></h4>
+			<div class="preview-text">&nbsp; Фестиваль лоскутного шитья &nbsp;ДУША РОССИИ стартовал в 2015 году. За эти годы он объединил&nbsp;много талантливых мастеров и вдохнул уверенность в тех,&nbsp;кто только &nbsp;начал изучать традиции рукоделия. Мы провели опрос среди участников фестиваля, задав вопрос: "Почему и чем&nbsp;важен фестиваль?"&nbsp;И получили много <a target="_blank" href="https://vk.com/wall-88249871_16849">ответов</a>, к которым вы тоже можете присоединиться:&nbsp;<a href="https://vk.com/wall-88249871_16849" target="_blank">https://vk.com/wall-88249871_16849</a></div>
+			<div class="read-more"><a href="/news/detail/77949/">Подробнее...</a></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="album-detail">
+	<div class="items">
+				<div class="item-wrapper" title="Выставка ДУША РОССИИ в Калужской области, июль 2025 г"><div class="item-box video"><a class="item" data-caption="Выставка ДУША РОССИИ в Калужской области, июль 2025 г" title="Выставка ДУША РОССИИ в Калужской области, июль 2025 г" href="https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/iblock/6f9/6f91a5f1166f7b8905990f34b474a12e/1a9fe7950cd68bd4363374387eaf9499.mp4" data-fancybox="gallery-ZTby8Wgj" rel="gallery-ZTby8Wgj" style="background-image: url(/upload/iblock/7c1/lfm3xdmlgb8pz1e5wxci68iod9f8hw3r.JPG);"></a></div></div>
+				<div class="item-wrapper" title="Выставка Душа России на форуме «Путешествуй!». Москва, ВДНХ"><div class="item-box video"><a class="item" data-caption="Выставка Душа России на форуме «Путешествуй!». Москва, ВДНХ" title="Выставка Душа России на форуме «Путешествуй!». Москва, ВДНХ" href="https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/iblock/51e/51e03c956faa011d8470e07687d33047/6a743efef3536a87c1a1cc4fcca24d92.mp4" data-fancybox="gallery-ZTby8Wgj" rel="gallery-ZTby8Wgj" style="background-image: url(/upload/iblock/464/kdjaej2vmavuk47zndqwvos7emhmp3xl.jpg);"></a></div></div>
+				<div class="item-wrapper" title="Пятница 13. Москва ВДНХ"><div class="item-box video"><a class="item" data-caption="Пятница 13. Москва ВДНХ" title="Пятница 13. Москва ВДНХ" href="https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/iblock/0fe/0fed34c390841d9b9a22710585565400/11591b04329d65521daa99201016fa35.mp4" data-fancybox="gallery-ZTby8Wgj" rel="gallery-ZTby8Wgj" style="background-image: url(/upload/iblock/915/3d6nx8z2hmwxb1rgx7hcmityw5q9mbi3.jpg);"></a></div></div>
+				<div class="item-wrapper" title="Манеж 2021 Искусство, которого вы не знали..."><div class="item-box video"><a class="item" data-caption="Манеж 2021 Искусство, которого вы не знали..." title="Манеж 2021 Искусство, которого вы не знали..." href="https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/iblock/027/027fd82fa929eb76f648782a7a87cc1b/2683c0785e98900781e48bdc90d6b85a.mp4" data-fancybox="gallery-ZTby8Wgj" rel="gallery-ZTby8Wgj" style="background-image: url(/upload/iblock/671/4xc21vmdu60tnv2h4pql74yzdd7408j2.jpg);"></a></div></div>
+				<div class="item-wrapper" title="Суздаль, август 2024 г. Международный фестиваль лоскутного шитья «Душа России»"><div class="item-box video"><a class="item" data-caption="Суздаль, август 2024 г. Международный фестиваль лоскутного шитья «Душа России»" title="Суздаль, август 2024 г. Международный фестиваль лоскутного шитья «Душа России»" href="https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/iblock/716/716df3f4162872da05edfd54dbf201bf/364720e9cabd08e950ffee4d8e779dec.mp4" data-fancybox="gallery-ZTby8Wgj" rel="gallery-ZTby8Wgj" style="background-image: url(/upload/iblock/078/36m12d8ydmdp7w0wmr1lagth2p1iyuzk.jpg);"></a></div></div>
+				<div class="item-wrapper" title="Сила традиции. Марина Коба. Тюмень"><div class="item-box video"><a class="item" data-caption="Сила традиции. Марина Коба. Тюмень" title="Сила традиции. Марина Коба. Тюмень" href="https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/iblock/667/667dfaa18801a028c045deff6de23173/8e22a8e319da1089b9af11124bb400e5.mp4" data-fancybox="gallery-ZTby8Wgj" rel="gallery-ZTby8Wgj" style="background-image: url(/upload/iblock/504/dsg259klrrjmhn4f05t6agg9dndfgm7o.png);"></a></div></div>
+				<div class="item-wrapper" title="Проект «Возьмёмся за руки, друзья». Москва, Гостиный двор, 2022"><div class="item-box video"><a class="item" data-caption="Проект «Возьмёмся за руки, друзья». Москва, Гостиный двор, 2022" title="Проект «Возьмёмся за руки, друзья». Москва, Гостиный двор, 2022" href="https://cs1.clodo.ru/v1/CLODO_56404bd124de8db458f721f6db1c221b/upload-b83e2c06a9cdf37a009acca457694918/iblock/6c8/6c8de9e2d30a4fd705274124e787c165/91c7d8b79de2188d77d9cdd905e35abd.mp4" data-fancybox="gallery-ZTby8Wgj" rel="gallery-ZTby8Wgj" style="background-image: url(/upload/iblock/56d/0et0fxymqnp3anhwj8v2t1jy0j0lgfm9.png);"></a></div></div>
+			</div>
+</div>
+
+<div class="news-list">
+					<div class="item" id="bx_3099439860_77948">
+		<div class="picture-wrapper">
+			<div class="picture-box">
+				<a href="/news/detail/77948/" class="picture" style="background-image: url(/upload/iblock/b1b/yxa1dqdt0rt46cyoum30lh4thvwsuhrq.jpg);"></a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="date">20.10.2025</div>
+			<h4><a href="/news/detail/77948/">Фотографии событий ДУША РОССИИ</a></h4>
+			<div class="preview-text">Наша галлерея фотографий о событиях фестиваля ДУША РОССИИ пополняется новыми снимками. Это хорошая память для всех, кто участвовал, и чьи творческие работы побывали на выставочных площадках. Вот <a target="_blank" href="http://quiltshow.ru/photoes/">ссылка</a>, на события этого года, но просмотреть можно за все годы, начиная с 2015-го.<br>
+ <a href="https://quiltshow.ru/photoes/" target="_blank">https://quiltshow.ru/photoes/</a><br></div>
+			<div class="read-more"><a href="/news/detail/77948/">Подробнее...</a></div>
+		</div>
+	</div>
+		<div class="item" id="bx_3099439860_77878">
+		<div class="picture-wrapper">
+			<div class="picture-box">
+				<a href="/news/detail/77878/" class="picture" style="background-image: url(/upload/iblock/59c/f0teb04bbgb1j8m9sm37iixai2tcr855.jpg);"></a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="date">08.09.2025</div>
+			<h4><a href="/news/detail/77878/">ДУША РОССИИ на САХАЛИНЕ</a></h4>
+			<div class="preview-text">Лоскутный фестиваль ДУША РОССИИ путешествует по стране. В октябре 2025 года он пройдет на САХАЛИНЕ в городе Южно Сахалинск с 01 по 07 октября. Следите за событиями и программой фестиваля по ссылке&nbsp;<a href="http://quiltshow.ru/projects/sakhalin/" target="_blank"><b>https://quiltshow.ru/projects/sakhalin/</b></a><a target="_blank" href="http://quiltshow.ru/projects/sakhalin/"><b>&nbsp;</b></a><b>&nbsp;</b>На фестиваль приедут лучшие мастера лоскутного творчества со всех уголков нашей огромной страны, и это хороший повод привнести культуру и традиции России на Дальний восток.&nbsp;Он, оказывается, не такой и дальний, а близкий и очень родной и гостеприимный!</div>
+			<div class="read-more"><a href="/news/detail/77878/">Подробнее...</a></div>
+		</div>
+	</div>
+		<div class="item" id="bx_3099439860_77868">
+		<div class="picture-wrapper">
+			<div class="picture-box">
+				<a href="/news/detail/77868/" class="picture" style="background-image: url(/upload/iblock/13d/t7juy5smrm687rd7q209lxrio0eb3l2w.jpg);"></a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="date">01.09.2025</div>
+			<h4><a href="/news/detail/77868/">Восточный экономический форум </a></h4>
+			<div class="preview-text">Во Владивостоке с 3 по 6 сентября 2025 года проходит <b>Восточный экономический форум</b>. На нём впервые представлена&nbsp;<b>выставка&nbsp;лоскутного шитья "ДУША РОССИИ".</b> Экономика впечатлений, креативные индустрии,&nbsp;событийный туризм, фестивальное движение &nbsp;- это как раз и подразумевает включение народного творчества в активное сотрудничество. Созданный нами за много лет контент выставочной экспозиции &nbsp;хорошо подходит для оформления крупных и серьезных мероприятий и событий. Если Вы не попали на Экономический Форум в Владивосток, то зайдите <b><u><a target="_blank" href="http://quiltshow.ru/projects/online/">на онлайн выставку</a></u></b>, где познакомитесь и с мастерами и с их шедеврами лоскутного творчества по ссылке&nbsp;<a href="https://quiltshow.ru/projects/online/">https://quiltshow.ru/projects/online/</a></div>
+			<div class="read-more"><a href="/news/detail/77868/">Подробнее...</a></div>
+		</div>
+	</div>
+		<div class="item" id="bx_3099439860_77798">
+		<div class="picture-wrapper">
+			<div class="picture-box">
+				<a href="/news/detail/77798/" class="picture" style="background-image: url(/upload/iblock/a47/hgbj3k8fu4lc68h7o6u5742d3vxwenx2.jpg);"></a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="date">27.07.2025</div>
+			<h4><a href="/news/detail/77798/">Репортаж из Национального Центра &quot;РОССИЯ&quot;</a></h4>
+			<div class="preview-text">Репортаж из Москвы из Национального центра "Россия" с выставки лоскутного творчества ДУША РОССИИ смотрите на нашем сайте по ссылке&nbsp;<a href="https://quiltshow.ru/photoes/77790/">https://quiltshow.ru/photoes/77790/</a></div>
+			<div class="read-more"><a href="/news/detail/77798/">Подробнее...</a></div>
+		</div>
+	</div>
+		<div class="item" id="bx_3099439860_77782">
+		<div class="picture-wrapper">
+			<div class="picture-box">
+				<a href="/news/detail/77782/" class="picture" style="background-image: url(/upload/iblock/285/elylq93b2ubw8nr45yfn7kj02xiwpm2k.jpg);"></a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="date">15.07.2025</div>
+			<h4><a href="/news/detail/77782/">ДУША РОССИИ в Национальном Центре &quot;РОССИЯ&quot;</a></h4>
+			<div class="preview-text"><b>&nbsp; В Москве</b> в Национальном Центре "РОССИЯ"&nbsp; проходит <b>выставка лоскутного творчества "ДУША РОССИИ"</b> <u>до 27 июля 2025 года</u>. по адресу Краснопресненская набережная дом 14 (станция метро "Деловой центр" (желтая линия), выход 4).&nbsp;<br>
+ Вход свободный ежедневно кроме понедельника с 10 до 20 часов.&nbsp; <br>
+ <b>&nbsp; &nbsp;Рекомендуем</b> зарегистрировать личный кабинет на сайте <a href="http://www.russia.ru">www.russia.ru</a>, чтобы в НЦ "Россия " посетить бесплатно чудесную экспозицию "ПУТЕШЕСТВИЕ ПО РОССИИ". <br>
+ Если проголодаетесь, то <b>гастрономические ряды</b> порадуют вас национальными блюдами российских регионов. <br>
+ &nbsp;И обязательно поднимитесь на второй этаж, где проходит архитектурная выставка на огромном пространстве. <br>
+ &nbsp;Можно целый день провести в Национальном центре "Россия" и понять как велика наша страна и как много в ней интересного.<br>
+ Приходите с семьей, с друзьями!<br>
+ &nbsp;<a href="https://russia.ru/events/vystavka-loskutnogo-tvorcestva-dusa-rossii" target="_blank">https://russia.ru/events/vystavka-loskutnogo-tvorcestva-dusa-rossii</a><br></div>
+			<div class="read-more"><a href="/news/detail/77782/">Подробнее...</a></div>
+		</div>
+	</div>
+		<div class="item" id="bx_3099439860_77773">
+		<div class="picture-wrapper">
+			<div class="picture-box">
+				<a href="/news/detail/77773/" class="picture" style="background-image: url(/upload/iblock/08f/1vkafvhjuzlhc9ka1zyphk7p29vq1z6e.jpg);"></a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="date">07.07.2025</div>
+			<h4><a href="/news/detail/77773/">ДУША РОССИИ на фестивале &quot;Дни Достоевского в Оптиной пустыни&quot;</a></h4>
+			<div class="preview-text">&nbsp; Фестиваль <b>"Дни Д</b><b>остоевского в Оптиной пустыни"</b> уже не первый год проходит в Калужской области. В этом году он проходит <u>с 11 по 13 июля 2025 года </u>и в рамках этого фестиваля в Доме Культуры (по адресу г.Козельск, ул. Большая Советская дом 66) проходит лоскутная выставка "ДУША РОССИИ". <br>
+Из подслушанного телефонного разговора&nbsp;на выставке: "Ты обязана это увидеть!!!!..."&nbsp;&nbsp;</div>
+			<div class="read-more"><a href="/news/detail/77773/">Подробнее...</a></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<p>
+ <b><a href="/about/news/">Читайте другие новости</a></b>
+</p>
+
+
+   </main>
+</div><!-- #right-column -->
+</div><!-- #main-wrapper -->
+
+
+<footer>
+<div id="first-footer">
+		<div id="footer-logo"></div>
+
+		<div id="bottom-menu">
+		
+<ul class="bottom-menu">
+
+			<li><a href="/photoes/">Фото и видео</a></li>
+		
+			<li><a href="/news/">Новости</a></li>
+		
+			<li><a href="/about/">О фестивале</a></li>
+		
+			<li><a href="/uchastnikam/">Участникам</a></li>
+		
+			<li><a href="/projects/">Проекты</a></li>
+		
+			<li><a href="/contacts/">Контакты</a></li>
+		
+
+</ul>
+		</div>
+</div>
+<div id="second-footer">
+	<address style="margin-bottom: 6px;">2014—2026 © International Quilt Festival «Soul of Russia» </address>
+	<address style="opacity: 0.6"><small>использованы иконки <a href="https://icons8.ru" rel="nofollow" style="color: #FFF;">icons8</a></small></address>
+	<br>
+	<div id="counter">
+		<!-- Yandex.Metrika informer -->
+		<a href="https://metrika.yandex.ru/stat/?id=34189365&amp;from=informer"
+		target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/34189365/1_0_D83D41FF_B81D21FF_1_pageviews"
+		style="width:80px; height:15px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры)" class="ym-advanced-informer" data-cid="34189365" data-lang="ru" /></a>
+		<!-- /Yandex.Metrika informer -->
+	</div>
+</div>
+</footer>
+
+</div><!-- #page-wrapper -->
+</body>
+</html>
+

@@ -23,7 +23,7 @@
 Душа Эрмитажа. День рождения академика Михаила Пиотровского
 
    09.12.2025 10:30
-   481
+   589
    [13]Добавить в закладки
    [14]М.Б. Пиотровский на вручении Демидовских премий
 
@@ -111,79 +111,80 @@
 
 Недавнее
 
-   [41]Ректор МГУ: «Мы сделали еще один большой шаг в космос»
-   15:30 / [42]Астрофизика, [43]Космология
-   [44]Медицина-2025: ИИ в фармакологии, новые методы лечения рака и
-   препарат от болезни Бехтерева
-   15:00 / [45]Здравоохранение, [46]Медицина
-   [47]Новые стратегии для повышения точности рекомендательных систем
-   предложили в Центре ИИ МГУ
-   12:30 / [48]Информационные технологии
-   [49]Мировая наука-2025: борьба с раком, девственное размножение и
-   замедление старения
-   15:00 / [50]Биология, [51]Досуг, [52]Здравоохранение, [53]Инженерия,
-   [54]Медицина, [55]Наука и общество, [56]Нейронауки, [57]Новые
-   технологии, [58]Химия
-   [59]Крупнейший российский кубсат «Скорпион» запустили ученые НИИ
-   ядерной физики МГУ
-   11:30 / [60]Астрофизика, [61]Космология
-   [62]С НОВЫМ, 2026 ГОДОМ!
-   10:00 / [63]Наука и общество
-   [64]Создан первый в России комплекс для мгновенной оценки «автопилота»
-   мозга
-   12:00 / [65]Медицина
-   [66]Новый сорт робинии описали ученые КФУ
-   14:00 / [67]Биология
-   [68]Нужно ли детям верить в Деда Мороза, объяснили ученые ПНИПУ
-   12:00 / [69]Психология
-   [70]Утвержден состав избранных профессоров РАН
-   10:00 / [71]Наука и общество
+   [41]Разработан новый алгоритм проектирования антенн для
+   высокоскоростной беспроводной связи
+   12:00 / [42]Физика
+   [43]Программу для расчета размера створок митрального клапана создали в
+   Сеченовском Университете
+   14:00 / [44]Медицина
+   [45]В Самарском политехе придумали, как упростить бурение в
+   горно-геологических условиях
+   12:00 / [46]Инженерия
+   [47]В Сеченовском Университете обратили внимание на механизм
+   противовоспалительного действия селена
+   16:00 / [48]Здравоохранение, [49]Медицина
+   [50]Ученые Сколтеха предложили новый метод определения пористости
+   волокнистых материалов
+   14:00 / [51]Физика
+   [52]Студентка УрФУ обнаружила в Ираке древнюю буллу с мифическим львом
+   12:00 / [53]Археология
+   [54]Найдена новая причина затруднения очистки фракций тяжелой нефти от
+   серы
+   16:00 / [55]Химия
+   [56]Матмодель спрогнозирует внутреннюю нагрузку тяжелых металлов на
+   водные объекты
+   14:00 / [57]Математика, [58]Экология
+   [59]Уникальную модель для предсказания «старения» углеродных
+   имплантатов ТБС разработали в Пермском Политехе
+   12:00 / [60]Медицина
+   [61]Костяные «коньки» античной эпохи найдены на Кубани
+   16:00 / [62]Археология, [63]История
 
 Популярное
 
-   [72]Академик А.И. Рудской. Фото Ольга Мерзлякова «Научная Россия»
-   12.12.2025 16:30
-   3275
-   [73]«МК», Веденеева Наталья: Санкт-Петербургское отделение РАН берет
-   «под крыло» ученых северо-запада России
-   [74]Вейпы, электронные сигареты, кальян, табак: никотин в любой форме
-   токсичен для сердца и сосудов. Фото: ru.123rf.com
-   26.12.2025 19:30
-   703
-   [75]Вейпы, электронные сигареты, кальян, табак: никотин в любой форме
-   токсичен для сердца и сосудов
+   [64]В.В. Верещагин. Апофеоз войны (франмент). 1871. Третьяковская
+   галерея
+   03.03.2020 17:09
+   770734
+   [65]10 самых кровопролитных войн в истории человечества
+   [66]Здание президиума РАН. Фото: Николай Малахин / «Научная Россия»
+   27.12.2025 10:00
+   1485
+   [67]Утвержден состав избранных профессоров РАН
 
 Лекции
 
    Кликните, чтобы начать просмотр видео
-   28.04.2021 13:00
-   22244
-   [76]Приручение серой крысы. Опыт ученых СО РАН
+   20.08.2024 13:00
+   18935
+   [68]Цвет и его символика в крестьянской среде. Часть 2. Лекция этнолога
+   Александры Фроловой из ИЭА РАН
 
-   О доместикации серой крысы рассказывает младший научный
-   сотрудник лаборатории эволюционной генетики ИЦиГ РАН Римма Кожемякина
-   [77]Смотреть все
-   [78]логотип «Большая Азия»
+   Как крестьяне Русского Севера воспринимали цвет и какие цвета
+   доминировали в их культуре? Как любовь крестьянина к цвету отражалась в
+   вышивке, народной росписи и организации быта?
+   [69]Смотреть все
+   [70]логотип «Большая Азия»
 
 Архив
 
-   [79]Георгий Малинецкий: «Сергей Капица — часть истории великой
-   советской науки»
+   [71]Леопольд Лобковский: «Сергей Капица — человек самого высокого
+   уровня, с которым было просто общаться»
    24.02.2023
-   [80]Вспоминaя Сергея Петровича Капицу
-   14.02.2023
-   [81]Татьяна Черниговская: «Нам всем повезло, что мы знали Сергея
-   Петровича Капицу как просветителя»
-   24.02.2023
-   [82]Ректор РосНОУ Владимир Зернов: «Очевидное — невероятное» — это
+   [72]Сергей Капица: жизнь как приключение
+   14.02.2025
+   [73]Ректор РосНОУ Владимир Зернов: «Очевидное — невероятное» — это
    квинтэссенция человеческого интеллекта
    24.02.2023
-   [83]«Это был замечательный опыт». Член-корреспондент РАН Дмитрий
+   [74]Вспоминaя Сергея Петровича Капицу
+   14.02.2023
+   [75]Георгий Малинецкий: «Сергей Капица — часть истории великой
+   советской науки»
+   24.02.2023
+   [76]«Это был замечательный опыт». Член-корреспондент РАН Дмитрий
    Горбунов об участии в программе «Очевидное — невероятное»
    24.02.2023
-   [84]Сергей Капица: жизнь как приключение
-   14.02.2025
-   [85]Смотреть все
+   [77]Смотреть все
 
 Электронное периодическое издание «Научная Россия».
 
@@ -195,15 +196,15 @@
    Электронное периодическое издание «Научная Россия». Свидетельство о
    регистрации СМИ ЭЛ № ФС77-46778 от 30.09.2011
 
-   [86]Политика конфиденциальности
+   [78]Политика конфиденциальности
 
-   Учредитель: [87]Некоммерческое партнерство «Международное партнерство
+   Учредитель: [79]Некоммерческое партнерство «Международное партнерство
    распространения научных знаний».
 
    Адрес: 119234, г. Москва, ГСП-1, Ленинские горы, МГУ, д. 1, стр. 46,
-   офис 138 [88]Смотреть на карте
+   офис 138 [80]Смотреть на карте
 
-   Тел./Факс: [89]+7 (495) 939-42-66, [90]+7 (495) 939-45-63
+   Тел./Факс: [81]+7 (495) 939-42-66, [82]+7 (495) 939-45-63
 
    Почтовый адрес: 119234, г. Москва, пл. Университетская, д.1, а/я №71
 
@@ -211,56 +212,56 @@
    с 10-00 до 18-00
    16+
 
-   © 2012-2025 «Научная Россия»
-   [91]Яндекс.Метрика
+   © 2012-2026 «Научная Россия»
+   [83]Яндекс.Метрика
    Топ-100
    Мы в соцсетях:
 
-   [92]«Научная Россия» - электронное периодическое издание [93]«Научная
+   [84]«Научная Россия» - электронное периодическое издание [85]«Научная
    Россия» - электронное периодическое издание
      * (BUTTON) RU
-       [94]RU [95]EN
+       [86]RU [87]EN
      *
      *
 
-   [96]О нас [97]Статьи [98]Новости [99]Интервью [100]Лекции [101]Подкасты
-   [102]Партнеры
-   [103]Тематические рубрики
-     * [104]80 лет Победы: страницы истории
-     * [105]Авиационная наука
-     * [106]Электронные технологии
-     * [107]300 лет Академии наук
-     * [108]Общее собрание РАН 2023
-     * [109]Женщины в науке
-     * [110]Десятилетие науки и технологий
-     * [111]Трансляции
-     * [112]Рецензии
-     * [113]Это интересно
-     * [114]Фильмы
-     * [115]Идеи, меняющие мир
-     * [116]Архив «Очевидное—невероятное»
-     * [117]«Теория всего»
-     * [118]Жизнь замечательных ученых
-     * [119]Профессора РАН
-     * [120]РАН о COVID-19
-     * [121]Экспертный разговор
+   [88]О нас [89]Статьи [90]Новости [91]Интервью [92]Лекции [93]Подкасты
+   [94]Партнеры
+   [95]Тематические рубрики
+     * [96]80 лет Победы: страницы истории
+     * [97]Авиационная наука
+     * [98]Электронные технологии
+     * [99]300 лет Академии наук
+     * [100]Общее собрание РАН 2023
+     * [101]Женщины в науке
+     * [102]Десятилетие науки и технологий
+     * [103]Трансляции
+     * [104]Рецензии
+     * [105]Это интересно
+     * [106]Фильмы
+     * [107]Идеи, меняющие мир
+     * [108]Архив «Очевидное—невероятное»
+     * [109]«Теория всего»
+     * [110]Жизнь замечательных ученых
+     * [111]Профессора РАН
+     * [112]РАН о COVID-19
+     * [113]Экспертный разговор
 
-   [122]НАУКА ДЕТЯМ
+   [114]НАУКА ДЕТЯМ
 
 Наше мобильное приложение
 
-   [123]Установить с RuStore
+   [115]Установить с RuStore
 
    (BUTTON) Закрыть
 
 Мы на карте
 
    (BUTTON) ×
-   [124]Создано с помощью инструментов Яндекс.Карт
+   [116]Создано с помощью инструментов Яндекс.Карт
    (BUTTON) Закрыть
 
    Мы обрабатываем cookies, чтобы сделать наш сайт удобнее и
-   персонализированее для вас. Подробнее: [125]политика использования
+   персонализированее для вас. Подробнее: [117]политика использования
    cookies и защита данных.
    (BUTTON) Принять
 
@@ -307,118 +308,110 @@ References
   38. https://scientificrussia.ru/partners/gosudarstvennyj-darvinovskij-muzej
   39. https://www.rustore.ru/catalog/app/ru.scientificrussia.app
   40. https://scientificrussia.ru/for-children
-  41. https://scientificrussia.ru/articles/rektor-mgu-my-sdelali-ese-odin-bolsoj-sag-v-kosmos
-  42. https://scientificrussia.ru/articles/rubric/astrofizika
-  43. https://scientificrussia.ru/articles/rubric/cosmology
-  44. https://scientificrussia.ru/articles/medicina-2025-ii-v-farmakologii-novye-metody-lecenia-raka-i-preparat-ot-bolezni-behtereva
-  45. https://scientificrussia.ru/articles/rubric/zdravoohranenie
-  46. https://scientificrussia.ru/articles/rubric/medicine
-  47. https://scientificrussia.ru/articles/novye-strategii-dla-povysenia-tocnosti-rekomendatelnyh-sistem-predlozili-v-centre-ii-mgu
-  48. https://scientificrussia.ru/articles/rubric/it
-  49. https://scientificrussia.ru/articles/mirovaa-nauka-2025-borba-s-rakom-devstvennoe-razmnozenie-i-zamedlenie-starenia
-  50. https://scientificrussia.ru/articles/rubric/biology
-  51. https://scientificrussia.ru/articles/rubric/leisure
-  52. https://scientificrussia.ru/articles/rubric/zdravoohranenie
-  53. https://scientificrussia.ru/articles/rubric/engineering
-  54. https://scientificrussia.ru/articles/rubric/medicine
-  55. https://scientificrussia.ru/articles/rubric/nauka-i-obshchestvo
-  56. https://scientificrussia.ru/articles/rubric/neuro-science
-  57. https://scientificrussia.ru/articles/rubric/new-technologies
-  58. https://scientificrussia.ru/articles/rubric/himiya
-  59. https://scientificrussia.ru/articles/krupnejsij-rossijskij-kubsat-skorpion-zapustili-ucenye-nii-adernoj-fiziki-mgu
-  60. https://scientificrussia.ru/articles/rubric/astrofizika
-  61. https://scientificrussia.ru/articles/rubric/cosmology
-  62. https://scientificrussia.ru/articles/s-novym-2026-godom
-  63. https://scientificrussia.ru/articles/rubric/nauka-i-obshchestvo
-  64. https://scientificrussia.ru/articles/sozdan-pervyj-v-rossii-kompleks-dla-mgnovennoj-ocenki-avtopilota-mozga
-  65. https://scientificrussia.ru/articles/rubric/medicine
-  66. https://scientificrussia.ru/articles/novyj-sort-robinii-opisali-ucenye-kfu
-  67. https://scientificrussia.ru/articles/rubric/biology
-  68. https://scientificrussia.ru/articles/ucenye-pnipu-obasnili-nuzno-li-detam-verit-v-deda-moroza
-  69. https://scientificrussia.ru/articles/rubric/psychology
-  70. https://scientificrussia.ru/articles/utverzden-sostav-izbrannyh-professorov-ran
-  71. https://scientificrussia.ru/articles/rubric/nauka-i-obshchestvo
-  72. https://scientificrussia.ru/articles/mk-vedeneeva-natala-sankt-peterburgskoe-otdelenie-ran-beret-pod-krylo-ucenyh-severo-zapada-rossii
-  73. https://scientificrussia.ru/articles/mk-vedeneeva-natala-sankt-peterburgskoe-otdelenie-ran-beret-pod-krylo-ucenyh-severo-zapada-rossii
-  74. https://scientificrussia.ru/articles/vejpy-elektronnye-sigarety-kalan-tabak-nikotin-v-luboj-forme-toksicen-dla-serdca-i-krovenosnyh-sosudov
-  75. https://scientificrussia.ru/articles/vejpy-elektronnye-sigarety-kalan-tabak-nikotin-v-luboj-forme-toksicen-dla-serdca-i-krovenosnyh-sosudov
-  76. https://scientificrussia.ru/articles/priruchenie-seroj-krysy-opyt-uchenyh-so-ran
-  77. https://scientificrussia.ru/lectures
-  78. https://bigasia.ru/specprojects_type/chines_panoram/
-  79. https://scientificrussia.ru/articles/georgij-malineckij-sergej-kapica-cast-istorii-velikoj-sovetskoj-nauki
-  80. https://scientificrussia.ru/articles/vspominaya-sergeya-petrovicha-kapitsu
-  81. https://scientificrussia.ru/articles/tatana-cernigovskaa-nam-vsem-povezlo-cto-my-znali-sergea-petrovica-kapicu-kak-prosvetitela
-  82. https://scientificrussia.ru/articles/rektor-rosnou-vladimir-zernov-ocevidnoe-neveroatnoe-eto-kvintessencia-celoveceskogo-intellekta
-  83. https://scientificrussia.ru/articles/kommentarij-clena-korrespondenta-ran-ds-gorbunova-o-programme-ocevidnoe-neveroatnoe
-  84. https://scientificrussia.ru/articles/97-let-so-dna-rozdenia-sergea-petrovica-kapicy
-  85. https://scientificrussia.ru/archive
-  86. https://scientificrussia.ru/agreement
-  87. https://scientificrussia.ru/
-  88. https://scientificrussia.ru/articles/dusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo
-  89. tel:+74959394266
-  90. tel:+74959394563
-  91. https://metrika.yandex.ru/stat/?id=25920236&from=informer
-  92. https://scientificrussia.ru/
-  93. https://scientificrussia.ru/
-  94. https://scientificrussia.ru/
-  95. https://en.scientificrussia.ru/
-  96. https://scientificrussia.ru/contacts
-  97. https://scientificrussia.ru/articles
-  98. https://scientificrussia.ru/news
-  99. https://scientificrussia.ru/interviews
- 100. https://scientificrussia.ru/lectures
- 101. https://scientificrussia.ru/podcasts
- 102. https://scientificrussia.ru/partners
- 103. https://scientificrussia.ru/articles/dusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo
- 104. https://scientificrussia.ru/victory-80
- 105. https://scientificrussia.ru/aviation-science
- 106. https://scientificrussia.ru/electronic-technologies
- 107. https://scientificrussia.ru/300-let-ran
- 108. https://scientificrussia.ru/ran-meeting-2023
- 109. https://scientificrussia.ru/women-in-science
- 110. https://scientificrussia.ru/year-of-science
- 111. https://scientificrussia.ru/broadcasts
- 112. https://scientificrussia.ru/reviews
- 113. https://scientificrussia.ru/interesting
- 114. https://scientificrussia.ru/films
- 115. https://scientificrussia.ru/ideas
- 116. https://scientificrussia.ru/archive
- 117. https://scientificrussia.ru/theory
- 118. https://scientificrussia.ru/life
- 119. https://scientificrussia.ru/professors
- 120. https://scientificrussia.ru/covid
- 121. https://scientificrussia.ru/experts-talk
- 122. https://scientificrussia.ru/for-children
- 123. https://www.rustore.ru/catalog/app/ru.scientificrussia.app
- 124. https://api.yandex.ru/maps/tools/constructor/index.xml
- 125. https://scientificrussia.ru/agreement
+  41. https://scientificrussia.ru/articles/razrabotan-novyj-algoritm-proektirovania-antenn-dla-vysokoskorostnoj-besprovodnoj-svazi
+  42. https://scientificrussia.ru/articles/rubric/phisics
+  43. https://scientificrussia.ru/articles/programmu-dla-rasceta-razmera-stvorok-mitralnogo-klapana-sozdali-v-secenovskom-universitete
+  44. https://scientificrussia.ru/articles/rubric/medicine
+  45. https://scientificrussia.ru/articles/ucenye-samarskogo-politeha-razrabotali-ustrojstvo-uprosausee-process-burenia-v-gorno-geologiceskih-usloviah
+  46. https://scientificrussia.ru/articles/rubric/engineering
+  47. https://scientificrussia.ru/articles/v-secenovskom-universitete-ukazali-na-novyj-mehanizm-dejstvia-selena-zasisausij-organizm-ot-vospalenia
+  48. https://scientificrussia.ru/articles/rubric/zdravoohranenie
+  49. https://scientificrussia.ru/articles/rubric/medicine
+  50. https://scientificrussia.ru/articles/ucenye-skolteha-razrabotali-metod-tocnogo-opredelenia-poristosti-voloknistyh-materialov-po-odnomu-snimku
+  51. https://scientificrussia.ru/articles/rubric/phisics
+  52. https://scientificrussia.ru/articles/studentka-urfu-obnaruzila-v-irake-drevnuu-bullu-s-mificeskim-lvom
+  53. https://scientificrussia.ru/articles/rubric/archaeology
+  54. https://scientificrussia.ru/articles/najdena-novaa-pricina-zatrudnenia-ocistki-frakcij-tazeloj-nefti-ot-sery
+  55. https://scientificrussia.ru/articles/rubric/himiya
+  56. https://scientificrussia.ru/articles/matmodel-sprognoziruet-vnutrennuu-nagruzku-tazelyh-metallov-na-vodnye-obekty
+  57. https://scientificrussia.ru/articles/rubric/mathematics
+  58. https://scientificrussia.ru/articles/rubric/ecology
+  59. https://scientificrussia.ru/articles/ucenye-permskogo-politeha-razrabotali-unikalnuu-model-dla-predskazania-starenia-uglerodnyh-implantatov-tazobedrennogo-sustava
+  60. https://scientificrussia.ru/articles/rubric/medicine
+  61. https://scientificrussia.ru/articles/kostanye-konki-anticnoj-epohi-najdeny-na-kubani
+  62. https://scientificrussia.ru/articles/rubric/archaeology
+  63. https://scientificrussia.ru/articles/rubric/history
+  64. https://scientificrussia.ru/articles/10-bloodiest-wars
+  65. https://scientificrussia.ru/articles/10-bloodiest-wars
+  66. https://scientificrussia.ru/articles/utverzden-sostav-izbrannyh-professorov-ran
+  67. https://scientificrussia.ru/articles/utverzden-sostav-izbrannyh-professorov-ran
+  68. https://scientificrussia.ru/articles/cvet-i-ego-simvolika-v-krestanskoj-srede-cast-2-lekcia-etnologa-aleksandry-frolovoj-iz-iea-ran
+  69. https://scientificrussia.ru/lectures
+  70. https://bigasia.ru/specprojects_type/chines_panoram/
+  71. https://scientificrussia.ru/articles/leopold-lobkovskij-sergej-kapica-celovek-samogo-vysokogo-urovna-s-kotorym-bylo-prosto-obsatsa
+  72. https://scientificrussia.ru/articles/97-let-so-dna-rozdenia-sergea-petrovica-kapicy
+  73. https://scientificrussia.ru/articles/rektor-rosnou-vladimir-zernov-ocevidnoe-neveroatnoe-eto-kvintessencia-celoveceskogo-intellekta
+  74. https://scientificrussia.ru/articles/vspominaya-sergeya-petrovicha-kapitsu
+  75. https://scientificrussia.ru/articles/georgij-malineckij-sergej-kapica-cast-istorii-velikoj-sovetskoj-nauki
+  76. https://scientificrussia.ru/articles/kommentarij-clena-korrespondenta-ran-ds-gorbunova-o-programme-ocevidnoe-neveroatnoe
+  77. https://scientificrussia.ru/archive
+  78. https://scientificrussia.ru/agreement
+  79. https://scientificrussia.ru/
+  80. https://scientificrussia.ru/articles/dusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo
+  81. tel:+74959394266
+  82. tel:+74959394563
+  83. https://metrika.yandex.ru/stat/?id=25920236&from=informer
+  84. https://scientificrussia.ru/
+  85. https://scientificrussia.ru/
+  86. https://scientificrussia.ru/
+  87. https://en.scientificrussia.ru/
+  88. https://scientificrussia.ru/contacts
+  89. https://scientificrussia.ru/articles
+  90. https://scientificrussia.ru/news
+  91. https://scientificrussia.ru/interviews
+  92. https://scientificrussia.ru/lectures
+  93. https://scientificrussia.ru/podcasts
+  94. https://scientificrussia.ru/partners
+  95. https://scientificrussia.ru/articles/dusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo
+  96. https://scientificrussia.ru/victory-80
+  97. https://scientificrussia.ru/aviation-science
+  98. https://scientificrussia.ru/electronic-technologies
+  99. https://scientificrussia.ru/300-let-ran
+ 100. https://scientificrussia.ru/ran-meeting-2023
+ 101. https://scientificrussia.ru/women-in-science
+ 102. https://scientificrussia.ru/year-of-science
+ 103. https://scientificrussia.ru/broadcasts
+ 104. https://scientificrussia.ru/reviews
+ 105. https://scientificrussia.ru/interesting
+ 106. https://scientificrussia.ru/films
+ 107. https://scientificrussia.ru/ideas
+ 108. https://scientificrussia.ru/archive
+ 109. https://scientificrussia.ru/theory
+ 110. https://scientificrussia.ru/life
+ 111. https://scientificrussia.ru/professors
+ 112. https://scientificrussia.ru/covid
+ 113. https://scientificrussia.ru/experts-talk
+ 114. https://scientificrussia.ru/for-children
+ 115. https://www.rustore.ru/catalog/app/ru.scientificrussia.app
+ 116. https://api.yandex.ru/maps/tools/constructor/index.xml
+ 117. https://scientificrussia.ru/agreement
 
    Hidden links:
- 127. https://scientificrussia.ru/search
- 128. https://scientificrussia.ru/articles/dusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo
- 129. https://scientificrussia.ru/assets/e1bb3a19/logo-hq-sharp.png
- 130. https://vk.com/share.php?url=https%3A%2F%2Fscientificrussia.ru%2Farticles%2Fdusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo&title=%D0%94%D1%83%D1%88%D0%B0%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%D0%B0.%20%D0%94%D0%B5%D0%BD%D1%8C%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%B0%20%D0%9F%D0%B8%D0%BE%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE&description=%D0%A1%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F%2081-%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%D1%82%D0%BC%D0%B5%D1%87%D0%B0%D0%B5%D1%82%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%D0%B0%2C%20%D0%B2%D1%8B%D0%B4%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%D1%81%D1%8F%20%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA%D0%BE%D0%B2%D0%B5%D0%B4%20%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%20%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%20%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87%20%D0%9F%D0%B8%D0%BE%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9&image=%2Fimages%2F6%2F2ke6-large.jpg
- 131. https://connect.ok.ru/offer?url=https%3A%2F%2Fscientificrussia.ru%2Farticles%2Fdusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo&title=%D0%94%D1%83%D1%88%D0%B0%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%D0%B0.%20%D0%94%D0%B5%D0%BD%D1%8C%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%B0%20%D0%9F%D0%B8%D0%BE%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE
- 132. https://v-mire-nauki.ru/
- 133. https://ochevidnoe-neveroyatnoe.ru/
- 134. https://vk.com/scientificrussia
- 135. https://ok.ru/group/56012788990030
- 136. https://t.me/scientificrussia
- 137. https://www.youtube.com/channel/UCJKZzUdO9eGEOZz_QJd1ogA
- 138. https://rutube.ru/channel/25268394/
- 139. https://scientificrussia.ru/assets/e1bb3a19/logo-hq-sharp.png
- 140. https://webmaster.yandex.ru/sqi?host=scientificrussia.ru
- 141. https://vk.com/scientificrussia
- 142. https://ok.ru/group/56012788990030
- 143. https://t.me/scientificrussia
- 144. https://www.youtube.com/channel/UCJKZzUdO9eGEOZz_QJd1ogA
- 145. https://rutube.ru/channel/25268394/
- 146. https://scientificrussia.ru/articles/dusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo
- 147. https://scientificrussia.ru/search
- 148. https://v-mire-nauki.ru/
- 149. https://ochevidnoe-neveroyatnoe.ru/
- 150. https://vk.com/scientificrussia
- 151. https://ok.ru/group/56012788990030
- 152. https://t.me/scientificrussia
- 153. https://www.youtube.com/channel/UCJKZzUdO9eGEOZz_QJd1ogA
- 154. https://rutube.ru/channel/25268394/
+ 119. https://scientificrussia.ru/search
+ 120. https://scientificrussia.ru/articles/dusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo
+ 121. https://scientificrussia.ru/assets/e1bb3a19/logo-hq-sharp.png
+ 122. https://vk.com/share.php?url=https%3A%2F%2Fscientificrussia.ru%2Farticles%2Fdusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo&title=%D0%94%D1%83%D1%88%D0%B0%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%D0%B0.%20%D0%94%D0%B5%D0%BD%D1%8C%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%B0%20%D0%9F%D0%B8%D0%BE%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE&description=%D0%A1%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F%2081-%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%D1%82%D0%BC%D0%B5%D1%87%D0%B0%D0%B5%D1%82%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%D0%B0%2C%20%D0%B2%D1%8B%D0%B4%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%D1%81%D1%8F%20%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA%D0%BE%D0%B2%D0%B5%D0%B4%20%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%20%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%20%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87%20%D0%9F%D0%B8%D0%BE%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9&image=%2Fimages%2F6%2F2ke6-large.jpg
+ 123. https://connect.ok.ru/offer?url=https%3A%2F%2Fscientificrussia.ru%2Farticles%2Fdusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo&title=%D0%94%D1%83%D1%88%D0%B0%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%D0%B0.%20%D0%94%D0%B5%D0%BD%D1%8C%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%B0%20%D0%9F%D0%B8%D0%BE%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE
+ 124. https://v-mire-nauki.ru/
+ 125. https://ochevidnoe-neveroyatnoe.ru/
+ 126. https://vk.com/scientificrussia
+ 127. https://ok.ru/group/56012788990030
+ 128. https://t.me/scientificrussia
+ 129. https://www.youtube.com/channel/UCJKZzUdO9eGEOZz_QJd1ogA
+ 130. https://rutube.ru/channel/25268394/
+ 131. https://scientificrussia.ru/assets/e1bb3a19/logo-hq-sharp.png
+ 132. https://webmaster.yandex.ru/sqi?host=scientificrussia.ru
+ 133. https://vk.com/scientificrussia
+ 134. https://ok.ru/group/56012788990030
+ 135. https://t.me/scientificrussia
+ 136. https://www.youtube.com/channel/UCJKZzUdO9eGEOZz_QJd1ogA
+ 137. https://rutube.ru/channel/25268394/
+ 138. https://scientificrussia.ru/articles/dusa-ermitaza-den-rozdenia-akademika-mihaila-piotrovskogo
+ 139. https://scientificrussia.ru/search
+ 140. https://v-mire-nauki.ru/
+ 141. https://ochevidnoe-neveroyatnoe.ru/
+ 142. https://vk.com/scientificrussia
+ 143. https://ok.ru/group/56012788990030
+ 144. https://t.me/scientificrussia
+ 145. https://www.youtube.com/channel/UCJKZzUdO9eGEOZz_QJd1ogA
+ 146. https://rutube.ru/channel/25268394/

@@ -1045,7 +1045,7 @@
 
 душа (существительное)
 
-   ду-ша
+   ду-ша (необходимо указать ударение)
      * форма
 
    существительного [749]душ ◆ Отсутствует пример употребления (см.
@@ -1433,90 +1433,91 @@
      * [1012]Нужно указать гиперонимы/bg
      * [1013]Болгарские глаголы
      * [1014]Глаголы нюхания/bg
-     * [1015]Формы существительных без указания грамматического числа/bg
-     * [1016]Формы существительных/bg
-     * [1017]Словоформы/bg
-     * [1018]Слова из 4 букв/bg
-     * [1019]Македонский язык
-     * [1020]Македонские существительные
-     * [1021]Женский род/mk
-     * [1022]Нужно указать гиперонимы/mk
-     * [1023]Душа/mk
-     * [1024]Слова из 4 букв/mk
-     * [1025]Сербский язык
-     * [1026]Сербские существительные
-     * [1027]Женский род/sr
-     * [1028]Нужно указать гиперонимы/sr
-     * [1029]Душа/sr
-     * [1030]Слова из 4 букв/sr
-     * [1031]Словио (кириллица)
-     * [1032]Существительные словио
-     * [1033]Нужно указать гиперонимы/slovio
-     * [1034]Душа/slovio
-     * [1035]Слова из 4 букв/slovio
-     * [1036]Украинский язык
-     * [1037]Украинские существительные
-     * [1038]Женский род/uk
-     * [1039]Неодушевлённые/uk
-     * [1040]Душа/uk
-     * [1041]Слова из 4 букв/uk
-     * [1042]Викисловарь:Статьи с межъязыковой омонимией
+     * [1015]Словоформы без ударения/bg
+     * [1016]Формы существительных без указания грамматического числа/bg
+     * [1017]Формы существительных/bg
+     * [1018]Словоформы/bg
+     * [1019]Слова из 4 букв/bg
+     * [1020]Македонский язык
+     * [1021]Македонские существительные
+     * [1022]Женский род/mk
+     * [1023]Нужно указать гиперонимы/mk
+     * [1024]Душа/mk
+     * [1025]Слова из 4 букв/mk
+     * [1026]Сербский язык
+     * [1027]Сербские существительные
+     * [1028]Женский род/sr
+     * [1029]Нужно указать гиперонимы/sr
+     * [1030]Душа/sr
+     * [1031]Слова из 4 букв/sr
+     * [1032]Словио (кириллица)
+     * [1033]Существительные словио
+     * [1034]Нужно указать гиперонимы/slovio
+     * [1035]Душа/slovio
+     * [1036]Слова из 4 букв/slovio
+     * [1037]Украинский язык
+     * [1038]Украинские существительные
+     * [1039]Женский род/uk
+     * [1040]Неодушевлённые/uk
+     * [1041]Душа/uk
+     * [1042]Слова из 4 букв/uk
+     * [1043]Викисловарь:Статьи с межъязыковой омонимией
 
    Скрытые категории:
-     * [1043]Статьи со ссылками на Википедию/ru
-     * [1044]Статьи со звучащими примерами произношения/ru
-     * [1045]Статьи со ссылками на Викитеку
-     * [1046]Страницы, использующие волшебные ссылки ISBN
-     * [1047]Статьи, нуждающиеся в доработке/ru
-     * [1048]Нужны сведения о семантике/ru
-     * [1049]Нужен перевод
-     * [1050]Нужно произношение
-     * [1051]Статьи без примеров употребления
-     * [1052]Статьи, нуждающиеся в доработке/be
-     * [1053]Нужно произношение/be
-     * [1054]Нужны сведения о семантике/be
-     * [1055]Статьи, нуждающиеся в доработке/bg
-     * [1056]Нужно произношение/bg
-     * [1057]Нужны сведения о семантике/bg
-     * [1058]Требуется категоризация/bg
-     * [1059]Нет сведений о составе слова
-     * [1060]Нужна этимология
-     * [1061]Нужны сведения о морфологии/bg
-     * [1062]Нужна этимология/bg
-     * [1063]Статьи, нуждающиеся в доработке/mk
-     * [1064]Нужны сведения о морфологии/mk
-     * [1065]Нужно произношение/mk
-     * [1066]Нужны сведения о семантике/mk
-     * [1067]Статьи, нуждающиеся в доработке/sr
-     * [1068]Нужны сведения о семантике/sr
-     * [1069]Статьи, нуждающиеся в доработке/slovio
-     * [1070]Нужны сведения о морфологии/slovio
-     * [1071]Нужно произношение/slovio
-     * [1072]Нужны сведения о семантике/slovio
-     * [1073]Статьи, нуждающиеся в доработке/uk
-     * [1074]Нужно произношение/uk
-     * [1075]Нужны сведения о семантике/uk
-     * [1076]Нужно указать гиперонимы/uk
+     * [1044]Статьи со ссылками на Википедию/ru
+     * [1045]Статьи со звучащими примерами произношения/ru
+     * [1046]Статьи со ссылками на Викитеку
+     * [1047]Страницы, использующие волшебные ссылки ISBN
+     * [1048]Статьи, нуждающиеся в доработке/ru
+     * [1049]Нужны сведения о семантике/ru
+     * [1050]Нужен перевод
+     * [1051]Нужно произношение
+     * [1052]Статьи без примеров употребления
+     * [1053]Статьи, нуждающиеся в доработке/be
+     * [1054]Нужно произношение/be
+     * [1055]Нужны сведения о семантике/be
+     * [1056]Статьи, нуждающиеся в доработке/bg
+     * [1057]Нужно произношение/bg
+     * [1058]Нужны сведения о семантике/bg
+     * [1059]Требуется категоризация/bg
+     * [1060]Нет сведений о составе слова
+     * [1061]Нужна этимология
+     * [1062]Нужны сведения о морфологии/bg
+     * [1063]Нужна этимология/bg
+     * [1064]Статьи, нуждающиеся в доработке/mk
+     * [1065]Нужны сведения о морфологии/mk
+     * [1066]Нужно произношение/mk
+     * [1067]Нужны сведения о семантике/mk
+     * [1068]Статьи, нуждающиеся в доработке/sr
+     * [1069]Нужны сведения о семантике/sr
+     * [1070]Статьи, нуждающиеся в доработке/slovio
+     * [1071]Нужны сведения о морфологии/slovio
+     * [1072]Нужно произношение/slovio
+     * [1073]Нужны сведения о семантике/slovio
+     * [1074]Статьи, нуждающиеся в доработке/uk
+     * [1075]Нужно произношение/uk
+     * [1076]Нужны сведения о семантике/uk
+     * [1077]Нужно указать гиперонимы/uk
 
      * Эта страница в последний раз была отредактирована 16 декабря 2025
        года в 02:12.
-     * Страница была сгенерирована с помощью [1077]Parsoid.
-     * Текст доступен по [1078]лицензии Creative Commons «С указанием
+     * Страница была сгенерирована с помощью [1078]Parsoid.
+     * Текст доступен по [1079]лицензии Creative Commons «С указанием
        авторства — С сохранением условий» (CC BY-SA); в отдельных случаях
        могут действовать дополнительные условия. Подробнее см.
-       [1079]Условия использования.
+       [1080]Условия использования.
 
-     * [1080]Политика конфиденциальности
-     * [1081]Описание Викисловаря
-     * [1082]Отказ от ответственности
-     * [1083]Кодекс поведения
-     * [1084]Разработчики
-     * [1085]Статистика
-     * [1086]Заявление о куки
-     * [1087]Мобильная версия
+     * [1081]Политика конфиденциальности
+     * [1082]Описание Викисловаря
+     * [1083]Отказ от ответственности
+     * [1084]Кодекс поведения
+     * [1085]Разработчики
+     * [1086]Статистика
+     * [1087]Заявление о куки
+     * [1088]Мобильная версия
 
-     * [1088]Wikimedia Foundation
-     * [1089]Powered by MediaWiki
+     * [1089]Wikimedia Foundation
+     * [1090]Powered by MediaWiki
 
    (BUTTON) Поиск
    ____________________
@@ -1524,7 +1525,7 @@
 
    [ ] Отобразить/Скрыть содержание
    душа
-   (BUTTON) 37 языков [1090]Добавить тему
+   (BUTTON) 37 языков [1091]Добавить тему
 
 References
 
@@ -2543,88 +2544,89 @@ References
 1012. https://ru.wiktionary.org/wiki/Категория:Нужно_указать_гиперонимы/bg
 1013. https://ru.wiktionary.org/wiki/Категория:Болгарские_глаголы
 1014. https://ru.wiktionary.org/wiki/Категория:Глаголы_нюхания/bg
-1015. https://ru.wiktionary.org/wiki/Категория:Формы_существительных_без_указания_грамматического_числа/bg
-1016. https://ru.wiktionary.org/wiki/Категория:Формы_существительных/bg
-1017. https://ru.wiktionary.org/wiki/Категория:Словоформы/bg
-1018. https://ru.wiktionary.org/wiki/Категория:Слова_из_4_букв/bg
-1019. https://ru.wiktionary.org/wiki/Категория:Македонский_язык
-1020. https://ru.wiktionary.org/wiki/Категория:Македонские_существительные
-1021. https://ru.wiktionary.org/wiki/Категория:Женский_род/mk
-1022. https://ru.wiktionary.org/wiki/Категория:Нужно_указать_гиперонимы/mk
-1023. https://ru.wiktionary.org/wiki/Категория:Душа/mk
-1024. https://ru.wiktionary.org/wiki/Категория:Слова_из_4_букв/mk
-1025. https://ru.wiktionary.org/wiki/Категория:Сербский_язык
-1026. https://ru.wiktionary.org/wiki/Категория:Сербские_существительные
-1027. https://ru.wiktionary.org/wiki/Категория:Женский_род/sr
-1028. https://ru.wiktionary.org/wiki/Категория:Нужно_указать_гиперонимы/sr
-1029. https://ru.wiktionary.org/wiki/Категория:Душа/sr
-1030. https://ru.wiktionary.org/wiki/Категория:Слова_из_4_букв/sr
-1031. https://ru.wiktionary.org/wiki/Категория:Словио_(кириллица)
-1032. https://ru.wiktionary.org/wiki/Категория:Существительные_словио
-1033. https://ru.wiktionary.org/wiki/Категория:Нужно_указать_гиперонимы/slovio
-1034. https://ru.wiktionary.org/wiki/Категория:Душа/slovio
-1035. https://ru.wiktionary.org/wiki/Категория:Слова_из_4_букв/slovio
-1036. https://ru.wiktionary.org/wiki/Категория:Украинский_язык
-1037. https://ru.wiktionary.org/wiki/Категория:Украинские_существительные
-1038. https://ru.wiktionary.org/wiki/Категория:Женский_род/uk
-1039. https://ru.wiktionary.org/wiki/Категория:Неодушевлённые/uk
-1040. https://ru.wiktionary.org/wiki/Категория:Душа/uk
-1041. https://ru.wiktionary.org/wiki/Категория:Слова_из_4_букв/uk
-1042. https://ru.wiktionary.org/wiki/Категория:Викисловарь:Статьи_с_межъязыковой_омонимией
-1043. https://ru.wiktionary.org/wiki/Категория:Статьи_со_ссылками_на_Википедию/ru
-1044. https://ru.wiktionary.org/wiki/Категория:Статьи_со_звучащими_примерами_произношения/ru
-1045. https://ru.wiktionary.org/wiki/Категория:Статьи_со_ссылками_на_Викитеку
-1046. https://ru.wiktionary.org/wiki/Категория:Страницы,_использующие_волшебные_ссылки_ISBN
-1047. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/ru
-1048. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/ru
-1049. https://ru.wiktionary.org/wiki/Категория:Нужен_перевод
-1050. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение
-1051. https://ru.wiktionary.org/wiki/Категория:Статьи_без_примеров_употребления
-1052. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/be
-1053. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение/be
-1054. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/be
-1055. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/bg
-1056. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение/bg
-1057. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/bg
-1058. https://ru.wiktionary.org/wiki/Категория:Требуется_категоризация/bg
-1059. https://ru.wiktionary.org/wiki/Категория:Нет_сведений_о_составе_слова
-1060. https://ru.wiktionary.org/wiki/Категория:Нужна_этимология
-1061. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_морфологии/bg
-1062. https://ru.wiktionary.org/wiki/Категория:Нужна_этимология/bg
-1063. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/mk
-1064. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_морфологии/mk
-1065. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение/mk
-1066. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/mk
-1067. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/sr
-1068. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/sr
-1069. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/slovio
-1070. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_морфологии/slovio
-1071. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение/slovio
-1072. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/slovio
-1073. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/uk
-1074. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение/uk
-1075. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/uk
-1076. https://ru.wiktionary.org/wiki/Категория:Нужно_указать_гиперонимы/uk
-1077. https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
-1078. https://creativecommons.org/licenses/by-sa/4.0/deed.ru
-1079. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use/ru
-1080. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/ru
-1081. https://ru.wiktionary.org/wiki/Викисловарь:Описание
-1082. https://ru.wiktionary.org/wiki/Викисловарь:Отказ_от_ответственности
-1083. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
-1084. https://developer.wikimedia.org/
-1085. https://stats.wikimedia.org/#/ru.wiktionary.org
-1086. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
-1087. https://ru.wiktionary.org/w/index.php?title=душа&mobileaction=toggle_view_mobile
-1088. https://www.wikimedia.org/
-1089. https://www.mediawiki.org/
-1090. https://ru.wiktionary.org/wiki/душа
+1015. https://ru.wiktionary.org/w/index.php?title=Категория:Словоформы_без_ударения/bg&action=edit&redlink=1
+1016. https://ru.wiktionary.org/wiki/Категория:Формы_существительных_без_указания_грамматического_числа/bg
+1017. https://ru.wiktionary.org/wiki/Категория:Формы_существительных/bg
+1018. https://ru.wiktionary.org/wiki/Категория:Словоформы/bg
+1019. https://ru.wiktionary.org/wiki/Категория:Слова_из_4_букв/bg
+1020. https://ru.wiktionary.org/wiki/Категория:Македонский_язык
+1021. https://ru.wiktionary.org/wiki/Категория:Македонские_существительные
+1022. https://ru.wiktionary.org/wiki/Категория:Женский_род/mk
+1023. https://ru.wiktionary.org/wiki/Категория:Нужно_указать_гиперонимы/mk
+1024. https://ru.wiktionary.org/wiki/Категория:Душа/mk
+1025. https://ru.wiktionary.org/wiki/Категория:Слова_из_4_букв/mk
+1026. https://ru.wiktionary.org/wiki/Категория:Сербский_язык
+1027. https://ru.wiktionary.org/wiki/Категория:Сербские_существительные
+1028. https://ru.wiktionary.org/wiki/Категория:Женский_род/sr
+1029. https://ru.wiktionary.org/wiki/Категория:Нужно_указать_гиперонимы/sr
+1030. https://ru.wiktionary.org/wiki/Категория:Душа/sr
+1031. https://ru.wiktionary.org/wiki/Категория:Слова_из_4_букв/sr
+1032. https://ru.wiktionary.org/wiki/Категория:Словио_(кириллица)
+1033. https://ru.wiktionary.org/wiki/Категория:Существительные_словио
+1034. https://ru.wiktionary.org/wiki/Категория:Нужно_указать_гиперонимы/slovio
+1035. https://ru.wiktionary.org/wiki/Категория:Душа/slovio
+1036. https://ru.wiktionary.org/wiki/Категория:Слова_из_4_букв/slovio
+1037. https://ru.wiktionary.org/wiki/Категория:Украинский_язык
+1038. https://ru.wiktionary.org/wiki/Категория:Украинские_существительные
+1039. https://ru.wiktionary.org/wiki/Категория:Женский_род/uk
+1040. https://ru.wiktionary.org/wiki/Категория:Неодушевлённые/uk
+1041. https://ru.wiktionary.org/wiki/Категория:Душа/uk
+1042. https://ru.wiktionary.org/wiki/Категория:Слова_из_4_букв/uk
+1043. https://ru.wiktionary.org/wiki/Категория:Викисловарь:Статьи_с_межъязыковой_омонимией
+1044. https://ru.wiktionary.org/wiki/Категория:Статьи_со_ссылками_на_Википедию/ru
+1045. https://ru.wiktionary.org/wiki/Категория:Статьи_со_звучащими_примерами_произношения/ru
+1046. https://ru.wiktionary.org/wiki/Категория:Статьи_со_ссылками_на_Викитеку
+1047. https://ru.wiktionary.org/wiki/Категория:Страницы,_использующие_волшебные_ссылки_ISBN
+1048. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/ru
+1049. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/ru
+1050. https://ru.wiktionary.org/wiki/Категория:Нужен_перевод
+1051. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение
+1052. https://ru.wiktionary.org/wiki/Категория:Статьи_без_примеров_употребления
+1053. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/be
+1054. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение/be
+1055. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/be
+1056. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/bg
+1057. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение/bg
+1058. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/bg
+1059. https://ru.wiktionary.org/wiki/Категория:Требуется_категоризация/bg
+1060. https://ru.wiktionary.org/wiki/Категория:Нет_сведений_о_составе_слова
+1061. https://ru.wiktionary.org/wiki/Категория:Нужна_этимология
+1062. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_морфологии/bg
+1063. https://ru.wiktionary.org/wiki/Категория:Нужна_этимология/bg
+1064. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/mk
+1065. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_морфологии/mk
+1066. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение/mk
+1067. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/mk
+1068. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/sr
+1069. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/sr
+1070. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/slovio
+1071. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_морфологии/slovio
+1072. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение/slovio
+1073. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/slovio
+1074. https://ru.wiktionary.org/wiki/Категория:Статьи,_нуждающиеся_в_доработке/uk
+1075. https://ru.wiktionary.org/wiki/Категория:Нужно_произношение/uk
+1076. https://ru.wiktionary.org/wiki/Категория:Нужны_сведения_о_семантике/uk
+1077. https://ru.wiktionary.org/wiki/Категория:Нужно_указать_гиперонимы/uk
+1078. https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+1079. https://creativecommons.org/licenses/by-sa/4.0/deed.ru
+1080. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use/ru
+1081. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/ru
+1082. https://ru.wiktionary.org/wiki/Викисловарь:Описание
+1083. https://ru.wiktionary.org/wiki/Викисловарь:Отказ_от_ответственности
+1084. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+1085. https://developer.wikimedia.org/
+1086. https://stats.wikimedia.org/#/ru.wiktionary.org
+1087. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+1088. https://ru.wiktionary.org/w/index.php?title=душа&mobileaction=toggle_view_mobile
+1089. https://www.wikimedia.org/
+1090. https://www.mediawiki.org/
+1091. https://ru.wiktionary.org/wiki/душа
 
    Hidden links:
-1092. https://ru.wiktionary.org/wiki/%D0%B4%D1%83%D1%88%D0%B0
 1093. https://ru.wiktionary.org/wiki/%D0%B4%D1%83%D1%88%D0%B0
 1094. https://ru.wiktionary.org/wiki/%D0%B4%D1%83%D1%88%D0%B0
 1095. https://ru.wiktionary.org/wiki/%D0%B4%D1%83%D1%88%D0%B0
 1096. https://ru.wiktionary.org/wiki/%D0%B4%D1%83%D1%88%D0%B0
 1097. https://ru.wiktionary.org/wiki/%D0%B4%D1%83%D1%88%D0%B0
 1098. https://ru.wiktionary.org/wiki/%D0%B4%D1%83%D1%88%D0%B0
+1099. https://ru.wiktionary.org/wiki/%D0%B4%D1%83%D1%88%D0%B0

@@ -3,12 +3,12 @@
    [1]Меню
 
      * Новый год
-     * Французский шансон и аргентинское танго. Музыкальное оливье
-     * Концерт-сказка «Маленький принц»
-     * Новогодние фантазии для рояля и вибрафона
      * Сказка с оркестром «Маленькая Баба Яга»
      * Песенка из детства
      * Щелкунчик
+     * Русское Рождество
+     * THE BEST. Барокко & Неоклассика
+     * Семейный спектакль «Маленький принц»
 
    [2]Правила посещения Белого Зала
    [3]Клуб друзей белого зала
@@ -17,51 +17,54 @@
 
    [4]все концерты
    [5]Календарь
-     * 30
-       дек
+     * 04
+       янв
+       вс
+       17:00
+       [6]Французский шансон и аргентинское танго. Музыкальное оливье
+       [7]Французский шансон и аргентинское танго. Музыкальное оливье
+       Зажигательные хиты мировой эстрады, французский шансон и
+       аргентинское танго станут главным музыкальным лакомством в первые
+       дни нового года.
+       Пенсионерам — скидка 30% в кассе зала перед концертом
+       600-1600
+       [8]Купить билет
+     * 05
+       янв
+       пн
+       13:00
+       [9]Концерт-сказка «Маленький принц»
+       [10]Концерт-сказка «Маленький принц»
+       Детей от 5 до 100 лет приглашаем отправиться в путешествие по
+       вселенной вместе с Маленьким принцем.
+       Пенсионерам — скидка 30% в кассе зала перед концертом
+       440-1300
+       [11]Купить билет
+       17:00
+       [12]Новогодние фантазии для рояля и вибрафона
+       [13]Новогодние фантазии для рояля и вибрафона
+       Редкий по красоте дуэт вибрафона и фортепиано, встреча холодной
+       прозрачности и обволакивающего тепла, интерпретации великих
+       шедевров и сочинения для вибрафона — в праздничном концерте.
+       Пенсионерам — скидка 30% в кассе зала перед концертом
+       отменен
+     * 06
+       янв
        вт
        13:00
-       [6]Мультконцерт «Щелкунчик и Снеговик»
-       [7]Мультконцерт «Щелкунчик и Снеговик»
-       Самая новогодняя сказка на все времена «Щелкунчик» и гениальная
-       музыка Чайковского! Праздничный мультконцерт позволит каждому
-       соприкоснуться с чудом.
+       [14]Сказка с оркестром «Маленькая Баба Яга»
+       [15]Сказка с оркестром «Маленькая Баба Яга»
+       Полетели на метле вместе с оркестром! Белый зал представляет
+       музыкальное сказочное приключение для детей и родителей.
+       Пенсионерам — скидка 30% в кассе зала перед концертом
        440-1300
-       disabled
-       18:00
-       [8]Новогодний концерт «В вихре вальса с Иоганном Штраусом»
-       [9]Новогодний концерт «В вихре вальса с Иоганном Штраусом»
-       Праздник в изысканных интерьерах Белого зала с величественной
-       музыкой Иоганна Штрауса.
-       1500-3000
-       [10]Купить билет
-     * 31
-       дек
-       ср
-       13:00
-       [11]Мультконцерт «Щелкунчик и Снеговик»
-       [12]Мультконцерт «Щелкунчик и Снеговик»
-       Самая новогодняя сказка на все времена «Щелкунчик» и гениальная
-       музыка Чайковского! Праздничный мультконцерт позволит каждому
-       соприкоснуться с чудом.
-       440-1300
-       [13]Купить билет
-       18:00
-       [14]Новогодний концерт «В вихре вальса с Иоганном Штраусом»
-       [15]Новогодний концерт «В вихре вальса с Иоганном Штраусом»
-       Праздник в изысканных интерьерах Белого зала с величественной
-       музыкой Иоганна Штрауса.
-       2000-4000
        [16]Купить билет
-     * 02
-       янв
-       пт
-       12:00
-       [17]Новогоднее представление «Похищение королевской ёлки»
-       [18]Новогоднее представление «Похищение королевской ёлки»
-       Приготовьтесь к волшебству! Отправляемся в увлекательные
-       приключения Снегурочки в поисках Ёлки.
-       950-2750
+       17:00
+       [17]Джазовый вечер перед Рождеством
+       [18]Джазовый вечер перед Рождеством
+       Легендарный джаз-бэнд Федора Кувайцева подарит концерт, наполненный
+       магией Рождества и джаза.
+       950-2300
        [19]Купить билет
 
 Новости
@@ -332,19 +335,19 @@ References
    3. https://whitehall.spbstu.ru/about/hall-friends/
    4. https://whitehall.spbstu.ru/events/
    5. https://whitehall.spbstu.ru/
-   6. https://whitehall.spbstu.ru/events/multkontsert-shchelkunchik-i-snegovik30/
-   7. https://whitehall.spbstu.ru/events/multkontsert-shchelkunchik-i-snegovik30/
-   8. https://whitehall.spbstu.ru/events/novogodniy-kontsert-v-vikhre-valsa-s-iogannom-shtrausom-30122025/
-   9. https://whitehall.spbstu.ru/events/novogodniy-kontsert-v-vikhre-valsa-s-iogannom-shtrausom-30122025/
-  10. https://whitehall.spbstu.ru/
-  11. https://whitehall.spbstu.ru/events/multkontsert-shchelkunchik-i-snegovik31/
-  12. https://whitehall.spbstu.ru/events/multkontsert-shchelkunchik-i-snegovik31/
-  13. https://whitehall.spbstu.ru/
-  14. https://whitehall.spbstu.ru/events/novogodniy-kontsert-v-vikhre-valsa-s-iogannom-shtrausom-301220252086/
-  15. https://whitehall.spbstu.ru/events/novogodniy-kontsert-v-vikhre-valsa-s-iogannom-shtrausom-301220252086/
+   6. https://whitehall.spbstu.ru/events/muzykalnoe-olive/
+   7. https://whitehall.spbstu.ru/events/muzykalnoe-olive/
+   8. https://whitehall.spbstu.ru/
+   9. https://whitehall.spbstu.ru/events/kontsert-skazka-malenkiy-prints115494038777/
+  10. https://whitehall.spbstu.ru/events/kontsert-skazka-malenkiy-prints115494038777/
+  11. https://whitehall.spbstu.ru/
+  12. https://whitehall.spbstu.ru/events/novogodnie-fantazii-dlya-royalya-i-vibrafona/
+  13. https://whitehall.spbstu.ru/events/novogodnie-fantazii-dlya-royalya-i-vibrafona/
+  14. https://whitehall.spbstu.ru/events/skazka-s-orkestrom-malenkaya-baba-yaga4320/
+  15. https://whitehall.spbstu.ru/events/skazka-s-orkestrom-malenkaya-baba-yaga4320/
   16. https://whitehall.spbstu.ru/
-  17. https://whitehall.spbstu.ru/events/novogodnee-predstavlenie-pokhishchenie-korolevskoy-yelki/
-  18. https://whitehall.spbstu.ru/events/novogodnee-predstavlenie-pokhishchenie-korolevskoy-yelki/
+  17. https://whitehall.spbstu.ru/events/dzhazovyy-vecher-pered-rozhdestvom-60126/
+  18. https://whitehall.spbstu.ru/events/dzhazovyy-vecher-pered-rozhdestvom-60126/
   19. https://whitehall.spbstu.ru/
   20. https://whitehall.spbstu.ru/media/news/
   21. https://whitehall.spbstu.ru/media/news/culture/studenty-politekha-muzykoy-slavili-pervogo-direktora-universiteta-/
@@ -469,11 +472,11 @@ References
 
    Hidden links:
  141. https://whitehall.spbstu.ru/
- 142. https://whitehall.spbstu.ru/events/muzykalnoe-olive/
- 143. https://whitehall.spbstu.ru/events/kontsert-skazka-malenkiy-prints115494038777/
- 144. https://whitehall.spbstu.ru/events/novogodnie-fantazii-dlya-royalya-i-vibrafona/
- 145. https://whitehall.spbstu.ru/events/skazka-s-orkestrom-malenkaya-baba-yaga4320/
- 146. https://whitehall.spbstu.ru/events/pesenka-iz-detstva/
- 147. https://whitehall.spbstu.ru/events/shchelkunchik-muzykalnaya-skazka-s-pesochnoy-animatsiey-8012026/
+ 142. https://whitehall.spbstu.ru/events/skazka-s-orkestrom-malenkaya-baba-yaga4320/
+ 143. https://whitehall.spbstu.ru/events/pesenka-iz-detstva/
+ 144. https://whitehall.spbstu.ru/events/shchelkunchik-muzykalnaya-skazka-s-pesochnoy-animatsiey-8012026/
+ 145. https://whitehall.spbstu.ru/events/russkoe-rozhdestvo/
+ 146. https://whitehall.spbstu.ru/events/the-best-barokko-neoklassika/
+ 147. https://whitehall.spbstu.ru/events/semeynyy-spektakl-malenkiy-prints10012026/
  148. https://vk.com/whitehall_spbstu
  149. https://www.youtube.com/channel/UCP-JNSqPEW-sugAL0yhGycg

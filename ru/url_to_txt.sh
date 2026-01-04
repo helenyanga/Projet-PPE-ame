@@ -26,7 +26,7 @@ is_utf()
     fi
 }
 
-write_metadata()
+write_metadata_url()
 {
     local metadata_path=$1
     local index=$2
@@ -67,7 +67,7 @@ make_txt()
 
 get_urls()
 {
-    urls_path=$1
+    urls_path=$1 # urls/ru1.txt for example
     output_folder=$2
 
     # Spinner characters
@@ -92,7 +92,7 @@ get_urls()
         # Dumps raw html in background
         wget -q $url -O html_dump/$base_name-$count.html  &
 
-        write_metadata "$METADATA_FOLDER/$base_name-$count.conf" $count $url "$output_folder/$base_name/$base_name-$count.txt"
+        write_metadata_url "$METADATA_FOLDER/$base_name-$count.conf" $count $url "$output_folder/$base_name/$base_name-$count.txt"
         # HTML dump is just too annoying to write within the appropriate func
         # Not the first principle of good programming I am breaking with bash...
         echo "HTML_DUMP="html_dump/$base_name-$count.html"" >> "$METADATA_FOLDER/$base_name-$count.conf"
@@ -105,6 +105,52 @@ get_urls()
         "$urls_path" "$output_folder" "$base_name"
 }
 
-get_urls $1 "txt/original"
+url_dialog() {
+    local urls_folder="urls"
+    local files=("$urls_folder"/*)
+
+    echo "Quel fichier de URLs voulez-vous convertir ?"
+
+    # List all files with numbers
+    local i=1
+    for f in "${files[@]}"; do
+        printf "%d) %s\n" "$i" "${f##*/}"
+        ((i++))
+    done
+
+    echo
+    read -p "Choix numéro: " choice
+
+    # Validate input
+    if ! [[ "$choice" =~ ^[0-9]+$ ]]; then
+        echo "Entrée invalide, veuillez entrer un nombre."
+        return 1
+    fi
+
+    local index=$((choice - 1))
+    if (( index < 0 || index >= ${#files[@]} )); then
+        echo "Choix hors limites."
+        return 1
+    fi
+
+    local selected_file="${files[index]}"
+    echo "Fichier sélectionné : ${selected_file##*/}"
+    
+    # Confirm
+    echo "Confirmez ?"
+    echo "1) Oui"
+    echo "2) Non"
+    read -p "Votre choix: " confirm
+
+    if [[ "$confirm" == "1" ]]; then
+        # Call the conversion function
+        get_urls "$selected_file" "txt/original"
+    else
+        echo "Recommençons..."
+        url_dialog
+    fi
+}
+
+#get_urls $1 "txt/original"
 
 # Possible paths : "urls/ru1.txt" ; "urls/ru2.txt"

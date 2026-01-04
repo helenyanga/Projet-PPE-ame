@@ -9,7 +9,7 @@ else
     exit 1
 fi
 
-write_metadata()
+write_metadata_word()
 {
     local original_path=$1
     local filename=$2
@@ -103,7 +103,7 @@ process_files()
         local spin_char="${spinner:spin_index:1}"
         printf "\rProcessing files (%d/%d) %s" "$count_file" "$count_files" "$spin_char"
 
-        write_metadata $file $filename $pattern
+        write_metadata_word $file $filename $pattern
 
         # Next spinner char
         spin_index=$(( (spin_index + 1) % 4 ))
@@ -115,7 +115,7 @@ process_files()
 }
 
 # Center of operations, where this whole madness starts
-dialog() {
+dialog_file_processing() {
     echo "Quel dossier convertir ?"
 
     local source_dir=$SOURCE_DIR
