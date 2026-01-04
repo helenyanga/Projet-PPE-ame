@@ -1,0 +1,413 @@
+
+L'encyclopédie philosophique
+
+   ISSN 2606-6661
+   ____________________ (BUTTON) Recherche
+   (BUTTON)
+     * Articles
+          + Articles "Grand Public"
+          + Articles "Académiques"
+          + Derniers articles publiés
+     * Auteurs
+     * À propos
+          + Fonctionnement
+          + Équipe
+          + Revue de presse
+          + Site
+
+                                 Vivant (GP)
+
+   Comment citer ?
+
+   Kostyrka, Gladys (2016), «Vivant (GP)», dans Maxime Kristanek (dir.),
+   l'Encyclopédie philosophique, consulté le ...,
+   https://encyclo-philo.fr/vivant-gp
+
+   Publié en juillet 2016
+
+
+   Résumé
+
+   De manière presque intuitive, chacun d’entre nous semble capable de
+   distinguer un être vivant d’une chose inerte : une poule, un arbre, une
+   bactérie sont des êtres vivants, alors qu’un caillou, une simple
+   molécule chimique ou une montagne ne sont pas vivants. Il semble même
+   assez facile de faire une liste des propriétés caractéristiques du
+   vivant : le vivant, contrairement à l’inerte, peut se développer et se
+   reproduire, possède un métabolisme lui permettant de réguler ses
+   échanges énergétiques avec l’extérieur et à l’intérieur de son corps.
+   Mais il existe des cas où il est difficile de dire si un corps est
+   vivant ou non : une graine, un virus (agent infectieux plus petit
+   qu’une cellule) semblent vivants car ils peuvent, dans certaines
+   circonstances, se reproduire, mais ils sont, la plupart du temps,
+   inertes. Dans les œuvres de science-fiction, on découvre des robots qui
+   semblent vivants car ils peuvent ressentir la souffrance et sont
+   capables de réflexes, de mouvement autonome, et parfois d’émotions.
+   Dans la série Battlestar Galactica, on découvre des robots capables de
+   se reproduire avec des êtres humains ! Y a-t-il une frontière claire
+   entre le vivant et l’inerte, entre le corps vivant et la machine ? Une
+   autre difficulté apparait lorsqu’on essaie d’expliquer les différences
+   entre la matière inerte et la matière vivante : comment est-il possible
+   que de la matière (faite d’atomes, de molécules) soit parfois, quand
+   elle est « vivante », capable de se reproduire, de se développer, de
+   bouger de manière autonome, de réguler les transformations
+   énergétiques ? Et peut-on expliquer ces différences de manière
+   scientifique ?
+
+   Introduction
+
+   Le « miracle de la vie », le « pouvoir » de donner la vie : ces
+   expressions donnent l’impression que la vie est à la fois sacrée et
+   inexplicable. La vie serait « sacrée » car elle serait un don
+   exceptionnel auquel l’être humain, devrait un respect inconditionné et
+   absolu [voir l’article « bioéthique »]. Et la vie serait également
+   inexplicable, car un « miracle » est justement ce qui n’a pas de cause
+   naturelle : c’est ce qui apparaît spontanément, par magie ou par une
+   volonté divine imprévisible. Comment peut-on expliquer un phénomène qui
+   n’aurait pas de cause, puisque « expliquer » veut justement dire
+   « trouver les causes d’un phénomène » ? Mais la vie n’est peut-être pas
+   un miracle ou un pouvoir inexplicable et intouchable. Dans le roman
+   Frankenstein de Mary Shelley, le docteur Frankenstein parvient à
+   « donner vie » à une créature qui est au départ un simple assemblage de
+   divers matériaux. D’un seul coup, de la matière inerte prend vie ! Dans
+   la réalité, les chercheurs essaient eux aussi, dans une certaine
+   mesure, de donner vie à un assemblage de matériaux, lorsqu’ils essaient
+   de fabriquer des robots semblables aux êtres vivants, ou lorsqu’ils
+   essaient de créer des cellules artificielles. Cet article essaie de
+   déterminer s’il est possible de clairement distinguer entre le vivant
+   et l’inerte (§2), et si les caractéristiques des organismes vivants
+   (développement, métabolisme, reproduction et évolution) sont un
+   « miracle » inexplicable ou si elles peuvent, au contraire, être
+   expliqués scientifiquement, c’est-à-dire comme on explique, en
+   physique, les caractéristiques de la matière inerte par des causes
+   naturelles et par des lois (par exemple, la loi de la chute des corps,
+   la loi de la pesanteur) et par des hypothèses qui peuvent être
+   soumises, directement ou indirectement, à des tests expérimentaux (§3).
+   Si la vie peut être comprise de manière scientifique, peut-être
+   pourra-t-elle, un jour, être recréée en laboratoire. Mais cela veut-il
+   dire que les phénomènes vivants ne garderaient plus aucun mystère pour
+   la science ?
+
+   1. Peut-on distinguer entre le vivant et l’inerte, entre le corps
+   vivant et la machine ?
+
+   Un corps vivant, c’est un corps qui n’est ni « mort » (corps qui a
+   perdu la vie) ni « inerte » (corps qui n’a jamais possédé la vie).
+   Comme tout corps ou objet (par exemple une table, un rocher), un corps
+   vivant est fait de matière. Mais, chose étrange, la matière du corps
+   vivant semble capable de se développer et de croître, de transformer de
+   la matière et de l’énergie (métabolisme), ou encore de se reproduire et
+   d’évoluer. Comment expliquer que la matière soit parfois capable de
+   métabolisme, de développement, de reproduction et d’évolution (dans le
+   cas du vivant) et qu’elle en soit parfois incapable (dans le cas des
+   corps inertes ou morts) ? Un rocher ne peut pas se reproduire ni
+   grandir : pourquoi une plante le peut-elle ?
+
+   a. Le vitalisme : la matière vivante possède quelque chose de plus que
+   la matière inerte
+
+   Le vitalisme est un mot qui désigne un ensemble de conceptions
+   philosophiques variées, mais qui ont en commun d’affirmer que le corps
+   vivant possède quelque chose qui le rend fondamentalement différent de
+   la matière inerte – et qui rend la biologie irréductible à la physique
+   et à la chimie : autrement dit, les lois de la physique et de la chimie
+   ne suffiraient pas à expliquer les corps vivants, donc la biologie ne
+   pourrait pas « se réduire à » la physique et la chimie. Pour certains
+   auteurs (Platon par exemple, 4^e siècle av. J.-C.), la particularité du
+   corps vivant vient de la présence d’une « force vitale » ou d’un
+   « souffle vital » qui donne vie au corps : sans ce souffle vital, qui
+   correspond généralement à « l’âme », le corps serait de la matière
+   inerte. On retrouve cette idée lorsqu’on dit qu’une personne « rend son
+   dernier souffle (de vie) ». Pour d’autres vitalistes (Aristote par
+   exemple, 4^e siècle av. J-C.), c’est bien l’âme qui donne vie au corps,
+   mais elle n’est pas une force ou un souffle : l’âme est plutôt conçue
+   comme un principe de formation, d’organisation de la matière du corps,
+   qui est immatériel mais indissociable de cette matière (l’âme ne peut
+   exister « seule »). Selon Aristote, si une plante peut développer des
+   feuilles et une tige à partir d’une simple graine, c’est parce qu’une
+   âme lui a donné progressivement cette forme. Le médecin Marie François
+   Xavier Bichat (18^ème siècle) a aussi défendu une conception vitaliste
+   du corps vivant, en affirmant que la vie est « l’ensemble des fonctions
+   qui résistent à la mort » : il y aurait donc une véritable « force
+   vitale » dans les corps vivants.
+
+   b. Le mécanisme : le corps vivant est semblable à une machine et doit
+   être expliqué par des actions de contact
+
+   Le vitalisme a été fortement critiqué, car l’explication de la vie
+   qu’il offre ne semble pas véritablement scientifique, notamment car
+   elle empêche, totalement ou en partie, de soumettre le corps vivant aux
+   lois qui régissent la matière inerte (les lois physico-chimiques). Or
+   comment connaître « scientifiquement » le vivant si le fonctionnement
+   du corps vivant n’est parfois régi par aucune loi ? Le philosophe et
+   médecin Descartes, au 17^e siècle, a affirmé que le corps vivant
+   (Descartes parle surtout du corps animal ici) est soumis aux mêmes lois
+   que n’importe quel corps inerte, car il fonctionne comme un automate,
+   c’est-à-dire une machine capable de bouger toute seule sans l’aide de
+   l’être humain : les tendons sont comme des leviers, les nerfs sont
+   comme des cordes. Par exemple, lorsque nous avons un mouvement réflexe,
+   c’est comme si on tirait sur une corde (le nerf). Le corps vivant est
+   une machine simplement plus complexe que celles construites par l’être
+   humain : il y a une différence de degré, et non de nature, entre les
+   machines « inertes » (une horloge par exemple) et les machines
+   « vivantes » (un chat par exemple). Pour Descartes, il n’est pas utile
+   de supposer une « âme » capable de faire bouger la matière. La matière
+   du corps vivant bouge de la même manière que la matière inerte : elle
+   est mise en mouvement par contact avec une autre matière, comme
+   l’aiguille d’une horloge est mise en mouvement par les rouages. Cette
+   hypothèse semble plus scientifique que les hypothèses vitalistes car
+   elle élimine l’action étrange d’une âme immatérielle sur la matière du
+   corps : seule l’action par contact, que l’on peut observer et sur
+   laquelle on peut expérimenter, est nécessaire pour comprendre le corps
+   vivant. On appelle « mécanisme » la conception de Descartes, car il
+   essaie de comprendre le corps vivant en prenant comme modèle les
+   machines automates : la vie dépend des actions par contact, comme dans
+   une machine un rouage en fait bouger un autre.
+
+   c. L’organisme : la vie d’un corps s’explique par son organisation très
+   particulière qui confère à ses organes une force formatrice
+
+   Mais le corps vivant est-il vraiment semblable à une machine ? A votre
+   avis, pourriez-vous faire la différence entre un robot imitant
+   parfaitement un animal, et un véritable animal ? Au 18^e siècle , le
+   philosophe Kant a montré qu’on pourrait faire la différence entre le
+   corps vivant et une simple machine, car dans un corps vivant, la
+   matière semble douée d’une « force formatrice ». Dans une machine, par
+   exemple une montre, les rouages peuvent faire bouger les aiguilles (il
+   y a une « force motrice » dans la machine), mais un rouage ne peut
+   contribuer à « former » une aiguille ou à la réparer. Dans un organisme
+   en revanche, chaque partie, chaque « organe », semble contribuer au
+   maintien et à la formation du reste du corps. Par exemple, un corps
+   vivant peut cicatriser ou renouveler certaines parties de son corps
+   (l’écorce de l’arbre par exemple), alors qu’une simple machine ne peut
+   pas se réparer ou renouveler ses parties. Une autre différence
+   importante entre une machine et un organisme est que les parties d’une
+   machine ont une fonction qui leur a été attribuée par l’être humain qui
+   a construit la machine, alors que dans l’organisme, les fonctions des
+   organes ne viennent pas du tout d’un être humain qui aurait
+   « fabriqué » l’organisme. Dans un organisme, c’est la matière
+   elle-même, toute seule, qui s’organise et acquiert certaines
+   fonctions : c’est « comme si » chaque partie était là « pour » les
+   autres. Le cœur semble être là « pour » maintenir la circulation du
+   sang et le fonctionnement du reste de l’organisme ; dans une plante, la
+   tige semble être là « pour » permettre aux feuilles de capter l’énergie
+   solaire, et les feuilles là « pour » fournir de l’énergie à la tige.
+
+   Mais si aucun être humain n’a donné de fonctions aux organes, comme
+   l’horloger donne une fonction aux aiguilles d’une montre, alors comment
+   expliquer l’existence de fonctions dans le corps vivant ? Vos yeux
+   semblent « faits pour voir », comme si c’était leur but. Le risque est
+   ici de recourir au « finalisme » : c’est affirmer soit qu’un dieu a
+   conçu les corps vivants « dans un certain but », soit que la matière
+   vivante est capable de se donner des objectifs, des « fins » (mot d’où
+   vient le terme « finalisme »), comme le ferait un être humain doué
+   d’intentions et de volonté consciente. Or la matière vivante n’est pas
+   consciente ! Utiliser une explication « finaliste » (dire que la
+   matière vivante a des objectifs conscients) est problématique, car
+   c’est une fausse explication : cela consiste à inventer une « volonté
+   consciente » (soit un dieu, soit la matière vivante elle-même) pour
+   expliquer le fonctionnement des corps vivants. C’est comme si on
+   expliquait le mouvement des planètes en disant qu’elles « ont pour but
+   conscient de tourner en rond autour du Soleil » plutôt que de chercher
+   des lois comme la loi de la gravitation ! Votre corps n’a pas
+   « décidé » de fabriquer vos yeux pour voir, et ce n’est pas un dieu qui
+   l’a décidé non plus. Il ne faut donc pas être finaliste. Mais il faut
+   bien admettre, comme Kant l’a fait, que c’est « comme si » les poumons
+   étaient « faits pour » la respiration. Un problème important se pose
+   donc ici : si ce n’est pas l’être humain ou un dieu qui a doté les
+   organismes de fonctions, et si la matière elle-même ne peut pas être
+   douée d’intentions et d’objectifs, comment expliquer l’existence de
+   « fonctions » des organes ? La notion de « programme génétique »
+   élaborée au 20^e siècle, qui compare les informations contenues dans le
+   code génétique à un programme informatique, explique comment un
+   organisme vivant semble obéir à une certaine « logique » qui ne soit
+   pourtant pas quelque chose de conscient, comme le biologiste François
+   Jacob par exemple l’a expliqué : les informations contenues dans les
+   gènes guideraient la formation des organes « pour » qu’ils remplissent
+   certaines fonctions. Cela ne veut pas dire que les gènes ont une
+   volonté : ils seraient comme un programme informatique, et suivraient
+   une certaine « logique » mais sans que cela soit conscient. Mais avant
+   l’hypothèse du programme génétique, c’est notamment grâce à la théorie
+   de l’évolution par sélection naturelle, formulée par Darwin au 19^e
+   siècle, que la biologie a réussi à expliquer scientifiquement
+   l’existence de fonctions dans les corps vivants. C’est ce que nous
+   allons expliquer maintenant.
+
+   2. Comment expliquer de manière « scientifique » les corps vivants et
+   leurs caractéristiques ?
+
+   a. La théorie de l’évolution par sélection naturelle
+
+   La théorie de l’évolution par sélection naturelle affirme que les
+   espèces (et non les individus au sein d’une espèce) évoluent au cours
+   du temps : elles se transforment par un mécanisme qu’on appelle la
+   « sélection naturelle ». Cette sélection naturelle est aveugle : elle
+   n’est pas consciente (la nature ne choisit pas telle ou telle
+   évolution), et elle opère au sein d’une même espèce (compétition entre
+   les individus d’une même espèce) et entre différentes espèces
+   (compétition entre différentes espèces). Le mécanisme est le suivant :
+   les individus existant à un temps t différent entre eux par certaines
+   caractéristiques (liées à des mutations génétiques par exemple). En
+   fonction de l’environnement dans lequel vivent ces différents
+   individus, certains seront avantagés par leurs caractéristiques (c’est
+   ce qu’on appelle un « avantage adaptatif »). Par exemple, certains
+   pourront plus aisément se camoufler que d’autres. Ainsi, c’est
+   l’environnement qui opère – sans volonté consciente, sans « fin » – une
+   sélection des variations qui sont apparues, par le hasard des mutations
+   génétiques, au sein des espèces vivantes : seuls certains individus
+   survivront et pourront avoir une descendance qui héritera de certains
+   de leurs traits. Cela permet d’expliquer pourquoi les corps vivants ont
+   des fonctions : ce sont tout simplement des variations ou capacités qui
+   ont été sélectionnées, de manière aveugle et aléatoire, par un certain
+   environnement à un moment donné parce qu’elles apportaient aux
+   individus porteurs de ces variations des « avantages adaptatifs » (ces
+   individus étaient plus adaptés à leur environnement que ceux ne portant
+   pas les mêmes variations). On a donc une explication scientifique des
+   fonctions du corps vivant : ce n’est pas un être humain ou un dieu qui
+   a donné des fonctions au corps vivant, et ce n’est pas non plus la
+   matière vivante qui a des objectifs conscients ; c’est simplement le
+   résultat d’un mécanisme aveugle (donc non conscient) de sélection
+   naturelle de certaines propriétés de la matière vivante par
+   l’environnement.
+
+   La théorie de l’évolution par sélection naturelle est une théorie
+   scientifique – contrairement au créationnisme qui affirme que les
+   espèces ont été créées et qu’elles n’évoluent pas – car elle refuse le
+   finalisme et peut être testée expérimentalement, même si elle est
+   peut-être moins facile à tester que d’autres théories scientifiques.
+   L’expérimentation est essentielle pour qu’une théorie puisse être
+   reconnue comme « scientifique ». Et c’est parce que la biologie et la
+   médecine sont devenues des sciences expérimentales qu’une véritable
+   science de la vie a pu se développer. Pourtant, est-il possible
+   d’expérimenter sur les corps vivants sans perturber leur
+   fonctionnement, et donc sans fausser les résultats des expériences ?
+
+   b. Il est possible d’expérimenter sur les corps vivants, en prenant en
+   compte leur « déterminisme complexe »
+
+   L’expérimentation sur les corps vivants existe depuis bien avant le
+   19^e siècle, mais un changement important a lieu au 19^e siècle.
+   Peut-on expérimenter sur les corps vivants comme sur les corps
+   inertes ? Et si cela n’est pas possible, peut-on malgré tout
+   expérimenter de manière « scientifique », « fiable », sur les corps
+   vivants ? Le médecin Claude Bernard parvient à montrer qu’il est
+   possible d’expérimenter scientifiquement sur les corps vivants,
+   c’est-à-dire sans que cela « fausse » nécessairement les résultats. Il
+   s’oppose aux « anatomistes » qui affirmaient qu’on ne pouvait
+   expérimenter que sur les corps morts : car si l’on expérimente sur un
+   corps vivant, cela perturbe son fonctionnement, et donc les résultats
+   ne sont plus valables. Claude Bernard rejette ce raisonnement :
+   l’expérimentation sur un corps en train de vivre perturbe son
+   fonctionnement, mais cette perturbation nous apprend quelque chose.
+   Sectionner un nerf facial sur un animal en vie (préalablement endormi
+   ou anesthésié) perturbe le fonctionnement du visage, mais justement,
+   cela nous apprend précisément à quoi sert ce nerf ! Bien sûr,
+   expérimenter sur un corps vivant est plus complexe qu’expérimenter sur
+   un corps mort ou sur un système physico-chimique (un gaz, un fluide par
+   exemple), car un corps vivant réagira de manière complexe à
+   l’intervention. Par exemple, on peut prédire le comportement d’un gaz
+   en connaissant ses composants (molécules) et certaines lois physiques :
+   si l’on chauffe un gaz, on peut déterminer avec certitude que
+   l’agitation des molécules sera, à pression constante, plus grande
+   qu’avant d’avoir chauffé le gaz. Mais si l’on élève la température du
+   lieu où se trouve un corps vivant, que se passera-t-il ? Peut-on le
+   prédire avec certitude ? Non, cela est impossible, car le corps vivant
+   ne va pas réagir uniquement en fonction de ses composants (molécules,
+   cellules, organes) et de lois physico-chimiques : il réagira aussi en
+   tant que tout, en tant que totalité organique « solidaire ». Si l’on
+   élève la température du lieu où se trouve un corps vivant, la
+   température générale du corps va certes s’élever, mais pas au-dessus
+   d’un certain seuil, car l’organisme régule sa propre température (du
+   moins dans le cas des animaux à sang chaud). Pour résumer, expérimenter
+   sur les corps vivants est possible, et c’est ce qui rend la biologie et
+   la médecine scientifiques, mais cela reste très complexe, car toute
+   intervention entraînera de multiples réactions en chaîne. On peut donc
+   bien étudier les corps vivants de manière « scientifique », par
+   l’expérimentation, mais cela ne veut pas dire que l’on peut faire en
+   biologie (sur des corps vivants) comme on fait en physique et en chimie
+   (sur des corps inertes).
+
+   c. La biologie, science de la vie, a-t-elle fait disparaître le
+   « mystère » de la vie ?
+
+   L’emploi du terme « biologie » pour désigner une science de tous les
+   êtres vivants apparait au début du 19^e siècle et la biologie devient
+   une véritable théorie scientifique au cours du 19^e et du 20^e siècles
+   en raison de développements conceptuels importants : l’élaboration de
+   la théorie cellulaire (qui affirme que tout être vivant est composé de
+   cellules, et que toute cellule provient d’une cellule préexistante) et
+   de la théorie de l’évolution par sélection naturelle au 19^e siècle,
+   puis le développement de la génétique (étude des molécules de
+   l’hérédité), de la biochimie (étude des molécules complexes comme les
+   protéines) et de la biologie moléculaire (étude des macromolécules
+   comme l’ADN) au 20^e siècle. Comme on l’a montré, l’’étude du vivant
+   n’est pas devenue scientifique seulement par ses théories : elle est
+   devenue scientifique également par son recours à l’expérimentation.
+   Mais le fait que l’on soit capable, aujourd’hui, de connaître
+   scientifiquement le vivant (le corps vivant et le monde vivant) ne veut
+   pas dire que tous les mystères de la vie ont disparu. A l’heure
+   actuelle, les chercheurs font encore face à des questions difficiles :
+   comment la vie est-elle apparue ? Arrivera-t-on à créer de la vie en
+   laboratoire ? Est-il possible qu’il existe d’autres formes de vie (une
+   vie extraterrestre par exemple) ? Ces questions montrent que la vie
+   conserve encore certains mystères qui constituent de véritables défis
+   pour les scientifiques.
+
+   Conclusion
+
+   Le vivant est un objet d’étude complexe dont l’étude scientifique doit
+   articuler théorie et expérimentation. Mais ce qui semble peut-être le
+   plus intriguant, c’est la limite extrêmement problématique qui existe
+   entre le vivant et le non-vivant. Il existe des corps naturels qui sont
+   parfois inertes, et parfois vivants ! De plus, il n’est pas sûr que
+   l’on pourra toujours distinguer clairement entre une machine et un
+   organisme. Les œuvres de science-fiction regorgent déjà de robots dotés
+   de sensibilité. Dans le film Blade Runner (adapté du roman de Philip K.
+   Dick dont le titre anglais est Do Androids dream of electric sheep ?,
+   « Est-ce que les androïdes rêvent de mouton électrique ? »), certains
+   robots sont capables de sentiments comme l’amour, et de sensibilité,
+   puisqu’ils peuvent ressentir la douleur et réagir en fonction de cette
+   douleur. Dans le film I, Robot (« moi, robot ») adapté des nouvelles de
+   Isaac Asimov, les robots deviennent capables de ressentir des émotions,
+   et se rassemblent comme « instinctivement », comme le feraient des
+   êtres vivants pour se rassurer ! Des chercheurs travaillent aujourd’hui
+   à apprendre aux robots à reconnaître les émotions humaines… si de tels
+   robots, sensibles, existent un jour, devrons-nous, en tant qu’être
+   humain, nous comporter envers eux comme envers un véritable être
+   vivant ? Ce sera au futur de répondre à ces questions, et à nous, en
+   tant qu’êtres humains, de choisir le monde dans lequel nous décidons de
+   vivre.
+
+   Bibliographie
+
+   Canguilhem, Georges, « Vie », Encyclopedia Universalis en ligne,
+   1974Cet article présente les nombreuses façons dont la vie a été pensée
+   et étudiée : la vie comme animation, comme mécanisme, comme
+   organisation et aussi comme information (où l’organisme est comme une
+   machine capable de réguler son fonctionnement par un programme, comme
+   une machine à thermostat peut réguler sa température).
+
+   David, Patrice & Samadi, Sarah, La Théorie de l’évolution. Une logique
+   pour la biologie, Champs Université Flammarion, 2000Ce livre donne une
+   description très claire de la théorie de l’évolution. Le chapitre I en
+   particulier pose les grands principes de cette théorie.
+
+   Gould, Stephen Jay, Darwin et les grandes énigmes de la vie. Réflexions
+   sur l’histoire naturelle, Seuil, 1997Cet ouvrage fait de petits
+   chapitres indépendants rend accessibles et passionnantes l’histoire
+   naturelle et l’évolution des êtres vivants, en abordant aussi des
+   réflexions plus sociales et politiques sur le racisme ou le Q.I par
+   exemple.
+
+   Jacob, François, La Logique du vivant. Une histoire de l’hérédité,
+   Editions Gallimard, 1970Ce livre présente la biologie en insistant en
+   particulier sur la notion de programme (l’introduction montre
+   l’importance de cette notion dans la compréhension des êtres vivants).
+
+   Gladys Kostyrka
+
+   Institut d’Histoire et de Philosophie des Sciences et des Techniques
+
+   gladys.kostyrka@wanadoo.fr
+   Contact
+   AHP Huma-Num CNRS UL

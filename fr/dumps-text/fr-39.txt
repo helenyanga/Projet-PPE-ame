@@ -1,0 +1,1990 @@
+   #Modifier Wikipédia (fr) Flux Atom de Wikipédia
+
+   Aller au contenu
+
+   [ ] Menu principal
+   Menu principal
+   (BUTTON) déplacer vers la barre latérale (BUTTON) masquer
+   Navigation
+     * Page d’accueil
+     * Portails thématiques
+     * Article au hasard
+     * Contact
+
+   Contribuer
+     * Débuter sur Wikipédia
+     * Aide
+     * Communauté
+     * Pages spéciales
+     * Modifications récentes
+
+   Wikipédia l'encyclopédie libre
+   Rechercher
+   ____________________
+   (BUTTON) Rechercher
+
+   [ ] Apparence
+
+     * Faire un don
+     * Créer un compte
+     * Se connecter
+
+   [ ] Outils personnels
+     * Faire un don
+     * Créer un compte
+     * Se connecter
+
+Sommaire
+
+   (BUTTON) déplacer vers la barre latérale (BUTTON) masquer
+     * Début
+     * 1 Origine du terme
+     * 2 Définition
+     * 3 Métaphysique générale
+       (BUTTON) Afficher / masquer la sous-section Métaphysique générale
+          + 3.1 L'ontologie
+          + 3.2 Existence
+          + 3.3 Les catégories
+          + 3.4 Substance et essence
+          + 3.5 Modalités : le possible, le réel, l'impossible
+          + 3.6 Puissance et acte
+          + 3.7 Contingent et nécessaire
+          + 3.8 Causalité
+          + 3.9 Identité et contraire
+          + 3.10 Fini et infini
+          + 3.11 Le relatif et l'absolu
+          + 3.12 L'imparfait et le parfait
+          + 3.13 La vérité
+          + 3.14 Les jugements
+          + 3.15 Les idées platoniciennes
+     * 4 Métaphysique spéciale
+       (BUTTON) Afficher / masquer la sous-section Métaphysique spéciale
+          + 4.1 L'âme et ses relations au corps
+               o 4.1.1 Immortalité de l'âme
+          + 4.2 Dieu : problèmes de son existence et de son essence
+          + 4.3 La liberté : libre-arbitre et déterminisme
+     * 5 Critiques de la métaphysique
+       (BUTTON) Afficher / masquer la sous-section Critiques de la
+       métaphysique
+          + 5.1 Bourdieu
+          + 5.2 Bouveresse
+          + 5.3 Derrida
+          + 5.4 Étienne Gilson
+          + 5.5 Hegel
+          + 5.6 Heidegger
+          + 5.7 Kant
+          + 5.8 Marx
+          + 5.9 Nietzsche
+          + 5.10 Positivisme
+               o 5.10.1 Auguste Comte
+     * 6 La métaphysique et sa fonction
+       (BUTTON) Afficher / masquer la sous-section La métaphysique et sa
+       fonction
+          + 6.1 Une science contestée
+          + 6.2 Une science nécessaire
+          + 6.3 Structure de la métaphysique
+               o 6.3.1 Dynamique
+               o 6.3.2 Fondements
+               o 6.3.3 Ontothéologie
+               o 6.3.4 Analogie
+     * 7 Les systèmes métaphysiques
+       (BUTTON) Afficher / masquer la sous-section Les systèmes
+       métaphysiques
+          + 7.1 Les principaux systèmes
+          + 7.2 Métaphysique analytique
+          + 7.3 Une ligne et un destin: l’oubli de l’être
+     * 8 La métaphysique comme moteur de l’histoire occidentale
+       (BUTTON) Afficher / masquer la sous-section La métaphysique comme
+       moteur de l’histoire occidentale
+          + 8.1 La dynamique interne
+          + 8.2 Les époques de la métaphysique
+          + 8.3 L’achèvement de la métaphysique : la technique
+          + 8.4 Le dépassement de la métaphysique
+     * 9 Notes et références
+       (BUTTON) Afficher / masquer la sous-section Notes et références
+          + 9.1 Notes
+          + 9.2 Références
+     * 10 Voir aussi
+       (BUTTON) Afficher / masquer la sous-section Voir aussi
+          + 10.1 Bibliographie
+          + 10.2 Articles connexes
+          + 10.3 Liens externes
+
+   [ ] Basculer la table des matières
+
+Métaphysique
+
+   [ ] 125 langues
+     * Afrikaans
+     * Alemannisch
+     * አማርኛ
+     * अंगिका
+     * العربية
+     * مصرى
+     * Asturianu
+     * अवधी
+     * Azərbaycanca
+     * Boarisch
+     * Беларуская
+     * Беларуская (тарашкевіца)
+     * Български
+     * বাংলা
+     * Brezhoneg
+     * Bosanski
+     * Català
+     * کوردی
+     * Čeština
+     * Чӑвашла
+     * Cymraeg
+     * Dansk
+     * Deutsch
+     * Ελληνικά
+     * English
+     * Esperanto
+     * Español
+     * Eesti
+     * Euskara
+     * فارسی
+     * Suomi
+     * Võro
+     * Frysk
+     * Gaeilge
+     * 贛語
+     * Kriyòl gwiyannen
+     * Galego
+     * עברית
+     * हिन्दी
+     * Hrvatski
+     * Kreyòl ayisyen
+     * Magyar
+     * Հայերեն
+     * Interlingua
+     * Bahasa Indonesia
+     * Ido
+     * Íslenska
+     * Italiano
+     * 日本語
+     * Patois
+     * Jawa
+     * ქართული
+     * Taqbaylit
+     * Kabɩyɛ
+     * Қазақша
+     * ភាសាខ្មែរ
+     * 한국어
+     * Kurdî
+     * Кыргызча
+     * Latina
+     * Lëtzebuergesch
+     * Lingua Franca Nova
+     * Ligure
+     * Ladin
+     * Lietuvių
+     * Latviešu
+     * मैथिली
+     * Malagasy
+     * Minangkabau
+     * Македонски
+     * മലയാളം
+     * Монгол
+     * Bahasa Melayu
+     * Mirandés
+     * မြန်မာဘာသာ
+     * Plattdüütsch
+     * नेपाली
+     * नेपाल भाषा
+     * Nederlands
+     * Norsk nynorsk
+     * Norsk bokmål
+     * Occitan
+     * Oromoo
+     * ਪੰਜਾਬੀ
+     * Polski
+     * Piemontèis
+     * پنجابی
+     * پښتو
+     * Português
+     * Română
+     * Русский
+     * Русиньскый
+     * संस्कृतम्
+     * Саха тыла
+     * Sicilianu
+     * سنڌي
+     * Srpskohrvatski / српскохрватски
+     * Simple English
+     * Slovenčina
+     * Slovenščina
+     * Shqip
+     * Српски / srpski
+     * Svenska
+     * Kiswahili
+     * தமிழ்
+     * తెలుగు
+     * Тоҷикӣ
+     * ไทย
+     * Tagalog
+     * Türkçe
+     * Українська
+     * اردو
+     * Oʻzbekcha / ўзбекча
+     * Vèneto
+     * Tiếng Việt
+     * Volapük
+     * Winaray
+     * 吴语
+     * ייִדיש
+     * ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴰⵏⴰⵡⴰⵢⵜ
+     * 中文
+     * 文言
+     * 閩南語 / Bân-lâm-gí
+     * 粵語
+     * IsiZulu
+
+   Modifier les liens
+
+     * Article
+     * Discussion
+
+   [ ] français
+
+     * Lire
+     * Modifier
+     * Modifier le code
+     * Voir l’historique
+
+   [ ] Outils
+   Outils
+   (BUTTON) déplacer vers la barre latérale (BUTTON) masquer
+   Actions
+     * Lire
+     * Modifier
+     * Modifier le code
+     * Voir l’historique
+
+   Général
+     * Pages liées
+     * Suivi des pages liées
+     * Téléverser un fichier
+     * Lien permanent
+     * Informations sur la page
+     * Citer cette page
+     * Obtenir l'URL raccourcie
+     * Télécharger le code QR
+
+   Imprimer / exporter
+     * Créer un livre
+     * Télécharger comme PDF
+     * Version imprimable
+
+   Dans d’autres projets
+     * Wikimedia Commons
+     * Wikisource
+     * Wikiversité
+     * Élément Wikidata
+
+   Apparence
+   (BUTTON) déplacer vers la barre latérale (BUTTON) masquer
+   Un article de Wikipédia, l'encyclopédie libre.
+   Page d’aide sur l’homonymie
+
+   Pour les articles homonymes, voir Métaphysique (homonymie).
+   Si ce bandeau n'est plus pertinent, retirez-le. Cliquez ici pour en
+   savoir plus. Si ce bandeau n'est plus pertinent, retirez-le. Cliquez
+   ici pour en savoir plus.
+
+   Cet article doit être recyclé (novembre 2022).
+   Une réorganisation et une clarification du contenu paraissent
+   nécessaires. Améliorez-le, discutez des points à améliorer ou précisez
+   les sections à recycler en utilisant {{section à recycler}}.
+   Métaphysique
+   [330px-Meta-moerbeke_jpeg031-part.jpg]
+   Début du Livre Z de la Métaphysique d'Aristote : Ens dicitur
+   multipliciter (« Le mot être se dit en plusieurs sens »). Manuscrit
+   latin (traduit du grec) du XIV^e.
+    Partie de
+   Métaphilosophie (en) Voir et modifier les données sur Wikidata
+   Pratiqué par
+   Métaphysicien (d) Voir et modifier les données sur Wikidata
+      Objet
+   Premier moteur Voir et modifier les données sur Wikidata
+     Histoire
+   Histoire de la métaphysique Voir et modifier les données sur Wikidata
+
+   modifier - modifier le code - modifier Wikidata Documentation du modèle
+
+   La métaphysique est la branche de la philosophie qui étudie la nature
+   fondamentale de la réalité. Elle s'intéresse à des concepts tels que
+   l'être et l'identité, l'espace et le temps, la causalité, la nécessité
+   et la possibilité. Elle comprend notamment des questions sur la nature
+   de la conscience, l'âme et la relation entre l'esprit et la matière, ou
+   entre la substance et l'attribut.
+
+   La métaphysique est considérée comme l'une des quatre principales
+   branches de la philosophie, avec l'épistémologie (ou théorie de la
+   connaissance, ou encore gnoséologie en un sens plus large), la logique
+   et l'éthique^[1].
+
+   Le terme « métaphysique » prend des sens différents selon les auteurs
+   et les époques. Dans un de ses traités intitulé plus tard Métaphysique,
+   Aristote utilise l'expression « philosophie première » pour désigner un
+   type de science dont le caractère premier tient autant à son importance
+   qu'à sa dignité^[2] : la « science de l'être en tant qu'être ». La
+   métaphysique a depuis traditionnellement pour objet des notions
+   générales et abstraites telles que la substance des choses et leurs
+   prédicats (qualités, quantités, relations). Depuis l'usage du terme qui
+   en a été fait par la philosophie médiévale, la métaphysique est souvent
+   définie comme étant un champ de la philosophie qui porte sur le monde,
+   les choses ou les processus en tant qu'ils existent « au-delà » et
+   indépendamment de l'expérience sensible que nous en avons.
+
+   De nos jours, la métaphysique est une discipline dont la notion est
+   équivoque et qui recouvre aussi bien l'étude des réalités qui échappent
+   aux sens que la connaissance de ce que les choses sont en elles-mêmes,
+   indépendamment de nos représentations (« chose en soi »). Définie comme
+   science de ce qui existe en dehors du monde sensible, la métaphysique
+   se démarque de la physique et concerne des entités ou des processus
+   considérés comme immatériels et invisibles (l'âme, le « monde
+   intelligible », la « force vitale », etc.). Définie comme connaissance
+   de ce que les choses sont en elles-mêmes, la métaphysique se démarque
+   de la connaissance empirique des phénomènes, et peut en ce cas
+   recouvrir une partie du champ des sciences. Elle est alors associée à
+   une conception dite « réaliste » et détermine la portée ontologique des
+   théories (philosophiques ou scientifiques).
+
+   En philosophie analytique, les premiers développements originaux de la
+   métaphysique apparaissent au milieu du XX^e siècle, renouvelant la
+   discipline au sein de ce qu'il est désormais convenu d'appeler la
+   « métaphysique analytique ». Ne s'opposant aucunement à la science, la
+   métaphysique analytique utilise au contraire ses résultats, ou encore
+   s'intéresse aux ontologies qui sont présupposées par les activités ou
+   les discours scientifiques.
+
+Origine du terme
+
+   [modifier | modifier le code]
+
+   Les premiers livres qui définissent la métaphysique sont les ouvrages
+   d'Aristote situés, dès les sommaires antiques, après la Physique, en
+   grec meta ta phusika. Cette expression est traditionnellement attribuée
+   à Nicolas de Damas (premier siècle avant J.C.), dans sa reprise de la
+   classification des œuvres d'Aristote effectuée par son contemporain
+   Andronicos de Rhodes, mais une confusion probable entre ce premier
+   Nicolas et Nicolas de Laodicée (quatrième siècle après J.C.) rend la
+   datation de cette première occurrence très douteuse^[3]. Cette
+   désignation est ainsi donnée aux livres regroupés aujourd'hui sous le
+   nom de Métaphysique^[4]. Le sens du mot méta-physique est donc d'abord
+   éditorial, ce qui n'exclut nullement que les éditeurs antiques se
+   soient ici inspirés d'une manière d'organiser les connaissances issue
+   d'Aristote : la science des principes, qui est première en elle-même,
+   se situe bien « pour nous » après la connaissance de la physique.
+
+   Le sens du mot se modifie (le préfixe meta pouvant signifier "au-delà"
+   autant qu'"après") lorsque les platoniciens et néoplatoniciens y ont vu
+   le nom d'une discipline philosophique à part, qui porterait sur les
+   réalités au-delà de la physique (au-delà de ce que l'expérience de la
+   nature donne à voir). Cette conceptualisation du mot de métaphysique
+   est conforme à ce que Platon avait mis en place avec sa théorie des
+   Idées ainsi qu'avec la dimension platonisante de certains textes
+   d'Aristote concernant la philosophie première. Ainsi, Simplicius, dans
+   un Commentaire sur la Physique d'Aristote (~535), écrit :
+
+     « La discipline qui considère les réalités entièrement séparées de
+     la matière et la pure activité de l’intellect en acte et de
+     l’intellect en puissance, celle qui est élevée à lui du fait de
+     l’activité, tout cela ils l’appellent théologie, philosophie
+     première et métaphysique, puisque cela se situe au-delà des réalités
+     physiques^[5]. »
+
+   La scolastique médiévale a donné le sens de « par-delà la physique »
+   qui est désormais une définition courante donnée à la métaphysique. Si
+   ce sens du terme métaphysique doit sa structure à ce « dépassement » de
+   l'étant en direction de l’être, nous dit Martin Heidegger, elle
+   recouvre immédiatement cette racine en la transposant dans l'étant et
+   se transforme en recherche du premier d’entre eux, c'est-à-dire,
+   Dieu^[6].
+
+Définition
+
+   [modifier | modifier le code]
+
+   La métaphysique ne dispose pas d'une seule définition, car elle a pris
+   des sens différents selon les auteurs et les époques^[7].
+
+   Bien que le terme « métaphysique » soit absent du vocabulaire
+   d'Aristote, celui-ci est le premier à concevoir une « philosophie
+   première », qu'il définit comme « la science de l'être en tant
+   qu'être », ou « la science des premiers principes et des causes
+   premières »^[8].
+
+   Emmanuel Kant redéfinit la métaphysique en tant que discipline ayant
+   pour objectif de s’élever jusqu'à la connaissance du « suprasensible »,
+   c'est-à-dire à la connaissance des objets inaccessibles à l'expérience
+   sensible. Ses objets principaux sont l'âme, le monde et Dieu, en quoi
+   la métaphysique recoupe en partie le domaine de la « théologie »^[7].
+   Pour Kant, « La métaphysique est la science qui contient les premiers
+   fondements de ce que saisit le savoir humain. Elle est science des
+   principes de l'étant et non pas des principes de la connaissance »^[9].
+   En ce sens, la métaphysique s’oppose à la physique.
+
+   L’être en tant qu’il apparaît aux sens ou à la conscience, l’ensemble
+   des phénomènes, est étudié par les sciences expérimentales et par la
+   psychologie. Le métaphysicien cherche à dépasser les apparences, à
+   saisir l’être. Il se demande, par exemple, si le monde extérieur est
+   réel au-delà des consciences qui le perçoivent. La science explique les
+   phénomènes par d’autres phénomènes, c’est-à-dire par des causes
+   secondes. Le métaphysicien tâche d’atteindre les causes, ou la cause,
+   dont tout dépend, les causes ou la cause première, les premiers
+   principes : Dieu pour le théiste ou le panthéiste, la matière pour le
+   matérialiste.^[réf. nécessaire]
+
+   La métaphysique est aussi définie comme « la science de l’absolu »^[7].
+   Les sciences s’appliquent à des phénomènes subjectivement et
+   objectivement relatifs : relatifs à l’esprit qui les pense, relatifs
+   les uns aux autres, puisqu’ils se conditionnent les uns les autres. Le
+   métaphysicien aspire à l’inconditionné, à l'absolu.^[réf. nécessaire]
+
+   Si l’on refuse, comme Auguste Comte, d’appliquer à la métaphysique le
+   terme de science, on peut néanmoins la comprendre comme « un effort
+   pour résoudre les problèmes posés par-delà
+   l’expérience ».^[réf. nécessaire] Le métaphysicien ne peut, en
+   utilisant la seule expérience externe ou interne, affirmer ou nier la
+   réalité du monde sensible, l’immortalité de l’âme, l’existence de Dieu.
+   C’est par des raisonnements basés sur certains faits que le
+   métaphysicien cherche à résoudre ces grands problèmes^[10].
+
+   On distingue généralement la métaphysique générale de la métaphysique
+   spéciale.^[réf. nécessaire] La métaphysique générale ou ontologie
+   étudie l'être en tant qu'être. Elle vise à répondre à la question la
+   plus générale : « Qu'est-ce que l'être ? », ce qui la conduit à étudier
+   des notions telles que la substance, l'essence, la forme et la matière,
+   l'individu, les faits, les événements, les propriétés, les tropes, les
+   relations, etc. La métaphysique spéciale regroupe l'étude de domaines
+   particuliers d'êtres. Elle est généralement divisée comme suit :
+     * La cosmologie rationnelle, étude du monde extérieur.
+     * La psychologie rationnelle, étude de l'âme.
+     * La théologie rationnelle, étude de Dieu.
+
+   L'adjectif « rationnelle » appliqué à la cosmologie et à la psychologie
+   vise à les distinguer de la physique et de la psychologie
+   expérimentales. Appliqué à la théologie, il la distingue des théologies
+   révélées que l’on rencontre dans les différentes religions
+   historiques^[10].
+
+   En tant qu'elle vise la connaissance de la nature même des choses, la
+   métaphysique est, selon ses développements, associée à une conception
+   réaliste de la connaissance (réalisme épistémologique), qui peut être
+   aussi bien idéaliste, spiritualiste que matérialiste. Elle qualifie
+   alors la portée ontologique des théories (philosophiques ou
+   scientifiques)^[11], c'est-à-dire ce qui en elles décrit la réalité.
+   Si ce bandeau n'est plus pertinent, retirez-le. Cliquez ici pour en
+   savoir plus. Si ce bandeau n'est plus pertinent, retirez-le. Cliquez
+   ici pour en savoir plus.
+
+   La section qui suit semble contenir une synthèse inédite de sources non
+   directement liées au sujet de l'article ou de sources primaires (juin
+   2025).
+   Vous pouvez aider en ajoutant des sources secondaires centrées sur le
+   sujet de l'article ou en supprimant le contenu problématique. Voir la
+   page de discussion pour plus de détails.
+
+Métaphysique générale
+
+   [modifier | modifier le code]
+
+L'ontologie
+
+   [modifier | modifier le code]
+
+   L’ontologie est l'étude de « l'être en tant qu'être ».
+
+   Dans un sens strict, l’être s’oppose au phénomène, ce qui est à ce qui
+   apparaît : c’est le permanent opposé au transitoire, la substance au
+   mode.
+
+   Mais dans un sens général, l’être s’applique à tout ce qui participe à
+   l’existence, et non seulement à l’existence actuelle, mais à
+   l’existence future, ou possible, ou même purement idéale : car tout
+   cela est encore de l’être.
+
+   On peut distinguer divers modes de l’être :
+     * le possible, le réel et l’impossible,
+     * le contingent et le nécessaire,
+     * le fini et l’infini,
+     * le relatif et l’absolu,
+     * l’imparfait et le parfait^[12].
+
+Existence
+
+   [modifier | modifier le code]
+   Article détaillé : Existence (philosophie).
+
+   Un des modes d'être caractérisé par le fait d'être au monde^[13]. Cette
+   chose la plus évidente qui soit, est précisément la plus difficile à
+   définir. On parle d'être réel, mais qu'est-ce qu'être réel, sinon
+   exister. « Pour les scolastiques l’exister désignait l’acte par lequel
+   un sujet accède à l’être en vertu de son origine »^[14]^,^[15]. Gilson
+   parle d’une dévaluation du verbe « être » au profit du verbe
+   « exister ». Dans la perspective classique il est question de
+   distinguer l’existant du simple possible. Avec Heidegger le terme
+   d’existence est réservé à l’être humain^[N 1], les autres choses du
+   monde seront simplement là, « sous-la-main » selon la traduction
+   littérale d’une expression allemande.
+
+Les catégories
+
+   [modifier | modifier le code]
+   Article détaillé : Catégories (Aristote).
+
+   Le terme de catégorie apparaît chez Aristote, il désigne sous forme
+   accusatoire ce qui relève d’une logique qui s’interroge sur le sens :
+   quoi ? combien ? comment ? qui deviendront dans le vocabulaire
+   métaphysique : substance, quantité, qualité et le relatif^[12].
+   Aristote distingue dix catégories de l'être :
+     * La substance (ousia en grec).
+
+     * La quantité, c’est-à-dire tout ce qui est susceptible de plus ou de
+       moins, ou, dans un sens plus précis, tout ce qui est susceptible de
+       mesure.
+     * La qualité : c’est toute disposition ou manière d’être d’une chose,
+       à l’exception de la quantité. Les qualités peuvent être
+       inséparables de l’être, et alors elles en constituent l’essence ;
+       ou bien elles peuvent lui appartenir passagèrement, et elles ne
+       sont plus que l’accident.
+     * La relation, rapport d’une chose à une autre, ou tout ce qui marque
+       comparaison, comme : semblable, égal, plus grand, plus petit, etc.
+     * L’action, qui a lieu quand le sujet est cause de ses modes.
+       L’action est immanente, quand on agit en soi-même (par exemple :
+       penser), ou transitive lorsqu’elle passe à un autre sujet (par
+       exemple : chauffer, éclairer).
+     * La passion, qui a lieu quand le sujet reçoit ses modes d’ailleurs.
+     * Le lieu.
+     * Le temps.
+     * La situation, ou disposition des corps par rapport à l’espace.
+     * La possession, ou l’acte d’avoir quelque chose à soi.
+
+   Pour Aristote, la catégorie de la substance est la plus importante car
+   c’est vis-à-vis d’elle que se déclinent toutes les autres^[16].
+
+Substance et essence
+
+   [modifier | modifier le code]
+   Articles détaillés : Essence (philosophie) et Substance (philosophie).
+
+   La substance, première des catégories de l’être pour Aristote, désigne
+   à la fois le support et le fond solide de chaque chose.
+
+   La substance s'oppose au mode, l’être s'oppose au phénomène. On appelle
+   mode ou phénomène tout ce qui tombe sous l’observation externe et
+   interne. Les modes ont deux caractères principaux : ils sont multiples
+   et muables.
+
+   Or, pour Aristote, l’esprit conçoit la nécessité de quelque chose qui
+   établisse un lien entre les phénomènes et qui leur donne l’unité, et en
+   second lieu d’un support ou substrat qui persiste et demeure le même
+   pendant que les phénomènes changent et passent.
+
+   Enfin un autre caractère de la substance, c’est que, tout en restant
+   une seule et même chose, elle peut recevoir les contraires^[17].
+
+   Cependant l’expression de substrat ou de support ne désigne pas une
+   substance cachée ou enveloppée sous les phénomènes. La notion de
+   substance ne signifie rien autre chose, si ce n’est qu’un être n’est
+   pas épuisé tout entier par ses manifestations externes. Il est en soi,
+   il a un dedans, il est : il s’agit de ne pas faire du phénomène
+   lui-même quelque chose de substantiel^[18].
+
+   De même que l’on oppose la substance au mode, on oppose aussi l’essence
+   à l’accident. L’essence comprend les propriétés constantes et
+   permanentes de l’être et principalement celles d’où dérivent toutes les
+   autres. L’accident est le phénomène qui peut se produire ou ne pas se
+   produire, sans que la nature de l’être en soit affectée^[19]
+
+Modalités : le possible, le réel, l'impossible
+
+   [modifier | modifier le code]
+
+   On appelle possible tout ce qui n’implique pas de contradiction. La
+   possibilité est indépendante de la probabilité : l'événement le plus
+   improbable est possible tant qu'il n'implique aucune contradiction. Le
+   possible, dans ce sens, s’oppose à l’impossible, qui n’est autre que le
+   contradictoire.
+
+   Le possible s’oppose encore au réel. Le réel est ce qui est
+   actuellement donné. Le possible est ce qui est susceptible d’être
+   donné, mais ne l’est pas nécessairement. Il s’ensuit qu’on peut
+   conclure du réel au possible, mais non réciproquement.
+
+   Le possible ainsi entendu est possible absolu. Le possible relatif est
+   celui qui est d’accord avec les lois de l’expérience et avec les
+   phénomènes antécédents. Il est possible, de manière absolue, que tel
+   événement n'ait pas dû se produire nécessairement. Mais étant donnés
+   les circonstances antécédentes, cela peut avoir été relativement
+   impossible^[19].
+
+Puissance et acte
+
+   [modifier | modifier le code]
+
+   Puissance et Acte (voir Puissance et acte) se définissent l’un par
+   rapport à l’autre, ainsi la puissance est la possibilité ou la capacité
+   du passage à l’acte. L’acte correspond à la réalisation par un être de
+   son essence ou forme, par opposition à ce qui est en puissance^[20].
+
+   Aristote distingue ainsi deux modes de l’être : l’être en puissance et
+   l’être en acte, le potentiel (ou virtuel) et l’actuel. L’être en
+   puissance, c’est l’être qui contient déjà, mais non développé, ce qu’il
+   doit être. Pour Aristote, c'est l’enfant par rapport à l’homme, le
+   gland par rapport au chêne, etc.
+
+   Le potentiel n’est pas la même chose que le possible. Le possible est
+   une notion toute logique, c’est ce qui ne se contredit pas soi-même ou
+   ne contredit pas les données générales de l’expérience. Le potentiel
+   (ou virtuel), c’est ce qui existe déjà, mais d’une manière incomplète,
+   c’est ce qui tend à exister, c’est ce qui existera si rien ne
+   l’empêche^[21].
+
+Contingent et nécessaire
+
+   [modifier | modifier le code]
+
+   Le contingent est ce qui peut être ou ne pas être. Cependant le
+   contingent n’est pas le possible : car le possible n’est pas encore,
+   tandis que le contingent existe ou existera, mais de telle sorte que
+   l’on peut toujours concevoir sa non-existence^[22].
+
+   Le nécessaire, c’est ce dont le contraire est impossible. Il y a deux
+   sortes de nécessité : la nécessité logique, fondée sur le principe de
+   contradiction, et la nécessité réelle, fondée sur le principe de
+   causalité.
+
+   Le déterminé, c’est ce qui est tel ou tel, qui a telle qualité et non
+   pas telle autre, tel degré et non pas tel autre. L’indéterminé est ce
+   qui est susceptible d’être déterminé, mais ne l’est pas encore. Pour
+   Spinoza et les philosophes déterministes, rien n’existe qui ne soit
+   déterminé^[23].
+
+Causalité
+
+   [modifier | modifier le code]
+   Articles détaillés : Cause et causalité.
+
+   Par « cause » la métaphysique entend quelque chose de plus ample que le
+   sens commun, « l’ensemble de tous les principes à l’origine de l’être
+   de l'étant visé ». Dans cette optique, Aristote, et après lui Thomas
+   d’Aquin, développent la théorie des quatre causes.
+     * La cause efficiente, qui peut être définie : ce qui étant posé, il
+       faut que quelque chose s’ensuive. Par exemple, posé que le feu
+       touche ma main, il s’ensuit de là qu’elle est brûlée.
+     * La cause finale, qui montre pour quel dessein est une chose, et
+       peut être définie : à quelle fin est une chose.
+     * La cause matérielle, qui explique de quoi une chose est composée,
+       et peut être définie : ce dont une chose est faite. Par exemple,
+       cette statue est faite de bronze ou de marbre.
+     * La cause formelle, qui dit de quelle manière la chose est, et
+       quelles en sont les propriétés. On peut la définir : ce qui fait
+       qu’une chose est appelée telle ou telle. Par exemple, une chose est
+       dite ronde parce qu’elle a de la rondeur^[24].
+
+   On divise la cause efficiente en cause première et cause seconde.
+
+   La cause première est celle qui donne proprement le fond de l’être. La
+   cause seconde, au contraire, façonne seulement la chose, et ne fait pas
+   absolument qu’elle soit. Par exemple, le sculpteur ne fait pas le
+   marbre, mais, le trouvant déjà fait, il le façonne : il est la cause
+   seconde d'une sculpture.
+
+Identité et contraire
+
+   [modifier | modifier le code]
+
+   L’unité est ou mathématique ou métaphysique. L’unité mathématique est
+   une grandeur prise pour terme de comparaison entre plusieurs grandeurs
+   de même espèce. L’unité métaphysique est l’absence de parties ou de
+   composition. Le type de l’unité est dans la conscience du moi^[25].
+
+   L’identité est la propriété qu’a un être de rester le même à plusieurs
+   moments de la durée^[26].
+
+   La similitude est la propriété qu’ont plusieurs êtres d’avoir des
+   caractères communs : la différence est ce qui les distingue les uns des
+   autres. On appelle principe d’individuation le principe en vertu duquel
+   un individu est distinct d’un autre^[27].
+
+   La distinction poussée à l’extrême s’appelle contrariété. Par exemple,
+   le blanc est l’opposé du noir. Lorsque l’opposition est telle que l’un
+   des contraires marque la négation expresse de l’autre (le blanc, le
+   non-blanc), c’est ce qu’on appelle le contradictoire^[28].
+
+   Cependant la coexistence des contraires n’est pas l’identité des
+   contraires, encore moins des contradictoires. Aristote, qui soutient le
+   principe de contradiction, affirme en même temps que la puissance
+   contient à la fois les deux contraires. Ils peuvent même se réaliser
+   tous les deux, soit successivement, soit à la fois, mais à des points
+   de vue différents.
+
+Fini et infini
+
+   [modifier | modifier le code]
+
+   Les objets qui tombent sous les sens ont des bornes, correspondant au
+   lieu où le corps cesse, à l’ensemble des points qui terminent sa
+   perception. De même, si l'on considère un objet par rapport à la durée,
+   on le perçoit comme ayant commencé ou comme finissant devant nous : le
+   commencement et la fin sont ses limites dans le temps, de même que la
+   figure des corps est leur limite dans l’espace^[29]. Ainsi tous les
+   objets perceptibles paraissent limités et finis à la conscience.
+
+   Il n'en est plus de même lorsqu'on veut appliquer cette idée, non plus
+   aux choses qui sont dans l’espace et dans le temps, mais à l’espace et
+   au temps eux-mêmes. On se représenter les limites du monde, car au-delà
+   du monde il peut y avoir le vide mais le vide lui-même n’a pas de
+   limites. Pour Platon, il en est de même du temps immobile, qu'il
+   appelle éternité : l'éternité est antérieure au temps créé, et c'était
+   encore du temps. C'est pourquoi Kant écrit que l’espace et le temps
+   nous sont donnés comme actuellement infinis^[30].
+
+Le relatif et l'absolu
+
+   [modifier | modifier le code]
+
+   On distingue l'infini et l'absolu. L'infini a rapport à la grandeur et
+   l'absolu à l’existence. L’absolu s’oppose au relatif, l’infini au fini.
+
+   L’absolu est proprement ce que Kant appelle l’inconditionnel,
+   c’est-à-dire ce qui n’exige aucune condition, ce qui ne dépend pas
+   d’autre chose. L’être absolu, c’est l’être qui ne dépend d’aucun autre
+   être, qui n’a besoin que de soi pour être, qui est à lui-même sa raison
+   d’être^[31]. L’absolu a rapport à l’indépendance des actes et l’infinie
+   à leur étendue.
+
+L'imparfait et le parfait
+
+   [modifier | modifier le code]
+
+   Il faut encore distinguer l’infini et l’absolu du parfait. L’infini a
+   rapport à la grandeur, l’absolu à l’existence, le parfait à la qualité.
+
+   On distingue dans tous les êtres des différences de qualité ou de
+   perfection. Tant que ces qualités ont des limites et qu’on en peut
+   supposer de supérieures, c’est ce qu'on appelle l'imparfait. Quand on
+   conçoit au contraire la qualité de l’être élevée à l’absolu, c’est ce
+   qu'on appelle le parfait^[32].
+
+La vérité
+
+   [modifier | modifier le code]
+   Article détaillé : vérité.
+
+   L’idée de vérité appartient comme l’idée de chose ou de liberté au
+   groupe des idées innées selon la doctrine innéiste. Au commencement de
+   la métaphysique^[33] et pour une longue période de son histoire, la
+   vérité a été définie comme adéquation de la pensée à la réalité. Il
+   faut attendre le XX^e siècle et notamment Husserl et Martin Heidegger
+   (voir Heidegger et la question de la vérité), pour que cette approche
+   soit remise sérieusement en cause. Heidegger reprend la question à
+   partir de l’entente grecque de la Vérité comme alètheia, c’est-à-dire
+   comme comportement du Dasein et non voilement de l'étant, reléguant
+   l'« adéquation de la chose à l’intellect » à une instance dérivée^[34].
+
+Les jugements
+
+   [modifier | modifier le code]
+   Article détaillé : Jugement (philosophie).
+
+   Un jugement est analytique lorsqu'il se contente d’expliciter le
+   contenu d’un concept. « Quand je dis tous les corps sont étendus, c’est
+   là un jugement analytique, car je n’ai pas besoin de sortir du concept
+   que je lie au mot corps pour trouver l'étendue unie avec lui ; il me
+   suffit de le décomposer, c’est-à-dire de prendre conscience des
+   éléments divers que je pense toujours en lui pour trouver ce
+   prédicat »^[35].
+
+   À la différence des jugements analytiques qui sont nécessairement a
+   priori (en ce qu'aucun recours à l’expérience n’est nécessaire pour les
+   formuler, une explicitation de l’implicite est la seule opération
+   qu'ils permettent d’accomplir), les jugements synthétiques lient
+   ensemble deux concepts qui ne sont pas évidemment liés (la cause avec
+   son effet par exemple). Sera synthétique le jugement dans lequel le
+   prédicat ajoute quelque chose au concept du sujet^[N 2].
+
+   Kant supposera qu'il existe une troisième sorte de jugements, celle qui
+   donne toute sa portée à sa « révolution copernicienne », les jugements
+   synthétiques a priori. Il estime que ceux-ci sont « universels et
+   nécessaires, comme les formules mathématiques », mais de plus qu'ils
+   nous permettraient d'étendre nos connaissances, alors que les jugements
+   analytiques ne pourraient que les expliquer ou les éclaircir^[36].
+   Cependant, ce type de jugements sera remis en cause par le Cercle de
+   Vienne et semble être aujourd'hui abandonné par une grande partie des
+   philosophes.
+
+Les idées platoniciennes
+
+   [modifier | modifier le code]
+   Article détaillé : Théorie des Idées.
+
+   Aspect, forme ou structure qui rend visible, fait voir la réalité d’une
+   chose, représente pour les philosophes platoniciens une forme
+   intelligible, soustraite au devenir^[37]. Aristote qui s’interroge sur
+   son statut ontologique, s’oppose au caractère séparé de l’idée que
+   Platon professait.
+
+   Si ce bandeau n'est plus pertinent, retirez-le. Cliquez ici pour en
+   savoir plus. Si ce bandeau n'est plus pertinent, retirez-le. Cliquez
+   ici pour en savoir plus.
+
+   La section qui suit semble contenir une synthèse inédite de sources non
+   directement liées au sujet de l'article ou de sources primaires (juin
+   2025).
+   Vous pouvez aider en ajoutant des sources secondaires centrées sur le
+   sujet de l'article ou en supprimant le contenu problématique. Voir la
+   page de discussion pour plus de détails.
+
+Métaphysique spéciale
+
+   [modifier | modifier le code]
+
+L'âme et ses relations au corps
+
+   [modifier | modifier le code]
+   Articles détaillés : âme, esprit et problème corps-esprit.
+
+   C’est en tant que « principe unificateur » de toutes les facultés que
+   la notion d'« âme » a été introduite en philosophie accompagnée de
+   problèmes qui lui sont propres, quant à ses fonctions, sa localisation
+   (cœur ou tête), sa nature (corporelle ou non), les êtres qui la
+   possèdent (tous les vivants, plantes et animaux, ou seulement
+   l’homme^[38]).
+
+   Loin des controverses sur sa nature corporelle ou sur la question de sa
+   localisation, ayant mobilisé les premiers penseurs de l'âme comme
+   Thalès, Héraclite ou Platon, Aristote est le premier à l’intégrer
+   rationnellement dans son système métaphysique. En comprenant l'âme
+   comme forme substantielle du corps, « il fait de celle-ci la forme d’un
+   corps naturel possédant la vie en puissance, étendant ainsi le concept
+   d'âme à l’ensemble des vivants ». Accessoirement ainsi conçue comme
+   forme du corps, la question de sa survie après la mort est négativement
+   tranchée, l'âme ne lui survit pas et n’est donc pas immortelle^[39].
+   Thomas d’Aquin, tout aristotélicien qu'il fut, combattra cette
+   conclusion en faisant de l'âme rationnelle une substance à part entière
+   que Saint Bonaventure qualifiera de « matière spirituelle »^[40].
+
+   Plus tard, la révolution cartésienne provoquera une nouvelle rupture
+   entre l'âme et le corps obligeant à repenser le problème de leur union.
+   En accentuant la distinction entre la sphère matérielle de l'étendue et
+   la sphère intellectuelle de la pensée, « Descartes rend impensable
+   toute forme intermédiaire ». Or il reste à expliquer comment des
+   mouvements dans l’ordre matériel nous affectent directement et la
+   possibilité d’un acte libre et volontaire. Chacun des philosophes du
+   XVII^e siècle avance sa propre solution : le « parallélisme » chez
+   Spinoza, l'« occasionnalisme » pour Malebranche, l'« harmonie
+   préétablie » pour Leibniz^[41].
+
+Immortalité de l'âme
+
+   [modifier | modifier le code]
+   Article détaillé : Vie après la mort.
+
+   L’immortalité de l'âme dépend de la substantialité de l'âme. Cette
+   problématique relève également de la théologie.
+
+Dieu : problèmes de son existence et de son essence
+
+   [modifier | modifier le code]
+
+   En principe, le Dieu personnel et créateur de la croyance monothéiste,
+   ne concerne pas la métaphysique ; en relève seul, le dieu de la
+   théologie naturelle, celui défini par Aristote comme cause ultime,
+   premier moteur et principe premier de toute chose. Une interprétation
+   médiévale du texte de l'« Exode », où Dieu dit à Moïse « Je suis celui
+   qui suis », transforme ce Dieu personnel en sujet de la métaphysique et
+   le confond avec l'« Être » même^[42].
+
+   Descartes, dans ses Méditations Métaphysiques, peut dès lors affirmer
+   l’existence d’un Dieu personnel, ultime garant de la conformité de la
+   pensée avec les choses. Dans ce but, il met en œuvre une argumentation
+   méthodique (ordre des raisons) où il expose l’idée suivante : un Dieu,
+   qui est créateur de toutes choses, des essences mêmes, des êtres et des
+   étants, dont la connaissance, le savoir, sont illimités, ce Dieu
+   inconcevable pour la raison humaine qui est bornée, existe cependant
+   parce qu'il nous en a apporté confirmation dans le simple fait que
+   l’idée de son existence ait pu germer dans mon esprit. De plus, comme
+   il existe chez Descartes une hiérarchie des idées, où la cause de
+   quelque chose doit être plus parfaite que ce qu'elle origine, notre
+   idée de Dieu, encore imparfaite et limitée, montre bien que lui-même
+   est possesseur d’une perfection infinie. Enfin, la théorie cartésienne
+   des vérités éternelles se base sur le fait que Dieu est créateur
+   d’absolument toutes choses, y compris les vérités de la nature, les
+   causes physiques et matérielles du monde, les essences des êtres animés
+   ou inanimés, l’ordre universel.
+
+   Devenu le dieu des philosophes, le dieu de la théologie naturelle et de
+   la métaphysique perd ses qualités fondamentales en devenant théorique
+   et abstrait^[43].
+
+La liberté : libre-arbitre et déterminisme
+
+   [modifier | modifier le code]
+   Articles détaillés : Liberté (philosophie) et libre-arbitre.
+
+   Selon le Dictionnaire des Concepts^[44] : « La liberté désigne en
+   métaphysique, le pouvoir absolu d'être la cause première d’un acte,
+   ainsi que l’expérience de ce pouvoir en tant qu'elle est constitutive
+   du sujet. » Les philosophes ont bien noté que ce sentiment de liberté
+   pourrait être le masque d’une sujétion inaperçue à la nature des
+   choses. La liberté s’oppose en général (ce n’est donc pas toujours le
+   cas) au déterminisme, au fatalisme et à toute doctrine qui soutient la
+   thèse de la nécessité du devenir. Le concept de liberté divise très
+   schématiquement les philosophes en deux camps : ceux qui en font le
+   fondement de l’action et de la morale humaines (Épicure, Descartes,
+   Kant), et ceux qui nient une quelconque transcendance de la volonté par
+   rapport à des déterminismes tels que la sensibilité (Démocrite,
+   Spinoza, Nietzsche). La raison est introduite en philosophie à partir
+   du concept grec de Logos qui de simple discours évoluera vers l’art de
+   « combiner les concepts ou propositions » et finira comme faculté de
+   comprendre^[45]. Puissance du vrai chez Spinoza, la raison devient
+   principe ou fondement chez Leibniz^[46].
+
+Critiques de la métaphysique
+
+   [modifier | modifier le code]
+   Cette section est vide, insuffisamment détaillée ou incomplète. Votre
+   aide est la bienvenue ! Comment faire ?
+
+   Selon Laurence Hansen-Løve, au dix-neuvième siècle, les principes
+   d’inanité et de toxicité de la métaphysique ont été mis en avant^[47].
+
+Bourdieu
+
+   [modifier | modifier le code]
+   Cette section est vide, insuffisamment détaillée ou incomplète. Votre
+   aide est la bienvenue ! Comment faire ?
+
+   Selon Johann Michel, la pensée sociologique de Pierre Bourdieu s'oppose
+   directement à la métaphysique^[48].
+
+Bouveresse
+
+   [modifier | modifier le code]
+   Cette section est vide, insuffisamment détaillée ou incomplète. Votre
+   aide est la bienvenue ! Comment faire ?
+     * Jacques Bouveresse, Ernest Renan, la science, la métaphysique, la
+       religion et la question de leur avenir, Publications du Collège de
+       France, 2015 [lire en ligne]
+
+Derrida
+
+   [modifier | modifier le code]
+   Cette section est vide, insuffisamment détaillée ou incomplète. Votre
+   aide est la bienvenue ! Comment faire ?
+
+Étienne Gilson
+
+   [modifier | modifier le code]
+   Cette section est vide, insuffisamment détaillée ou incomplète. Votre
+   aide est la bienvenue ! Comment faire ?
+
+     « tous les échecs de la métaphysique viennent de ce que les
+     métaphysiciens ont substitué à l'être comme premier principe de leur
+     science, l'un des aspects particuliers de l'être étudiés par les
+     diverses sciences de la nature^[49]. »
+
+Hegel
+
+   [modifier | modifier le code]
+   Cette section est vide, insuffisamment détaillée ou incomplète. Votre
+   aide est la bienvenue ! Comment faire ?
+
+Heidegger
+
+   [modifier | modifier le code]
+   Cette section est vide, insuffisamment détaillée ou incomplète. Votre
+   aide est la bienvenue ! Comment faire ?
+
+Kant
+
+   [modifier | modifier le code]
+   Cette section est vide, insuffisamment détaillée ou incomplète. Votre
+   aide est la bienvenue ! Comment faire ?
+
+Marx
+
+   [modifier | modifier le code]
+   Cette section est vide, insuffisamment détaillée ou incomplète. Votre
+   aide est la bienvenue ! Comment faire ?
+
+Nietzsche
+
+   [modifier | modifier le code]
+
+   Friedrich Nietzsche combat violemment les spéculations de la
+   métaphysique. Il soutient, dès 1876, que la métaphysique a commis une
+   erreur en cherchant l'immobile et l'éternel. Il existe selon lui un
+   « ressentiment des métaphysiciens contre l'actualité », « une haine de
+   même l'idée du devenir ». Nietzsche soutient la thèse selon laquelle
+   tout, dans l'expérience humaine (les valeurs, les idées, etc.) a émergé
+   de manière historique et s'arrêtera un jour.
+
+   Nietzsche critique la métaphysique sur ses aspects théologiques ainsi
+   que la théorie de l'arrière-monde, qui divise le monde entre l'ici-bas
+   et un là-haut^[50].
+
+Positivisme
+
+   [modifier | modifier le code]
+
+Auguste Comte
+
+   [modifier | modifier le code]
+
+   Dès le début de sa carrière^[51], Auguste Comte cherche au moyen de la
+   philosophie positive à lutter contre la métaphysique, trop abstraite et
+   vague, et contre la théologie, fondée sur des croyances
+   invérifiables^[N 3]. Le positivisme scientifique établit que l'esprit
+   humain doit renoncer à l'absolu en raison de son incapacité à atteindre
+   l'essence des choses. La connaissance ne pouvant aller au-delà de la
+   sphère des lois scientifiques, la philosophie positive a donc pour
+   objet l'étude de ces dernières, sans aller au-delà des acquis de la
+   science expérimentale.
+
+   En janvier 1831, Comte choisit d'enseigner l'astronomie, dont il pense
+   qu'elle est « la seule science libérée de toute influence théologique
+   et métaphysique, et qu'elle offre la meilleure introduction à la
+   philosophie positive^[52]». Ses cours d'astronomie populaire dureront
+   dix-sept ans, pendant lesquelles il attire un nombre grandissant
+   d'auditeurs tous les dimanches après-midi dans une salle de la mairie
+   du 3^e arrondissement, rue des Petits-Pères. Malgré sa déception qu'un
+   quart seulement de son auditoire soit réellement composé de
+   travailleurs, cette expérience d'enseignement est l'un des plus grands
+   succès de sa carrière^[53].
+
+   Si ce bandeau n'est plus pertinent, retirez-le. Cliquez ici pour en
+   savoir plus. Si ce bandeau n'est plus pertinent, retirez-le. Cliquez
+   ici pour en savoir plus.
+
+   La section qui suit semble contenir une synthèse inédite de sources non
+   directement liées au sujet de l'article ou de sources primaires (juin
+   2025).
+   Vous pouvez aider en ajoutant des sources secondaires centrées sur le
+   sujet de l'article ou en supprimant le contenu problématique. Voir la
+   page de discussion pour plus de détails.
+
+La métaphysique et sa fonction
+
+   [modifier | modifier le code]
+
+Une science contestée
+
+   [modifier | modifier le code]
+
+   Emmanuel Kant affirme dans l’introduction de ses Prolégomènes^[54] :
+   « depuis l’origine de la métaphysique, si loin que remonte son
+   histoire, il ne s’est rien passé qui eût pu être plus décisif pour les
+   destinées de cette science que l’attaque qu'elle eut à subir de la part
+   de David Hume », ce même David Hume dont il dit plus loin qu'il le
+   réveilla de son sommeil dogmatique. Hume prenait appui sur
+   l’impossibilité pour la raison de penser a priori et au moyen de
+   concepts, entre autres principes « la relation de cause à effet », que
+   cette relation n'était que la fille de l’imagination fécondée par
+   l’expérience qui se croit autorisée à faire passer une habitude pour
+   une nécessité objective^[54]. C’est à contester cette position que Kant
+   se consacrera notamment dans son ouvrage majeur, la Critique de la
+   raison pure.
+
+Une science nécessaire
+
+   [modifier | modifier le code]
+
+   Alors que l'on reconnaît à d’autres disciplines comme la logique, les
+   mathématiques ou la physique le droit de sortir des limites de
+   l’expérience, comment se fait-il, s’interroge Kant, qu'avec la
+   métaphysique on n’atteint jamais le même degré de certitude, alors
+   qu'elle traite des objets les plus importants pour notre curiosité,
+   Dieu, l'âme, la vie éternelle^[55] ?
+
+   La compréhension de l’être que nous avons naturellement n’est pas, à
+   elle seule, un « savoir », c’est la tâche de la métaphysique de nous
+   aider à passer de la compréhension pré-ontologique au savoir explicite
+   de l’être^[56].
+
+   À un degré supérieur, la métaphysique, dans son exploration des
+   concepts fondamentaux, valide les premiers principes à partir desquels
+   chaque science positive peut mener ses investigations (principe de
+   contradiction, causalité, réalité)^[57]. Elle joue de plus, en
+   systématisant et coordonnant nos connaissances, un « rôle normatif »
+   et, en découvrant la dernière raison des choses, un « rôle
+   explicatif ». C’est la métaphysique qui fixe les notions communes qui
+   relient les divers systèmes de connaissance, comme c’est elle qui va,
+   écrivait V. Ermoni^[58], jusque dans l’invisible rechercher la raison
+   d'être du visible.
+
+   Ainsi, Heidegger conclut : « la métaphysique est si essentielle qu'on
+   ne peut s’en défaire comme on se défait d’une opinion. On ne peut
+   aucunement la faire passer derrière soi, telle une doctrine à laquelle
+   on ne croit plus et qu'on ne défend plus »^[59].
+
+Structure de la métaphysique
+
+   [modifier | modifier le code]
+
+Dynamique
+
+   [modifier | modifier le code]
+
+   Ontothéologie et analogie comme loi interne de constitution de la
+   métaphysique^[60]. Historiquement « l’ontothéologie se constitue […] en
+   même temps que s’élabore la problématique de l’analogie comme
+   « Analogia entis »^[61] ». « La métaphysique se construit
+   historiquement par adjonction de nouveaux éléments à un système qui se
+   veut harmonieux et cohérent »^[62]. André Hayen^[62] va jusqu'à écrire
+   « aux flots mouvants de l’histoire de la pensée, aux systèmes
+   philosophiques variés, est immanente une unité supérieure à l’histoire,
+   l’unité de la vérité supra-historique ».
+
+Fondements
+
+   [modifier | modifier le code]
+
+   En métaphysique, chez Aristote comme plus tard chez Descartes, le rôle
+   du fondement est joué par la « substance ». Mais plus généralement
+   rechercher le fondement ou principe c’est s’interroger sur quoi
+   reposent ultimement les choses et donc, de proche en proche, remonter
+   jusqu'à la cause première ou premier principe non causé. Dans l’ordre
+   de la connaissance, la recherche du fondement consiste à découvrir sur
+   quoi (l'élément solide), l’on peut s’appuyer pour commencer à penser,
+   ainsi de Descartes qui fonde tout son raisonnement sur le « cogito »,
+   ou Heidegger qui momentanément fit fond dans Être et Temps sur une
+   « métaphysique du Dasein »^[63]^,^[N 4].
+
+Ontothéologie
+
+   [modifier | modifier le code]
+   Article détaillé : Onto-théologie.
+
+   En 1957, Heidegger^[60] prononce une conférence intitulée Constitution
+   onto-théologique de la métaphysique dans laquelle « il fait ressortir
+   le fait que toute métaphysique s’enquiert de la totalité des étants
+   (dans leur être) et sous celui hiérarchique de l’ordre qui en détermine
+   la raison » (Dieu, cause première), même dans le cas où elle tourne le
+   dos à la théologie. Heidegger parle à propos de cette structure
+   onto-théologique d’un trait « destinal » de toute pensée
+   métaphysique^[64].
+
+Analogie
+
+   [modifier | modifier le code]
+   Articles détaillés : Analogie métaphysique et Analogia entis.
+
+   Est-ce la même réalité quand je dis « la table est », « je suis »,
+   « Dieu est » ? Il semble impossible d’attribuer le même sens à
+   l'« être » contingent que nous sommes, à l'« être » d’une table et à
+   celui de l'« être incausé et absolu » dont tous les autres dépendent.
+   De même sur le plan strictement métaphysique, la quantité qui n’est pas
+   la qualité, qui n’est pas non plus l’action ou la relation « sont-ils
+   au même titre » ? Pour la scolastique^[N 5], il était essentiel, en vue
+   d’offrir la possibilité d’un discours rationnel, sur l'« être
+   suprême », d'établir la métaphysique comme « science de l’être en tant
+   qu'être » d’où le développement d’une science qui sera ni univoque, ni
+   équivoque, à savoir « une science analogique, ou « analogie
+   d’attribution » conçue comme le mode hiérarchique d’une participation
+   graduelle des étants à l’être selon leur dignité »^[65].
+
+Les systèmes métaphysiques
+
+   [modifier | modifier le code]
+
+Les principaux systèmes
+
+   [modifier | modifier le code]
+   Article détaillé : Histoire de la métaphysique.
+
+   En introduisant une distinction entre le sensible et l’intelligible,
+   Platon fonde sans la nommer ce qui sera plus tard, appelé,
+   métaphysique, comme science de l'étant en tant qu'il « est » et qu'il
+   est ce qu'il « est », science qui va se déployer tout au long de
+   l’histoire de la pensée occidentale en de multiples formes et synthèses
+   dont les plus importantes sont attribuées à Aristote, Thomas d’Aquin,
+   Descartes, Kant, Hegel, Nietzsche^[6]. Si l’histoire est jalonnée de
+   synthèses particulières qui finissent avec les époques qui les portent,
+   le questionnement métaphysique, lui, reste une œuvre de l’esprit en
+   perpétuelle recherche de synthèse et d’universel qui demeure
+   éternellement^[66].
+
+   S’agissant d’Aristote, Pierre Aubenque^[67] structure son gros volume
+   consacré au problème de l’être chez Aristote autour de son échec à
+   constituer une science « Une » de l’être (qu'il nomme philosophie
+   première) autrement dit, à établir un fondement sûr à sa Métaphysique.
+   Pour les médiévaux^[57] : « La métaphysique doit trouver son fondement
+   en dehors d’elle-même, dans une théologie devenue reine des sciences ».
+   Ils distinguent une métaphysique générale qui s’occupe du discours sur
+   l’être et qui deviendra ontologie et une métaphysique spéciale dont les
+   objets sont l'âme, Dieu ou le monde. La métaphysique appartient aux
+   sciences spéculatives (physique, mathématiques et métaphysique) « elle
+   opère dans le même genre que la philosophie première et la théologie la
+   philosophie première qui s’occupe des causes premières, la métaphysique
+   étudiant ce qui a le plus haut degré d’universalité (les
+   transcendantaux), tandis que la théologie ce qui est séparé,
+   Dieu »^[57].
+
+   Débarrassée de sa dépendance théologique la métaphysique cartésienne va
+   être fondée, en raison, sur la certitude du cogito^[57] ; avec elle,
+   l’essor des sciences, et notamment la physique newtonienne, a pu se
+   faire. Emmanuel Kant, en réaction, tente d’établir une métaphysique
+   moins ambitieuse mais qui soit plus conforme à la nature humaine, écrit
+   François Jaran^[68]. Avec Kant, la métaphysique n’ambitionne plus de
+   porter des jugements sur les idées transcendantales, qui ne sont
+   qu'illusions, quoiqu'elles soient des illusions utiles en ce qu'elles
+   permettent d’unifier le champ d’expérience et de jouer un rôle
+   régulateur pour la pensée^[57]. Après Kant la métaphysique dogmatique
+   s’est trouvée un temps discréditée, remarque Jean Grondin^[69] au point
+   que les bâtisseurs de systèmes les plus complexes, comme ceux
+   développés par les penseurs de l'Idéalisme allemand (Fichte, Schelling
+   et Hegel), ont tous évité de faire référence au mot métaphysique.
+
+   La métaphysique contemporaine a vu différents courants : alors que Kant
+   tenta de refonder la métaphysique, le positivisme (Auguste Comte,
+   Cercle de Vienne) et les idéologies la nièrent, tandis que d’autres
+   voies furent ouvertes avec la phénoménologie (Edmund Husserl et
+   Heidegger), le spiritualisme français (avec Louis Lavelle, Jacques
+   Maritain) et la philosophie analytique. À noter que dans une démarche
+   temporaire correspondant à la rédaction d'Être et Temps Heidegger a
+   cherché dans les années 1920 à assurer un fondement plus sûr à la
+   métaphysique, ce sera la métaphysique du Dasein^[70]. Enfin, la
+   philosophie du processus — ou du procès, du devenir, de l'événement —
+   se veut une alternative à la métaphysique de la substance. Alfred North
+   Whitehead est peut-être l’auteur le plus important dans ce domaine.
+
+Métaphysique analytique
+
+   [modifier | modifier le code]
+   Article connexe : Métaphysique analytique.
+
+Une ligne et un destin: l’oubli de l’être
+
+   [modifier | modifier le code]
+   La pertinence de cette section est remise en cause. Considérez son
+   contenu avec précaution. Améliorez-le ou discutez-en, sachant que la
+   pertinence encyclopédique d'une information se démontre essentiellement
+   par des sources secondaires indépendantes et de qualité qui ont analysé
+   la question. (juin 2025)
+
+   En raison de sa structure « onto-théologique », la métaphysique, bien
+   avant l’introduction du christianisme^[71], est depuis l’origine
+   obnubilée par la question du fondement qui vise l'étant suprême, visée
+   qui s’accompagne, selon Heidegger, de l'« oubli » de ce qui n’est ni un
+   étant, ni l'étantité en soi, mais l’être même autrement appelée
+   « différence ontologique^[72]. Dans une préface Alain Boutot^[73],
+   souligne que dans Être et Temps, Heidegger déploie la question de
+   l’être en commençant par stigmatiser l’oubli dans lequel la tradition a
+   laissé cette question depuis Platon et Aristote. Cet oubli n’aurait
+   fait que s’accentuer, par étapes successives, pour culminer à l'ère
+   moderne dans le règne incontesté de la « Technique »^[74].
+
+   Définie à son origine, comme science qui a à s’occuper de l’être, la
+   métaphysique s’absorba rapidement dans la tâche de dire le « vrai »,
+   résume Jacques Taminiaux^[75]. Selon cet auteur, avec la théorie des
+   prédicats d’Aristote, la métaphysique prend son essor comme « logique
+   de l'étant » en son entier tout en s’interrogeant sur le plus
+   fondamental d’entre eux, le plus éminent, donnant ainsi simultanément
+   naissance à une théologie^[75].
+   Si ce bandeau n'est plus pertinent, retirez-le. Cliquez ici pour en
+   savoir plus. Si ce bandeau n'est plus pertinent, retirez-le. Cliquez
+   ici pour en savoir plus.
+
+   La section qui suit semble contenir une synthèse inédite de sources non
+   directement liées au sujet de l'article ou de sources primaires (juin
+   2025).
+   Vous pouvez aider en ajoutant des sources secondaires centrées sur le
+   sujet de l'article ou en supprimant le contenu problématique. Voir la
+   page de discussion pour plus de détails.
+
+La métaphysique comme moteur de l’histoire occidentale
+
+   [modifier | modifier le code]
+
+   Si la métaphysique est en perpétuelle recherche de synthèse, elle n’est
+   pas pour autant, comme le remarque Martin Heidegger « une suite d’idées
+   qui planent au-dessus de l’histoire » mais elle implique des décisions
+   essentielles quant à la vérité de « l'étant » qui fonde un « âge » ou
+   une époque, lui donne sa configuration et règle tous les phénomènes qui
+   la caractérisent^[76]^,^[N 6]. L’histoire de la métaphysique devient
+   chez Heidegger, l’histoire de l’être lui-même, l’être est ce qui se
+   manifeste et en même temps se dissimule dans une histoire, écrit Pierre
+   Aubenque^[77].
+
+La dynamique interne
+
+   [modifier | modifier le code]
+
+   Martin Heidegger comprend toute l’histoire de la métaphysique
+   occidentale sous un même fil conducteur, celui de l’aggravation
+   continue de l'« oubli de l’être », jusqu'à son oubli total dans l'ère
+   de la technique, comme le « destin de l’être »^[78]. Il y aura
+   dorénavant dans la pensée du philosophe une histoire de l’être et une
+   histoire de sa vérité à travers la succession des époques.
+
+Les époques de la métaphysique
+
+   [modifier | modifier le code]
+
+   Tout commencerait, avec la détermination platonicienne de l’être comme
+   « idea », d’où résulte une confusion entre l'« être et la phusis », qui
+   entraîna l’interprétation de l’être comme idea, écrit Françoise
+   Dastur^[79]. Cette interprétation, dans laquelle l’effet ou le résultat
+   de l’être prend la place de l’être lui-même, a été interprétée par
+   Heidegger comme le coup d’envoi d’une longue période de déclin qui
+   ouvre la voie à ce qu'il a qualifié d’histoire de « l’oubli de
+   l’être ».
+
+   La perception de la vérité, comme conformité de la pensée à la chose,
+   une fois clairement émergée à partir d'Aristote, va se prêter
+   historiquement à de nombreuses variations. Avec la vérité scolastique,
+   l’adéquation de l’intellect humain à la chose se fondait sur
+   l’adéquation de la chose à « la pensée créatrice de Dieu ». Martina
+   Roesner^[80] note qu'une fois que la vérité phénoménale originaire eut
+   été supplantée par cette vérité transcendante, la dimension langagière
+   de la vérité s’est réduite à la correspondance établie par l’intellect
+   entre la proposition et l'état des choses.
+
+   « Emmanuel Kant admettant avec l’unanimité de la tradition que le
+   jugement est le lieu de la vérité et que, donc la connaissance
+   (recherche de la vérité), culmine dans le jugement »^[81], et sans rien
+   changer à l'équilibre de ce face à face, est venu « définir le
+   phénomène comme objet possible de l’intuition d’un sujet, marquant
+   ainsi que ce sont les objets qui doivent se régler sur notre
+   connaissance et non l’inverse »^[82].
+
+   C’est cette permutation, dont le mérite revient à Kant, qui est
+   qualifiée couramment de « révolution copernicienne ». Toutefois, pour
+   Heidegger, remarquent les traducteurs et interprètes^[81] dans
+   l'ouvrage Kant et le problème de la métaphysique, cette permutation
+   exprime beaucoup plus le fait que pour qu'un objet soit saisi comme
+   objet, il faut au préalable qu'il soit saisi comme « étant ». Il
+   devient ainsi patent que la connaissance de l’objet empirique est
+   dépendant de la connaissance ontologique, préséance qui va constituer
+   pour Heidegger le sens authentique de la « révolution copernicienne ».
+
+   La variation vraiment décisive de l'ère moderne et l’avènement du règne
+   de la « Technique », dernière étape de cette longue histoire, se
+   trouvait déjà formulée dans les travaux de Descartes avec la prévalence
+   absolue qu'il accorde à la « vérité certitude »^[N 7], qui impose aux
+   choses de se soumettre à un certain type de connaissance, la
+   « mathesis »^[83]^,^[N 8]. Connaître n’est dorénavant plus un simple
+   dévoilement mais le moyen de s’assurer d’un pouvoir sur l'étant.
+
+   Dans son développement ultérieur, la métaphysique conduit à
+   l’impérialisme de la pensée calculante, si bien qu'entre l'« ego
+   cogito » et la notion nietzschéenne de la « volonté de puissance »,
+   nouvelle et dernière figure de la « vérité de l’être », il n’y a pas de
+   discontinuité fondamentale^[83] (voir Heidegger et la question de la
+   technique). Jean Beaufret^[84] remarque que la figure terminale d’un
+   tel destin se présente comme la mutation totale de la vérité en système
+   de « valeur ». Jean Greisch^[85], de son côté, note que malgré la
+   rupture « épochale » que l’avènement des philosophies modernes est
+   censé représenter, Heidegger a pu soutenir que du point de vue
+   ontologique, elles n’apportent rien de nouveau.
+
+L’achèvement de la métaphysique : la technique
+
+   [modifier | modifier le code]
+
+   Dans les notes rassemblées sous le titre « dépassement de la
+   métaphysique » des Essais et conférences, Heidegger dit explicitement,
+   que la métaphysique est « achevée » parce qu'elle a fait le tour de ses
+   possibilités, la dernière d’entre elles étant l'ère de la technique,
+   rappelle Françoise Dastur^[86]. « La métaphysique achevée, qui est la
+   base d’un mode de pensée « planétaire », fournit la charpente d’un
+   ordre terrestre vraisemblablement appelé à une longue durée. Cet ordre
+   n’a plus besoin de la philosophie parce qu'il la possède déjà à sa
+   base. Mais la fin de la philosophie n’est pas la fin de la pensée,
+   laquelle est en train de passer à un autre commencement. »^[87]. Franco
+   Volpi^[88] précise que « dans la dernière phase de sa pensée, Heidegger
+   aboutit à la thèse de la fin de la métaphysique, laquelle serait
+   désormais passée dans l’essence de la « technique » moderne : celle-ci
+   serait l’accomplissement de la métaphysique, « la métaphysique comme
+   préhistoire de la technique » ». À ce sujet, remarque Michel Haar^[89]
+   si l'époque de la technique en est l’ultime forme, « nous ignorons
+   encore ce que nous réserve l’achèvement de la métaphysique et nous ne
+   pouvons à peine imaginer ce qu'inventera la domination inconditionnée
+   ou la mobilisation totale […] qui ne font que commencer ».
+
+Le dépassement de la métaphysique
+
+   [modifier | modifier le code]
+   Articles détaillés : Heidegger et la question de la technique,
+   L'affaire de la pensée et La puissance du rationnel.
+
+   Par cette expression de dépassement, il ne faut pas comprendre que la
+   métaphysique serait passée et morte mais au contraire qu'elle atteint
+   son aboutissement, c'est-à-dire la domination absolue par la
+   « technique » dans le monde^[90]. C’est à travers une autre expression
+   allemande la Machenschaft^[N 9], intraduisible en français qu'Heidegger
+   caractérise la démesure contemporaine de la « volonté de puissance »
+   (Überwindung der Metaphysik ). Reprenant notamment dans son Nietzsche
+   II, l’analyse nietzschéenne du Nihilisme, il le resitue dans l’histoire
+   globale de l'« oubli de l’être » (Seinverlassenheit ). Tous les affects
+   recensés à propos du désenchantement du monde, la détresse, le
+   déracinement, la désacralisation, sont, selon Heidegger, autant de
+   signes du délaissement de l’être et la manifestation de la Machenschaft
+   auxquels on peut rajouter, le goût du gigantisme, l’extension de la
+   calculabilité à tout l'étant y compris la gestion du parc humain qui va
+   devenir ici, à partir de là, un thème fondamental qui fondera
+   dorénavant toute sa critique de la modernité, de la technique, de
+   l’affairement et de la dictature de la « faisabilité », par laquelle il
+   faut notamment comprendre que tout ce qui peut être techniquement
+   réalisé sera fait quel qu'en soit le coût pour l’humanité de l’homme.
+   « L’homme arraisonné par le Dispositif a affaire désormais à des choses
+   qu’il a toujours déjà prises en vue comme fonds ou stock disponible (en
+   allemand, Bestände) » écrit Jean-François Courtine^[91].
+
+Notes et références
+
+   [modifier | modifier le code]
+
+Notes
+
+   [modifier | modifier le code]
+    1. ↑ Dans Être et Temps, le mot existence désigne un mode de l’être à
+       savoir l’être de cet étant qui se tient ouvert pour l’ouverture de
+       l’être dans laquelle il se tient, tandis qu'il la
+       soutient-Heidegger 1990, p. 34.
+    2. ↑ « quand je dis que tous les corps sont pesants, le prédicat est
+       quelque chose de tout à fait différent de ce que je pense dans le
+       simple concept d’un corps en général. L’adjonction de ce prédicat
+       donne donc un jugement synthétique »-Pascal1957, p. 34 Critique
+       p. 38.
+    3. ↑ John Stuart Mill écrit ainsi que : « Pour connaître
+       convenablement ce qu'une chose est, nous avons besoin de connaître
+       avec une égale netteté ce qu'elle n'est pas. Pour pénétrer le
+       caractère réel d'un mode de penser, il nous faut comprendre quels
+       sont les autres modes de penser qui rivalisent avec lui. M. Comte a
+       pris garde que nous fassions ainsi. Les modes de philosopher qui,
+       selon lui, disputent l'empire au mode Positif, sont au nombre de
+       deux, et tous les deux antérieurs en date à ce dernier : ce sont le
+       mode Théologique et le mode Métaphysique. »
+    4. ↑ « Au cours de ces quelques années (1927-1930), la confrontation
+       avec la métaphysique prendra une tournure bien distincte de celle
+       des textes antérieurs et ultérieurs. Dans le cadre de la
+       métaphysique du Dasein, Heidegger admet ouvertement prendre le
+       relais du projet métaphysique kantien dans le but de mener à bon
+       port le problème fondamental qui aurait dû “être” mais qui n’a
+       jamais été celui de la métaphysique : la question de
+       l’être »-François Jaran-François Jaran 2010 lire en ligne.
+    5. ↑ « Dans l’emploi du mot « être », si l’univocité est à écarter, il
+       reste l'équivocité ou l’analogie. Aristote, aurait laissé en friche
+       ses recherches sur l’unité des significations de l’être (auxquelles
+       la doctrine de l’« analogia entis » prétend donner réponse et
+       celles sur la possible unité des questions portant sur l’être et
+       sur le divin (onto-théiologie, onto-théologie) »-Jaran 2015, p. 488
+       lire en ligne.
+    6. ↑ Une telle dépendance ne peut être comprise qu'en liaison avec ses
+       travaux sur les mutations historiques du concept de vérité-article
+       Vérité Le Dictionnaire Martin Heidegger, p. 1356-1359.
+    7. ↑ « C’est par là que Descartes fonde les Temps modernes. De même
+       que l’homme grec était l’homme de l'(ancien Grec: ἀλήθεια) et
+       l’homme du Moyen Age celui de la vérité comme adéquation, l’homme
+       des Temps modernes est l’homme de la certitude »-Beaufret 1985,
+       p. 200.
+    8. ↑ » La mathésis est une interprétation orientée de l’essence du
+       savoir en général. Cette interprétation exige l’unité d’un
+       enchaînement fondé de propositions appuyé sur des propositions
+       premières qui elles-mêmes ne requièrent pas de fondation. Elle
+       devient chez Descartes le modèle de toute certitude, fondée sur
+       l'évidence de l’intuition et chez un Leibniz, qui abandonne
+       l’intuition cartésienne, appuyé sur la logique et la
+       non-contradiction, tribunal de la vérité des propositions-article
+       Mathesis Dictionnaire des Concepts philosophiques, p. 503.
+    9. ↑ Die Machenschaft , une des notions les plus difficiles et
+       intraduisibles. En allemand courant « machination », « manigance »,
+       « vilaine manière de procéder » Chez Heidegger le mot intervient à
+       propos de la dimension planétaire de la Technique et aussi du
+       nihilisme, la Machenschaft c’est « l’empire du tout », « l’empire
+       du se faire », de « l’efficience et de la fabrication » qui
+       concerne la vérité de l'étant en son entier. C’est ce que Heidegger
+       a découvert comme détermination de l’être à une époque la nôtre où
+       tout paraît tourner autour du « faire » à rendre tout faisable au
+       point de devenir le nouvel impératif catégorique auquel il faudrait
+       que tout un chacun obéisse sans discussion-article Machenschaft Le
+       Dictionnaire Martin Heidegger.
+
+Références
+
+   [modifier | modifier le code]
+    1. ↑ Encyclopedia.com (lire en ligne), « Metaphysics ».
+    2. ↑ Aubenque 2009, p. 26.
+    3. ↑ Sur l'attribution à Nicolas de Damas : voir Ross, Aristote, trad.
+       fr. Payot, 1930, p. 25 et Aubenque, Le Problème de l'être chez
+       Aristote, PUF, 1962, p. 29 ; sur l'attribution à un autre Nicolas,
+       cf. https://www.persee.fr/doc/reg_0035-2039_2008_num_121_1_7892.
+    4. ↑ Voir le Trésor de la langue française informatisé.
+    5. ↑ Simplicius, Commentaire sur la Physique d’Aristote, vol. I, t. 21
+    6. ↑ ^a et b article Métaphysique Le Dictionnaire Martin Heidegger,
+       p. 844.
+    7. ↑ ^a b et c article Métaphysique Dictionnaire des concepts
+       philosophiques, p. 516.
+    8. ↑ Aristote, trad. Jules Tricot, Métaphysique, tome 1, Paris, Vrin,
+       1933, 310 p. (ISBN 2-7116-1077-2), livre Γ, p.109
+    9. ↑ Heidegger 1982, p. 35.
+   10. ↑ ^a et b Silvia Manonellas, La métaphysique, Paris, Atlande,
+       512 p. (ISBN 9782350305479)
+   11. ↑ Cf. Roger Pouivet, Philosophie contemporaine, PUF, 2008,
+       pp. 131-133.
+   12. ↑ ^a et b article Catégorial Le Dictionnaire Martin Heidegger,
+       p. 214.
+   13. ↑ article Existence Dictionnaire des concepts philosophiques,
+       p. 300.
+   14. ↑ Gilson 1987, p. 16.
+   15. ↑ L’acte d’être à la question 2016 lire en ligne.
+   16. ↑ article Catégorie Dictionnaire des concepts philosophiques,
+       p. 100.
+   17. ↑ Pierre Pellegrin, Dictionnaire Aristote, Ellipses, 2007, p. 177
+   18. ↑ article Substance Dictionnaire des concepts philosophiques,
+       p. 765.
+   19. ↑ ^a et b (en) Anand Vaidya, « « The Epistemology of Modality » »,
+       Stanford Encyclopedia of Philosophy,‎ (consulté le 6 septembre
+       2023)
+   20. ↑ article Acte Dictionnaire des concepts philosophiques, p. 7.
+   21. ↑ article Puissance Dictionnaire des concepts philosophiques,
+       p. 680.
+   22. ↑ André Comte-Sponville, Dictionnaire philosophique, Paris, Presses
+       universitaires de France, 2001, p. 1100 p.
+   23. ↑ Baruch Spinoza, « De Dieu », dans Éthique, Garnier Frères, 1913
+       (lire en ligne), p. 21–117
+   24. ↑ Cours de Métaphysique 2015, p. 17 lire en ligne.
+   25. ↑ « Unité », sur cosmovisions.com (consulté le 6 septembre 2023)
+   26. ↑ « IDENTITÉ - 2 », sur universalis.fr (consulté le 6 septembre
+       2023)
+   27. ↑ Christian Godin, Dictionnaire de philosophie, Fayard, 2004,
+       649 p.
+   28. ↑ (en) Géraud Sarrebourse de La Guillonnière, « Logique », CEL,‎ 23
+       janvier 2012 (lire en ligne, consulté le 6 septembre 2023)
+   29. ↑ « INFINI, philosophie », sur universalis.fr (consulté le 6
+       septembre 2023)
+   30. ↑ Jean-François Riaux, « L’espace comme « forme a priori de la
+       sensibilité » », L’Enseignement philosophique,‎ 2016, pp. 9-25
+   31. ↑ article Absolu Dictionnaire des concepts philosophiques, p. 1
+   32. ↑ « La perfection, le parfait. », sur cosmovisions.com (consulté le
+       6 septembre 2023)
+   33. ↑ article Vérité Le Dictionnaire Martin Heidegger, p. 1357.
+   34. ↑ article Vérité Dictionnaire des concepts philosophiques, p. 825.
+   35. ↑ Pascal1957, p. 34.
+   36. ↑ Pascal1957, p. 35.
+   37. ↑ article idée Dictionnaire des concepts philosophiques,
+       p. 388-389.
+   38. ↑ article Âme Dictionnaire des concepts philosophiques, p. 20.
+   39. ↑ article Âme Dictionnaire des concepts philosophiques, p. 21.
+   40. ↑ article Âme Dictionnaire des concepts philosophiques, p. 23.
+   41. ↑ article Âme Dictionnaire des concepts philosophiques, p. 24.
+   42. ↑ article Dieu Dictionnaire des concepts philosophiques, p. 216.
+   43. ↑ article Dieu Dictionnaire des concepts philosophiques, p. 217.
+   44. ↑ article Liberté Dictionnaire des concepts philosophiques, p. 472.
+   45. ↑ article Raison Dictionnaire des concepts philosophiques, p. 688.
+   46. ↑ article Raison Dictionnaire des concepts philosophiques, p. 690.
+   47. ↑ La fin de la métaphysique Comte, Nietzsche, Marx. article par
+       Laurence Hansen-Løve, dans : Grands Dossiers, N° 57 - Décembre
+       2019- janvier-février 2020,
+       https://www.scienceshumaines.com/la-fin-de-la-metaphysique-comte-ni
+       etzsche-marx_fr_41662.html
+   48. ↑ Johann Michel, La fabrique des sciences sociales, d'Auguste Comte
+       à Michel Foucault, éditions PUF, Paris, 2018, chapitre "Bourdieu"
+   49. ↑ Étienne Gilson, L'Être et l'essence, introduction, p. 9, éditions
+       Vrin, 1994 [1].
+   50. ↑ Stephen Houlgate, Hegel, Nietzsche and the Criticism of
+       Metaphysics, Cambridge University Press, 1987
+       (ISBN 978-0-511-62478-0, 0-511-62478-6 et 978-0-521-32255-3,
+       OCLC 776966895, lire en ligne)
+   51. ↑ Mary Pickering, « Le positivisme philosophique : Auguste Comte »,
+       Revue interdisciplinaire d'études juridiques,‎ 2011 (lire en
+       ligne).
+   52. ↑ (en) Mary Pickering, Auguste Comte. An Intellectual Biography.
+       Vol. 1, p. 436.
+   53. ↑ Lettre de Comte à Mill du 1^er mai 1844 | Archives de la Maison
+       Auguste Comte.
+   54. ↑ ^a et b Kant 1967, p. 10.
+   55. ↑ Pascal 1957, p. 27.
+   56. ↑ W.Biemel, A de Waehlens 1981, p. 10.
+   57. ↑ ^a b c d et e article Métaphysique Dictionnaire des concepts
+       philosophiques, p. 517.
+   58. ↑ Ermoni 1906, p. 233-234 lire en ligne.
+   59. ↑ Heidegger 1993, p. 81.
+   60. ↑ ^a et b article Ontothéologie Dictionnaire des concepts
+       philosophiques, p. 918.
+   61. ↑ Jaran 2015, p. 488 lire en ligne.
+   62. ↑ ^a et b Hayen 1934, p. 352 lire en ligne.
+   63. ↑ article Fondement Dictionnaire des concepts philosophiques,
+       p. 332.
+   64. ↑ Jaran 2015, p. 488 lire en ligne.
+   65. ↑ article Analogie Dictionnaire des concepts philosophiques, p. 29.
+   66. ↑ article Métaphysique Dictionnaire des concepts philosophiques,
+       p. 518.
+   67. ↑ Aubenque 1983.
+   68. ↑ Jaran 2015, p. 54 lire en ligne.
+   69. ↑ Grondin 2016, p. 3 lire en ligne.
+   70. ↑ article Métaphysique Le Dictionnaire Martin Heidegger, p. 843.
+   71. ↑ Heidegger 1990, p. 40.
+   72. ↑ Taminiaux 1986, p. 265.
+   73. ↑ Alain Boutot Préface Prolégomènes à l’histoire du concept du
+       Temps , p. 11.
+   74. ↑ Taminiaux 1986, p. 266.
+   75. ↑ ^a et b Taminiaux 1986, p. 264.
+   76. ↑ article Métaphysique Le Dictionnaire Martin Heidegger, p. 845.
+   77. ↑ Pierre Aubenque 2009, p. 14.
+   78. ↑ Hans-Georg Gadamer 2002, p. 179.
+   79. ↑ Françoise Dastur 2007, p. 126.
+   80. ↑ Martina Roesner 2007, p. 88.
+   81. ↑ ^a et b Alphonse de Waelhens et Walter Biemel 1981, p. 16.
+   82. ↑ article Phénomène Dictionnaire des Concepts philosophiques,
+       p. 613.
+   83. ↑ ^a et b Taminiaux 1986, p. 272.
+   84. ↑ Jean Beaufret 1977, p. 187-188.
+   85. ↑ Jean Greisch 1994, p. 97.
+   86. ↑ Françoise Dastur 2011, p. 207.
+   87. ↑ Heidegger 1993, p. 95-96.
+   88. ↑ Volpi 2007, p. 127.
+   89. ↑ Michel Haar 1994, p. 267.
+   90. ↑ Martin Heidegger Dépassement de la métaphysique.
+   91. ↑ Courtine résumé Conférence Heidegger, l’art, la technique,
+       p. 2lire en ligne.
+
+Voir aussi
+
+   [modifier | modifier le code]
+
+   Sur les autres projets Wikimedia :
+     * Département:Métaphysique, sur Wikiversity
+
+   Une catégorie est consacrée à ce sujet : Métaphysique.
+
+Bibliographie
+
+   [modifier | modifier le code]
+     * Michel Blay, Dictionnaire des concepts philosophiques, Paris,
+       Larousse, 2013, 880 p. (ISBN 978-2-03-585007-2).
+     * Philippe Arjakovsky, François Fédier et Hadrien France-Lanord
+       (dir.), Le Dictionnaire Martin Heidegger : Vocabulaire polyphonique
+       de sa pensée, Paris, Éditions du Cerf, 2013, 1450 p.
+       (ISBN 978-2-204-10077-9).
+     * Martin Heidegger (trad. Henry Corbin), « Qu'est-ce que la
+       métaphysique », dans Questions I et II, Paris, Gallimard,
+       coll. « Tel » (n^o 156), 1990 (ISBN 2-07-071852-2, BNF 35067451),
+       p. 23-84.
+     * Martin Heidegger (préf. Jean Beaufret), « Dépassement de la
+       métaphysique », dans essais et conférences, Paris, Gallimard,
+       coll. « Tel » (n^o 52), 1993 (ISBN 2-07-022220-9), p. 80-115.
+     * Martin Heidegger (trad. W.Biemel, A.de Waelhens), Kant et le
+       problème de la métaphysique, Paris, Éditions Gallimard,
+       coll. « Tel », 1981.
+     * « Introduction par W.Biemel, A.de Waelhens », dans Martin
+       Heidegger, Kant et le problème de la métaphysique, Paris,
+       Gallimard, coll. « Tel », 1981.
+     * Emmanuel Kant (trad. J.Gibelin), Prolégomènes à toute métaphysique
+       future, J.VRIN, coll. « Bibliothèque des textes philosophiques »,
+       1967, 182 p..
+     * Georges Pascal, Pour connaître la pensée de Kant, Éditions Bordas,
+       coll. « Pour connaître », 1957, 2^e éd., 198 p..
+     * Martin Heidegger (trad. Emmanuel Martineau), Interprétation
+       phénoménologique de la « Critique de la raison pure » de Kant,
+       Paris, Éditions Gallimard, coll. « Bibliothèque de Philosophie »,
+       1982, 393 p. (ISBN 2-07-022377-9).
+     * Pierre Aubenque, Le problème de l’être chez Aristote : Essai sur la
+       problématique aristotélicienne, Paris, PUF, coll. « Bibliothèque de
+       philosophie contemporaine », 1983, 551 p. (ISBN 2-13-038340-8).
+     * Jean-Yves Lacoste+collectif (dir.), Dictionnaire critique de
+       théologie, Paris, PUF, coll. « Quadrige », 2002, 1314 p.
+       (ISBN 2-13-052904-6).
+     * Jacques Taminiaux, « L’essence vraie de la technique », dans Michel
+       Haar, Martin Heidegger, Paris, Le Livre de poche, coll. « Biblio
+       essai », 1986, 604 p. (ISBN 2-253-03990-X), p. 263-283.
+     * Hans-Georg Gadamer, Les Chemins de Heidegger, Paris, Vrin,
+       coll. « Textes Philosophiques », 2002, 289 p. (ISBN 2-7116-1575-8).
+     * Françoise Dastur, Heidegger et la pensée à venir, Paris, J. Vrin,
+       coll. « Problèmes et controverses », 2011, 252 p.
+       (ISBN 978-2-7116-2390-7, BNF 42567422).
+     * Françoise Dastur, Heidegger : la question du Logos, Paris, J. Vrin,
+       2007, 256 p. (ISBN 978-2-7116-1912-2, présentation en ligne).
+     * A.D. Sertillanges, La philosophie de St Thomas d’Aquin, t. 1,
+       Aubier, 1955, 300 p..
+     * Martina Roesner, « Hors du questionnement, point de philosophie :
+       Sur les multiples facette de la critique du christianisme et de la
+       « philosophie chrétienne » dans l’Introduction à la métaphysique »,
+       dans Jean-François Courtine (dir.), L’Introduction à la
+       métaphysique de Heidegger, Paris, Vrin, coll. « Études et
+       Commentaires », 2007, 240 p. (ISBN 978-2-7116-1934-4), p. 83-104.
+     * Jean Beaufret, Philosophie moderne : Dialogue avec Heidegger II,
+       Éditions de Minuit, coll. « Arguments », 1977, 224 p.
+       (ISBN 2-7073-0164-7).
+     * Jean Beaufret, Approche de Heidegger : Dialogue avec Heidegger III,
+       Les Éditions de Minuit, coll. « Arguments », 1985, 237 p.
+       (ISBN 2-7073-0026-8).
+     * Jean Greisch, Ontologie et temporalité. Esquisse systématique d’une
+       interprétation intégrale de Sein und Zeit, Paris, PUF, 1994, 522 p.
+       (ISBN 2-13-046427-0).
+     * Pierre Aubenque, Faut-il déconstruire la métaphysique ?, Paris,
+       PUF, coll. « Collection de métaphysique », 2009, 89 p.
+       (ISBN 978-2-13-052005-4).
+     * Étienne Gilson, L’Être et l’essence, Paris, VRIN,
+       coll. « Bibliothèque des textes philosophiques », 1987, 388 p.
+       (ISBN 2-7116-0284-2, lire en ligne).
+     * Alphonse de Waelhens et Walter Biemel, « Introduction », dans
+       Heidegger Kant et le problème de la métaphysique, Paris, Gallimard,
+       coll. « Tel », 1981.
+     * Alain Boutot (trad. Alain Boutot), « Préface », dans Heidegger Les
+       Prolégomènes à l’histoire du concept du Temps, Paris, Gallimard,
+       coll. « Bibliothèque de Philosophie », 2006, 475 p.
+       (ISBN 2-07-077644-1).
+     * Franco Volpi, « Sur la grammaire et l'étymologie du mot être »,
+       dans Jean-François Courtine (dir.), L’Introduction à la
+       métaphysique de Heidegger, Paris, Vrin, coll. « Études et
+       Commentaires », 2007 (ISBN 978-2-7116-1934-4), p. 125-143.
+     * Olivier Depré, Philosophie morale, Academia Bruylant, 1999, 185 p.
+       (ISBN 978-2-87209-469-1)
+     * André Léonard, Métaphysique de l’être. Essai de philosophie
+       fondamentale, Éditions du Cerf, 2006, 448 p.
+     * Michel Blay, Dictionnaire des concepts philosophiques, Paris,
+       Larousse, 2013, 880 p. (ISBN 978-2-03-585007-2).
+     * Michel Haar, La fracture de l'Histoire : Douze essais sur
+       Heidegger, Millon, coll. « Krisis », 1994, 298 p.
+       (ISBN 2-84137-009-7, lire en ligne).
+     * Gilles Kevorkian, Métaphysiques contemporaines, Vrin,
+       coll. « Thema », 2018, 184 p. (ISBN 9-782711627882, lire en ligne).
+
+Articles connexes
+
+   [modifier | modifier le code]
+     * Métaphysique analytique
+     * Ontologie (philosophie)
+     * Analogie (métaphysique)
+     * Heidegger et la métaphysique
+     * Kant et le problème de la métaphysique
+
+Liens externes
+
+   [modifier | modifier le code]
+
+     *
+     * Ressource relative à la recherche Voir et modifier les données sur
+       Wikidata  :
+          + Stanford Encyclopedia of Philosophy
+     * Ressource relative à la littérature Voir et modifier les données
+       sur Wikidata  :
+          + The Encyclopedia of Science Fiction
+     * Ressource relative à la santé Voir et modifier les données sur
+       Wikidata  :
+          + Medical Subject Headings
+     * Notices dans des dictionnaires ou encyclopédies généralistes Voir
+       et modifier les données sur Wikidata  :
+          + Britannica
+          + Den Store Danske Encyklopædi
+          + Encyclopédie de l'Ukraine moderne
+          + Gran Enciclopèdia Catalana
+          + Internetowa encyklopedia PWN
+          + Larousse
+          + Nationalencyklopedin
+          + Store norske leksikon
+          + Treccani
+          + Universalis
+     * Notices d'autorité Voir et modifier les données sur Wikidata  :
+          + BnF (données)
+          + LCCN
+          + GND
+          + Japon
+          + Espagne
+          + Israël
+          + Tchéquie
+     * « Cours de métaphysique », sur dogmatique.net, 2015.
+     * François Jaran, « Compte-rendu. Onto-théologie et analogie de
+       l’être Autour de Inventio analogiae. Métaphysique et ontothéologie
+       de Jean-François Courtine », 2015.
+     * François Jaran, « La pensée métaphysique de Heidegger.La
+       transcendance du Dasein comme source d’une métaphysica naturalis »,
+       Université d Montréal, 2015.
+     * François Jaran (préf. Jean Grondin), « La métaphysique du Dasein:
+       Heidegger et la possibilité de la métaphysique (1927-1930) », Zéta
+       books, 2010 (ISBN 978-973-1997-49-0).
+     * V. Ermoni, « Nécessité de la métaphysique », Revue philosophique de
+       Louvain, 1906, p. 229-245.
+     * JeanFrançois Courtine, Conférence de Jean-François Courtine
+       Heidegger, l’art, la technique.Résumé de la première séance (lundi
+       3 février 2014) (lire en ligne).
+     * André Hayen, « Analogia entis. La méthode et l'épistémologie du P.
+       Przywara », sur Persée, Revue néo-scolastique de philosophie, 1934,
+       p. 345-364.
+     * « L’acte d’être à la question », sur thomas-d-aquin.com, 2016,
+       p. 26.
+     * Jean Grondin, « La métaphysique.Heidegger et le problème de la
+       métaphysique », 2016.
+
+   v · m
+   Métaphysique et ontologie
+   Concepts
+     * Accident
+     * Causalité
+     * Finalité
+     * Chose
+     * Contingence et nécessité
+     * Devenir
+     * Essence
+     * Existence
+     * Espace
+     * Temps
+     * événement
+     * état de choses
+     * Fait
+     * Forme
+     * Matière
+     * Identité
+     * Nature
+     * Néant
+          + Philosophies occidentales
+          + Philosophies orientales
+     * Puissance et acte
+     * Qualité
+     * Trope
+     * Transcendantaux
+     * Substance
+     * Universaux
+
+   Problèmes
+   et théories
+   Universal
+     * Nominalisme
+     * Conceptualisme
+     * Platonisme
+
+   Nature du temps
+     * Présentisme et éternalisme
+     * Endurantisme
+     * Perdurantisme
+
+   Existence de Dieu
+     * Athéisme
+     * Agnosticisme
+     * Argument ontologique
+     * Théisme
+     * Déisme
+
+   Corps-esprit
+     * Dualisme
+     * Physicalisme
+          + Fonctionnalisme
+          + Théorie de l'identité esprit-cerveau
+          + Béhaviorisme logique
+          + Éliminativisme
+
+   Libre-arbitre
+     * Compatibilisme
+     * Incompatibilisme
+          + Déterminisme dur
+
+   Philosophes
+     * Parménide
+     * Platon
+     * Aristote
+     * Plotin
+     * Thomas d'Aquin
+     * Descartes
+     * Malebranche
+     * Spinoza
+     * Leibniz
+     * David Hume
+     * Kant
+     * Hegel
+     * Bergson
+     * Russell
+     * Whitehead
+     * Carnap
+     * Martin Heidegger
+     * Quine
+     * David Lewis
+     * Strawson
+     * Plantinga
+
+   Articles liés
+     * Logique
+     * Philosophie du langage
+     * Philosophie de l'esprit
+     * Philosophie de la connaissance
+     * Philosophie des sciences
+     * Théologie
+
+     * Catégorie : Concept métaphysique
+
+     * icône décorative Portail de la philosophie
+
+   Ce document provient de
+   « https://fr.wikipedia.org/w/index.php?title=Métaphysique&oldid=2307657
+   92 ».
+   Catégorie :
+     * Métaphysique
+
+   Catégories cachées :
+     * Article à recycler/Liste complète
+     * Article à recycler
+     * Page utilisant P279
+     * Page utilisant P3095
+     * Page utilisant P2578
+     * Page utilisant P2184
+     * Article utilisant l'infobox Discipline
+     * Article utilisant une Infobox
+     * Article à référence nécessaire
+     * Article pouvant contenir un travail inédit
+     * Article avec une section vide ou incomplète
+     * Article soupçonné de non pertinence
+     * Page utilisant P3123
+     * Page pointant vers des bases externes
+     * Page pointant vers des bases relatives à la recherche
+     * Page utilisant P5357
+     * Page pointant vers des bases relatives à la littérature
+     * Page utilisant P486
+     * Page pointant vers des bases relatives à la santé
+     * Page utilisant P1417
+     * Page utilisant P8313
+     * Page utilisant P4613
+     * Page utilisant P1296
+     * Page utilisant P7305
+     * Page utilisant P6058
+     * Page utilisant P3222
+     * Page utilisant P4342
+     * Page utilisant P3365
+     * Page utilisant P3219
+     * Page pointant vers des dictionnaires ou encyclopédies généralistes
+     * Article de Wikipédia avec notice d'autorité
+     * Portail:Philosophie/Articles liés
+     * Portail:Société/Articles liés
+     * Portail:Sciences humaines et sociales/Articles liés
+     * Article de qualité en anglais
+     * Bon article en allemand
+
+     * La dernière modification de cette page a été faite le 19 novembre
+       2025 à 08:02.
+     * Droit d'auteur : les textes sont disponibles sous licence Creative
+       Commons attribution, partage dans les mêmes conditions ; d’autres
+       conditions peuvent s’appliquer. Voyez les conditions d’utilisation
+       pour plus de détails, ainsi que les crédits graphiques. En cas de
+       réutilisation des textes de cette page, voyez comment citer les
+       auteurs et mentionner la licence.
+       Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc.,
+       organisation de bienfaisance régie par le paragraphe 501(c)(3) du
+       code fiscal des États-Unis.
+
+     * Politique de confidentialité
+     * À propos de Wikipédia
+     * Avertissements
+     * Contact
+     * Contacts juridiques & sécurité
+     * Code de conduite
+     * Développeurs
+     * Statistiques
+     * Déclaration sur les témoins (cookies)
+     * Version mobile
+
+     * Wikimedia Foundation
+     * Powered by MediaWiki
+
+   (BUTTON) Rechercher
+   ____________________
+   (BUTTON) Rechercher
+
+   [ ] Basculer la table des matières
+   Métaphysique
+   (BUTTON) 125 langues Ajouter un sujet
