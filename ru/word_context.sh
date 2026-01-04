@@ -9,6 +9,21 @@ else
     exit 1
 fi
 
+write_metadata()
+{
+    local original_path=$1
+    local filename=$2
+    local pattern=$3
+
+    local metadata_path="metadata/$filename.conf"
+
+    local word_count=$(wc -w < $original_path)
+    local target_occurrences=$(grep -oiE "$pattern" $original_path | wc -l)
+    
+    echo "TOTAL_WORDS="$word_count"" >> $metadata_path
+    echo "TARGET_TOTAL="$target_occurrences"" >> $metadata_path
+}
+
 write_file_arrays()
 {
     local input_file=$1
@@ -88,6 +103,8 @@ process_files()
         local spin_char="${spinner:spin_index:1}"
         printf "\rProcessing files (%d/%d) %s" "$count_file" "$count_files" "$spin_char"
 
+        write_metadata $file $filename $pattern
+
         # Next spinner char
         spin_index=$(( (spin_index + 1) % 4 ))
         count_file=$((count_file + 1))
@@ -141,7 +158,7 @@ dialog() {
     else
         local folder_name="${selected##*/}"
         local export_dir=$PROCESSED_EXPORT_DIR
-        local pattern="${PATTERNS[$folder_name]}"
+        local pattern="${RAW_PATTERNS[$folder_name]}"
         process_files $selected $export_dir $pattern
     fi
 }
